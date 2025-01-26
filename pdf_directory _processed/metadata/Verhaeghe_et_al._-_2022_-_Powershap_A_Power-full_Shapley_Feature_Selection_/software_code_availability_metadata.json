@@ -1,0 +1,55 @@
+{
+  "software_name": "PowerSHAP",
+  "description": "PowerSHAP is a wrapper feature selection method using Shapley values and statistical tests to determine the significance of features.",
+  "programming_language": "Python",
+  "access_link": "https://github.com/predict-idlab/PowerSHAP",
+  "open_source": true,
+  "related_papers": [
+    {
+      "title": "Permutation importance: a corrected feature importance measure",
+      "authors": [
+        "A. Altmann",
+        "L. Tolo\u00b8si",
+        "O. Sander",
+        "T. Lengauer"
+      ],
+      "journal": "Bioinformatics",
+      "volume": "26",
+      "issue": "10",
+      "pages": "1340\u20131347",
+      "year": 2010
+    },
+    {
+      "title": "Borutashap : A wrapper feature selection method which combines the boruta feature selection algorithm with shapley values",
+      "author": "E. Keany",
+      "year": 2020
+    }
+  ],
+  "implementers": [
+    {
+      "name": "Jarne Verhaeghe",
+      "role": "Designer",
+      "funding_info": "Funded by the Research Foundation Flanders (FWO, Ref. 1S59522N)"
+    },
+    {
+      "name": "Jeroen Van Der Donckt",
+      "role": "Implementer"
+    }
+  ],
+  "supervisors": [
+    "Sofie Van Hoecke",
+    "Femke Ongenae"
+  ],
+  "acknowledgements": "Gilles Vandewiele for proof-reading the manuscript",
+  "provided_datasets": [
+    "Madelon",
+    "Gina priori",
+    "Scene",
+    "CT location",
+    "Appliances"
+  ],
+  "performance_metrics": [
+    "AUC",
+    "R2"
+  ]
+}

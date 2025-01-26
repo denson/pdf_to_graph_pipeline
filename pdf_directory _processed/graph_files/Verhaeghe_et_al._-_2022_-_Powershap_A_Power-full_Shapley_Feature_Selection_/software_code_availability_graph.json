@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_PowerSHAP",
+      "label": [
+        "Software"
+      ],
+      "description": "PowerSHAP is a wrapper feature selection method using Shapley values and statistical tests to determine the significance of features.",
+      "programming_language": "Python",
+      "open_source": true
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_Permutation importance: a corrected feature importance measure",
+      "label": [
+        "Paper"
+      ],
+      "authors": [
+        "A. Altmann",
+        "L. Tolosi",
+        "O. Sander",
+        "T. Lengauer"
+      ],
+      "journal": "Bioinformatics",
+      "volume": "26",
+      "issue": "10",
+      "pages": "1340\u20131347",
+      "year": 2010
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_Borutashap : A wrapper feature selection method which combines the boruta feature selection algorithm with shapley values",
+      "label": [
+        "Paper"
+      ],
+      "author": "E. Keany",
+      "year": 2020
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_PowerSHAP",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_Permutation importance: a corrected feature importance measure",
+      "type": "USES_PAPER"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_PowerSHAP",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_Borutashap : A wrapper feature selection method which combines the boruta feature selection algorithm with shapley values",
+      "type": "USES_PAPER"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_PowerSHAP",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_https://github.com/predict-idlab/PowerSHAP",
+      "type": "AVAILABLE_AT"
+    }
+  ]
+}

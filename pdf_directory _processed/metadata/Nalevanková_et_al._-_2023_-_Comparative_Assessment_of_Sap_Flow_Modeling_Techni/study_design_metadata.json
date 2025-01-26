@@ -1,0 +1,68 @@
+{
+  "study_design": {
+    "study_period": "2012-2015 and 2017",
+    "location": "Kremnick\u00e9 vrchy Mts., Slovakia",
+    "altitude": "450 m above sea level",
+    "species": "European beech (Fagus sylvatica)",
+    "number_of_trees": 12,
+    "variables_measured": [
+      "Sap flow",
+      "Air temperature",
+      "Relative humidity",
+      "Global radiation",
+      "Precipitation",
+      "Soil water potential",
+      "Vapor pressure deficit",
+      "Potential evapotranspiration"
+    ],
+    "measurement_interval": "5 min",
+    "models_used": [
+      "Linear Model (LM)",
+      "Random Forest (RF)",
+      "Extreme Gradient Boosting Machine (XGBM)",
+      "Neural Networks (NN)"
+    ],
+    "model_evaluation_metrics": [
+      "Coefficient of determination (R2)",
+      "Root-mean-square error (RMSE)",
+      "Mean absolute deviation (MAD)"
+    ],
+    "variants": [
+      {
+        "variant_number": 1,
+        "data_description": "All available data used with non-shifted Rs",
+        "data_size": 10318
+      },
+      {
+        "variant_number": 2,
+        "data_description": "All available data used with 1 h shifted Rs",
+        "data_size": 10318
+      },
+      {
+        "variant_number": 3,
+        "data_description": "Drier soil conditions (SWP < -0.8 MPa) with 1 h shifted Rs",
+        "data_size": 3323
+      },
+      {
+        "variant_number": 4,
+        "data_description": "Drier soil conditions with Rs > 200 W/m\u00b2 and 1 h shifted",
+        "data_size": 1158
+      },
+      {
+        "variant_number": 5,
+        "data_description": "Wetter soil conditions (SWP > -0.4 MPa) with Rs > 200 W/m\u00b2 and 1 h shifted",
+        "data_size": 2332
+      },
+      {
+        "variant_number": 6,
+        "data_description": "All daylight data with Rs > 200 W/m\u00b2 and non-shifted",
+        "data_size": 3488
+      }
+    ],
+    "controls": "Not explicitly mentioned; variations involve shifts and thresholds in inputs",
+    "additional_details": {
+      "comparison_aim": "Assess if linear models can compete with advanced machine learning approaches",
+      "focus": "Modeling sap flow under different soil moisture and radiation conditions"
+    }
+  }
+}

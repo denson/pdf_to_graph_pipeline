@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Paper",
+      "label": "Paper"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation1",
+      "label": "Limitation",
+      "description": "The study is a single-center and retrospective study, which may limit the generalizability of the findings."
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation2",
+      "label": "Limitation",
+      "description": "There is a need for a larger sample prospective study and external validation to provide stronger evidence."
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation3",
+      "label": "Limitation",
+      "description": "The study focused on predictive performance rather than statistical inference, so no conclusions can be drawn about risk factors."
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation4",
+      "label": "Limitation",
+      "description": "Compared to linear models, tree-based models may exhibit unexplainable feature mechanisms, complicating interpretation."
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Paper",
+      "relation": "limits generalizability"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation2",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Paper",
+      "relation": "requires larger sample for validation"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation3",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Paper",
+      "relation": "limits conclusion about risk factors"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation4",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Paper",
+      "relation": "complicates interpretation"
+    }
+  ]
+}

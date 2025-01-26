@@ -1,0 +1,11 @@
+{
+  "objectives_aims_scope": {
+    "objectives": "The study aims to assess and compare the performance of linear models and advanced machine learning techniques, like random forest, extreme gradient boosting, and neural networks, in predicting sap flow in European beech trees.",
+    "aims": "The aim is to determine if linear models can compete with or outperform more complex machine learning models in estimating sap flow and to understand the impact of environmental factors on sap flow prediction.",
+    "scope": "The study focuses on modeling sap flow based on long-term datasets collected over five years in European beech forests in Slovakia, considering varying soil moisture conditions and environmental variables.",
+    "experimental_condition": "The study uses sap flow datasets collected from 2012 to 2015 and 2017. It investigates different sap flow modeling techniques based on environmental monitoring data such as air temperature, relative humidity, global radiation, precipitation, soil water potential, and vapor pressure deficit.",
+    "environment": "The research is conducted in the Biensk\u00e1 dolina experimental plot located in an oak\u2013beech forest zone at an altitude of 450 m in the central region of Slovakia.",
+    "study_design": "Four modeling techniques were compared across six data variants, accounting for different environmental conditions and time shifts. The study evaluated each model's prediction power using performance metrics like the coefficient of determination, root-mean-square error, and mean absolute deviation.",
+    "significance": "This study supports the potential use of simpler linear models for practical applications in forestry management and ecological studies as they show competitive prediction power compared to complex machine learning models."
+  }
+}

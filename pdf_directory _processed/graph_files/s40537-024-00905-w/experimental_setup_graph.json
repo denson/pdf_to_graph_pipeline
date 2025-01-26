@@ -1,0 +1,229 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_1",
+      "label": "Dataset",
+      "properties": {
+        "name": "Kaggle Credit Card Fraud Detection Dataset",
+        "size": "284,807 transactions",
+        "fraud_transactions": "492",
+        "features": "30 numerical features"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_2",
+      "label": "Feature Selection Method",
+      "properties": {
+        "name": "SHAP-value-based",
+        "libraries": [
+          "SHAP Python library"
+        ]
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_3",
+      "label": "Feature Selection Method",
+      "properties": {
+        "name": "Importance-based"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_4",
+      "label": "Classifier",
+      "properties": {
+        "name": "XGBoost"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_5",
+      "label": "Classifier",
+      "properties": {
+        "name": "Decision Tree (DT)"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_6",
+      "label": "Classifier",
+      "properties": {
+        "name": "CatBoost"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_7",
+      "label": "Classifier",
+      "properties": {
+        "name": "Extremely Randomized Trees (ET)"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_8",
+      "label": "Classifier",
+      "properties": {
+        "name": "Random Forest (RF)"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_9",
+      "label": "Protocol",
+      "properties": {
+        "name": "Cross-validation",
+        "details": "Five-fold cross-validation, 10 runs"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_10",
+      "label": "Protocol",
+      "properties": {
+        "name": "Evaluation Metric",
+        "details": "Area Under the Precision-Recall Curve (AUPRC)"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_11",
+      "label": "Computing Resource",
+      "properties": {
+        "description": "Distributed computing platform with nodes equipped with 16-core Intel Xeon CPUs, 256 GB RAM per CPU, and Nvidia V100 GPUs"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_12",
+      "label": "Software",
+      "properties": {
+        "name": "Python, SHAP library, Python data science stack"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_13",
+      "label": "Visualization Tool",
+      "properties": {
+        "name": "SHAP feature importance values visualization tools"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_14",
+      "label": "Study Detail",
+      "properties": {
+        "feature_selection_sizes": [
+          3,
+          5,
+          7,
+          10,
+          15
+        ],
+        "statistical_tests": "Z-tests with significance level of \u03b1 = 0.01"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "type": "FEATURED_IN"
+    },
+    {
+      "from": "1",
+      "to": "3",
+      "type": "FEATURED_IN"
+    },
+    {
+      "from": "1",
+      "to": "4",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "1",
+      "to": "5",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "1",
+      "to": "6",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "1",
+      "to": "7",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "1",
+      "to": "8",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "9",
+      "to": "4",
+      "type": "APPLIED_ON"
+    },
+    {
+      "from": "9",
+      "to": "5",
+      "type": "APPLIED_ON"
+    },
+    {
+      "from": "9",
+      "to": "6",
+      "type": "APPLIED_ON"
+    },
+    {
+      "from": "9",
+      "to": "7",
+      "type": "APPLIED_ON"
+    },
+    {
+      "from": "9",
+      "to": "8",
+      "type": "APPLIED_ON"
+    },
+    {
+      "from": "10",
+      "to": "4",
+      "type": "MEASURES"
+    },
+    {
+      "from": "10",
+      "to": "5",
+      "type": "MEASURES"
+    },
+    {
+      "from": "10",
+      "to": "6",
+      "type": "MEASURES"
+    },
+    {
+      "from": "10",
+      "to": "7",
+      "type": "MEASURES"
+    },
+    {
+      "from": "10",
+      "to": "8",
+      "type": "MEASURES"
+    },
+    {
+      "from": "11",
+      "to": "4",
+      "type": "PROVIDES_RESOURCES_FOR"
+    },
+    {
+      "from": "11",
+      "to": "6",
+      "type": "PROVIDES_RESOURCES_FOR"
+    },
+    {
+      "from": "12",
+      "to": "2",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "13",
+      "to": "2",
+      "type": "VISUALIZES"
+    },
+    {
+      "from": "14",
+      "to": "3",
+      "type": "INVOLVES"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "Xueya Yan",
+    "Lulu Zhang",
+    "Jinlian Li",
+    "Ding Du",
+    "Fengzhen Hou"
+  ],
+  "received_date": "2020-02-02",
+  "accepted_date": "2020-02-19",
+  "published_date": "2020-02-20",
+  "journal": "Entropy",
+  "volume": 22,
+  "issue": 241,
+  "title": "Entropy-Based Measures of Hypnopompic Heart Rate Variability Contribute to the Automatic Prediction of Cardiovascular Events",
+  "abstract": "The study investigates the utility of hypnopompic heart rate variability (HRV) for predicting cardiovascular diseases (CVD) in 2217 subjects. Short-term prediction using HRV metrics shows a high accuracy of 81.4%. Entropy-based indices are particularly significant in prediction models.",
+  "results": {
+    "participants": {
+      "total": 2217,
+      "cvd_group": 1359,
+      "non_cvd_group": 1083
+    },
+    "hrv_metrics_differences": {
+      "LF": "Decreased in CVD group, p = 0.004",
+      "HF": "Decreased in CVD group, p = 0.004",
+      "MSE1": "Lower in CVD group, p = 0.005",
+      "MSE2": "Lower in CVD group, p = 0.037",
+      "MSE10": "Higher in CVD group, p = 0.018",
+      "MPE": "Higher in CVD group, p < 0.001"
+    },
+    "model_performance": {
+      "short_term_prediction": {
+        "accuracy": 81.4,
+        "improvement": "10.7% compared with long-term prediction"
+      },
+      "feature_importance": {
+        "age": "Most important feature",
+        "waist/hip_ratio": "Second most important feature",
+        "entropy_based_metrics": "Significant importance, rank higher in short-term prediction"
+      }
+    }
+  },
+  "keywords": [
+    "heart rate variability",
+    "cardiovascular disease",
+    "machine learning",
+    "entropy",
+    "prediction"
+  ],
+  "conclusions": "Entropy-based measures of HRV are effective for short-term prediction of cardiovascular events, demonstrating their utility as predictive markers in conjunction with traditional risk factors."
+}

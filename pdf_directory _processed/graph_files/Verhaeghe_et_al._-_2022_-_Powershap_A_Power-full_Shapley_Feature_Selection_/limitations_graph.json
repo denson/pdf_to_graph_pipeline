@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_1",
+      "label": "Limitation"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "label": "Paper"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_3",
+      "label": "Limitation"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_4",
+      "label": "Limitation"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_5",
+      "label": "Limitation"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_6",
+      "label": "Limitation"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_7",
+      "label": "Limitation"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_8",
+      "label": "Limitation"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "label": "Wrapper methods suffer from large computational complexity, often resulting in significant execution time."
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_3",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "label": "Methods might underfit, especially with high dimensions and informative features."
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_4",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "label": "Benchmarks may have biases due to the choice of datasets and methods used."
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_5",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "label": "Performance is highly dependent on the machine learning model used."
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_6",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "label": "Simulation function may inherently produce linear classification problems, which may not universally represent real-world datasets."
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_7",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "label": "Default settings were used across methods, which might impact performances."
+    }
+  ]
+}

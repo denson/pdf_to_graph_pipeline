@@ -1,0 +1,398 @@
+{
+  "references": [
+    {
+      "author": [
+        "Hancock JT",
+        "Khoshgoftaar TM",
+        "Johnson JM"
+      ],
+      "title": "A comparative approach to threshold optimization for classifying imbalanced data",
+      "event": "The International Conference on Collaboration and Internet Computing (CIC)",
+      "location": "Atlanta, GA, USA",
+      "year": 2022,
+      "pages": "135\u2013142",
+      "publisher": "IEEE"
+    },
+    {
+      "author": [
+        "Wang H",
+        "Liang Q",
+        "Hancock JT",
+        "Khoshgoftaar TM"
+      ],
+      "title": "Enhancing credit card fraud detection through a novel ensemble feature selection technique",
+      "event": "2023 IEEE International Conference on Information Reuse and Integration (IRI)",
+      "location": "Bellevue, WA, USA",
+      "year": 2023,
+      "pages": "121\u2013126"
+    },
+    {
+      "author": [
+        "Lundberg SM",
+        "Lee SI"
+      ],
+      "title": "A unified approach to interpreting model predictions",
+      "journal": "Advances in Neural Information Processing Systems",
+      "year": 2017,
+      "volume": 30
+    },
+    {
+      "author": [
+        "Waspada I",
+        "Bahtiar N",
+        "Wirawan PW",
+        "Awa BDA"
+      ],
+      "title": "Performance analysis of isolation forest algorithm in fraud detection of credit card transactions",
+      "journal": "Khazanah Informatika Jurnal",
+      "year": 2022
+    },
+    {
+      "author": [
+        "Hancock JT",
+        "Huang TM",
+        "Tsai T",
+        "Khoshgoftaar TM"
+      ],
+      "title": "Improving medicare fraud detection through big data size reduction techniques",
+      "event": "2023 IEEE International Conference on Service-Oriented System Engineering (SOSE)",
+      "location": "Athens, Greece",
+      "year": 2023,
+      "pages": "208\u2013217"
+    },
+    {
+      "author": [
+        "Chen T",
+        "Guestrin C"
+      ],
+      "title": "Xgboost: a scalable tree boosting system",
+      "event": "22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining\u2014KDD \u201916",
+      "year": 2016
+    },
+    {
+      "author": [
+        "Breiman L"
+      ],
+      "title": "Classification and regression trees",
+      "year": 2017
+    },
+    {
+      "author": [
+        "Prokhorenkova L",
+        "Gusev G",
+        "Vorobev A",
+        "Dorogush AV",
+        "Gulin A"
+      ],
+      "title": "Catboost: unbiased boosting with categorical features",
+      "journal": "Advances in Neural Information Processing Systems",
+      "year": 2018,
+      "volume": 31
+    },
+    {
+      "author": [
+        "Geurts P",
+        "Ernst D",
+        "Wehenkel L"
+      ],
+      "title": "Extremely randomized trees",
+      "journal": "Machine Learning",
+      "year": 2006,
+      "volume": 63,
+      "issue": 1,
+      "pages": "3\u201342"
+    },
+    {
+      "author": [
+        "Breiman L"
+      ],
+      "title": "Random forests",
+      "journal": "Machine Learning",
+      "year": 2001,
+      "volume": 45,
+      "issue": 1,
+      "pages": "5\u201332"
+    },
+    {
+      "author": [
+        "Ke G",
+        "Meng Q",
+        "Finley T",
+        "Wang T",
+        "Chen W",
+        "Ma W",
+        "Ye Q",
+        "Liu TY"
+      ],
+      "title": "Lightgbm: a highly efficient gradient boosting decision tree",
+      "journal": "Advances in Neural Information Processing Systems",
+      "year": 2017,
+      "volume": 30,
+      "pages": "3146\u201354"
+    },
+    {
+      "author": [
+        "Kaggle"
+      ],
+      "title": "Credit card fraud detection",
+      "url": "https://www.kaggle.com/mlg-ulb/creditcardfraud",
+      "year": 2018
+    },
+    {
+      "author": [
+        "Leevy JL",
+        "Khoshgoftaar TM",
+        "Hancock JT"
+      ],
+      "title": "Evaluating performance metrics for credit card fraud classification",
+      "event": "2022 IEEE 34th International Conference on Tools with Artificial Intelligence (ICTAI)",
+      "year": 2022,
+      "pages": "1336\u20131341"
+    },
+    {
+      "author": [
+        "Rtayli N",
+        "Enneya N"
+      ],
+      "title": "Selection features and support vector machine for credit card risk identification",
+      "journal": "Procedia Manufacturing",
+      "year": 2020,
+      "volume": 46,
+      "pages": "941\u20138"
+    },
+    {
+      "author": [
+        "Gonz\u00e1lez S",
+        "Garc\u00eda S",
+        "Ser JD",
+        "Rokach L",
+        "Herrera F"
+      ],
+      "title": "A practical tutorial on bagging and boosting based ensembles for machine learning: algorithms, software tools, performance study, practical perspectives and opportunities",
+      "journal": "Information Fusion",
+      "year": 2020,
+      "volume": 64,
+      "pages": "205\u201337"
+    },
+    {
+      "author": [
+        "Hancock JT",
+        "Khoshgoftaar TM",
+        "Johnson JM"
+      ],
+      "title": "Evaluating classifier performance with highly imbalanced big data",
+      "journal": "Journal of Big Data",
+      "year": 2023,
+      "volume": 10,
+      "issue": 42
+    },
+    {
+      "author": [
+        "Rosley N",
+        "Tong GK",
+        "Ng KH",
+        "Kalid SN",
+        "Khor KC"
+      ],
+      "title": "Autoencoders with reconstruction error and dimensionality reduction for credit card fraud detection",
+      "journal": "Journal of Systems Management and Sciences",
+      "year": 2022,
+      "volume": 12,
+      "issue": 6,
+      "pages": "70\u201380"
+    },
+    {
+      "author": [
+        "Kursa MB",
+        "Rudnicki WR"
+      ],
+      "title": "Feature selection with the Boruta package",
+      "journal": "Journal of Statistical Software",
+      "year": 2010,
+      "volume": 36,
+      "issue": 11,
+      "pages": "1\u201313"
+    },
+    {
+      "author": [
+        "Liu Y",
+        "Liu Z",
+        "Luo X",
+        "Zhao H"
+      ],
+      "title": "Diagnosis of Parkinson\u2019s disease based on SHAP value feature selection",
+      "journal": "Biocybernetics and Biomedical Engineering",
+      "year": 2022,
+      "volume": 42,
+      "issue": 3,
+      "pages": "856\u201369"
+    },
+    {
+      "author": [
+        "Sakar CO",
+        "Serbes G",
+        "Gunduz A",
+        "Tunc H",
+        "Nizam H",
+        "Sakar B",
+        "T\u00fct\u00fcncu M",
+        "Aydin T",
+        "Isenkul M",
+        "Apaydin H"
+      ],
+      "title": "A comparative analysis of speech signal processing algorithms for Parkinson\u2019s disease classification and the use of the tunable q-factor wavelet transform",
+      "journal": "Applied Soft Computing",
+      "year": 2019,
+      "volume": 74,
+      "pages": "255\u201363"
+    },
+    {
+      "author": [
+        "Marcilio WE",
+        "Eler DM"
+      ],
+      "title": "From explanations to feature selection: assessing SHAP values as feature selection mechanism",
+      "event": "2020 33rd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+      "location": "Los Alamitos, CA, USA",
+      "year": 2020,
+      "pages": "340\u2013347"
+    },
+    {
+      "author": [
+        "Hancock JT",
+        "Khoshgoftaar TM"
+      ],
+      "title": "Gradient boosted decision tree algorithms for Medicare fraud detection",
+      "journal": "SN Computer Science",
+      "year": 2021,
+      "volume": 2,
+      "issue": 4,
+      "pages": 268
+    },
+    {
+      "author": [
+        "Muaz A",
+        "Jayabalan M",
+        "Thiruchelvam V"
+      ],
+      "title": "A comparison of data sampling techniques for credit card fraud detection",
+      "journal": "International Journal of Advanced Computer Science and Applications (IJACSA)",
+      "year": 2020,
+      "volume": 11,
+      "issue": 6,
+      "pages": "477\u201385"
+    },
+    {
+      "author": [
+        "Shapley L"
+      ],
+      "title": "A value for n-person games",
+      "title_secondary": "Contributions to the Theory of Games",
+      "year": 1953,
+      "pages": "307\u2013317"
+    },
+    {
+      "author": [
+        "Kushwah JS",
+        "Kumar A",
+        "Patel S",
+        "Soni R",
+        "Gawande A",
+        "Gupta S"
+      ],
+      "title": "Comparative study of regressor and classifier with decision tree using modern tools",
+      "journal": "Materials Today: Proceedings",
+      "year": 2022,
+      "volume": 56,
+      "issue": 6,
+      "pages": "3571\u20136"
+    },
+    {
+      "author": [
+        "Friedman JH"
+      ],
+      "title": "Greedy function approximation: a gradient boosting machine",
+      "journal": "Annals of Statistics",
+      "year": 2001,
+      "pages": "1189\u20131232"
+    },
+    {
+      "author": [
+        "Gupta A",
+        "Nagarajan V",
+        "Ravi R"
+      ],
+      "title": "Approximation algorithms for optimal decision trees and adaptive tsp problems",
+      "journal": "Mathematics of Operations Research",
+      "year": 2017,
+      "volume": 42,
+      "issue": 3,
+      "pages": "876\u201396"
+    },
+    {
+      "author": [
+        "Breiman L"
+      ],
+      "title": "Bagging predictors",
+      "journal": "Machine Learning",
+      "year": 1996,
+      "volume": 24,
+      "issue": 2,
+      "pages": "123\u201340"
+    },
+    {
+      "author": [
+        "Witten IH",
+        "Frank E",
+        "Hall MA"
+      ],
+      "title": "Data mining: practical machine learning tools and techniques",
+      "year": 2011
+    },
+    {
+      "author": [
+        "Lundberg S",
+        "others"
+      ],
+      "title": "SHAP",
+      "url": "https://github.com/slundberg/shap/tree/v0.41.0",
+      "access_date": "2023-07-09"
+    },
+    {
+      "author": [
+        "Oliphant T"
+      ],
+      "title": "Python for scientific computing",
+      "journal": "Computing in Science & Engineering",
+      "year": 2007,
+      "volume": 9,
+      "issue": 3,
+      "pages": "10\u201320"
+    },
+    {
+      "author": [
+        "Jain R"
+      ],
+      "title": "The art of computer systems performance analysis: techniques for experimental design, measurement, simulation, and modeling",
+      "year": 1991
+    },
+    {
+      "author": [
+        "Iversen GR",
+        "Norpoth H"
+      ],
+      "title": "Analysis of Variance, vol. 1",
+      "location": "Newbury Park: Sage",
+      "year": 1987
+    },
+    {
+      "author": [
+        "Tukey JW"
+      ],
+      "title": "Comparing individual means in the analysis of variance",
+      "journal": "Biometrics",
+      "year": 1949,
+      "pages": "99\u2013114"
+    }
+  ]
+}

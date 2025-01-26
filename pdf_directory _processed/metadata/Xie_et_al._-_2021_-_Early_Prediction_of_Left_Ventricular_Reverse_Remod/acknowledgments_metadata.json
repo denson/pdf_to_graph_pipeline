@@ -1,0 +1,61 @@
+{
+  "acknowledgments": {
+    "contributors": {
+      "names": [
+        "Jingfeng Wang",
+        "Yuling Zhang",
+        "Yangxin Chen",
+        "Huiying Zhao",
+        "Xiangkun Xie",
+        "Mingwei Yang",
+        "Shan Xie",
+        "Xiaoying Wu",
+        "Yuan Jiang",
+        "Zhaoyu Liu"
+      ],
+      "affiliations": [
+        "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+        "Guangdong Province Key Laboratory of Arrhythmia and Electrophysiology, Guangzhou, China",
+        "Cardiovascular Medicine Department, The Eighth Affiliated Hospital of Sun Yat-sen University, Shenzhen, China",
+        "Department of Medical Research Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China"
+      ]
+    },
+    "funding_sources": {
+      "details": [
+        {
+          "source": "The National Science Foundation of China",
+          "grant_numbers": [
+            "81870170",
+            "81970388",
+            "81900387"
+          ]
+        },
+        {
+          "source": "Guangdong Province Natural Science Foundation",
+          "grant_numbers": [
+            "2019A1515011682",
+            "2019A1515011806"
+          ]
+        },
+        {
+          "source": "Guangdong Science and Technology Major Foundation",
+          "grant_number": "2015B010131010"
+        },
+        {
+          "source": "Guangdong Laboratory of Regenerative Medicine and Health Foundation",
+          "grant_number": "2019GZR110406004"
+        },
+        {
+          "source": "Guangzhou Science and Technology Major Foundation",
+          "grant_numbers": [
+            "201803040010",
+            "201704020044"
+          ]
+        }
+      ]
+    }
+  },
+  "extra_details": {
+    "clinical_trial_registration": "http://www.chictr.org.cn/usercenter.aspx (ChiCTR2000034128)"
+  }
+}

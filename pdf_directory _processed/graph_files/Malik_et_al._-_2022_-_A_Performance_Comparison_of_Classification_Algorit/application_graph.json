@@ -1,0 +1,253 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_1",
+      "label": [
+        "Application"
+      ],
+      "name": "Rose Plant Classification Application"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_2",
+      "label": [
+        "Field"
+      ],
+      "name": "Agriculture"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_3",
+      "label": [
+        "Field"
+      ],
+      "name": "Botany"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_4",
+      "label": [
+        "Field"
+      ],
+      "name": "Image Processing"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_5",
+      "label": [
+        "Technology"
+      ],
+      "name": "Machine Learning"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_6",
+      "label": [
+        "Method"
+      ],
+      "name": "Random Forest"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_7",
+      "label": [
+        "Method"
+      ],
+      "name": "Naive Bayes"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_8",
+      "label": [
+        "Method"
+      ],
+      "name": "Generalized Linear Model"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_9",
+      "label": [
+        "Method"
+      ],
+      "name": "Multilayer Perceptron"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_10",
+      "label": [
+        "Method"
+      ],
+      "name": "Decision Tree"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_11",
+      "label": [
+        "Method"
+      ],
+      "name": "Gradient Boosted Trees"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_12",
+      "label": [
+        "Method"
+      ],
+      "name": "Support Vector Machine"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_13",
+      "label": [
+        "Method"
+      ],
+      "name": "Histogram features"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_14",
+      "label": [
+        "Method"
+      ],
+      "name": "Texture features"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_15",
+      "label": [
+        "Implementation"
+      ],
+      "name": "Data Collection"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_16",
+      "label": [
+        "Implementation"
+      ],
+      "name": "Optimization"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_17",
+      "label": [
+        "Result"
+      ],
+      "name": "Optimized Random Forest model achieved the best results"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_18",
+      "label": [
+        "Limitation"
+      ],
+      "name": "Performance dependent on dataset size and quality"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_19",
+      "label": [
+        "Limitation"
+      ],
+      "name": "Deep learning models performed suboptimally"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_20",
+      "label": [
+        "Application"
+      ],
+      "name": "k-NN Algorithm for Rose Classification"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_21",
+      "label": [
+        "Application"
+      ],
+      "name": "CNN and RestNet for Plant Classification"
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "type": "APPLIES_IN"
+    },
+    {
+      "from": "1",
+      "to": "3",
+      "type": "APPLIES_IN"
+    },
+    {
+      "from": "1",
+      "to": "4",
+      "type": "APPLIES_IN"
+    },
+    {
+      "from": "1",
+      "to": "5",
+      "type": "USES"
+    },
+    {
+      "from": "1",
+      "to": "6",
+      "type": "USES"
+    },
+    {
+      "from": "1",
+      "to": "7",
+      "type": "USES"
+    },
+    {
+      "from": "1",
+      "to": "8",
+      "type": "USES"
+    },
+    {
+      "from": "1",
+      "to": "9",
+      "type": "USES"
+    },
+    {
+      "from": "1",
+      "to": "10",
+      "type": "USES"
+    },
+    {
+      "from": "1",
+      "to": "11",
+      "type": "USES"
+    },
+    {
+      "from": "1",
+      "to": "12",
+      "type": "USES"
+    },
+    {
+      "from": "1",
+      "to": "13",
+      "type": "USES"
+    },
+    {
+      "from": "1",
+      "to": "14",
+      "type": "USES"
+    },
+    {
+      "from": "1",
+      "to": "15",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "1",
+      "to": "16",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "1",
+      "to": "17",
+      "type": "ACHIEVES"
+    },
+    {
+      "from": "1",
+      "to": "18",
+      "type": "HAS"
+    },
+    {
+      "from": "1",
+      "to": "19",
+      "type": "HAS"
+    },
+    {
+      "from": "20",
+      "to": "1",
+      "type": "RELATED_WORK"
+    },
+    {
+      "from": "21",
+      "to": "1",
+      "type": "RELATED_WORK"
+    }
+  ]
+}

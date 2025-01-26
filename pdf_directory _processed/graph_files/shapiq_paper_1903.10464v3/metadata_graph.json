@@ -1,0 +1,154 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "title": "Explaining Individual Predictions When Features Are Dependent: More Accurate Approximations to Shapley Values",
+        "abstract": "Explaining complex or seemingly simple machine learning models is an important practical problem. We want to explain individual predictions from a complex machine learning model by learning simple, interpretable explanations. Shapley values is a game theoretic concept that can be used for this purpose. The Shapley value framework has a series of desirable theoretical properties, and can in principle handle any predictive model. Kernel SHAP is a computationally efficient approximation to Shapley values in higher dimensions. Like several other existing methods, this approach assumes that the features are independent, which may give very wrong explanations. This is the case even if a simple linear model is used for predictions. In this paper, we extend the Kernel SHAP method to handle dependent features. We provide several examples of linear and non-linear models with various degrees of feature dependence, where our method gives more accurate approximations to the true Shapley values. We also propose a method for aggregating individual Shapley values, such that the prediction can be explained by groups of dependent variables.",
+        "publication_date": "2020-02-06",
+        "doi": "not found",
+        "arxiv_identifier": "arXiv:1903.10464v3"
+      }
+    },
+    {
+      "id": "author_1",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Kjersti Aas"
+      }
+    },
+    {
+      "id": "author_2",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Martin Jullum"
+      }
+    },
+    {
+      "id": "author_3",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Anders L\u00f8land"
+      }
+    },
+    {
+      "id": "keyword_1",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Shapley values"
+      }
+    },
+    {
+      "id": "keyword_2",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Kernel SHAP"
+      }
+    },
+    {
+      "id": "keyword_3",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Machine learning"
+      }
+    },
+    {
+      "id": "keyword_4",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Model interpretability"
+      }
+    },
+    {
+      "id": "keyword_5",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Feature dependence"
+      }
+    },
+    {
+      "id": "supplementary_1",
+      "labels": [
+        "Supplementary"
+      ],
+      "properties": {
+        "information": "Our methodology has been implemented in an R-package currently available at: https://github.com/NorskRegnesentral/shapr."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "author_1",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "author_2",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "author_3",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "keyword_1",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "keyword_2",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "keyword_3",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "keyword_4",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "keyword_5",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "supplementary_1",
+      "type": "HAS_SUPPLEMENTARY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "study_title": "Entropy-Based Measures of Hypnopompic Heart Rate Variability Contribute to the Automatic Prediction of Cardiovascular Events",
+  "authors": [
+    "Xueya Yan",
+    "Lulu Zhang",
+    "Jinlian Li",
+    "Ding Du",
+    "Fengzhen Hou"
+  ],
+  "affiliations": [
+    "School of Science, China Pharmaceutical University, Nanjing, China",
+    "School of Environment Science, Nanjing Xiaozhuang University, Nanjing, China"
+  ],
+  "methods_and_materials": {
+    "participants": {
+      "source": "Sleep Heart Health Study (SHHS)",
+      "total_number": 2442,
+      "criteria": [
+        "CVD-free at baseline",
+        "acceptable sleep efficiency",
+        "no medication interfering with sleep or ECG data",
+        "electrocardiogram (ECG) and basic clinical characteristics available"
+      ],
+      "division": {
+        "CVD_group": 1219,
+        "non_CVD_group": 998
+      }
+    },
+    "signal_processing": {
+      "ecg_sampling_rate": "125 Hz",
+      "filter_type": "Butterworth band-pass",
+      "filter_range": "0.5\u201345 Hz",
+      "RR_interval_detection": "Pan-Tompkins method",
+      "post_processing": {
+        "artifacts_threshold": "20%",
+        "interpolation_for_artifact_reduction": true
+      }
+    },
+    "hrv_analysis": {
+      "analysis_types": [
+        "frequency-domain",
+        "time-domain",
+        "nonlinear dynamic (entropy-based)"
+      ],
+      "metrics": {
+        "frequency_domain": [
+          "TP",
+          "LF",
+          "HF",
+          "HFnorm"
+        ],
+        "time_domain": [
+          "SDNN",
+          "RMSSD"
+        ],
+        "nonlinear": [
+          "MSE1",
+          "MSE2",
+          "MSE3",
+          "MSE4",
+          "MSE5",
+          "MSE6",
+          "MSE7",
+          "MSE8",
+          "MSE9",
+          "MSE10",
+          "MPE"
+        ]
+      }
+    },
+    "equipment": {
+      "PSG_device": "Compumedics SleepWatch polysomnograph"
+    },
+    "data_analysis": {
+      "machine_learning_method": "XGBoost",
+      "performance_evaluation": {
+        "k_fold_cross_validation": 5,
+        "metrics": [
+          "Accuracy",
+          "Sensitivity",
+          "Specificity",
+          "Precision",
+          "F1-Score",
+          "Matthew Correlation Coefficient"
+        ]
+      },
+      "class_imbalance_solution": "under-sampling of non-CVD group"
+    }
+  },
+  "tools_software": [
+    "MATLAB",
+    "SPSS version 22",
+    "XGBoost algorithm for machine learning"
+  ]
+}

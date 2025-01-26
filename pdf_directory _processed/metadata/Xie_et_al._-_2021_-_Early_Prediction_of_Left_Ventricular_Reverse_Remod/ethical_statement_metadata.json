@@ -1,0 +1,11 @@
+{
+  "ethical_statement": {
+    "institutional_review_board_approval": "Sun Yat-sen Memorial Hospital",
+    "ethics_committee": "Medical Ethics Committee of Sun Yat-Sen Memorial Hospital",
+    "declaration_of_helsinki": "This study was approved by the institutional review board of Sun Yat-sen Memory Hospital and had therefore been performed in accordance with the ethical standards laid down in the 1964 Declaration of Helsinki and its later amendments.",
+    "informed_consent": "No informed consent was required because the data in our study were anonymized.",
+    "ethical_guidelines_followed": "Chinese guidelines for the diagnosis and treatment of dilated cardiomyopathy",
+    "trial_registration": "http://www.chictr.org.cn/usercenter.aspx (ChiCTR2000 034128)",
+    "ethical_issues_addressed": null
+  }
+}

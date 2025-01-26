@@ -1,0 +1,58 @@
+{
+  "number_of_participants": 2442,
+  "criteria": {
+    "CVD_free_at_baseline": true,
+    "acceptable_sleep_efficiency": true,
+    "no_benzodiazepines_tricyclics_within_two_weeks": true,
+    "no_alcohol_coffee_within_4_hours_before_bed": true,
+    "ecg_and_clinical_data_available": true
+  },
+  "demographics": {
+    "age": "median[range]: CVD group 63[58,69], non-CVD group 60[50,73]",
+    "gender_distribution": {
+      "CVD_group": {
+        "male": 47.3,
+        "female": 52.7
+      },
+      "non_CVD_group": {
+        "male": 39.2,
+        "female": 60.8
+      }
+    },
+    "bmi": "median[range]: CVD group 28.2[25.4,31.3], non-CVD group 27.1[24.4,30.4]",
+    "height": "median[range]: CVD group 167[160,175], non-CVD group 165[158.8,174]",
+    "waist_hip_ratio": "median[range]: CVD group 95.1[90.1,99.2], non-CVD group 89.9[81.5,96.2]"
+  },
+  "health_conditions": {
+    "smoking_status_distribution": {
+      "CVD_group": {
+        "never": 49.9,
+        "current": 7.3,
+        "former": 42.8
+      },
+      "non_CVD_group": {
+        "never": 54.6,
+        "current": 7.1,
+        "former": 38.3
+      }
+    },
+    "lifetime_cigarette_smoke_packs_per_year": "median[range]: CVD group 0[0,19], non-CVD group 0[0,12]",
+    "diabetes_prevalence": {
+      "CVD_group": 7.2,
+      "non_CVD_group": 3.3
+    },
+    "hypertension_prevalence": {
+      "CVD_group": 41.5,
+      "non_CVD_group": 33.6
+    }
+  },
+  "sleep_related_statistics": {
+    "ahi_events_hour": "median[range]: CVD group 9.9[4.2,19.1], non-CVD group 8.3[3.3,16.9]",
+    "rdi_events_hour": "median[range]: CVD group 30.3[19.2,45], non-CVD group 26.9[17.1,40.1]"
+  },
+  "group_distribution": {
+    "CVD_group": 1359,
+    "non_CVD_group": 1083,
+    "short_term_CVD_event_within_two_years": 70
+  }
+}

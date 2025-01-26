@@ -1,0 +1,52 @@
+{
+  "study_population": {
+    "size": 104,
+    "location": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+    "time_period": "January 2014 to December 2017"
+  },
+  "selection_criteria": {
+    "included": [
+      "LVDd >5.0 cm (female) or LVDd >5.5 cm (male)",
+      "LVEF <45%",
+      "Left ventricular shortening fraction <25%",
+      "First diagnosis of idiopathic dilated cardiomyopathy"
+    ],
+    "excluded": [
+      "Alcoholic cardiomyopathy",
+      "Peripartum cardiomyopathy",
+      "History of heart failure treatment",
+      "Coronary heart disease",
+      "Systemic diseases affecting heart structure and function",
+      "Severe renal dysfunction",
+      "Cancer",
+      "Severe infection"
+    ]
+  },
+  "demographics": {
+    "age_mean": 54.9,
+    "age_range": null,
+    "gender_distribution": {
+      "female": 26,
+      "male": 78
+    },
+    "ethnicity": null
+  },
+  "other_details": {
+    "follow_up_period_median": "24 months",
+    "LVRR_occurrence": "47 (45.2%) after treatment",
+    "disease_severity": [
+      {
+        "NYHA I": 6
+      },
+      {
+        "NYHA II": 24
+      },
+      {
+        "NYHA III": 54
+      },
+      {
+        "NYHA IV": 16
+      }
+    ]
+  }
+}

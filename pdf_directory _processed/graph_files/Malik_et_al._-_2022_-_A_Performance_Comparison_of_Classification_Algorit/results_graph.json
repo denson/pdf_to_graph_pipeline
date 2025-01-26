@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_results_1",
+      "label": "Finding",
+      "properties": {
+        "title": "Impact of Features",
+        "description": "SVM showed the highest accuracy with histogram and texture feature combination"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_results_2",
+      "label": "Result",
+      "properties": {
+        "title": "Best Algorithm",
+        "algorithm": "Support Vector Machine (SVM)",
+        "accuracy": "72%"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_results_3",
+      "label": "Result",
+      "properties": {
+        "title": "Performance Comparison",
+        "Naive Bayes": "40% on FS1",
+        "Generalized Linear Model": "65% on FS2",
+        "Multilayer Perceptron (DL)": "69% on FS2 and FS1",
+        "Decision Tree": "60% on FS2",
+        "Random Forest (RF)": "78% on FS2 (optimized)",
+        "Gradient Boosted Trees": "68% on FS1",
+        "Support Vector Machine": "72% on FS1"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_results_4",
+      "label": "Result",
+      "properties": {
+        "title": "Ensemble Model Accuracy",
+        "accuracy": "70% on FS1"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_results_5",
+      "label": "Finding",
+      "properties": {
+        "title": "Ensemble Learning Effectiveness",
+        "description": "Improved results over individual models but not superior to best SVM result"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_results_6",
+      "label": "Finding",
+      "properties": {
+        "title": "RF Parameter Optimization",
+        "description": "Highest accuracy with Gain Ratio for FS1 and FS2"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "label": "SUPPORTS"
+    },
+    {
+      "from": "2",
+      "to": "5",
+      "label": "CONTRADICTS"
+    },
+    {
+      "from": "6",
+      "to": "3",
+      "label": "SUPPORTS"
+    }
+  ]
+}

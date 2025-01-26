@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_StudyDesign",
+      "label": [
+        "StudyDesign"
+      ],
+      "data": {
+        "objective": "Investigate the limitations and implications of using Shapley values for feature selection.",
+        "structure": "The study is structured to simulate various data circumstances and apply feature selection using Shapley value-based methods, analyzing the outcomes against known optimal feature sets.",
+        "setting": "Simulation-based study using artificial datasets."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_IndependentVariable",
+      "label": [
+        "Variable"
+      ],
+      "data": {
+        "type": "Independent",
+        "description": "Features selected using various Shapley value formulations (such as SHAP and SAGE)."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_DependentVariable",
+      "label": [
+        "Variable"
+      ],
+      "data": {
+        "type": "Dependent",
+        "description": "Performance of feature selection in terms of predictive power and model efficiency."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "label": [
+        "Method"
+      ],
+      "data": {
+        "name": "Simulation studies",
+        "description": "Simulating data according to specified Data Generating Processes (DGP) to evaluate Shapley value-based feature selection."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_MarkovBoundaryExperiment1",
+      "label": [
+        "Dataset"
+      ],
+      "data": {
+        "name": "Markov Boundary Experiment 1",
+        "features": [
+          "X1",
+          "X2",
+          "X3",
+          "Z"
+        ],
+        "response": "Y",
+        "distribution": "Normal distribution with specified means and variances."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_MarkovBoundaryExperiment2",
+      "label": [
+        "Dataset"
+      ],
+      "data": {
+        "name": "Markov Boundary Experiment 2",
+        "parameters": "Varying l \u2208 (0, 1)",
+        "conditional_probabilities": "Defined based on X1, X2, X3."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SecretHolderExperiment",
+      "label": [
+        "Dataset"
+      ],
+      "data": {
+        "name": "Secret Holder Experiment",
+        "parameters": "t1, t2 \u2208 R",
+        "response": "Y generated with interactions and noise."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_TaxicabExperiment",
+      "label": [
+        "Dataset"
+      ],
+      "data": {
+        "name": "Taxicab Experiment",
+        "distribution": "Features generated with normal distribution and added constants."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_Evaluation",
+      "label": [
+        "Evaluation"
+      ],
+      "data": {
+        "methods": [
+          "Mean Absolute SHAP values",
+          "SAGE values",
+          "R2 evaluation function",
+          "Conditional log likelihood"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_StudyDesign",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_IndependentVariable",
+      "label": "has"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_StudyDesign",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_DependentVariable",
+      "label": "has"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_StudyDesign",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "label": "uses"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_MarkovBoundaryExperiment1",
+      "label": "includes"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_MarkovBoundaryExperiment2",
+      "label": "includes"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SecretHolderExperiment",
+      "label": "includes"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_TaxicabExperiment",
+      "label": "includes"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_Evaluation",
+      "label": "measures_using"
+    }
+  ]
+}

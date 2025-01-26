@@ -1,0 +1,556 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2022",
+      "label": "Hancock JT",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Khoshgoftaar_TM_2022",
+      "label": "Khoshgoftaar TM",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Johnson_JM_2022",
+      "label": "Johnson JM",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_1",
+      "label": "A comparative approach to threshold optimization for classifying imbalanced data",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Wang_H_2023",
+      "label": "Wang H",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Liang_Q_2023",
+      "label": "Liang Q",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_2",
+      "label": "Enhancing credit card fraud detection through a novel ensemble feature selection technique",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Lundberg_SM_2017",
+      "label": "Lundberg SM",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Lee_SI_2017",
+      "label": "Lee SI",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_3",
+      "label": "A unified approach to interpreting model predictions",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Waspada_I_2022",
+      "label": "Waspada I",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_4",
+      "label": "Performance analysis of isolation forest algorithm in fraud detection of credit card transactions",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2023",
+      "label": "Hancock JT",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Huang_TM_2023",
+      "label": "Huang TM",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_5",
+      "label": "Improving medicare fraud detection through big data size reduction techniques",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Chen_T_2016",
+      "label": "Chen T",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Guestrin_C_2016",
+      "label": "Guestrin C",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_6",
+      "label": "Xgboost: a scalable tree boosting system",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Breiman_L_2017",
+      "label": "Breiman L",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_7",
+      "label": "Classification and regression trees",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Prokhorenkova_L_2018",
+      "label": "Prokhorenkova L",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_8",
+      "label": "Catboost: unbiased boosting with categorical features",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Geurts_P_2006",
+      "label": "Geurts P",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_9",
+      "label": "Extremely randomized trees",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Breiman_L_2001",
+      "label": "Breiman L",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_10",
+      "label": "Random forests",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Ke_G_2017",
+      "label": "Ke G",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_11",
+      "label": "Lightgbm: a highly efficient gradient boosting decision tree",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Kaggle_2018",
+      "label": "Kaggle",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_12",
+      "label": "Credit card fraud detection",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Leevy_JL_2022",
+      "label": "Leevy JL",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_13",
+      "label": "Evaluating performance metrics for credit card fraud classification",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Rtayli_N_2020",
+      "label": "Rtayli N",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Enneya_N_2020",
+      "label": "Enneya N",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_14",
+      "label": "Selection features and support vector machine for credit card risk identification",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Gonzalez_S_2020",
+      "label": "Gonz\u00e1lez S",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_15",
+      "label": "A practical tutorial on bagging and boosting based ensembles for machine learning",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2023_Journal",
+      "label": "Hancock JT",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Khoshgoftaar_TM_2023_Journal",
+      "label": "Khoshgoftaar TM",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_16",
+      "label": "Evaluating classifier performance with highly imbalanced big data",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Rosley_N_2022",
+      "label": "Rosley N",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_17",
+      "label": "Autoencoders with reconstruction error and dimensionality reduction for credit card fraud detection",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Kursa_MB_2010",
+      "label": "Kursa MB",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_18",
+      "label": "Feature selection with the Boruta package",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Liu_Y_2022",
+      "label": "Liu Y",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_19",
+      "label": "Diagnosis of Parkinson\u2019s disease based on SHAP value feature selection",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Sakar_CO_2019",
+      "label": "Sakar CO",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_20",
+      "label": "A comparative analysis of speech signal processing algorithms for Parkinson\u2019s disease classification",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Marcilio_WE_2020",
+      "label": "Marcilio WE",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_21",
+      "label": "From explanations to feature selection: assessing SHAP values as feature selection mechanism",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2021",
+      "label": "Hancock JT",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_22",
+      "label": "Gradient boosted decision tree algorithms for Medicare fraud detection",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Muaz_A_2020",
+      "label": "Muaz A",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_23",
+      "label": "A comparison of data sampling techniques for credit card fraud detection",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Shapley_L_1953",
+      "label": "Shapley L",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_24",
+      "label": "A value for n-person games",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Kushwah_JS_2022",
+      "label": "Kushwah JS",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_25",
+      "label": "Comparative study of regressor and classifier with decision tree using modern tools",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Friedman_JH_2001",
+      "label": "Friedman JH",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_26",
+      "label": "Greedy function approximation: a gradient boosting machine",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Gupta_A_2017",
+      "label": "Gupta A",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_27",
+      "label": "Approximation algorithms for optimal decision trees and adaptive tsp problems",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Breiman_L_1996",
+      "label": "Breiman L",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_28",
+      "label": "Bagging predictors",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Witten_IH_2011",
+      "label": "Witten IH",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_29",
+      "label": "Data mining: practical machine learning tools and techniques",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Lundberg_S_Repository",
+      "label": "SHAP",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_30",
+      "label": "Python for scientific computing",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Jain_R_1991",
+      "label": "Jain R",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_31",
+      "label": "The art of computer systems performance analysis",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Iversen_GR_1987",
+      "label": "Iversen GR",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_32",
+      "label": "Analysis of Variance, vol. 1",
+      "role": "Reference"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Tukey_JW_1949",
+      "label": "Tukey JW",
+      "role": "Author"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_33",
+      "label": "Comparing individual means in the analysis of variance",
+      "role": "Reference"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_1",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2022",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_1",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Khoshgoftaar_TM_2022",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_1",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Johnson_JM_2022",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_2",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Wang_H_2023",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_2",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Liang_Q_2023",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_3",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Lundberg_SM_2017",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_3",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Lee_SI_2017",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_5",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2023",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_5",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Huang_TM_2023",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_6",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Chen_T_2016",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_6",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Guestrin_C_2016",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_9",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Geurts_P_2006",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_10",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Breiman_L_2001",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_11",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Ke_G_2017",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_12",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Kaggle_2018",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_13",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Leevy_JL_2022",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_14",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Rtayli_N_2020",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_14",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Enneya_N_2020",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_15",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Gonzalez_S_2020",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_16",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2023_Journal",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_16",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Khoshgoftaar_TM_2023_Journal",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_17",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Rosley_N_2022",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_18",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Kursa_MB_2010",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_19",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Liu_Y_2022",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_20",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Sakar_CO_2019",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_22",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2021",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_23",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Muaz_A_2020",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_24",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Shapley_L_1953",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_25",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Kushwah_JS_2022",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_26",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Friedman_JH_2001",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_27",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Gupta_A_2017",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_28",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Breiman_L_1996",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_29",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Witten_IH_2011",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_31",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Jain_R_1991",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_32",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Iversen_GR_1987",
+      "relation": "authored_by"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_33",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Tukey_JW_1949",
+      "relation": "authored_by"
+    }
+  ]
+}

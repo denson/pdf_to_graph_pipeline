@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_hypotheses_Hypothesis1",
+      "type": "Hypothesis",
+      "label": "XGBoost and random forest models predict LVRR in DCM patients more accurately than logistic regression."
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_hypotheses_Method1",
+      "type": "Methods",
+      "label": "Comparison of XGBoost, random forest, and logistic regression models."
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_hypotheses_Results1",
+      "type": "Results",
+      "label": "XGBoost and random forest achieved higher AUCs compared to logistic regression."
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_hypotheses_Paper1",
+      "type": "Paper",
+      "label": "Study on prediction of LVRR in patients with idiopathic dilated cardiomyopathy."
+    }
+  ],
+  "edges": [
+    {
+      "from": "Hypothesis1",
+      "to": "Method1",
+      "relationship": "TESTED_BY"
+    },
+    {
+      "from": "Method1",
+      "to": "Results1",
+      "relationship": "RESULTS_IN"
+    },
+    {
+      "from": "Paper1",
+      "to": "Hypothesis1",
+      "relationship": "CONTAINS"
+    },
+    {
+      "from": "Paper1",
+      "to": "Method1",
+      "relationship": "DESCRIBES"
+    },
+    {
+      "from": "Paper1",
+      "to": "Results1",
+      "relationship": "PRESENTS"
+    }
+  ]
+}

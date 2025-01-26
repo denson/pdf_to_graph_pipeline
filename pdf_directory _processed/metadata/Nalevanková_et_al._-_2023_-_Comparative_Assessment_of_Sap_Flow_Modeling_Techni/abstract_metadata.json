@@ -1,0 +1,34 @@
+{
+  "core_objectives": [
+    "To assess the ability of linear models to predict sap flow in European beech trees compared to more sophisticated machine learning models, such as random forest, extreme gradient boosting, and neural networks.",
+    "To evaluate the performance of these models under various soil moisture conditions and at different scales."
+  ],
+  "methods": {
+    "data_collection": "Five-year sap flow datasets (2012-2015 and 2017) for European beech trees were used.",
+    "modeling_techniques": [
+      "Linear Model (LM)",
+      "Random Forest (RF)",
+      "Extreme Gradient Boosting Machine (XGBM)",
+      "Neural Networks (NN)"
+    ],
+    "model_variants": [
+      "Six different variants based on different captured conditions and dataset sizes were used.",
+      "Variants included manipulated data with shifted global radiation and filtered data to assess water availability impacts."
+    ],
+    "evaluation_metrics": [
+      "Coefficient of Determination (R2)",
+      "Root-Mean-Square Error (RMSE)",
+      "Mean Absolute Deviation (MAD)"
+    ]
+  },
+  "key_findings": [
+    "The linear model exhibited high prediction power and comparative performance to the RF and XGBM.",
+    "Neural networks showed relatively poor prediction power due to systematic bias.",
+    "Machine learning models performed better in dry conditions, with noticeable differences in performance metrics across soil moisture conditions.",
+    "Shifting global radiation by one hour primarily affected the NN's performance negatively."
+  ],
+  "additional_details": {
+    "site_description": "Study conducted in the central region of Slovakia in a 65-year-old European beech forest.",
+    "instrumentation": "Sap flow systems using tissue heat balance method were used for data collection."
+  }
+}

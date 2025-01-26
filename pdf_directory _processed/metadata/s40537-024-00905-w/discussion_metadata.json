@@ -1,0 +1,30 @@
+{
+  "key_points": [
+    {
+      "interpretations": "Feature selection methods based on importance values generally outperform those based on SHAP values across various classifiers and feature subset sizes.",
+      "implications": "For larger datasets, using model's built-in feature importance list is recommended due to its efficiency and integration with model training.",
+      "limitations": "The study is limited to the Kaggle Credit Card Fraud Detection Dataset and might not generalize to datasets with different characteristics. Additionally, the SHAP method is computationally intensive, impacting its practicality for large datasets."
+    }
+  ],
+  "conclusions": [
+    "The study found that built-in feature importance methods are more practical for handling large datasets due to lower computational costs.",
+    "XGBoost's performance varies depending on the feature subset size, with SHAP-XGBoost being better for a size of 10, while XGBoost is superior for a size of 3.",
+    "For CatBoost, the built-in feature importance method consistently outperforms SHAP-specified methods for feature subset sizes less than 15."
+  ],
+  "future_work": "Future research should explore these feature selection methods across different application domains, potentially beyond credit card fraud detection.",
+  "required_fields": {
+    "dataset": "Kaggle Credit Card Fraud Detection Dataset",
+    "feature_selection_methods": [
+      "SHAP-values",
+      "Importance-based"
+    ],
+    "classifiers": [
+      "XGBoost",
+      "Decision Tree",
+      "CatBoost",
+      "Extremely Randomized Trees",
+      "Random Forest"
+    ],
+    "performance_metrics": "Area Under the Precision-Recall Curve (AUPRC)"
+  }
+}

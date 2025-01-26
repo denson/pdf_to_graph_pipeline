@@ -1,0 +1,34 @@
+{
+  "topic": "Background on Shapley Values in Explainable AI",
+  "context": [
+    {
+      "concept": "Shapley Value",
+      "description": "Shapley values originate from game theory as a way to fairly distribute the total gains to players based on their individual contributions.",
+      "historical_context": "Lloyd Shapley's 1953 paper introduced the Shapley value, and it has since been widely cited and applied in various fields, including economics and, more recently, machine learning for feature selection and explainability."
+    },
+    {
+      "concept": "Feature Selection in Machine Learning",
+      "description": "Feature selection is a process in ML where certain feature subsets are chosen to maximize an evaluation function's performance while minimizing complexity.",
+      "historical_context": "Feature selection has deep roots in computational statistics and is related to model selection, which seeks to handle inferential nuances like uncertainty quantification and confounding variables."
+    },
+    {
+      "concept": "Explainable AI (XAI)",
+      "description": "Explainable AI aims to interpret and attribute feature importance within machine learning models, often employing methods like Shapley values.",
+      "historical_context": "As AI models become more complex, the need for explainability has risen, resulting in the adoption of methods like SHapley Additive exPlanations (SHAP) and Shapley Additive Global importancE (SAGE) to render model predictions more transparent."
+    }
+  ],
+  "implications": [
+    {
+      "axioms": [
+        "Efficiency",
+        "Null Player",
+        "Symmetry",
+        "Additivity"
+      ],
+      "impact": "These Shapley value axioms, while providing a fair distribution scheme under theoretical conditions, do not necessarily align with the practical goals of feature selection, which often require specific adjustments to better suit non-monotonic evaluation functions or optimization tasks."
+    },
+    {
+      "criticism": "Recent literature has raised concerns that, despite their theoretical appeal, Shapley values might not always be suitable for ML applications without careful consideration of game formulations and evaluation functions, as some properties can conflict with practical needs in feature selection."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "objectives": "The objective of the study is to extend the Kernel SHAP method to handle dependent features, providing more accurate approximations to true Shapley values.",
+  "aims": "The study aims to develop a methodology that incorporates feature dependence into Shapley values and propose a method for clustering Shapley values corresponding to feature dependence to improve the presentation of feature contribution for individual predictions.",
+  "scope": "The scope of the study includes the development of a modified version of the Kernel SHAP method that accounts for feature dependence and the validation of this method using simulations with various models and feature distributions. Additionally, clustering of Shapley values is explored to present explanations more effectively.",
+  "missing_information": "not found"
+}

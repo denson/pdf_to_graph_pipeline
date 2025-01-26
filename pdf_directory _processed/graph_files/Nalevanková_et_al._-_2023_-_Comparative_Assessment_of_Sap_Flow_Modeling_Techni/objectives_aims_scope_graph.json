@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Objective",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "Assess and compare the performance of linear models and advanced machine learning techniques in predicting sap flow in European beech trees."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Aim",
+      "labels": [
+        "Aim"
+      ],
+      "properties": {
+        "description": "Determine if linear models can compete with or outperform more complex machine learning models and understand the impact of environmental factors on sap flow prediction."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Scope",
+      "labels": [
+        "Scope"
+      ],
+      "properties": {
+        "description": "Focuses on modeling sap flow based on long-term datasets from European beech forests in Slovakia."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Experimental_Condition",
+      "labels": [
+        "Experimental_Condition"
+      ],
+      "properties": {
+        "description": "Uses sap flow datasets collected from 2012 to 2015 and 2017, investigating modeling techniques based on environmental data."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Environment",
+      "labels": [
+        "Environment"
+      ],
+      "properties": {
+        "description": "Conducted in the Biensk\u00e1 dolina experimental plot located in an oak\u2013beech forest zone in central Slovakia."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Study_Design",
+      "labels": [
+        "Study_Design"
+      ],
+      "properties": {
+        "description": "Four modeling techniques were compared across six data variants, with evaluation metrics like coefficient of determination, RMSE, and MAD."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Significance",
+      "labels": [
+        "Significance"
+      ],
+      "properties": {
+        "description": "Supports the use of simpler linear models for practical applications in forestry management and ecological studies."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Objective",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Aim",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Objective",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Scope",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Scope",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Experimental_Condition",
+      "type": "INCLUDES"
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Scope",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Environment",
+      "type": "INCLUDES"
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Scope",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Study_Design",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Objective",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_objectives_aims_scope_Significance",
+      "type": "RELATES_TO"
+    }
+  ]
+}

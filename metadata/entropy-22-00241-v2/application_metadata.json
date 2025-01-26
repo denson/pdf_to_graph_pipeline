@@ -1,0 +1,23 @@
+{
+  "applications": [
+    {
+      "name": "Automatic Prediction of Cardiovascular Events",
+      "domain": "Healthcare/Cardiology",
+      "details": {
+        "purpose": "To predict the occurrence of cardiovascular disease (CVD) events using hypnopompic heart rate variability (HRV) metrics and machine learning models.",
+        "methodology": "Machine learning models, particularly using the XGBoost algorithm, were constructed using HRV metrics and other typical CVD risk factors for both long-term and short-term prediction of CVD outcomes.",
+        "model_performance": {
+          "short_term_accuracy": "81.4%",
+          "long_term_accuracy_improvement": "10.7%",
+          "important_features": [
+            "Age",
+            "Waist/Hip Ratio",
+            "Complexity Metrics of HRV like MSE1, MSE2, MPE"
+          ]
+        },
+        "contribution": "HRV metrics, especially entropy-based indices, demonstrated significant importance in predicting CVD outcomes within two years.",
+        "data_source": "Sleep Heart Health Study (SHHS), an open access database."
+      }
+    }
+  ]
+}

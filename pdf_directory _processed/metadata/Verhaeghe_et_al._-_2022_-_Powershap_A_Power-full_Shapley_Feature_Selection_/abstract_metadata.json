@@ -1,0 +1,11 @@
+{
+  "core_objectives": "To develop Powershap, a novel feature selection method that leverages statistical hypothesis testing and power calculations with Shapley values for efficient and robust feature selection.",
+  "methods": "Powershap combines wrapper feature selection methodologies with statistical hypothesis testing and Shapley values to evaluate feature importance. The method includes two main components: an Explain component for training models on original and random features using Shapley values, and a core component for selecting informative features through statistical comparison.",
+  "key_findings": "Powershap outperforms other filter methods, demonstrating predictive performance competitive with wrapper methods but with significantly improved execution time. Experiments show Powershap is faster than other SHAP-based methods like Borutashap and Shapicant and provides quick integration as an open-source sklearn component for diverse models and domains.",
+  "additional_details": {
+    "implementation": "Powershap is available as an open-source component for easy integration in conventional data science pipelines, with an automatic mode for hyper-parameter tuning.",
+    "evaluation": "Performance was compared with filter, wrapper, and SHAP-based feature selection methods across both synthetic and real-world datasets, demonstrating faster execution and reliable feature selection.",
+    "optimization": "An automatic mode optimizes the number of iterations using statistical power calculations, reducing the need for extensive hyper-parameter tuning."
+  },
+  "limit_of_study": "The benchmarks and evaluations were conducted without tuning specific feature selection method parameters, which could impact performance. Additionally, the dependency on the choice of machine learning models for wrapper methods like Powershap could influence the results."
+}

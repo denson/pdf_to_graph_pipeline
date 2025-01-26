@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_H1",
+      "label": "Hypothesis",
+      "text": "The texture features from rose leaves can be used for accurate classification of rose species."
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_H2",
+      "label": "Hypothesis",
+      "text": "Random Forest model can be optimized to outperform other machine learning models like Naive Bayes, Generalized Linear Models, Decision Trees, etc."
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_H3",
+      "label": "Hypothesis",
+      "text": "Ensemble learning methods by using various combinations of machine learning classifiers produce higher accuracy in rose plant classification."
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_H4",
+      "label": "Hypothesis",
+      "text": "Machine learning models have different performance when different feature sets are used, with some combinations yielding higher accuracies."
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_H5",
+      "label": "Hypothesis",
+      "text": "Optimizing Random Forest parameters (number of trees and depth of trees) will improve its classification accuracy notably over default settings."
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_M1",
+      "label": "Methods",
+      "text": "Classification models tested: Naive Bayes, Generalized Linear Model, Deep Learning Models, Decision Tree, Random Forest, Gradient Boosted Trees, Support Vector Machine"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_R1",
+      "label": "Results",
+      "text": "Impact of feature sets and algorithm combinations on classification accuracy evaluated through species classification tasks"
+    }
+  ],
+  "edges": [
+    {
+      "from": "H1",
+      "to": "M1",
+      "relationship": "TESTED_BY"
+    },
+    {
+      "from": "H2",
+      "to": "M1",
+      "relationship": "TESTED_BY"
+    },
+    {
+      "from": "H3",
+      "to": "M1",
+      "relationship": "TESTED_BY"
+    },
+    {
+      "from": "H4",
+      "to": "M1",
+      "relationship": "INVESTIGATED_USING"
+    },
+    {
+      "from": "H5",
+      "to": "M1",
+      "relationship": "TESTED_BY"
+    },
+    {
+      "from": "H4",
+      "to": "R1",
+      "relationship": "VALIDATED_BY"
+    }
+  ]
+}

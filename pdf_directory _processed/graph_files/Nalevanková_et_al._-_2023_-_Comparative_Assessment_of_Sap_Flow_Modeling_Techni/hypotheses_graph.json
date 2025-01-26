@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_hypotheses_H1",
+      "type": "Hypothesis",
+      "description": "Can linear models adequately predict sap flow in European Beech trees compared to more sophisticated machine learning techniques such as random forest, extreme gradient boosting, and neural networks?",
+      "variables": [
+        "sap flow",
+        "Linear Model (LM)",
+        "Random Forest (RF)",
+        "Extreme Gradient Boosting Machine (XGBM)",
+        "Neural Networks (NN)"
+      ]
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_hypotheses_M1",
+      "type": "Methods",
+      "description": "Used five-year sap flow datasets on European Beech trees (Fagus sylvatica) from 2012-2015 and 2017"
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_hypotheses_R1",
+      "type": "Results",
+      "description": "LM had maximum prediction power with a 1-hour shift of global radiation, and provided comparable prediction power to RF and XGBM. NN exhibited poor prediction power."
+    }
+  ],
+  "edges": [
+    {
+      "from": "H1",
+      "to": "M1",
+      "relationship": "TESTED_BY"
+    },
+    {
+      "from": "M1",
+      "to": "R1",
+      "relationship": "YIELDS"
+    }
+  ]
+}

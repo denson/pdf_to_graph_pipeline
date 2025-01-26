@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "title": "Powershap: A Power-full Shapley Feature Selection Method",
+        "abstract": "Feature selection is a crucial step in developing robust and powerful machine learning models. Feature selection techniques can be divided into two categories: filter and wrapper methods. While wrapper methods commonly result in strong predictive performances, they suffer from a large computational complexity and therefore take a significant amount of time to complete, especially when dealing with high-dimensional feature sets. Alternatively, filter methods are considerably faster, but suffer from several other disadvantages, such as (i) requiring a threshold value, (ii) many filter methods not taking into account inter-correlation between features, and (iii) ignoring feature interactions with the model. To this end, we present powershap, a novel wrapper feature selection method, which leverages statistical hypothesis testing and power calculations in combination with Shapley values for quick and intuitive feature selection. Powershap is built on the core assumption that an informative feature will have a larger impact on the prediction compared to a known random feature. Benchmarks and simulations show that powershap outperforms other filter methods with predictive performances on par with wrapper methods while being significantly faster, often even reaching half or a third of the execution time. As such, powershap provides a competitive and quick algorithm that can be used by various models in different domains. Furthermore, powershap is implemented as a plug-and-play and open-source sklearn component, enabling easy integration in conventional data science pipelines. User experience is even further enhanced by also providing an automatic mode that automatically tunes the hyper-parameters of the powershap algorithm, allowing to use the algorithm without any configuration needed.",
+        "publication_date": "2022-07-06",
+        "doi": "arXiv:2206.08394v2",
+        "supplementary_information": "https://github.com/predict-idlab/PowerSHAP",
+        "affiliation": "IDLab, Ghent University - imec",
+        "contact_email": "jarne.verhaeghe@ugent.be"
+      }
+    },
+    {
+      "id": "author_1",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Jarne Verhaeghe"
+      }
+    },
+    {
+      "id": "author_2",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Jeroen Van Der Donckt"
+      }
+    },
+    {
+      "id": "author_3",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Femke Ongenae"
+      }
+    },
+    {
+      "id": "author_4",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Sofie Van Hoecke"
+      }
+    },
+    {
+      "id": "keyword_1",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Feature selection"
+      }
+    },
+    {
+      "id": "keyword_2",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Shap"
+      }
+    },
+    {
+      "id": "keyword_3",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Benchmark"
+      }
+    },
+    {
+      "id": "keyword_4",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Simulation"
+      }
+    },
+    {
+      "id": "keyword_5",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Toolkit"
+      }
+    },
+    {
+      "id": "keyword_6",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Python"
+      }
+    },
+    {
+      "id": "keyword_7",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Open source"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "author_1",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "author_2",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "author_3",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "author_4",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_1",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_2",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_3",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_4",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_5",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_6",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_7",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    }
+  ]
+}

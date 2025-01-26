@@ -1,0 +1,176 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_background_1",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Credit card fraud detection is crucial in finance and relies on transaction datasets."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_2",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Feature selection is crucial for improving model performance by identifying relevant features."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_3",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Challenges arise from high-dimensional data in fraud detection, complicating model evaluation."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_4",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "SHAP uses game theory to rank feature importance."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_5",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Importance-based methods use decision trees for feature importance during training."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_6",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "AUPRC is used for evaluating model performance in this study."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_7",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Prior studies did not compare SHAP with built-in importance for fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_8",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Limited use of SHAP for feature selection in credit card fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_9",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Random Forest is widely used for handling complex datasets and detecting feature interactions."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_10",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "SHAP vs Importance: Importance-based methods generally outperform SHAP in feature selection."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_background_1",
+      "target": "Paper_s40537-024-00905-w_background_2",
+      "type": "RELATION",
+      "properties": {
+        "description": "Feature selection affects fraud detection."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_1",
+      "target": "Paper_s40537-024-00905-w_background_3",
+      "type": "RELATION",
+      "properties": {
+        "description": "High-dimensional data challenges."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_2",
+      "target": "Paper_s40537-024-00905-w_background_4",
+      "type": "RELATION",
+      "properties": {
+        "description": "SHAP for feature selection."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_2",
+      "target": "Paper_s40537-024-00905-w_background_5",
+      "type": "RELATION",
+      "properties": {
+        "description": "Importance-based feature selection method."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_4",
+      "target": "Paper_s40537-024-00905-w_background_7",
+      "type": "RELATION",
+      "properties": {
+        "description": "SHAP not previously compared with model\u2019s built-in importance lists."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_5",
+      "target": "Paper_s40537-024-00905-w_background_7",
+      "type": "RELATION",
+      "properties": {
+        "description": "Importance methods not compared with SHAP in prior studies."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_6",
+      "target": "Paper_s40537-024-00905-w_background_1",
+      "type": "RELATION",
+      "properties": {
+        "description": "AUPRC used for model evaluation."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_8",
+      "target": "Paper_s40537-024-00905-w_background_9",
+      "type": "RELATION",
+      "properties": {
+        "description": "Limited use of SHAP contrasted with common use of Random Forest."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_10",
+      "target": "Paper_s40537-024-00905-w_background_9",
+      "type": "RELATION",
+      "properties": {
+        "description": "Importance-based methods more efficient than SHAP."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_8",
+      "target": "Paper_s40537-024-00905-w_background_10",
+      "type": "RELATION",
+      "properties": {
+        "description": "Importance-based methods better than SHAP."
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Early Prediction of Left Ventricular Reverse Remodeling in First-Diagnosed Idiopathic Dilated Cardiomyopathy: A Comparison of Linear Model, Random Forest, and Extreme Gradient Boosting",
+  "authors": [
+    "Xiangkun Xie",
+    "Mingwei Yang",
+    "Shan Xie",
+    "Xiaoying Wu",
+    "Yuan Jiang",
+    "Zhaoyu Liu",
+    "Huiying Zhao",
+    "Yangxin Chen",
+    "Yuling Zhang",
+    "Jingfeng Wang"
+  ],
+  "abstract": "Left ventricular reverse remodeling (LVRR) is associated with decreased cardiovascular mortality and improved cardiac survival and also crucial for therapeutic options. However, there is a lack of an early prediction model of LVRR in first-diagnosed dilated cardiomyopathy. This single-center study included 104 patients with idiopathic DCM. We defined LVRR as an absolute increase in left ventricular ejection fraction (LVEF) from >10% to a final value >35% and a decrease in left ventricular end-diastolic diameter (LVDd) >10%. Analysis features included demographic characteristics, comorbidities, physical sign, biochemistry data, echocardiography, electrocardiogram, Holter monitoring, and medication. Logistic regression, random forests, and extreme gradient boosting (XGBoost) were, respectively, implemented in a 10-fold cross-validated model to discriminate LVRR and non-LVRR, with receiver operating characteristic (ROC) curves and calibration plot for performance evaluation. LVRR occurred in 47 (45.2%) patients after optimal medical treatment. Cystatin C, right ventricular end-diastolic dimension, high-density lipoprotein cholesterol (HDL-C), left atrial dimension, left ventricular posterior wall dimension, systolic blood pressure, severe mitral regurgitation, eGFR, and NYHA classification were included in XGBoost, which reached higher AU-ROC compared with logistic regression (AU-ROC, 0.8205 vs. 0.5909, p = 0.0119). Ablation analysis revealed that cystatin C, right ventricular end-diastolic dimension, and HDL-C made the largest contributions to the model. Tree-based models like XGBoost were able to early differentiate LVRR and non-LVRR in patients with first-diagnosed DCM before drug therapy, facilitating disease management and invasive therapy selection. A multicenter prospective study is necessary for further validation.",
+  "keywords": [
+    "idiopathic dilated cardiomyopathy",
+    "heart failure",
+    "reverse remodeling",
+    "predictive model",
+    "machine learning"
+  ],
+  "publication_date": "2021-08-04",
+  "doi": "10.3389/fcvm.2021.684004",
+  "supplementary_information": "Available in Supplementary materials: Supplementary Table 1 and Supplementary Figure 1-4.",
+  "additional_metadata": {
+    "journal": "Frontiers in Cardiovascular Medicine",
+    "volume": "8",
+    "article_number": "684004",
+    "peer_reviewed_by": [
+      "Shinichi Okuda",
+      "Giulia Barbati"
+    ],
+    "edited_by": [
+      "Vinicius Tragante"
+    ],
+    "correspondence": [
+      "Jingfeng Wang: wjingf@mail.sysu.edu.cn",
+      "Yuling Zhang: zhyul@mail.sysu.edu.cn",
+      "Yangxin Chen: chenyx39@mail.sysu.edu.cn",
+      "Huiying Zhao: zhaohy8@mail.sysu.edu.cn"
+    ]
+  }
+}

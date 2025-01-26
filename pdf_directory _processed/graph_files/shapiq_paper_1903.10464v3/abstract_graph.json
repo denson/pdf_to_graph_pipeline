@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_abstract_objective_1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "Improve the explanation of individual predictions in machine learning models by providing more accurate approximations of Shapley values that can handle dependent features."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_abstract_method_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Extend the Kernel SHAP method to account for dependent features using Gaussian distribution assumptions, Gaussian copula with empirical margins, an empirical approach, and a combination of empirical and parametric methods."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_abstract_result_1",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "The extended Kernel SHAP method provides more accurate approximations to the true Shapley values than the original method in scenarios with dependent features."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_abstract_implication_1",
+      "labels": [
+        "Implication"
+      ],
+      "properties": {
+        "description": "In experimental evaluations, the proposed methods consistently outperformed the original Kernel SHAP method, especially in scenarios with non-linear dependencies among features."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_abstract_additional_1",
+      "labels": [
+        "Additional Detail"
+      ],
+      "properties": {
+        "description": "The methodology has been implemented in an R package available at: https://github.com/NorskRegnesentral/shapr."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_abstract_additional_2",
+      "labels": [
+        "Additional Detail"
+      ],
+      "properties": {
+        "description": "Experiments were conducted in both low (3-dimensional) and moderate (10-dimensional) feature spaces, demonstrating superior performance of the proposed methods over the original, especially in scenarios with feature dependence."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_abstract_objective_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_abstract_method_1",
+      "type": "ADDRESSES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_abstract_method_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_abstract_result_1",
+      "type": "YIELDS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_abstract_result_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_abstract_implication_1",
+      "type": "SUPPORTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_abstract_method_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_abstract_additional_1",
+      "type": "IMPLEMENTED_IN",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_abstract_method_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_abstract_additional_2",
+      "type": "EVALUATED_IN",
+      "properties": {}
+    }
+  ]
+}

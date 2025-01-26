@@ -1,0 +1,25 @@
+{
+  "title": "Shapley Values for Feature Selection: The Good, the Bad, and the Axioms",
+  "authors": [
+    "Daniel Fryer",
+    "Inga Str\u00fcmke",
+    "Hien Nguyen"
+  ],
+  "abstract": "The Shapley value has become popular in the Explainable AI (XAI) literature, thanks, to a large extent, to a solid theoretical foundation, including four \u2018\u2018favourable and fair\u2019\u2019 axioms for attribution in transferable utility games. The Shapley value is probably the only solution concept satisfying these axioms. In this paper, we introduce the Shapley value and draw attention to its recent uses as a feature selection tool. We call into question this use of the Shapley value, using simple, abstract \u2018\u2018toy\u2019\u2019 counterexamples to illustrate that the axioms may work against the goals of feature selection. From this, we develop a number of insights that are then investigated in concrete simulation settings, with a variety of Shapley value formulations, including SHapley Additive exPlanations (SHAP) and Shapley Additive Global importancE (SAGE). The aim is not to encourage any use of the Shapley value for feature selection, but we aim to clarify various limitations around their current use in the literature. In so doing, we hope to help demystify certain aspects of the Shapley value axioms that are viewed as \u2018\u2018favourable\u2019\u2019. In particular, we wish to highlight that the favourability of the axioms depends non-trivially on the way in which the Shapley value is appropriated in the XAI application.",
+  "keywords": [
+    "Explainability",
+    "feature selection",
+    "interpretability",
+    "Shapley value",
+    "variable selection",
+    "XAI"
+  ],
+  "publication_date": "2021-10-08",
+  "doi": "10.1109/ACCESS.2021.3119110",
+  "supplementary_information": "This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/",
+  "additional_metadata": {
+    "received_date": "2021-09-18",
+    "accepted_date": "2021-10-02",
+    "current_version_date": "2021-10-28"
+  }
+}

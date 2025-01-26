@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "label": "Paper"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_2",
+      "label": "Contributor",
+      "name": "Jingfeng Wang",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_3",
+      "label": "Contributor",
+      "name": "Yuling Zhang",
+      "affiliation": "Guangdong Province Key Laboratory of Arrhythmia and Electrophysiology, Guangzhou, China"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_4",
+      "label": "Contributor",
+      "name": "Yangxin Chen",
+      "affiliation": "Cardiovascular Medicine Department, The Eighth Affiliated Hospital of Sun Yat-sen University, Shenzhen, China"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_5",
+      "label": "Contributor",
+      "name": "Huiying Zhao",
+      "affiliation": "Department of Medical Research Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_6",
+      "label": "Contributor",
+      "name": "Xiangkun Xie",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_7",
+      "label": "Contributor",
+      "name": "Mingwei Yang",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_8",
+      "label": "Contributor",
+      "name": "Shan Xie",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_9",
+      "label": "Contributor",
+      "name": "Xiaoying Wu",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_10",
+      "label": "Contributor",
+      "name": "Yuan Jiang",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_11",
+      "label": "Contributor",
+      "name": "Zhaoyu Liu",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_12",
+      "label": "FundingSource",
+      "name": "The National Science Foundation of China",
+      "grant_numbers": [
+        "81870170",
+        "81970388",
+        "81900387"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_13",
+      "label": "FundingSource",
+      "name": "Guangdong Province Natural Science Foundation",
+      "grant_numbers": [
+        "2019A1515011682",
+        "2019A1515011806"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_14",
+      "label": "FundingSource",
+      "name": "Guangdong Science and Technology Major Foundation",
+      "grant_number": "2015B010131010"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_15",
+      "label": "FundingSource",
+      "name": "Guangdong Laboratory of Regenerative Medicine and Health Foundation",
+      "grant_number": "2019GZR110406004"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_16",
+      "label": "FundingSource",
+      "name": "Guangzhou Science and Technology Major Foundation",
+      "grant_numbers": [
+        "201803040010",
+        "201704020044"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_2",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_3",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_4",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_5",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_6",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_7",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_8",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_9",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_10",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_11",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_12",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "FUNDED"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_13",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "FUNDED"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_14",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "FUNDED"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_15",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "FUNDED"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_16",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "FUNDED"
+    }
+  ]
+}

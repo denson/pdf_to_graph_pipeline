@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_1",
+      "label": "Theory",
+      "title": "Feature Selection in Machine Learning"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_2",
+      "label": "Theory",
+      "title": "Filter and Wrapper Feature Selection Methods"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_3",
+      "label": "Theory",
+      "title": "Shapley Values and Model Interpretation"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_4",
+      "label": "Theory",
+      "title": "Statistical Hypothesis Testing and Power Calculations"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_5",
+      "label": "Theory",
+      "title": "Integration of Innovative Techniques"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_6",
+      "label": "Hypothesis",
+      "title": "An informative feature will have a larger impact on the prediction compared to a known random feature."
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_7",
+      "label": "Study",
+      "title": "Current Study"
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "7",
+      "relationship": "foundation"
+    },
+    {
+      "from": "2",
+      "to": "7",
+      "relationship": "foundation"
+    },
+    {
+      "from": "3",
+      "to": "7",
+      "relationship": "foundation"
+    },
+    {
+      "from": "4",
+      "to": "7",
+      "relationship": "foundation"
+    },
+    {
+      "from": "5",
+      "to": "7",
+      "relationship": "innovation"
+    },
+    {
+      "from": "6",
+      "to": "7",
+      "relationship": "tested by"
+    }
+  ]
+}

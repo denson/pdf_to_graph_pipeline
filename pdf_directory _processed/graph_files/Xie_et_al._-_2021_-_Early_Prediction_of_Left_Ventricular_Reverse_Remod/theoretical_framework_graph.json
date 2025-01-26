@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_1",
+      "label": "Theory",
+      "content": "Left Ventricular Reverse Remodeling (LVRR) in Dilated Cardiomyopathy (DCM)"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_2",
+      "label": "Principle",
+      "content": "Significance of LVRR as a therapeutic target in DCM"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_3",
+      "label": "Concept",
+      "content": "Machine Learning for Predictive Modeling"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_4",
+      "label": "Evidence",
+      "content": "Clinical markers as predictors of LVRR"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_5",
+      "label": "Evidence",
+      "content": "Genetic factors related to LVRR outcomes"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_6",
+      "label": "Study",
+      "content": "Use of Random Forest and XGBoost models"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_2",
+      "relationship": "describes"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_3",
+      "relationship": "leverages"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_4",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_1",
+      "relationship": "supports"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_5",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_1",
+      "relationship": "supports"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_6",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_3",
+      "relationship": "utilizes"
+    }
+  ]
+}

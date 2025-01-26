@@ -1,0 +1,33 @@
+{
+  "hypotheses": [
+    {
+      "description": "An informative feature will have a larger impact on the prediction compared to a known random feature.",
+      "type": "Comparison",
+      "statistical_test": "Statistical hypothesis testing comparing feature impacts against a random feature.",
+      "variables": [
+        "Informative feature impact",
+        "Random feature impact"
+      ],
+      "null_hypothesis": "The random feature is not more important than the tested feature.",
+      "alternative_hypothesis": "The tested feature is more important than the random feature."
+    }
+  ],
+  "method_details": {
+    "method_name": "Powershap",
+    "components": [
+      {
+        "name": "Explain component",
+        "function": "Trains models with subsets of data including a random feature and calculates Shapley values to determine feature impacts."
+      },
+      {
+        "name": "Core powershap component",
+        "function": "Statistically compares feature impacts to the random feature using percentile-based method to determine informativeness."
+      }
+    ],
+    "automatic_mode": {
+      "description": "Automatically determines and optimizes the number of iterations using power calculations with a set p-value threshold.",
+      "default_p_value": 0.01,
+      "required_power": 0.99
+    }
+  }
+}

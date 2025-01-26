@@ -1,0 +1,105 @@
+{
+  "methods_and_materials": {
+    "study_title": "Powershap: A Power-full Shapley Feature Selection Method",
+    "methods": [
+      {
+        "name": "powershap",
+        "description": "A novel feature selection method utilizing Shapley values, statistical tests, and power calculations to identify significant features compared to a random feature.",
+        "process": [
+          {
+            "step": "Explain component",
+            "description": "Trains multiple models with different random seeds and data subsets, computes Shapley values for feature impact, and averages these values for statistical comparison."
+          },
+          {
+            "step": "Core powershap component",
+            "description": "Statistically compares feature impacts to a random feature to determine feature significance and outputs informative features."
+          }
+        ],
+        "automatic_mode": {
+          "description": "An automatic mode that optimizes iterations using statistical power calculations to avoid manual hyperparameter tuning."
+        }
+      }
+    ],
+    "materials": {
+      "software": [
+        {
+          "name": "Python",
+          "libraries": [
+            "sklearn",
+            "statsmodels"
+          ]
+        }
+      ]
+    },
+    "datasets": [
+      {
+        "name": "Simulation Dataset",
+        "description": "Synthetic data generated using sklearn's make_classification function. Various dimensions and ratios of informative features are tested to assess feature selection quality.",
+        "samples": 5000,
+        "feature_dimensions": [
+          20,
+          100,
+          250,
+          500
+        ],
+        "informative_feature_ratios": [
+          10,
+          33,
+          50,
+          90
+        ]
+      },
+      {
+        "name": "Real-world Datasets",
+        "datasets": [
+          {
+            "name": "Madelon",
+            "source": "OpenML",
+            "type": "Classification",
+            "features": 500,
+            "train_size": 1950,
+            "test_size": 650
+          },
+          {
+            "name": "Gina priori",
+            "source": "OpenML",
+            "type": "Classification",
+            "features": 784,
+            "train_size": 2601,
+            "test_size": 867
+          },
+          {
+            "name": "Scene",
+            "source": "OpenML",
+            "type": "Classification",
+            "features": 294,
+            "train_size": 1805,
+            "test_size": 867
+          },
+          {
+            "name": "CT location",
+            "source": "UCI",
+            "type": "Regression",
+            "features": 384,
+            "train_size": 41347,
+            "test_size": 12153
+          },
+          {
+            "name": "Appliances",
+            "source": "UCI",
+            "type": "Regression",
+            "features": 30,
+            "train_size": 14801,
+            "test_size": 4934
+          }
+        ]
+      }
+    ],
+    "tools": [
+      {
+        "name": "CatBoost",
+        "description": "Gradient boosting model used as the default machine learning model for feature selection with adjusted class weights for classification."
+      }
+    ]
+  }
+}

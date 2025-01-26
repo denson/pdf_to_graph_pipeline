@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "Question the use of Shapley values in feature selection within Explainable AI, highlighting potential limitations and inadequacies."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Utilizes toy and concrete examples to question the efficacy of Shapley values for feature selection through theoretical and simulated settings.",
+        "formulations": [
+          "SHAP",
+          "SAGE"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_3",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "The Shapley value does not generally guarantee suitability for feature selection due to axiomatic conflicts with feature selection goals."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_4",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "Non-monotonic evaluation functions can cause the Shapley values to sum to less than the optimal model performance."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_5",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "SAGE performed better than SHAP in most tested scenarios but requires careful consideration to avoid misinterpretation."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_6",
+      "labels": [
+        "Implication"
+      ],
+      "properties": {
+        "description": "While Shapley values have theoretical appeal, their application in feature selection for XAI may lead to unintended consequences due to axiomatic limitations."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_2",
+      "type": "ADDRESSES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_3",
+      "type": "FINDS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_4",
+      "type": "FINDS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_5",
+      "type": "FINDS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_6",
+      "type": "SUGGESTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_5",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_6",
+      "type": "SUGGESTS",
+      "properties": {}
+    }
+  ]
+}

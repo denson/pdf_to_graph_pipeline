@@ -1,0 +1,22 @@
+{
+  "studyTitle": "Feature selection strategies: a comparative analysis of SHAP-value and importance-based methods",
+  "mainOutcomes": {
+    "performanceComparison": "Feature selection methods based on importance values outperform those based on SHAP values across the classifiers used and various feature subset sizes.",
+    "xgboostVsShapXgboost": "XGBoost surpasses SHAP-XGBoost for a feature subset size of 3, while SHAP-XGBoost outperforms XGBoost for a feature subset size of 10.",
+    "catboostVsShapCatboost": "CatBoost outperforms SHAP-CatBoost for feature sizes less than 15."
+  },
+  "significance": {
+    "anovaResults": "Significant differences among the groups for factors such as Size, Classifier, and Technique with all p-values being less than 0.01.",
+    "hsdResults": {
+      "sizeFactor": "Feature subset sizes of 15 and 10 yield superior performance in AUPRC.",
+      "classifierFactor": "RF demonstrated the highest AUPRC, followed by XGBoost, ET, and CatBoost, with DT showing relatively poorer performance.",
+      "techniqueFactor": "Importance-value-based feature selection method significantly outperformed the SHAP-value-based method."
+    }
+  },
+  "additionalDetails": {
+    "computationalEfficiency": "Using built-in feature importance is deemed more efficient due to the considerable computational expenses associated with SHAP.",
+    "recommendation": "Opt for model's built-in feature importance for larger datasets and more intricate models due to practical and computational considerations."
+  },
+  "futureWork": "Explore these two feature selection methods across diverse application domains.",
+  "acknowledgements": "The authors thank the various members of the Data Mining and Machine Learning Laboratory, Florida Atlantic University, for their assistance with the reviews."
+}

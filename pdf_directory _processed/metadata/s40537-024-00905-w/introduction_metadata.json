@@ -1,0 +1,6 @@
+{
+  "research_context": "Detecting credit card fraud in the finance industry by analyzing transaction datasets.",
+  "motivation": "Improving the decision-making process in machine learning models by selecting relevant features to tackle data quality issues.",
+  "problem_statement": "The need to compare different feature selection methods, specifically SHAP-value and importance-based methods, to determine which enhances model performance in credit card fraud detection.",
+  "additional_details": "The study uses the Kaggle Credit Card Fraud Detection Dataset and evaluates the performance using five classifiers: XGBoost, Decision Tree, CatBoost, Extremely Randomized Trees, and Random Forest. The Area under the Precision-Recall Curve (AUPRC) is used as an evaluation metric."
+}

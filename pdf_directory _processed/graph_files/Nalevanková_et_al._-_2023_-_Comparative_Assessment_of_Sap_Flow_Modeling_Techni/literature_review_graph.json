@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_literature_review_litrev_key_finding_1",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "The linear model (LM) exhibited competitive prediction power for integrated sap flow over machine learning models like random forest (RF), extreme gradient boosting machine (XGBM), and neural networks (NN). The LM maintained systematic bias leading to better cumulative prediction, especially with a one-hour shift of global radiation."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_literature_review_litrev_method_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "The study analyzed sap flow in European Beech using four modeling techniques (LM, RF, XGBM, NN) applied across six data variants with different environmental conditions. Metrics such as R2, RMSE, and MAD were used to evaluate model performance."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_literature_review_litrev_gap_1",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "The study suggests that despite advanced models, simpler linear models may offer comparable predictions in certain scenarios. The application of these findings should be restricted to similar species and conditions until validated elsewhere."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_literature_review_litrev_insight_1",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Models applied to trees seem to outperform those for low-growing plants, suggesting the significance of physical plant structures in modeling accuracy."
+      }
+    }
+  ],
+  "edges": []
+}

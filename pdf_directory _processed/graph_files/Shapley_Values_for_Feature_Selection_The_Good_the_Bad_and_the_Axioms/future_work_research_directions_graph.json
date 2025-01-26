@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_1",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "Thoroughly explore the application of game theoretic solution concepts to feature selection and attribution."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_2",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "Conduct extensive empirical studies to understand suitable game formulations and axioms for practical feature selection tasks in XAI and ML."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_3",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "Investigate a large variety of alternatives to the Shapley value in the literature on game theory."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_4",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "Explore suitable axioms for feature selection tasks."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_5",
+      "label": [
+        "Recommendation"
+      ],
+      "content": "Avoid magical thinking by emphasizing nuanced application of Shapley values."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_6",
+      "label": [
+        "Recommendation"
+      ],
+      "content": "Consider the influence of different game formulations on the relevancy of Shapley values to ML tasks."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_7",
+      "label": [
+        "Paper"
+      ],
+      "content": "Current Study"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_8",
+      "label": [
+        "Findings"
+      ],
+      "content": "Game-theoretic approaches in feature selection and attribution"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_7",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_8",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_7",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_4",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_8",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_5",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_7",
+      "type": "IMPROVEMENT_SUGGESTION"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_6",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_8",
+      "type": "IMPROVEMENT_SUGGESTION"
+    }
+  ]
+}

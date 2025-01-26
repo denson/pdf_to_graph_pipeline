@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PowershapIntroduction",
+      "label": "Introduction of Powershap"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PredictivePerformance",
+      "label": "Predictive Performance"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_ExecutionTime",
+      "label": "Execution Time"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_FeatureSelectionQuality",
+      "label": "Feature Selection Quality"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_AutomaticMode",
+      "label": "Automatic Mode"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Integration",
+      "label": "Integration as Sklearn Component"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Funding",
+      "label": "Funding and Development"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Conclusion",
+      "label": [
+        "Conclusion"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PowershapIntroduction",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PredictivePerformance",
+      "label": "Leads to"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PredictivePerformance",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_ExecutionTime",
+      "label": "Includes Comparison with"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PowershapIntroduction",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_FeatureSelectionQuality",
+      "label": "Leads to"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PowershapIntroduction",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_AutomaticMode",
+      "label": "Leads to"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_AutomaticMode",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Integration",
+      "label": "Facilitates"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Integration",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Funding",
+      "label": "Supported by"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PredictivePerformance",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Conclusion",
+      "label": "Supports"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_FeatureSelectionQuality",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Conclusion",
+      "label": "Supports"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_AutomaticMode",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Conclusion",
+      "label": "Simplifies Usage"
+    }
+  ]
+}

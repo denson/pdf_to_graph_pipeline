@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_application_1",
+      "label": [
+        "Paper"
+      ],
+      "title": "Shapley Values for Feature Selection: The Good, the Bad, and the Axioms",
+      "authors": [
+        "Daniel Fryer",
+        "Inga Str\u00fcmke",
+        "Hien Nguyen"
+      ],
+      "publication": "IEEE Access",
+      "doi": "10.1109/ACCESS.2021.3119110"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_application_2",
+      "label": [
+        "Application"
+      ]
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_application_3",
+      "label": [
+        "Implementation"
+      ]
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_application_4",
+      "label": [
+        "Method"
+      ],
+      "name": "Simulation of abstract examples"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_application_5",
+      "label": [
+        "Method"
+      ],
+      "name": "SHapley Additive exPlanations (SHAP)"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_application_6",
+      "label": [
+        "Method"
+      ],
+      "name": "Shapley Additive Global importancE (SAGE)"
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "type": "APPLIES",
+      "description": "The paper questions the efficacy of Shapley values in feature selection, emphasizing potential misapplications."
+    },
+    {
+      "from": "1",
+      "to": "3",
+      "type": "APPLIES",
+      "description": "The discussion emphasizes the potential pitfalls in using Shapley values in real-world academic and industrial settings."
+    },
+    {
+      "from": "2",
+      "to": "4",
+      "type": "INFORMS",
+      "description": "Application involves simulation to highlight limitations."
+    },
+    {
+      "from": "2",
+      "to": "5",
+      "type": "INFORMS",
+      "description": "Application of SHAP in various settings."
+    },
+    {
+      "from": "2",
+      "to": "6",
+      "type": "INFORMS",
+      "description": "Application of SAGE in various settings."
+    }
+  ]
+}

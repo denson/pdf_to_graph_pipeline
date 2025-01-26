@@ -1,0 +1,230 @@
+{
+  "references": [
+    {
+      "authors": [
+        "Altmann, A.",
+        "Tolo\u0219i, L.",
+        "Sander, O.",
+        "Lengauer, T."
+      ],
+      "title": "Permutation importance: a corrected feature importance measure",
+      "journal": "Bioinformatics",
+      "volume": "26",
+      "issue": "10",
+      "pages": "1340\u20131347",
+      "year": 2010,
+      "month": "May",
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Breiman, L."
+      ],
+      "title": "Random Forests",
+      "journal": "Machine Learning",
+      "volume": "45",
+      "issue": "1",
+      "pages": "5\u201332",
+      "year": 2001,
+      "month": "Oct",
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Calzolari, M."
+      ],
+      "title": "manuel-calzolari/shapicant",
+      "journal": "not found",
+      "year": 2022,
+      "month": "Apr",
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Colaco, S.",
+        "Kumar, S.",
+        "Tamang, A.",
+        "Biju, V.G."
+      ],
+      "title": "A Review on Feature Selection Algorithms",
+      "journal": "In: Emerging Research in Computing, Information, Communication and Applications",
+      "pages": "133\u2013153",
+      "publisher": "Springer, Singapore",
+      "year": 2019,
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Dua, D.",
+        "Graff, C."
+      ],
+      "title": "UCI machine learning repository",
+      "year": 2017,
+      "publisher": "not found",
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Jovi\u0107, A.",
+        "Brki\u0107, K.",
+        "Bogunovi\u0107, N."
+      ],
+      "title": "A review of feature selection methods with applications",
+      "journal": "In: 38th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO)",
+      "pages": "1200\u20131205",
+      "year": 2015,
+      "month": "May",
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Keany, E."
+      ],
+      "title": "Borutashap : A wrapper feature selection method which combines the boruta feature selection algorithm with shapley values.",
+      "year": 2020,
+      "month": "Nov",
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Kumari, B.",
+        "Swarnkar, T."
+      ],
+      "title": "Filter versus Wrapper Feature Subset Selection in Large Dimensionality Micro array: A Review",
+      "journal": "International Journal of Computer Science and Information Technologies",
+      "issue": "2",
+      "pages": "6",
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Kursa, M.B.",
+        "Rudnicki, W.R."
+      ],
+      "title": "Feature selection with the Boruta package",
+      "journal": "Journal of Statistical Software",
+      "volume": "36",
+      "issue": "11",
+      "pages": "1\u201313",
+      "year": 2010,
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Li, J.",
+        "Cheng, K.",
+        "Wang, S.",
+        "et al."
+      ],
+      "title": "Feature Selection: A Data Perspective",
+      "journal": "ACM Computing Surveys",
+      "volume": "50",
+      "issue": "6",
+      "pages": "94:1\u201394:45",
+      "year": 2017,
+      "month": "Dec",
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Linardatos, P.",
+        "Papastefanopoulos, V.",
+        "Kotsiantis, S."
+      ],
+      "title": "Explainable AI: A Review of Machine Learning Interpretability Methods",
+      "journal": "Entropy",
+      "volume": "23",
+      "issue": "1",
+      "pages": "18",
+      "year": 2020,
+      "month": "Dec",
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Lomax, R.G."
+      ],
+      "title": "An introduction to statistical concepts",
+      "publisher": "Mahwah, N.J. : Lawrence Erlbaum Associates Publishers",
+      "year": 2007,
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Lundberg, S.M.",
+        "Lee, S.I."
+      ],
+      "title": "A unified approach to interpreting model predictions",
+      "journal": "In: Advances in Neural Information Processing Systems 30",
+      "pages": "4765\u20134774",
+      "publisher": "Curran Associates, Inc.",
+      "year": 2017,
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "North, B.V.",
+        "Curtis, D.",
+        "Sham, P.C."
+      ],
+      "title": "A Note on the Calculation of Empirical P Values from Monte Carlo Procedures",
+      "journal": "American Journal of Human Genetics",
+      "volume": "71",
+      "issue": "2",
+      "pages": "439\u2013441",
+      "year": 2002,
+      "month": "Aug",
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Pedregosa, F.",
+        "Varoquaux, G.",
+        "Gramfort, A.",
+        "et al."
+      ],
+      "title": "Scikit-learn: Machine learning in Python",
+      "journal": "Journal of Machine Learning Research",
+      "volume": "12",
+      "pages": "2825\u20132830",
+      "year": 2011,
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Prokhorenkova, L.",
+        "Gusev, G.",
+        "et al."
+      ],
+      "title": "CatBoost: unbiased boosting with categorical features",
+      "journal": "arXiv:1706.09516 [cs]",
+      "year": 2019,
+      "month": "Jan",
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Seabold, S.",
+        "Perktold, J."
+      ],
+      "title": "statsmodels: Econometric and statistical modeling with python",
+      "year": 2010,
+      "doi": "not found"
+    },
+    {
+      "authors": [
+        "Vanschoren, J."
+      ],
+      "title": [
+        "OpenML: gina priori",
+        "OpenML: madelon",
+        "OpenML: scene"
+      ],
+      "url": [
+        "https://www.openml.org/d/1042",
+        "https://www.openml.org/d/1485",
+        "https://www.openml.org/d/312"
+      ]
+    }
+  ]
+}

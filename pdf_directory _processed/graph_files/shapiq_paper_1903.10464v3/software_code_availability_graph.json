@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_software_code_availability_1",
+      "label": [
+        "Software"
+      ],
+      "title": "shapr",
+      "description": "An R-package to implement the modified Kernel SHAP method for explaining individual predictions in the presence of dependent features."
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_software_code_availability_2",
+      "label": [
+        "Code"
+      ],
+      "title": "GitHub Repository",
+      "link": "https://github.com/NorskRegnesentral/shapr"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_software_code_availability_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_software_code_availability_2",
+      "label": "AVAILABLE_AT"
+    }
+  ]
+}

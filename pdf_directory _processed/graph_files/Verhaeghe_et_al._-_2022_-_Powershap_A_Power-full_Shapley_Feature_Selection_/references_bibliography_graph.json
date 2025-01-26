@@ -1,0 +1,255 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "label": "Main Paper"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[1]",
+      "label": "Permutation importance: a corrected feature importance measure.",
+      "authors": [
+        "Altmann, A.",
+        "Tolo\u0131si, L.",
+        "Sander, O.",
+        "Lengauer, T."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[2]",
+      "label": "Random Forests.",
+      "authors": [
+        "Breiman, L."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[3]",
+      "label": "manuel-calzolari/shapicant.",
+      "authors": [
+        "Calzolari, M."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[4]",
+      "label": "A Review on Feature Selection Algorithms.",
+      "authors": [
+        "Colaco, S.",
+        "Kumar, S.",
+        "Tamang, A.",
+        "Biju, V.G."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[5]",
+      "label": "UCI machine learning repository.",
+      "authors": [
+        "Dua, D.",
+        "Graff, C."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[6]",
+      "label": "A review of feature selection methods with applications.",
+      "authors": [
+        "Jovi\u0107, A.",
+        "Brki\u0107, K.",
+        "Bogunovi\u0107, N."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[7]",
+      "label": "Borutashap: A wrapper feature selection method which combines the boruta feature selection algorithm with shapley values.",
+      "authors": [
+        "Keany, E."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[8]",
+      "label": "Filter versus Wrapper Feature Subset Selection in Large Dimensionality Micro array: A Review.",
+      "authors": [
+        "Kumari, B.",
+        "Swarnkar, T."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[9]",
+      "label": "Feature selection with the Boruta package.",
+      "authors": [
+        "Kursa, M.B.",
+        "Rudnicki, W.R."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[10]",
+      "label": "Feature Selection: A Data Perspective.",
+      "authors": [
+        "Li, J.",
+        "Cheng, K.",
+        "Wang, S.",
+        "et al."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[11]",
+      "label": "Explainable AI: A Review of Machine Learning Interpretability Methods.",
+      "authors": [
+        "Linardatos, P.",
+        "Papastefanopoulos, V.",
+        "Kotsiantis, S."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[12]",
+      "label": "An introduction to statistical concepts.",
+      "authors": [
+        "Lomax, R.G."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[13]",
+      "label": "A unified approach to interpreting model predictions.",
+      "authors": [
+        "Lundberg, S.M.",
+        "Lee, S.I."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[14]",
+      "label": "A Note on the Calculation of Empirical P Values from Monte Carlo Procedures.",
+      "authors": [
+        "North, B.V.",
+        "Curtis, D.",
+        "Sham, P.C."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[15]",
+      "label": "Scikit-learn: Machine learning in Python.",
+      "authors": [
+        "Pedregosa, F.",
+        "Varoquaux, G.",
+        "Gramfort, A.",
+        "et al."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[16]",
+      "label": "CatBoost: unbiased boosting with categorical features.",
+      "authors": [
+        "Prokhorenkova, L.",
+        "Gusev, G.",
+        "et al."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[17]",
+      "label": "statsmodels: Econometric and statistical modeling with python.",
+      "authors": [
+        "Seabold, S.",
+        "Perktold, J."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[18]",
+      "label": "OpenML: gina priori",
+      "authors": [
+        "Vanschoren, J."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[19]",
+      "label": "OpenML: madelon",
+      "authors": [
+        "Vanschoren, J."
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[20]",
+      "label": "OpenML: scene",
+      "authors": [
+        "Vanschoren, J."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[1]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[2]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[3]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[4]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[5]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[6]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[7]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[8]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[9]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[10]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[11]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[12]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[13]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[14]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[15]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[16]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[17]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[18]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[19]"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[20]"
+    }
+  ]
+}

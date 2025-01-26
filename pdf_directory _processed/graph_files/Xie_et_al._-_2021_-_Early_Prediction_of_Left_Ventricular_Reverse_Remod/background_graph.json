@@ -1,0 +1,114 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n1",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "title": "Dilated Cardiomyopathy (DCM)",
+        "description": "Significant cause of heart failure and heart transplantation, with a high mortality rate."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n2",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "title": "Left Ventricular Reverse Remodeling (LVRR)",
+        "description": "Improvements in DCM condition linked to better outcomes."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n3",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "title": "Historical Treatments for DCM",
+        "description": "Include angiotensin-converting enzyme inhibitors, \u03b2-blockers, and mineralocorticoid receptor antagonists."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n4",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "title": "Theoretical Foundations",
+        "description": "Potential of machine learning models in predictive analytics for DCM."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n5",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "title": "Importance of Research",
+        "description": "Early prediction of LVRR could improve management strategies for DCM."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n6",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "title": "Gaps in Research",
+        "description": "Challenges in prognostic stratification in early DCM phases and limited use of prediction models."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n2",
+      "type": "RELATION",
+      "properties": {
+        "description": "DCM improvements linked to LVRR."
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n2",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n5",
+      "type": "RELATION",
+      "properties": {
+        "description": "LVRR prediction could lead to better DCM management."
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n6",
+      "type": "RELATION",
+      "properties": {
+        "description": "DCM research gaps exist, especially in early stratification."
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n3",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n1",
+      "type": "RELATION",
+      "properties": {
+        "description": "Previous DCM treatments linked to current challenges."
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n4",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n5",
+      "type": "RELATION",
+      "properties": {
+        "description": "Machine learning advances could improve early DCM management."
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n6",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n4",
+      "type": "RELATION",
+      "properties": {
+        "description": "Research gaps could be addressed through machine learning."
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "acknowledgments": {
+    "contributors": [
+      {
+        "name": "Scott Lundberg",
+        "contribution": "provided valuable advice concerning the Kernel SHAP method"
+      },
+      {
+        "name": "Ingrid Hob\u00e6k Haff",
+        "contribution": "suggested the copula approach"
+      },
+      {
+        "name": "Nikolai Sellereite",
+        "contribution": "major contributions to the implementation of the methods in the R-package shapr"
+      }
+    ],
+    "funding_sources": [
+      {
+        "name": "Norwegian Research Council grant",
+        "identifier": "237718",
+        "project": "Big Insight"
+      }
+    ],
+    "additional_details": {
+      "software_link": "https://github.com/NorskRegnesentral/shapr"
+    }
+  }
+}

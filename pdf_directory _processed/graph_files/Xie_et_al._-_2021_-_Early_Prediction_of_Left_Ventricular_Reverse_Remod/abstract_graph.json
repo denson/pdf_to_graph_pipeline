@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_obj_1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "To develop an early predictive model for left ventricular reverse remodeling (LVRR) in patients with first-diagnosed idiopathic dilated cardiomyopathy (DCM) using clinical and echocardiographic data."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_meth_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "A single-center study was conducted including 104 patients with idiopathic DCM. Models like logistic regression, random forests, and extreme gradient boosting (XGBoost) were implemented with a 10-fold cross-validated model."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_res_1",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "LVRR occurred in 45.2% of patients after optimal treatment."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_res_2",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "The XGBoost model outperformed logistic regression with an AU-ROC of 0.8205 versus 0.5909."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_imp_1",
+      "labels": [
+        "Implication"
+      ],
+      "properties": {
+        "description": "The tree-based models showed better accuracy in predicting LVRR, aiding in the early identification of non-responders to therapy."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_obj_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_meth_1",
+      "type": "ACHIEVED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_meth_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_res_1",
+      "type": "YIELDS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_meth_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_res_2",
+      "type": "YIELDS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_res_2",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_imp_1",
+      "type": "LEADS_TO",
+      "properties": {}
+    }
+  ]
+}

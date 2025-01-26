@@ -1,0 +1,26 @@
+{
+  "theoretical_framework": {
+    "title": "Shapley Values for Prediction Explanation",
+    "concept": "Shapley values are used to explain individual predictions in machine learning by attributing the contribution of each feature to the prediction.",
+    "principles": [
+      {
+        "efficiency": "The sum of the Shapley values for all features equals the total gain attributed to the prediction compared to the global average prediction.",
+        "description": "Ensures full feature attribution of the prediction deviation from the average."
+      },
+      {
+        "symmetry": "Features with identical contributions have identical Shapley values.",
+        "description": "Avoids biased attribution in predictions."
+      },
+      {
+        "dummy player": "Features without influence on the prediction have Shapley values of zero.",
+        "description": "Attributes no value to irrelevant features."
+      },
+      {
+        "linearity": "The Shapley value for a feature in a composite model equals the sum of its Shapley values from individual models.",
+        "description": "Allows decomposition of ensemble models while maintaining property features."
+      }
+    ],
+    "challenges": "Computational complexity increases exponentially with the number of features, which led to approximations such as Kernel SHAP.",
+    "extensions": "Handling feature dependence within the Shapley framework by relaxing the independence assumption and incorporating methodologies like Gaussian copula and empirical conditional distributions."
+  }
+}

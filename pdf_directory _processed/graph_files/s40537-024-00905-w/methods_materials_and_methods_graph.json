@@ -1,0 +1,290 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_Dataset",
+      "label": [
+        "Dataset"
+      ],
+      "properties": {
+        "name": "Credit Card Fraud Detection Dataset",
+        "source": "Kaggle"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "label": [
+        "Method"
+      ],
+      "properties": {
+        "name": "SHAP-value-based Feature Selection"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "label": [
+        "Method"
+      ],
+      "properties": {
+        "name": "Importance-based Feature Selection"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_XGBoost",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "XGBoost"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_DecisionTree",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "Decision Tree"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_CatBoost",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "CatBoost"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_ExtremelyRandomizedTrees",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "Extremely Randomized Trees"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_RandomForest",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "Random Forest"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "label": [
+        "Metric"
+      ],
+      "properties": {
+        "name": "AUPRC"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_CrossValidation",
+      "label": [
+        "Validation"
+      ],
+      "properties": {
+        "folds": 5,
+        "repeat": 10
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_ZTest",
+      "label": [
+        "StatisticalTest"
+      ],
+      "properties": {
+        "name": "z-test",
+        "alpha": 0.01
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_ANOVATest",
+      "label": [
+        "StatisticalTest"
+      ],
+      "properties": {
+        "name": "ANOVA"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_Python",
+      "label": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Python"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_SHAPLibrary",
+      "label": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "SHAP library"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_PythonDataScienceStack",
+      "label": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Python data science stack"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_Platform",
+      "label": [
+        "Platform"
+      ],
+      "properties": {
+        "cpu": "16-core Intel Xeon",
+        "gpu": "Nvidia V100",
+        "ram": "256 GB per CPU"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Dataset",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "type": "USED_FOR"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Dataset",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "type": "USED_FOR"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_XGBoost",
+      "type": "FEATURE_SELECTION_FOR"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_DecisionTree",
+      "type": "FEATURE_SELECTION_FOR"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CatBoost",
+      "type": "FEATURE_SELECTION_FOR"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_ExtremelyRandomizedTrees",
+      "type": "FEATURE_SELECTION_FOR"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_RandomForest",
+      "type": "FEATURE_SELECTION_FOR"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_XGBoost",
+      "type": "FEATURE_SELECTION_FOR"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_DecisionTree",
+      "type": "FEATURE_SELECTION_FOR"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CatBoost",
+      "type": "FEATURE_SELECTION_FOR"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_ExtremelyRandomizedTrees",
+      "type": "FEATURE_SELECTION_FOR"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_RandomForest",
+      "type": "FEATURE_SELECTION_FOR"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_XGBoost",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "type": "EVALUATED_WITH"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_DecisionTree",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "type": "EVALUATED_WITH"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_CatBoost",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "type": "EVALUATED_WITH"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_ExtremelyRandomizedTrees",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "type": "EVALUATED_WITH"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_RandomForest",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "type": "EVALUATED_WITH"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_XGBoost",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CrossValidation",
+      "type": "VALIDATED_WITH"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_DecisionTree",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CrossValidation",
+      "type": "VALIDATED_WITH"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_CatBoost",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CrossValidation",
+      "type": "VALIDATED_WITH"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_ExtremelyRandomizedTrees",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CrossValidation",
+      "type": "VALIDATED_WITH"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_RandomForest",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CrossValidation",
+      "type": "VALIDATED_WITH"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_ZTest",
+      "type": "ANALYZED_WITH"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_ANOVATest",
+      "type": "ANALYZED_WITH"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Platform",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_Python",
+      "type": "USED_ON"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Platform",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_SHAPLibrary",
+      "type": "USED_ON"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Platform",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_PythonDataScienceStack",
+      "type": "USED_ON"
+    }
+  ]
+}

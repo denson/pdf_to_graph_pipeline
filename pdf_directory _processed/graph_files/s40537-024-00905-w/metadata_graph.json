@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "title": "Feature selection strategies: a comparative analysis of SHAP\u2011value and importance\u2011based methods",
+        "abstract": "In the context of high-dimensional credit card fraud data, researchers and practitioners commonly utilize feature selection techniques to enhance the performance of fraud detection models. This study presents a comparison in model performance using the most important features selected by SHAP (SHapley Additive exPlanations) values and the model\u2019s built-in feature importance list. Both methods rank features and choose the most significant ones for model assessment. To evaluate the effectiveness of these feature selection techniques, classification models are built using five classifiers: XGBoost, Decision Tree, CatBoost, Extremely Randomized Trees, and Random Forest. The Area under the Precision-Recall Curve (AUPRC) serves as the evaluation metric. All experiments are executed on the Kaggle Credit Card Fraud Detection Dataset. The experimental outcomes and statistical tests indicate that feature selection methods based on importance values outperform those based on SHAP values across classifiers and various feature subset sizes. For models trained on larger datasets, it is recommended to use the model\u2019s built-in feature importance list as the primary feature selection method over SHAP. This suggestion is based on the rationale that computing SHAP feature importance is a distinct activity, while models naturally provide built-in feature importance as part of the training process, requiring no additional effort. Consequently, opting for the model\u2019s built-in feature importance list can offer a more efficient and practical approach for larger datasets and more intricate models.",
+        "publication_date": "2024-03-14",
+        "doi": "10.1186/s40537-024-00905-w"
+      }
+    },
+    {
+      "id": "author_001",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Huanjing Wang"
+      }
+    },
+    {
+      "id": "author_002",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Qianxin Liang"
+      }
+    },
+    {
+      "id": "author_003",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "John T. Hancock"
+      }
+    },
+    {
+      "id": "author_004",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Taghi M. Khoshgoftaar"
+      }
+    },
+    {
+      "id": "keyword_001",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Feature selection"
+      }
+    },
+    {
+      "id": "keyword_002",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Class imbalance"
+      }
+    },
+    {
+      "id": "keyword_003",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Credit card fraud"
+      }
+    },
+    {
+      "id": "keyword_004",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "SHAP"
+      }
+    },
+    {
+      "id": "keyword_005",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Feature importance"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "author_001",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "author_002",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "author_003",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "author_004",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "keyword_001",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "keyword_002",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "keyword_003",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "keyword_004",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "keyword_005",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    }
+  ]
+}

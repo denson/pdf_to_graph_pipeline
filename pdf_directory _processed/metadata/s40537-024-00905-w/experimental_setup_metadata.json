@@ -1,0 +1,76 @@
+{
+  "experimental_setup": {
+    "dataset": {
+      "name": "Kaggle Credit Card Fraud Detection Dataset",
+      "size": "284,807 transactions",
+      "fraud_transactions": "492",
+      "features": "30 numerical features, with 28 transformed by PCA"
+    },
+    "feature_selection_methods": [
+      {
+        "name": "SHAP-value-based",
+        "libraries": [
+          "SHAP Python library"
+        ]
+      },
+      {
+        "name": "Importance-based",
+        "libraries": [
+          "Not specified"
+        ]
+      }
+    ],
+    "classifiers": [
+      "XGBoost",
+      "Decision Tree (DT)",
+      "CatBoost",
+      "Extremely Randomized Trees (ET)",
+      "Random Forest (RF)"
+    ],
+    "configuration": {
+      "catboost_settings": {
+        "task_type": "GPU",
+        "max_ctr_complexity": "1",
+        "max_depth": "5"
+      },
+      "et_settings": {
+        "max_depth": "8"
+      },
+      "xgboost_settings": {
+        "max_depth": "3",
+        "tree_method": "gpu_hist"
+      },
+      "random_forest_settings": {
+        "max_depth": "4"
+      }
+    },
+    "protocols": {
+      "cross_validation": {
+        "type": "five-fold cross-validation",
+        "runs": "10"
+      },
+      "evaluation_metric": "Area Under the Precision-Recall Curve (AUPRC)"
+    },
+    "computing_resources": {
+      "platform_description": "Distributed computing platform with nodes equipped with 16-core Intel Xeon CPUs, 256 GB RAM per CPU, and Nvidia V100 GPUs"
+    },
+    "software": [
+      "Python",
+      "SHAP library",
+      "Python data science stack"
+    ],
+    "visualization_tools": [
+      "SHAP feature importance values visualization tools"
+    ],
+    "study_details": {
+      "feature_selection_sizes": [
+        3,
+        5,
+        7,
+        10,
+        15
+      ],
+      "statistical_tests": "Z-tests with significance level of \u03b1 = 0.01"
+    }
+  }
+}

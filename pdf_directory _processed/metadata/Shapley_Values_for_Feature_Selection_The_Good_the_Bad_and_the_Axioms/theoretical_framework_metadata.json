@@ -1,0 +1,27 @@
+{
+  "theoretical_framework": {
+    "foundation": "The study is primarily based on the theoretical framework of the Shapley value, a concept rooted in game theory. This involves assessing the contributions of individual players (features) in a transferable utility game.",
+    "axioms": [
+      {
+        "name": "Efficiency",
+        "description": "The worth of the full model (C(F)) is distributed in a lossless manner among the features."
+      },
+      {
+        "name": "Null Player",
+        "description": "If a feature contributes nothing to each submodel it enters, then its Shapley value is zero."
+      },
+      {
+        "name": "Symmetry",
+        "description": "Any two features that play equal roles have equal Shapley values."
+      },
+      {
+        "name": "Additivity",
+        "description": "The Shapley value of a feature preserves addition of the evaluation functions, meaning it is additive over multiple games."
+      }
+    ],
+    "game_theory": "The study operates within the domain of transferable utility games where contributions are assessed via specific evaluation functions that capture the worth of submodels.",
+    "criticisms": "The paper challenges the appropriateness of using Shapley values for feature selection by highlighting potential misalignments between the axioms' implications and feature selection goals.",
+    "objective": "To scrutinize the reliance on axioms (like fairness) in feature attribution and to assess how these axioms might affect the suitability of Shapley values in feature selection contexts.",
+    "remarks": "The study suggests that while the Shapley values adhere to certain principles viewed as fair, their suitability and interpretative power in feature selection still depend heavily on the specific game formulation."
+  }
+}

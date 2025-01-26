@@ -1,0 +1,29 @@
+{
+  "software_used": [
+    {
+      "name": "scikit-learn",
+      "version": "0.22",
+      "environment": "Python 3.7.6",
+      "purpose": "Machine learning for data processing, modeling, and evaluation",
+      "access_link": "https://scikit-learn.org/stable/"
+    },
+    {
+      "name": "Anaconda 3",
+      "version": "4.8.5-Linux-x86_64",
+      "purpose": "Environment for running Python tools",
+      "access_link": "https://www.anaconda.com/"
+    },
+    {
+      "name": "SPSS",
+      "version": "22.0",
+      "purpose": "Descriptive statistics",
+      "access_link": "https://www.ibm.com/products/spss-statistics"
+    }
+  ],
+  "software_code_availability": {
+    "code_used": "XGBoost, random forests, logistic regression",
+    "availability": "Data and methodologies are available from the corresponding author upon request.",
+    "public_access": "No direct code links provided. Request-based access.",
+    "study_registration": "http://www.chictr.org.cn/usercenter.aspx (ChiCTR2000034128)"
+  }
+}

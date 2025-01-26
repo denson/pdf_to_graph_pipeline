@@ -1,0 +1,25 @@
+{
+  "acknowledgments": {
+    "contributors": [
+      {
+        "name": "HJW",
+        "contributions": "Contributed to the manuscript"
+      },
+      {
+        "name": "QXL and JTH",
+        "contributions": "Conducted experiments and contributed to the manuscript"
+      },
+      {
+        "name": "TMK",
+        "contributions": "Provided oversight of experiments, coordinated research, and contributed to the manuscript"
+      }
+    ],
+    "funding_sources": "Not applicable",
+    "institute_contributors": [
+      {
+        "name": "Data Mining and Machine Learning Laboratory, Florida Atlantic University",
+        "contributions": "Assisted with the reviews"
+      }
+    ]
+  }
+}

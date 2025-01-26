@@ -1,0 +1,10 @@
+{
+  "objectives_aims_scope": {
+    "objective": "Early prediction of left ventricular reverse remodeling (LVRR) in first-diagnosed idiopathic dilated cardiomyopathy (DCM).",
+    "aims": [
+      "To compare the effectiveness of different prediction models: Linear Model, Random Forest, and Extreme Gradient Boosting (XGBoost).",
+      "To build a model to early differentiate LVRR and non-LVRR using clinical data collected before treatment."
+    ],
+    "scope": "The study focuses on a single-center cohort of 104 patients with idiopathic DCM in Guangzhou, China. It explores the utility of machine learning models in predicting LVRR to facilitate disease management and invasive therapy selection. The study also aims to contribute to better prognostic stratification in early phases of DCM."
+  }
+}

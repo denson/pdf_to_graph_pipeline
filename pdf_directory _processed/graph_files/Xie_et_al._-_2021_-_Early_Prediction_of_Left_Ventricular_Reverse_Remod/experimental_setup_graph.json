@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Sun Yat-sen Memorial Hospital",
+      "label": [
+        "Location"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "label": [
+        "Population"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Inclusion Criteria",
+      "label": [
+        "Criteria"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Exclusion Criteria",
+      "label": [
+        "Criteria"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_LVRR Group",
+      "label": [
+        "Experimental Group"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Non-LVRR Group",
+      "label": [
+        "Experimental Group"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Main Endpoints",
+      "label": [
+        "Endpoints"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Follow-up Duration",
+      "label": [
+        "Protocol"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Data Collected",
+      "label": [
+        "Data"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Logistic Regression",
+      "label": [
+        "Technique"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Random Forest",
+      "label": [
+        "Technique"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_XGBoost",
+      "label": [
+        "Technique"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Model Evaluation",
+      "label": [
+        "Evaluation"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Key Features for Model",
+      "label": [
+        "Features"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "Sun Yat-sen Memorial Hospital",
+      "to": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "type": "LOCATION_FOR"
+    },
+    {
+      "from": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "to": "Inclusion Criteria",
+      "type": "DEFINED_BY"
+    },
+    {
+      "from": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "to": "Exclusion Criteria",
+      "type": "DEFINED_BY"
+    },
+    {
+      "from": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "to": "LVRR Group",
+      "type": "PART_OF"
+    },
+    {
+      "from": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "to": "Non-LVRR Group",
+      "type": "PART_OF"
+    },
+    {
+      "from": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "to": "Main Endpoints",
+      "type": "MEASURED_BY"
+    },
+    {
+      "from": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "to": "Follow-up Duration",
+      "type": "FOLLOWED_UP_BY"
+    },
+    {
+      "from": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "to": "Data Collected",
+      "type": "DATA_FROM"
+    },
+    {
+      "from": "Data Collected",
+      "to": "Logistic Regression",
+      "type": "ANALYZED_BY"
+    },
+    {
+      "from": "Data Collected",
+      "to": "Random Forest",
+      "type": "ANALYZED_BY"
+    },
+    {
+      "from": "Data Collected",
+      "to": "XGBoost",
+      "type": "ANALYZED_BY"
+    },
+    {
+      "from": "Logistic Regression",
+      "to": "Model Evaluation",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "Random Forest",
+      "to": "Model Evaluation",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "XGBoost",
+      "to": "Model Evaluation",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "Model Evaluation",
+      "to": "Key Features for Model",
+      "type": "IDENTIFIES"
+    }
+  ]
+}

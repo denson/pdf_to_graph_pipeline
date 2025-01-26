@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_introduction_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "The study focuses on modeling sap flow in European beech trees using various techniques under varying soil moisture conditions."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_introduction_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "Understanding sap flow is critical for evaluating water and nutrient dynamics in trees, especially during drought conditions exacerbated by climate change."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_introduction_3",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "The paper investigates whether simpler linear models can perform comparably to advanced machine learning techniques in predicting sap flow in European beech trees."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_introduction_1",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_introduction_2",
+      "type": "INFORMS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_introduction_2",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_introduction_3",
+      "type": "MOTIVATES",
+      "properties": {}
+    }
+  ]
+}

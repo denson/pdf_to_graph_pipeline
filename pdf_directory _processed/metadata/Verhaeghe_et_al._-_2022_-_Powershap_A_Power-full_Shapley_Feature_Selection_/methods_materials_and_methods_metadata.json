@@ -1,0 +1,99 @@
+{
+  "title": "Powershap: A Power-full Shapley Feature Selection Method",
+  "authors": [
+    "Jarne Verhaeghe",
+    "Jeroen Van Der Donckt",
+    "Femke Ongenae",
+    "Sofie Van Hoecke"
+  ],
+  "methods": {
+    "overview": "Powershap is a wrapper feature selection method that utilizes statistical hypothesis testing, power calculations, and Shapley values for feature selection.",
+    "algorithm_components": [
+      {
+        "name": "Explain component",
+        "process": "Multiple models are trained using different random seeds on subsets of the data, with each subset containing a random feature. Shapley values from out-of-sample data quantify the feature impact."
+      },
+      {
+        "name": "Core powershap component",
+        "process": "Statistical comparison of the impact of original features to the random feature using percentile calculations to determine p-values."
+      }
+    ],
+    "automatic_mode": {
+      "description": "Automatically determines the number of iterations needed for feature selection using power calculations.",
+      "parameters": {
+        "alpha": "0.01",
+        "required_power": "0.99"
+      }
+    },
+    "additional_optimizations": [
+      "Convergence mode for iterative discovery of features by excluding previously found and using recursive execution."
+    ]
+  },
+  "materials": {
+    "tools": [
+      {
+        "name": "CatBoost",
+        "usage": "Used as the default machine learning model for feature selection."
+      },
+      {
+        "name": "Sklearn",
+        "usage": "Used for filter feature selection methods like chi-squared and F-test."
+      },
+      {
+        "name": "Python",
+        "component": "Powershap implemented as an open-source plug-and-play sklearn component."
+      }
+    ],
+    "datasets": [
+      {
+        "name": "Simulation dataset",
+        "characteristics": "Created using sklearn's make_classification with varying features and informative feature ratios, containing 5000 samples."
+      },
+      {
+        "name": "Benchmark datasets",
+        "items": [
+          {
+            "name": "Madelon",
+            "type": "Classification",
+            "source": "OpenML",
+            "features": 500,
+            "train_size": 1950,
+            "test_size": 650
+          },
+          {
+            "name": "Gina Priori",
+            "type": "Classification",
+            "source": "OpenML",
+            "features": 784,
+            "train_size": 2601,
+            "test_size": 867
+          },
+          {
+            "name": "Scene",
+            "type": "Classification",
+            "source": "OpenML",
+            "features": 294,
+            "train_size": 1805,
+            "test_size": 867
+          },
+          {
+            "name": "CT Location",
+            "type": "Regression",
+            "source": "UCI",
+            "features": 384,
+            "train_size": 41347,
+            "test_size": 12153
+          },
+          {
+            "name": "Appliances",
+            "type": "Regression",
+            "source": "UCI",
+            "features": 30,
+            "train_size": 14801,
+            "test_size": 4934
+          }
+        ]
+      }
+    ]
+  }
+}

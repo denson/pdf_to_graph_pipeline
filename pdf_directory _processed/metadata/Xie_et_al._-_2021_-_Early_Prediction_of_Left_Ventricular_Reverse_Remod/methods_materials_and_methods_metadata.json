@@ -1,0 +1,78 @@
+{
+  "study_population": {
+    "center": "Sun Yat-sen Memorial Hospital of Sun Yat-sen University",
+    "location": "Guangzhou, China",
+    "period": "January 2014 to December 2017",
+    "sample_size": 104,
+    "diagnosis": "Idiopathic Dilated Cardiomyopathy (DCM)",
+    "criteria": [
+      "LVDd >5.0 cm (female) or LVDd >5.5 cm (male)",
+      "LVEF <45% and left ventricular shortening fraction <25%",
+      "Exclusion of other heart diseases and systemic conditions"
+    ],
+    "exclusion_criteria": [
+      "Alcoholic or peripartum cardiomyopathy",
+      "Coronary heart disease and other specified conditions",
+      "Receiving non-recommended therapies"
+    ]
+  },
+  "methods": {
+    "model_comparison": [
+      "Linear Model",
+      "Random Forest",
+      "Extreme Gradient Boosting (XGBoost)"
+    ],
+    "evaluation": {
+      "method": "10-fold cross-validation",
+      "metrics": [
+        "Receiver Operating Characteristic (ROC) curves",
+        "Calibration plot"
+      ]
+    },
+    "data_imputation": "K-nearest neighbors",
+    "analysis_features": [
+      "Demographic characteristics",
+      "Comorbidities",
+      "Physical signs",
+      "Biochemistry data",
+      "Echocardiography",
+      "Electrocardiogram",
+      "Holter monitoring",
+      "Medication"
+    ]
+  },
+  "experimental_setup": {
+    "machine_learning": {
+      "models": [
+        "XGBoost",
+        "Random Forest",
+        "Logistic Regression"
+      ],
+      "feature_selection": "Greedy feature selection algorithm",
+      "software_tools": "Python 3.7.6, scikit-learn 0.22, SPSS 22.0"
+    },
+    "data_split": "Training and testing sets with ratio 6:4",
+    "optimization": "Grid search for optimal parameters"
+  },
+  "tools": {
+    "software": [
+      "Python",
+      "Scikit-learn",
+      "SPSS"
+    ]
+  },
+  "data_collection": {
+    "sources": "Electronic health records",
+    "parameters": [
+      "Demographic characteristics",
+      "Clinical and laboratory data",
+      "Echocardiographic measurements"
+    ]
+  },
+  "results": {
+    "key_findings": [
+      "XGBoost and Random Forest models showed higher accuracy than Logistic Regression",
+      "Cystatin C, right ventricular end-diastolic dimension, and HDL-C are important features"
+    ]
+  }
+}

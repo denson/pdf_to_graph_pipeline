@@ -1,0 +1,33 @@
+{
+  "research_context": {
+    "problem_statement": "Detecting credit card fraud is crucial within the finance industry and heavily relies on transaction datasets. The quality of data significantly influences modeling decisions.",
+    "importance": "Feature selection is an essential step in data preprocessing for improving model performance by identifying relevant features and removing irrelevant ones.",
+    "current_challenges": "High-dimensional data in credit card fraud detection causes challenges in model building and evaluation.",
+    "methods_compared": "This study compares SHAP-value and model\u2019s built-in feature importance methods for feature selection.",
+    "evaluation_metric": "Area under the Precision-Recall Curve (AUPRC) is used for evaluating model performance.",
+    "dataset_used": "Kaggle Credit Card Fraud Detection Dataset, containing 284,807 transactions with 492 labeled as fraudulent."
+  },
+  "historical_context": {
+    "feature_selection_methods": {
+      "SHAP": "Leverages game theory concepts to compute and rank feature importance.",
+      "Importance-based": "Uses decision tree classifiers to compute feature importance during the model training process."
+    },
+    "classifiers_used": [
+      "XGBoost",
+      "Decision Tree",
+      "CatBoost",
+      "Extremely Randomized Trees",
+      "Random Forest"
+    ],
+    "limitations_of_prior_studies": "Previous studies used feature selection techniques but did not compare SHAP with model\u2019s built-in importance lists specifically for credit card fraud detection."
+  },
+  "related_work_insights": [
+    "There is limited use of SHAP for feature selection in credit card fraud detection.",
+    "Random Forest has been widely used for its ability to handle complex, high-dimensional datasets and detect feature interactions.",
+    "Boruta and RF were used in related studies for credit card fraud with a focus on feature importance."
+  ],
+  "notable_findings": {
+    "SHAP_vs_Importance": "Importance-based feature selection generally outperforms SHAP across various classifiers and feature subset sizes.",
+    "Efficiency": "Model's built-in feature importance is more efficient for larger datasets due to lesser computational requirements compared to SHAP."
+  }
+}

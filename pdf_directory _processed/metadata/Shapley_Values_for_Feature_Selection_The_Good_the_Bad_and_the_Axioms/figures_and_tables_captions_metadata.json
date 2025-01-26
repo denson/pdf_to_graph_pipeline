@@ -1,0 +1,32 @@
+{
+  "figures_and_tables_captions": [
+    {
+      "type": "Figure",
+      "figure_number": 1,
+      "caption": "A diagram of the evaluation function with \u201csecret holder\u201d style payoff described in Example 11.",
+      "page_number": null,
+      "additional_details": null
+    },
+    {
+      "type": "Figure",
+      "figure_number": 2,
+      "caption": "Causal graphs, where (a) corresponds to the DGP (3) and (b) corresponds to (4).",
+      "page_number": null,
+      "additional_details": null
+    },
+    {
+      "type": "Figure",
+      "figure_number": 3,
+      "caption": "The (a) SAGE values for the DGP in (4) across a grid of 0.05 \u2264 \u2113 \u2264 0.95, (b) Shapley values for the mean absolute SHAP, SAGE and m function formulations, for the difference \u03d51 \u2212 \u03d52 between attribution to X1 and X2, across the same range of \u2113 values. Similar results were observed for the difference \u03d51 \u2212 \u03d53. Values \u03d51 \u2212 \u03d52 < 0 indicate regions of the parameter space for which model selection results are inadequate.",
+      "page_number": null,
+      "additional_details": null
+    },
+    {
+      "type": "Figure",
+      "figure_number": 4,
+      "caption": "Grid points (t1, t2) for \u22122 \u2264 ti \u2264 2 at 0.05 increments, in the parameter space for the DGP (6) described in Section IV-C. Points in orange are where \u03d5i \u2212 \u03d51 > 0, as well as C({1, i}) \u2212 C({2, 3}) > 0, for both i = 2 and i = 3.",
+      "page_number": null,
+      "additional_details": null
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "study": {
+    "title": "Powershap: A Power-full Shapley Feature Selection Method",
+    "authors": [
+      "Jarne Verhaeghe",
+      "Jeroen Van Der Donckt",
+      "Femke Ongenae",
+      "Sofie Van Hoecke"
+    ],
+    "affiliation": "IDLab, Ghent University - imec",
+    "abstract": "Powershap is a novel wrapper feature selection method leveraging statistical hypothesis testing and power calculations with Shapley values. It outperforms other filter methods and matches wrapper methods' performances while being significantly faster.",
+    "results": {
+      "general": "Powershap provides strong feature selection with faster execution times compared to traditional wrapper methods and some state-of-the-art alternatives.",
+      "simulation_results": {
+        "accuracy": {
+          "informative_features_found": "Up to 73% for datasets with 500 features and 90% informative features in convergence mode",
+          "noise_features_selected": "Limited noise features selected, outperforming others"
+        },
+        "speed": "Fastest among wrapper methods in simulation tests"
+      },
+      "benchmark_results": {
+        "datasets": [
+          {
+            "name": "Madelon",
+            "duration": "132s",
+            "selected_features": 22
+          },
+          {
+            "name": "Gina priori",
+            "duration": "184s",
+            "selected_features": 105
+          },
+          {
+            "name": "Scene",
+            "duration": "115s",
+            "selected_features": 36
+          },
+          {
+            "name": "CT location",
+            "duration": "459s",
+            "selected_features": 123
+          },
+          {
+            "name": "Appliances",
+            "duration": "34s",
+            "selected_features": 24
+          }
+        ],
+        "performance": "Consistently among the best or equal in performance to other methods across various datasets, especially in terms of execution time and feature set quality"
+      }
+    },
+    "conclusion": "Powershap is a competitive, fast, and reliable feature selection method ready for integration in machine learning pipelines."
+  }
+}

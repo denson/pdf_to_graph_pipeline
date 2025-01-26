@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Powershap is a novel feature selection method leveraging Shapley values, surpassing filter methods in speed and performing on par with wrapper methods in terms of predictive accuracy on benchmark datasets."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_method_approach_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Powershap combines statistical hypothesis testing, power calculations, and Shapley values to assess feature importance."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_method_approach_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Features are selected by comparing their Shapley value impacts against those of a known random feature."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_method_approach_3",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Automatic mode optimizes parameters using statistical power calculations to determine adequate iteration counts, aiming for efficient yet robust feature selection."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_research_gap_1",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "Performance is heavily reliant on the choice of underlying machine learning models, influencing feature selection quality."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_research_gap_2",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "In datasets with high dimensionality and high ratio of informative features, the default setup may struggle due to model underfitting risks."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_research_gap_3",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "Many hyperparameters were set to defaults without extensive tuning, possibly affecting benchmark impartiality."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_insight_1",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Convergence mode allows recursive execution to discover additional informative features in complex datasets."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_insight_2",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Backward selection can be added post-powershap execution to further refine selected feature subsets."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_method_approach_1",
+      "type": "Utilizes"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_method_approach_2",
+      "type": "Utilizes"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_method_approach_3",
+      "type": "Utilizes"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_research_gap_1",
+      "type": "HasResearchGap"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_research_gap_2",
+      "type": "HasResearchGap"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_research_gap_3",
+      "type": "HasResearchGap"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_insight_1",
+      "type": "LeadsToInsight"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_insight_2",
+      "type": "LeadsToInsight"
+    }
+  ]
+}

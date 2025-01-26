@@ -1,0 +1,9 @@
+{
+  "core_objectives": "The paper aims to improve the explanation of individual predictions in machine learning models by providing more accurate approximations of Shapley values that can handle dependent features.",
+  "methods": "The paper extends the Kernel SHAP method to account for dependent features, using different approaches to estimate the conditional distributions. These include Gaussian distribution assumptions, Gaussian copula with empirical margins, an empirical approach, and a combination of empirical and parametric methods.",
+  "key_findings": "The extended Kernel SHAP method, which accounts for feature dependence, provides more accurate approximations to the true Shapley values than the original method in scenarios with dependent features. In experimental evaluations across various models and data distributions, the proposed methods consistently outperformed the original Kernel SHAP method, especially in scenarios with non-linear dependencies among features.",
+  "additional_details": {
+    "implementation": "The methodology has been implemented in an R package available at: https://github.com/NorskRegnesentral/shapr.",
+    "simulation_study": "Experiments were conducted in both low (3-dimensional) and moderate (10-dimensional) feature spaces, demonstrating superior performance of the proposed methods over the original, especially in scenarios with feature dependence."
+  }
+}

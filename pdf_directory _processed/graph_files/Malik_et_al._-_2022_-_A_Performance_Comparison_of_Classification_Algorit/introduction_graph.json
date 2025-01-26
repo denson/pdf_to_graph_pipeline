@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_context_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "The study is conducted within the context of an agriculture-based economy in Pakistan, focusing on rose plants due to their economic value and global demand."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_context_2",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "Research in plant classification using machine learning techniques."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_motivation_1",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "Improve the cost-benefit ratio in agriculture by adopting new technologies and automated processes for rose plant classification."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_motivation_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "Utilize smart mobile devices to automate rose plant classification."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_problem_1",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "Manual identification of rose plants is tedious and time-consuming, necessitating an automated machine learning-based approach."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_context_1",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_problem_1",
+      "type": "HAS_PROBLEM",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_context_2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_problem_1",
+      "type": "HAS_PROBLEM",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_motivation_1",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_problem_1",
+      "type": "MOTIVATES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_motivation_2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_problem_1",
+      "type": "MOTIVATES",
+      "properties": {}
+    }
+  ]
+}

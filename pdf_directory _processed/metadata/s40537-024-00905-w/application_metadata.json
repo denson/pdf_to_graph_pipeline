@@ -1,0 +1,24 @@
+{
+  "applications": [
+    {
+      "application_area": "Credit Card Fraud Detection",
+      "dataset_used": "Kaggle Credit Card Fraud Detection Dataset",
+      "techniques_compared": [
+        "SHAP-based feature selection",
+        "Importance-based feature selection"
+      ],
+      "classifiers_used": [
+        "XGBoost",
+        "Decision Tree",
+        "CatBoost",
+        "Extremely Randomized Trees",
+        "Random Forest"
+      ],
+      "evaluation_metric": "Area Under the Precision-Recall Curve (AUPRC)",
+      "key_findings": "Feature selection methods based on importance values outperform those based on SHAP values across classifiers and various feature subset sizes.",
+      "recommendation": "For larger datasets and more intricate models, it is recommended to use the model's built-in feature importance list as the primary feature selection method over SHAP.",
+      "limitations": "Study limited to one dataset; computational time for SHAP is higher compared to other feature importance methods.",
+      "future_work_suggestions": "Explore these two feature selection methods across diverse application domains."
+    }
+  ]
+}

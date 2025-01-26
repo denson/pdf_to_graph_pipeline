@@ -1,0 +1,28 @@
+{
+  "objectives_aims_scope": {
+    "objectives": [
+      "To identify rose types automatically using the leaves of rose plants.",
+      "To develop an expert application for classifying roses using a smartphone camera."
+    ],
+    "aims": [
+      "The study aims to optimize the performance of the Random Forest model by tuning its various parameters.",
+      "To achieve superior classification results using ensemble classifiers and machine learning models."
+    ],
+    "scope": [
+      "The scope covers the machine learning-based identification of rose types by analyzing features from their leaves.",
+      "Various machine learning algorithms are tested including Naive Bayes, Generalized Linear Model, Multilayer Perceptron, Decision Tree, Random Forest, Gradient Boosted Trees, and Support Vector Machine.",
+      "The study includes the optimization and comparison of ensemble classifiers using different parameter settings."
+    ],
+    "additional_information": {
+      "study_contributions": [
+        "Designed a methodology for automatic rose classification using rose leaves.",
+        "Analyzed the performance of several machine learning models and ensemble classifiers.",
+        "Focused optimization efforts on the Random Forest model to improve its classification accuracy."
+      ],
+      "use_of_technology": [
+        "The proposed method utilizes smartphone cameras for image capturing of rose leaves.",
+        "Implemented machine learning techniques for precise flower identification."
+      ]
+    }
+  }
+}

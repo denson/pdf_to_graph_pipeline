@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_application_1",
+      "label": "Credit Card Fraud Detection",
+      "type": [
+        "Application"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_2",
+      "label": "Kaggle Credit Card Fraud Detection Dataset",
+      "type": [
+        "Dataset"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_3",
+      "label": "SHAP-based feature selection",
+      "type": [
+        "Technique"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_4",
+      "label": "Importance-based feature selection",
+      "type": [
+        "Technique"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_5",
+      "label": "XGBoost",
+      "type": [
+        "Classifier"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_6",
+      "label": "Decision Tree",
+      "type": [
+        "Classifier"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_7",
+      "label": "CatBoost",
+      "type": [
+        "Classifier"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_8",
+      "label": "Extremely Randomized Trees",
+      "type": [
+        "Classifier"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_9",
+      "label": "Random Forest",
+      "type": [
+        "Classifier"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_10",
+      "label": "Area Under the Precision-Recall Curve (AUPRC)",
+      "type": [
+        "Evaluation Metric"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_11",
+      "label": "Key Finding: Importance-based feature selection outperforms SHAP",
+      "type": [
+        "Finding"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_12",
+      "label": "Recommendation: Use model's built-in feature importance list",
+      "type": [
+        "Recommendation"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_13",
+      "label": "Limitation: Study limited to one dataset",
+      "type": [
+        "Limitation"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_14",
+      "label": "Limitation: Computational time for SHAP is higher",
+      "type": [
+        "Limitation"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_15",
+      "label": "Future Work: Explore across diverse application domains",
+      "type": [
+        "Future Work"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_2",
+      "type": "USES_DATASET"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_3",
+      "type": "USES_TECHNIQUE"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_4",
+      "type": "USES_TECHNIQUE"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_5",
+      "type": "USES_CLASSIFIER"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_6",
+      "type": "USES_CLASSIFIER"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_7",
+      "type": "USES_CLASSIFIER"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_8",
+      "type": "USES_CLASSIFIER"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_9",
+      "type": "USES_CLASSIFIER"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_10",
+      "type": "USES_METRIC"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_11",
+      "type": "HAS_FINDING"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_12",
+      "type": "HAS_RECOMMENDATION"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_13",
+      "type": "HAS_LIMITATION"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_14",
+      "type": "HAS_LIMITATION"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_15",
+      "type": "HAS_FUTURE_WORK"
+    }
+  ]
+}

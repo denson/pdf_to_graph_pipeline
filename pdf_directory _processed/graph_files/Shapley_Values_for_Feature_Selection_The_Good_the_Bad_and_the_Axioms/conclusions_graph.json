@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_1",
+      "label": "Shapley value, while theoretically robust, may not be suitable for feature selection due to its axioms, which do not inherently guarantee suitability for this task.",
+      "type": "Conclusion"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_2",
+      "label": "The use of Shapley values in Explainable AI (XAI) for feature selection can lead to suboptimal feature sets, particularly if relying on its axiomatic fairness.",
+      "type": "Conclusion"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_3",
+      "label": "Algorithm and evaluation function choice are critical in determining the effectiveness of Shapley values in feature selection.",
+      "type": "Conclusion"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_4",
+      "label": "In experimental evaluations, traditional formulations of Shapley values (e.g., SHAP) perform poorly in feature selection tasks when compared with SAGE in specific scenarios.",
+      "type": "Conclusion"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_5",
+      "label": "Insights suggest caution in naive Shapley values application for feature selection and underscore careful consideration of game formulation and evaluation function.",
+      "type": "Conclusion"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_6",
+      "label": "Future work should focus on alternative game theoretic solution concepts and empirical studies to identify more suitable axioms and formulations for feature selection.",
+      "type": "Conclusion"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_5"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_5"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_5"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_4",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_5"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_5",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_6"
+    }
+  ]
+}

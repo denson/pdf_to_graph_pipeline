@@ -1,0 +1,22 @@
+{
+  "hypotheses": [
+    {
+      "hypothesis": "XGBoost and random forest models combining routine clinical indexes can predict left ventricular reverse remodeling (LVRR) in patients with dilated cardiomyopathy (DCM) more accurately than logistic regression.",
+      "method": "Comparison of XGBoost, random forest, and logistic regression models trained with clinical and laboratory data.",
+      "results": "XGBoost and random forest achieved higher AUCs (0.8205 and 0.7989, respectively) compared to logistic regression (0.5909), indicating better performance in predicting LVRR.",
+      "variables": [
+        "Cystatin C",
+        "Right ventricular end-diastolic dimension",
+        "HDL-C",
+        "Left atrial dimension",
+        "Left ventricular posterior wall dimension",
+        "Systolic blood pressure",
+        "Severe mitral regurgitation",
+        "eGFR",
+        "NYHA classification"
+      ],
+      "population": "104 patients with idiopathic dilated cardiomyopathy",
+      "outcome_measured": "Left ventricular reverse remodeling (LVRR)"
+    }
+  ]
+}

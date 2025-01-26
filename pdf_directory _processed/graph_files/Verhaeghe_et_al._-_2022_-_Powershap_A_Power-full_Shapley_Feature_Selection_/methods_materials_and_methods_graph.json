@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Powershap",
+      "label": [
+        "Method"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Explain component",
+      "label": [
+        "Method Component"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Core powershap component",
+      "label": [
+        "Method Component"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Automatic mode",
+      "label": [
+        "Method Component"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_CatBoost",
+      "label": [
+        "Tool"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Sklearn",
+      "label": [
+        "Tool"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Python",
+      "label": [
+        "Tool"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Simulation dataset",
+      "label": [
+        "Dataset"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Madelon",
+      "label": [
+        "Benchmark Dataset"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Gina Priori",
+      "label": [
+        "Benchmark Dataset"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Scene",
+      "label": [
+        "Benchmark Dataset"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_CT Location",
+      "label": [
+        "Benchmark Dataset"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Appliances",
+      "label": [
+        "Benchmark Dataset"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "Explain component",
+      "to": "Powershap",
+      "type": "PART_OF"
+    },
+    {
+      "from": "Core powershap component",
+      "to": "Powershap",
+      "type": "PART_OF"
+    },
+    {
+      "from": "Automatic mode",
+      "to": "Powershap",
+      "type": "PART_OF"
+    },
+    {
+      "from": "CatBoost",
+      "to": "Powershap",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "Sklearn",
+      "to": "Powershap",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "Python",
+      "to": "Powershap",
+      "type": "IMPLEMENTATION_LANGUAGE"
+    },
+    {
+      "from": "Simulation dataset",
+      "to": "Powershap",
+      "type": "TESTED_ON"
+    },
+    {
+      "from": "Madelon",
+      "to": "Powershap",
+      "type": "BENCHMARKED_ON"
+    },
+    {
+      "from": "Gina Priori",
+      "to": "Powershap",
+      "type": "BENCHMARKED_ON"
+    },
+    {
+      "from": "Scene",
+      "to": "Powershap",
+      "type": "BENCHMARKED_ON"
+    },
+    {
+      "from": "CT Location",
+      "to": "Powershap",
+      "type": "BENCHMARKED_ON"
+    },
+    {
+      "from": "Appliances",
+      "to": "Powershap",
+      "type": "BENCHMARKED_ON"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Objective",
+      "label": "Objective",
+      "properties": {
+        "description": "To automatically classify rose plant types using leaves through machine learning algorithms, focusing on optimizing the performance of Random Forest (RF)."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_StudyDesign",
+      "label": "StudyDesign",
+      "properties": {
+        "type": "Comparative analysis"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_PopulationSample",
+      "label": "PopulationSample",
+      "properties": {
+        "data_source": "Images of rose leaves captured using a 23MP camera under controlled lighting from different rose plants.",
+        "data_size": "200 images",
+        "resolution": "1080x1920 pixels",
+        "classes": "10 classes representing different rose types"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Variables",
+      "label": "Variables",
+      "properties": {
+        "independent": [
+          "Features of rose leaf images including histogram and texture features."
+        ],
+        "dependent": [
+          "Performance metrics of classification algorithms such as accuracy."
+        ]
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Methods",
+      "label": "Methods",
+      "properties": {
+        "machine_learning_algorithms": [
+          "Naive Bayes (NB)",
+          "Generalized Linear Model (GLM)",
+          "Multilayer Perceptron",
+          "Decision Tree (DT)",
+          "Random Forest (RF)",
+          "Gradient Boosted Trees (GBT)",
+          "Support Vector Machine (SVM)"
+        ],
+        "deep_learning_models": [
+          "Convolutional Neural Network (CNN)",
+          "Long Short-Term Memory (LSTM)",
+          "RestNet"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_DataProcessing",
+      "label": "DataProcessing",
+      "properties": {
+        "conversion": "Color images converted to grey level and two ROIs marked using CVIP tool.",
+        "feature_extraction": "Features such as mean, skew, energy, entropy, inertia, and correlation are extracted."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_ExperimentSetup",
+      "label": "ExperimentSetup",
+      "properties": {
+        "training_testing_split": "60% data for training and 40% for testing.",
+        "software_tools": [
+          "CVIP for feature extraction",
+          "RapidMiner for classification"
+        ],
+        "validation": "10-fold cross-validation used to validate results."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Outcomes",
+      "label": "Outcomes",
+      "properties": {
+        "success_criteria": "Improved classification accuracy through optimization of Random Forest parameters."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_AdditionalDetails",
+      "label": "AdditionalDetails",
+      "properties": {
+        "feature_sets": [
+          "Feature Set 1: All extracted features from histogram and texture.",
+          "Feature Set 2: High correlation features from both histogram and texture.",
+          "Feature Set 3: High correlation histogram features.",
+          "Feature Set 4: High correlation texture features."
+        ],
+        "optimization": "Performance of RF optimized by varying number and depth of trees and experimenting with different feature selection criteria."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Objective",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_StudyDesign",
+      "relationship": "defined by"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_StudyDesign",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_PopulationSample",
+      "relationship": "involves"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_StudyDesign",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Variables",
+      "relationship": "examines"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_StudyDesign",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Methods",
+      "relationship": "utilizes"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Methods",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_DataProcessing",
+      "relationship": "includes"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Methods",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_ExperimentSetup",
+      "relationship": "structured by"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_ExperimentSetup",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Outcomes",
+      "relationship": "evaluates"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_StudyDesign",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_AdditionalDetails",
+      "relationship": "supplemented by"
+    }
+  ]
+}

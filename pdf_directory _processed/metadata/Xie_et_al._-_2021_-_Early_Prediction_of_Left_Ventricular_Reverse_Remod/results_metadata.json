@@ -1,0 +1,55 @@
+{
+  "study_title": "Early Prediction of Left Ventricular Reverse Remodeling in First-Diagnosed Idiopathic Dilated Cardiomyopathy: A Comparison of Linear Model, Random Forest, and Extreme Gradient Boosting",
+  "authors": [
+    "Xiangkun Xie",
+    "Mingwei Yang",
+    "Shan Xie",
+    "Xiaoying Wu",
+    "Yuan Jiang",
+    "Zhaoyu Liu",
+    "Huiying Zhao",
+    "Yangxin Chen",
+    "Yuling Zhang",
+    "Jingfeng Wang"
+  ],
+  "publication_date": "04 August 2021",
+  "study_population": {
+    "total_patients": 104,
+    "condition": "Idiopathic Dilated Cardiomyopathy",
+    "LVRR_patients": 47,
+    "non_LVRR_patients": 57
+  },
+  "methods": [
+    "Logistic Regression",
+    "Random Forest",
+    "Extreme Gradient Boosting (XGBoost)"
+  ],
+  "key_findings": {
+    "predictive_performance": {
+      "XGBoost_AUROC": 0.8205,
+      "Random_Forest_AUROC": 0.7989,
+      "Logistic_Regression_AUROC": 0.5909
+    },
+    "significant_features": [
+      "Cystatin C",
+      "Right Ventricular End-Diastolic Dimension",
+      "High-Density Lipoprotein Cholesterol (HDL-C)",
+      "Left Atrial Dimension",
+      "Left Ventricular Posterior Wall Dimension",
+      "Systolic Blood Pressure",
+      "Severe Mitral Regurgitation",
+      "eGFR",
+      "NYHA Classification"
+    ],
+    "XGBoost_vs_Logistic_Regression": {
+      "p_value": 0.0119
+    }
+  },
+  "conclusions": [
+    "Tree-based models, particularly XGBoost, can effectively predict Left Ventricular Reverse Remodeling (LVRR) in patients with first-diagnosed idiopathic Dilated Cardiomyopathy (DCM).",
+    "Cystatin C, right ventricular end-diastolic dimension, and HDL-C are key contributing factors to the model's predictions."
+  ],
+  "future_research": {
+    "recommendation": "A multicenter prospective study is necessary for further validation."
+  }
+}

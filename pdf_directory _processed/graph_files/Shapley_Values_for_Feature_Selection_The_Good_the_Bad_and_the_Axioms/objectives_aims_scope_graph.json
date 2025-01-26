@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_1",
+      "label": "Objective",
+      "name": "Introduce use of Shapley values in feature selection"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_2",
+      "label": "Objective",
+      "name": "Draw attention to limitations of Shapley values for feature selection"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_3",
+      "label": "Objective",
+      "name": "Scrutinize axiomatic guarantees of Shapley values in feature selection"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_4",
+      "label": "Aim",
+      "name": "Clarify limitations around use of Shapley values in literature"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_5",
+      "label": "Aim",
+      "name": "Demystify Shapley value axioms viewed as 'favourable'"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_6",
+      "label": "Aim",
+      "name": "Analyze when Shapley value axioms do not guarantee suitability for feature selection"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_7",
+      "label": "Scope",
+      "name": "Use simple, abstract 'toy' counterexamples and concrete simulations"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_8",
+      "label": "Scope",
+      "name": "Investigate Shapley value formulations like SHAP and SAGE"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_9",
+      "label": "Scope",
+      "name": "Consider implications of Shapley value axioms and game formulations"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_10",
+      "label": "Additional Information",
+      "name": "Influence of Shapley value axioms in Na\u00efve Application"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_11",
+      "label": "Additional Information",
+      "name": "Pathologies in Data Generating Processes using SHAP and SAGE"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_12",
+      "label": "Limitation",
+      "name": "Axioms do not guarantee Shapley values suit feature selection"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_13",
+      "label": "Limitation",
+      "name": "Model averaging by Shapley values can mislead in optimal model contexts"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_4",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_5",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_6",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_12",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_13",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_7",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_8",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_8",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_9",
+      "type": "RELATES_TO"
+    }
+  ]
+}

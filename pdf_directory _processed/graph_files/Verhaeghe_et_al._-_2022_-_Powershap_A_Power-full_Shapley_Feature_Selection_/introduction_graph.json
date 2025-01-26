@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "In data mining and machine learning, the goal is to extract and discover knowledge from data. Feature selection is crucial for developing robust models by reducing high dimensionality and addressing the unknown relevance of features."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "Ignoring the challenges of high dimensionality and feature irrelevance leads to modeling obstacles like sparse data, overfitting, and the curse of dimensionality. Thus, feature selection is frequently applied to enhance model performance and computational efficiency."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_3",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "Current filter and wrapper feature selection methods come with trade-offs. Wrapper methods, while strong in predictive performance, are computationally intensive. Filter methods, although faster, have limitations such as requiring a threshold value, neglecting inter-correlation between features, and ignoring feature interactions with the model."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_2",
+      "type": "ADDRESSES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_2",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_3",
+      "type": "LEADS_TO",
+      "properties": {}
+    }
+  ]
+}

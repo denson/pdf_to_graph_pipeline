@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "To develop Powershap, a novel feature selection method leveraging statistical hypothesis testing and power calculations with Shapley values for efficient feature selection."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Powershap combines wrapper feature selection methodologies with statistical hypothesis testing and Shapley values.",
+        "components": [
+          "Explain Component",
+          "Core Component"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_3",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "Powershap outperforms other filter methods, providing predictive performance competitive with wrapper methods and improved execution time."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_4",
+      "labels": [
+        "Implication"
+      ],
+      "properties": {
+        "description": "Powershap allows quick integration as an open-source sklearn component for diverse models and domains."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_5",
+      "labels": [
+        "Implementation"
+      ],
+      "properties": {
+        "description": "Open-source component for easy integration in data science pipelines with automatic hyper-parameter tuning."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_6",
+      "labels": [
+        "Evaluation"
+      ],
+      "properties": {
+        "description": "Compared with filter, wrapper, and SHAP-based methods on synthetic and real-world datasets, showing faster execution and reliable feature selection."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_7",
+      "labels": [
+        "Optimization"
+      ],
+      "properties": {
+        "description": "Automatic mode optimizes iterations using power calculations, reducing the need for extensive tuning."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_8",
+      "labels": [
+        "Limitations"
+      ],
+      "properties": {
+        "description": "Benchmarks conducted without tuning specific features; dependency on choice of machine learning models could influence results."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_2",
+      "type": "ACHIEVED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_3",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_3",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_4",
+      "type": "FACILITATES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_2",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_5",
+      "type": "IMPLEMENTED_AS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_2",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_6",
+      "type": "EVALUATED_AS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_2",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_7",
+      "type": "OPTIMIZED_USING",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_8",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_6",
+      "type": "AFFECTS",
+      "properties": {}
+    }
+  ]
+}

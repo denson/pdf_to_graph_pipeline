@@ -1,0 +1,68 @@
+{
+  "case_studies": [
+    {
+      "id": 1,
+      "dimension": 3,
+      "feature_distribution": "Gaussian",
+      "sampling_model": "Linear",
+      "methods_compared": [
+        "Kernel SHAP",
+        "Gaussian",
+        "Copula",
+        "Empirical-AICc-exact",
+        "Empirical-AICc-approx",
+        "Empirical-0.1"
+      ],
+      "key_findings": "All methods outperform the original Kernel SHAP method when features are dependent. The Gaussian model shows the best performance.",
+      "implications": "Accounting for feature dependence provides more accurate Shapley value approximations."
+    },
+    {
+      "id": 2,
+      "dimension": 3,
+      "feature_distribution": "Generalized Hyperbolic",
+      "sampling_model": "Linear",
+      "methods_compared": [
+        "Kernel SHAP",
+        "Gaussian",
+        "Copula",
+        "Empirical-AICc-exact",
+        "Empirical-AICc-approx",
+        "Empirical-0.1"
+      ],
+      "key_findings": "The Gaussian and copula methods reduce MAE as skewness increases. Empirical approach with fixed sigma performs uniformly better.",
+      "implications": "Non-parametric Shapley value estimation methods can handle skewed and heavy-tailed data effectively."
+    },
+    {
+      "id": 3,
+      "dimension": 10,
+      "feature_distribution": "Gaussian",
+      "sampling_model": "Linear",
+      "methods_compared": [
+        "Kernel SHAP",
+        "Gaussian",
+        "Copula",
+        "Empirical-0.1",
+        "Empirical-0.1+copula",
+        "Empirical-0.1+Gaussian",
+        "TreeSHAP"
+      ],
+      "key_findings": "Gaussian method generally performs the best. Combined methods work well.",
+      "implications": "Combining non-parametric and Gaussian methods for high-dimensional Gaussian distributed features is effective."
+    },
+    {
+      "id": 4,
+      "dimension": 10,
+      "feature_distribution": "Generalized Hyperbolic",
+      "sampling_model": "Piecewise Constant",
+      "methods_compared": [
+        "Kernel SHAP",
+        "Gaussian",
+        "Copula",
+        "Empirical-0.1",
+        "TreeSHAP"
+      ],
+      "key_findings": "Empirical combined methods outperform Kernel SHAP and TreeSHAP.",
+      "implications": "Handling dependent features in non-Gaussian contexts shows improvement in explanation accuracy."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_1",
+      "label": [
+        "Application"
+      ],
+      "description": "Use of tree-based models like Extreme Gradient Boosting (XGBoost) to predict Left Ventricular Reverse Remodeling (LVRR) in patients with first-diagnosed idiopathic dilated cardiomyopathy before drug therapy"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_2",
+      "label": [
+        "Implementation"
+      ],
+      "description": "Facilitates disease management and invasive therapy selection in cardiovascular medicine by distinguishing between patients who may or may not respond to standard medical treatment",
+      "site": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_3",
+      "label": [
+        "Paper"
+      ],
+      "description": "Study population consists of 104 patients with idiopathic dilated cardiomyopathy"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_4",
+      "label": [
+        "Field"
+      ],
+      "name": "Cardiovascular Medicine"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_5",
+      "label": [
+        "Field"
+      ],
+      "name": "Machine Learning"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_6",
+      "label": [
+        "Field"
+      ],
+      "name": "Predictive Modeling"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_2",
+      "type": "APPLIES"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_3",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_4",
+      "type": "RELATED_TO"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_5",
+      "type": "RELATED_TO"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_6",
+      "type": "RELATED_TO"
+    }
+  ]
+}

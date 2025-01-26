@@ -1,0 +1,46 @@
+{
+  "study_title": "Feature selection strategies: a comparative analysis of SHAP\u2011value and importance\u2011based methods",
+  "authors": [
+    "Huanjing Wang",
+    "Qianxin Liang",
+    "John T. Hancock",
+    "Taghi M. Khoshgoftaar"
+  ],
+  "publication_year": 2024,
+  "introduction": "The study compares SHAP-value and importance-based feature selection methods for enhancing fraud detection models in high-dimensional credit card fraud datasets.",
+  "methods": {
+    "feature_selection_methods": [
+      "SHAP",
+      "Importance-based"
+    ],
+    "classifiers": [
+      "XGBoost",
+      "Decision Tree",
+      "CatBoost",
+      "Extremely Randomized Trees",
+      "Random Forest"
+    ],
+    "evaluation_metric": "Area under the Precision-Recall Curve (AUPRC)"
+  },
+  "dataset": {
+    "source": "Kaggle Credit Card Fraud Detection Dataset",
+    "description": "Contains 284,807 transactions with only 492 (0.172%) being fraudulent. Features have undergone numerical transformation using PCA.",
+    "size": 284807,
+    "fraudulent_records_count": 492
+  },
+  "results": {
+    "general_results": "Feature selection methods based on importance values outperformed SHAP value-based methods across various classifiers and feature subset sizes.",
+    "xgboost": {
+      "feature_subset_size_3": "XGBoost outperformed SHAP-XGBoost.",
+      "feature_subset_size_10": "SHAP-XGBoost outperformed XGBoost."
+    },
+    "catboost": {
+      "feature_subsets_3_to_10": "CatBoost outperformed SHAP-CatBoost.",
+      "feature_subset_size_15": "A tie between CatBoost and SHAP-CatBoost."
+    },
+    "statistical_tests": "ANOVA results show significant differences among groups for all tested factors. Importance-based feature selection significantly outperformed SHAP-based methods."
+  },
+  "discussion": "While SHAP offers detailed interpretative insights, importance-based feature selection is computationally efficient and yields better performance, making it more suitable for high-dimensional data.",
+  "conclusion": "Importance-based feature selection methods are recommended for larger datasets and models due to their efficiency and performance compared to SHAP-value-based methods in credit card fraud detection contexts.",
+  "future_research": "Exploration of these feature selection methods across diverse application domains is suggested."
+}

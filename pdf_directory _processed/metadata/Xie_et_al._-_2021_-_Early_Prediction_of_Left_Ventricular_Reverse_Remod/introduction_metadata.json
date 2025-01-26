@@ -1,0 +1,15 @@
+{
+  "research_context": "The study focuses on idiopathic dilated cardiomyopathy (DCM), a significant cause of heart failure and heart transplantation. Left ventricular reverse remodeling (LVRR) is an important factor in reducing mortality and improving cardiac function in DCM.",
+  "motivation": "Despite improvements in heart failure treatment, LVRR occurs in only a proportion of DCM patients. Early identification of patients likely to undergo LVRR could improve patient management and therapeutic strategies.",
+  "problem_statement": "There is a lack of early prediction models for LVRR in patients with first-diagnosed idiopathic dilated cardiomyopathy, leading to challenges in prognostic stratification and management of the condition.",
+  "additional_details": {
+    "study_design": "The study is a single-center retrospective analysis involving 104 patients with idiopathic DCM.",
+    "objectives": "The objective is to develop and compare the performance of a linear model, random forest, and extreme gradient boosting (XGBoost) for early prediction of LVRR.",
+    "keyword_highlights": [
+      "idiopathic dilated cardiomyopathy",
+      "reverse remodeling",
+      "predictive model",
+      "machine learning"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "software_used": "R-package",
+  "software_name": "shapr",
+  "software_description": "An R-package to implement the modified Kernel SHAP method for explaining individual predictions in the presence of dependent features.",
+  "access_links": {
+    "github": "https://github.com/NorskRegnesentral/shapr"
+  }
+}

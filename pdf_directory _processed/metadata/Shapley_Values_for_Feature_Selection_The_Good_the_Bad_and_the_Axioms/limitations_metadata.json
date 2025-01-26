@@ -1,0 +1,29 @@
+{
+  "limitations": [
+    {
+      "description": "The axioms of the Shapley value do not guarantee suitability for feature selection, and may sometimes imply the opposite.",
+      "details": "The paper explores different aspects of how the Shapley value might not be ideal for feature selection due to its adherence to specific axioms like efficiency, symmetry, null player, and additivity, which might not always align with feature selection aims."
+    },
+    {
+      "description": "Sensitivity to formulations and parameter settings.",
+      "details": "The study notes that the performance of Shapley values can be highly contingent on the game formulation and specific characteristics of the evaluation function used, leading to variable results."
+    },
+    {
+      "description": "The complexity of evaluation.",
+      "details": "The Shapley value involves exponential complexity regarding the feature space, which might not be practical or efficient for large-scale problems, particularly when exhaustive calculations are needed."
+    },
+    {
+      "description": "Potential for non-optimal feature selection.",
+      "details": "As a model averaging method, Shapley values may average out unimportant features that occasionally contribute to performance, not reflecting their optimal contribution in a selected submodel."
+    },
+    {
+      "description": "Use of non-monotonic evaluation functions.",
+      "details": "When non-monotonic evaluation functions are involved, the efficiencies implied by Shapley values might not correspond to optimal model selection targets, thereby distributing payoff inefficiently."
+    }
+  ],
+  "missing_fields": null,
+  "extra_information": {
+    "potential_solutions": "The paper suggests more research and adjustments to the game formulation or potentially the development of new axiomatic approaches to address these limitations.",
+    "highlighted_alternatives": "Alternatives in game theory literature to Shapley values were acknowledged but not explored in depth."
+  }
+}

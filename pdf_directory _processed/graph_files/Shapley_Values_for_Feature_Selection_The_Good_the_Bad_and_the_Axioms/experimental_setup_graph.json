@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_experimental_setup_1",
+      "label": "Protocol",
+      "description": "Experiments involve data generating processes (DGPs) and feature selection using various Shapley value formulations such as SHAP and SAGE."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_experimental_setup_2",
+      "label": "Protocol Step",
+      "description": "Simulate data sets based on given DGPs with specified sample sizes."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_experimental_setup_3",
+      "label": "Protocol Step",
+      "description": "Train models, such as XGBoost regression or classification models, using the simulated data."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_experimental_setup_4",
+      "label": "Protocol Step",
+      "description": "Compute Shapley values for evaluation functions like R2, mean absolute SHAP, and SAGE."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_experimental_setup_5",
+      "label": "Protocol Step",
+      "description": "Rank features according to computed Shapley values to assess feature selection methods."
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "type": "INCLUDES"
+    },
+    {
+      "from": "1",
+      "to": "3",
+      "type": "INCLUDES"
+    },
+    {
+      "from": "1",
+      "to": "4",
+      "type": "INCLUDES"
+    },
+    {
+      "from": "1",
+      "to": "5",
+      "type": "INCLUDES"
+    }
+  ]
+}

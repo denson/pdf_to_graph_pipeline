@@ -1,0 +1,17 @@
+{
+  "conclusion": {
+    "main_outcomes": "Tree-based models like XGBoost and random forests were successful in early differentiating between LVRR and non-LVRR in patients with first-diagnosed DCM.",
+    "significance": "These models can assist in facilitating disease management and early selection of invasive therapy by predicting LVRR, which is crucial for the prognosis of patients with DCM.",
+    "key_predictors": [
+      "Cystatin C",
+      "Right ventricular end-diastolic dimension",
+      "High-density lipoprotein cholesterol (HDL-C)"
+    ],
+    "suggestions": "A multicenter prospective study is necessary for further validation to confirm these findings across diverse patient populations."
+  },
+  "limitations": {
+    "study_design": "Single-center, retrospective study",
+    "suggested_improvements": "A large sample prospective study and external validation are needed for stronger evidence."
+  },
+  "additional_details": null
+}

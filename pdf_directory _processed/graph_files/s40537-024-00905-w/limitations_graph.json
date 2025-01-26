@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_limitations_Paper",
+      "label": "Paper"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_limitations_Limitation 1",
+      "label": "Limitation",
+      "description": "The study is limited to only one dataset, the Kaggle Credit Card Fraud Detection Dataset, which may not be indicative of other datasets or real-world scenarios."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_limitations_Limitation 2",
+      "label": "Limitation",
+      "description": "The use of SHAP for feature selection adds a distinct step in the process and requires more computational resources compared to built-in feature selection methods."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_limitations_Limitation 3",
+      "label": "Limitation",
+      "description": "The comparison is limited to specific classifiers and does not include other possible models that could affect the outcome of the feature selection methods."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_limitations_Limitation 4",
+      "label": "Limitation",
+      "description": "SHAP values may vary when different trained models are utilized, leading to variability in rankings and results."
+    }
+  ],
+  "edges": [
+    {
+      "from": "Limitation 1",
+      "to": "Paper",
+      "description": "Results may not generalize well to other types of data or domains beyond credit card fraud detection."
+    },
+    {
+      "from": "Limitation 2",
+      "to": "Paper",
+      "description": "This additional computational expense might make SHAP less practical for large datasets or real-time applications."
+    },
+    {
+      "from": "Limitation 3",
+      "to": "Paper",
+      "description": "The findings might not be applicable to other types of classifiers which were not studied in this paper."
+    },
+    {
+      "from": "Limitation 4",
+      "to": "Paper",
+      "description": "The reliability and consistency of SHAP rankings across different model runs can affect the interpretation and use of selected features."
+    }
+  ]
+}

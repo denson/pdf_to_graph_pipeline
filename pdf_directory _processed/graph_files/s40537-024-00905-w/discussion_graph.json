@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Interpretation_1",
+      "label": "Interpretation",
+      "text": "Feature selection methods based on importance values generally outperform those based on SHAP values across various classifiers and feature subset sizes."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Implication_1",
+      "label": "Implication",
+      "text": "For larger datasets, using model's built-in feature importance list is recommended due to its efficiency and integration with model training."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Limitation_1",
+      "label": "Limitation",
+      "text": "The study is limited to the Kaggle Credit Card Fraud Detection Dataset and might not generalize to datasets with different characteristics."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Limitation_2",
+      "label": "Limitation",
+      "text": "The SHAP method is computationally intensive, impacting its practicality for large datasets."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Conclusion_1",
+      "label": "Interpretation",
+      "text": "The study found that built-in feature importance methods are more practical for handling large datasets due to lower computational costs."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Conclusion_2",
+      "label": "Interpretation",
+      "text": "XGBoost's performance varies depending on the feature subset size, with SHAP-XGBoost being better for a size of 10, while XGBoost is superior for a size of 3."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Conclusion_3",
+      "label": "Interpretation",
+      "text": "For CatBoost, the built-in feature importance method consistently outperforms SHAP-specified methods for feature subset sizes less than 15."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Future_Work_1",
+      "label": "Implication",
+      "text": "Future research should explore these feature selection methods across different application domains, potentially beyond credit card fraud detection."
+    }
+  ],
+  "edges": [
+    {
+      "from": "Interpretation_1",
+      "to": "Conclusion_1",
+      "relationship": "supports"
+    },
+    {
+      "from": "Implication_1",
+      "to": "Limitation_2",
+      "relationship": "addresses"
+    },
+    {
+      "from": "Limitation_1",
+      "to": "Future_Work_1",
+      "relationship": "leads_to"
+    },
+    {
+      "from": "Limitation_2",
+      "to": "Implication_1",
+      "relationship": "necessitates"
+    },
+    {
+      "from": "Conclusion_2",
+      "to": "Interpretation_1",
+      "relationship": "example_of"
+    },
+    {
+      "from": "Conclusion_3",
+      "to": "Interpretation_1",
+      "relationship": "example_of"
+    }
+  ]
+}

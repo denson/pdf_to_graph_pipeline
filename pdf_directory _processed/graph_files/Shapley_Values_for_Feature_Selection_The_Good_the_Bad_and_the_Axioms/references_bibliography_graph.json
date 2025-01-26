@@ -1,0 +1,282 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference1",
+      "label": "Model Selection Model Averaging"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author1",
+      "label": "G. Claeskens"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author2",
+      "label": "N. L. Hjort"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference2",
+      "label": "Axiomatic arguments for decomposing goodness of fit according to Shapley and Owen values"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author3",
+      "label": "F. Huettner"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author4",
+      "label": "M. Sunder"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference3",
+      "label": "On Shapley value for measuring importance of dependent inputs"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author5",
+      "label": "A. B. Owen"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author6",
+      "label": "C. Prieur"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference4",
+      "label": "Sobol\u2019 indices and Shapley value"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference5",
+      "label": "A Shapley-based decomposition of the R-square of a linear regression"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author7",
+      "label": "O. Israeli"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference6",
+      "label": "Shapley effects for global sensitivity analysis: Theory and computation"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author8",
+      "label": "E. Song"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author9",
+      "label": "B. L. Nelson"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author10",
+      "label": "J. Staum"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference7",
+      "label": "Shapley value confidence intervals for attributing variance explained"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author11",
+      "label": "D. Fryer"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author12",
+      "label": "I. Str\u00fcmke"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author13",
+      "label": "H. Nguyen"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference8",
+      "label": "Do not adjust coefficients in Shapley value regression"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author14",
+      "label": "U. Gr\u00f6mping"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author15",
+      "label": "S. Landau"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference9",
+      "label": "Introduction to bivariate and multivariate analysis"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author16",
+      "label": "R. H. Lindeman"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference10",
+      "label": "Relative importance by averaging over orderings"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author17",
+      "label": "W. Kruskal"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference11",
+      "label": "Correction to 'relative importance by averaging over orderings'"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference12",
+      "label": "Analysis of regression in game theory approach"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author18",
+      "label": "S. Lipovetsky"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author19",
+      "label": "M. Conklin"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference13",
+      "label": "Dominance analysis: A new approach to the problem of relative importance of predictors in multiple regression"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author20",
+      "label": "D. V. Budescu"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference14",
+      "label": "Explaining individual predictions when features are dependent: More accurate approximations to Shapley values"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author21",
+      "label": "K. Aas"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author22",
+      "label": "M. Jullum"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author23",
+      "label": "A. L\u00f8land"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference15",
+      "label": "From local explanations to global understanding with explainable AI for trees"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author24",
+      "label": "S. M. Lundberg"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference16",
+      "label": "Shapr: An R-package for explaining machine learning models with dependence-aware Shapley values"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author25",
+      "label": "N. Sellereite"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Reference1",
+      "to": "Author1"
+    },
+    {
+      "from": "Reference1",
+      "to": "Author2"
+    },
+    {
+      "from": "Reference2",
+      "to": "Author3"
+    },
+    {
+      "from": "Reference2",
+      "to": "Author4"
+    },
+    {
+      "from": "Reference3",
+      "to": "Author5"
+    },
+    {
+      "from": "Reference3",
+      "to": "Author6"
+    },
+    {
+      "from": "Reference4",
+      "to": "Author5"
+    },
+    {
+      "from": "Reference5",
+      "to": "Author7"
+    },
+    {
+      "from": "Reference6",
+      "to": "Author8"
+    },
+    {
+      "from": "Reference6",
+      "to": "Author9"
+    },
+    {
+      "from": "Reference6",
+      "to": "Author10"
+    },
+    {
+      "from": "Reference7",
+      "to": "Author11"
+    },
+    {
+      "from": "Reference7",
+      "to": "Author12"
+    },
+    {
+      "from": "Reference7",
+      "to": "Author13"
+    },
+    {
+      "from": "Reference8",
+      "to": "Author14"
+    },
+    {
+      "from": "Reference8",
+      "to": "Author15"
+    },
+    {
+      "from": "Reference9",
+      "to": "Author16"
+    },
+    {
+      "from": "Reference10",
+      "to": "Author17"
+    },
+    {
+      "from": "Reference11",
+      "to": "Author17"
+    },
+    {
+      "from": "Reference12",
+      "to": "Author18"
+    },
+    {
+      "from": "Reference12",
+      "to": "Author19"
+    },
+    {
+      "from": "Reference13",
+      "to": "Author20"
+    },
+    {
+      "from": "Reference14",
+      "to": "Author21"
+    },
+    {
+      "from": "Reference14",
+      "to": "Author22"
+    },
+    {
+      "from": "Reference14",
+      "to": "Author23"
+    },
+    {
+      "from": "Reference15",
+      "to": "Author24"
+    },
+    {
+      "from": "Reference16",
+      "to": "Author25"
+    },
+    {
+      "from": "Reference16",
+      "to": "Author22"
+    }
+  ]
+}

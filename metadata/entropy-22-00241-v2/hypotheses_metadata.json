@@ -1,0 +1,36 @@
+{
+  "hypotheses": [
+    "Hypnopompic heart rate variability (HRV) can assist in the prediction of cardiovascular disease (CVD) outcomes.",
+    "Entropy-based indices of HRV have greater predictive power than conventional HRV measures.",
+    "HRV measures contribute to better short-term prediction accuracy of CVD events compared to long-term prediction."
+  ],
+  "experiment_details": {
+    "participants": 2217,
+    "participant_criteria": "Baseline CVD-free students divided into CVD and non-CVD groups.",
+    "analysis_methods": [
+      "Time domain analysis",
+      "Frequency domain analysis",
+      "Nonlinear analysis using entropy-based measures"
+    ],
+    "models_used": [
+      "Machine learning models, specifically XGBoost"
+    ],
+    "performance_measures": [
+      "Accuracy",
+      "Sensitivity",
+      "Specificity",
+      "Precision",
+      "F1-Score",
+      "Matthew correlation coefficient"
+    ]
+  },
+  "results_summary": {
+    "short_term_prediction_accuracy": "81.4%",
+    "contribution_of_HRV": "HRV metrics, especially entropy-based indices, contributed significantly to prediction",
+    "importance_of_HRV_metrics": "More important for short-term CVD prediction than long-term outcomes"
+  },
+  "conclusion": {
+    "hypotheses_verification": "Hypotheses are supported, demonstrating HRV's utility in predicting CVD, especially short-term outcomes.",
+    "suggestions": "Incorporating hypnopompic HRV and entropy-based measures into CVD risk evaluation models."
+  }
+}

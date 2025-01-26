@@ -1,0 +1,43 @@
+{
+  "application_name": "Rose Plant Classification Application",
+  "field_or_domain": "Agriculture, Botany, Image Processing",
+  "technology_used": [
+    "Machine Learning",
+    "Random Forest",
+    "Naive Bayes",
+    "Generalized Linear Model",
+    "Multilayer Perceptron",
+    "Decision Tree",
+    "Gradient Boosted Trees",
+    "Support Vector Machine"
+  ],
+  "purpose": "To automatically classify rose plant species using leaf images to aid botanists and eliminate manual identification",
+  "implementation_details": {
+    "data": {
+      "collection_method": "Images captured using a 23MP camera in a controlled environment",
+      "description": "Images of rose leaves from several classes such as orange, red, pink, and white roses",
+      "storage": "Dataset with labelled classes"
+    },
+    "feature_extraction": {
+      "methods": [
+        "Histogram features",
+        "Texture features"
+      ]
+    },
+    "optimization": "Optimization of Random Forest through tuning parameters like the number of trees and depth, and comparing information gain, gini index, and gain ratio as criteria",
+    "results": {
+      "performance": "Optimized Random Forest model achieved the best results compared to other classifiers",
+      "evaluation_metrics": "Accuracy, precision, recall, classification error"
+    }
+  },
+  "user_interface": "Not specifically mentioned but suggested to be a mobile-based application using phone cameras",
+  "deployment_status": "Research phase with practical implementation suggested",
+  "benefits": "Decrease manual effort, increase efficiency and accuracy in plant species classification",
+  "limitations": "Performance dependent on dataset size and quality; Deep learning models performed suboptimally due to small dataset size",
+  "related_work": {
+    "mentions": [
+      "Previous work based on k-NN algorithm for rose classification",
+      "Application of CNN and RestNet for plant classification"
+    ]
+  }
+}

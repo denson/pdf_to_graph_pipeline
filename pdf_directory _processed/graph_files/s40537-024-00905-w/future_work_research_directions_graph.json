@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_future_work_research_directions_1",
+      "label": [
+        "FutureWork"
+      ],
+      "properties": {
+        "description": "Further exploration of SHAP-based and importance-value-based feature selection methods across various application domains."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_future_work_research_directions_2",
+      "label": [
+        "Recommendation"
+      ],
+      "properties": {
+        "description": "Investigate SHAP and importance-based selection methods in larger datasets or different domains for scalability and efficiency."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_future_work_research_directions_3",
+      "label": [
+        "Recommendation"
+      ],
+      "properties": {
+        "description": "Assess the generalizability and performance efficacy of feature selection methods in domains beyond credit card fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_future_work_research_directions_4",
+      "label": [
+        "Paper"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_future_work_research_directions_5",
+      "label": [
+        "Findings"
+      ],
+      "properties": {
+        "description": "Study highlights computational challenges with SHAP and suggests built-in feature importance for large datasets."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_future_work_research_directions_1",
+      "target": "Paper_s40537-024-00905-w_future_work_research_directions_4",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_future_work_research_directions_2",
+      "target": "Paper_s40537-024-00905-w_future_work_research_directions_4",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_future_work_research_directions_3",
+      "target": "Paper_s40537-024-00905-w_future_work_research_directions_5",
+      "type": "RECOMMENDED_NEXT"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N1",
+      "label": "Theory",
+      "content": "Feature selection is crucial in high-dimensional datasets for enhancing model performance and efficiency."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N2",
+      "label": "Method",
+      "content": "SHAP-value-based selection"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N3",
+      "label": "Method",
+      "content": "Importance-based selection"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N4",
+      "label": "Metric",
+      "content": "Area under the Precision-Recall Curve (AUPRC)"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "label": "Focus",
+      "content": "Comparative analysis of feature selection methods in credit card fraud detection"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N6",
+      "label": "Model",
+      "content": "XGBoost"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N7",
+      "label": "Model",
+      "content": "Decision Tree"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N8",
+      "label": "Model",
+      "content": "CatBoost"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N9",
+      "label": "Model",
+      "content": "Extremely Randomized Trees"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N10",
+      "label": "Model",
+      "content": "Random Forest"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N1",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N2",
+      "relation": "utilizes"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N1",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N3",
+      "relation": "utilizes"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N2",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N4",
+      "relation": "evaluated_with"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N3",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N4",
+      "relation": "evaluated_with"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N1",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "relation": "contextual_focus"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N6",
+      "relation": "involves"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N7",
+      "relation": "involves"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N8",
+      "relation": "involves"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N9",
+      "relation": "involves"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N10",
+      "relation": "involves"
+    }
+  ]
+}

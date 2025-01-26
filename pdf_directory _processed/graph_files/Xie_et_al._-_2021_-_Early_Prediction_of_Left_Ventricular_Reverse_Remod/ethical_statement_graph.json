@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "type": "EthicalStatement"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_InstitutionalReviewBoardApproval",
+      "type": "InstitutionalReviewBoardApproval",
+      "name": "Sun Yat-sen Memorial Hospital"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicsCommittee",
+      "type": "EthicsCommittee",
+      "name": "Medical Ethics Committee of Sun Yat-Sen Memorial Hospital"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_DeclarationOfHelsinki",
+      "type": "DeclarationOfHelsinki",
+      "description": "1964 Declaration of Helsinki and its later amendments"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_InformedConsent",
+      "type": "InformedConsent",
+      "description": "No informed consent was required because the data were anonymized"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalGuidelines",
+      "type": "EthicalGuidelines",
+      "description": "Chinese guidelines for the diagnosis and treatment of dilated cardiomyopathy"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_TrialRegistration",
+      "type": "TrialRegistration",
+      "url": "http://www.chictr.org.cn/usercenter.aspx",
+      "registrationNumber": "ChiCTR2000 034128"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_InstitutionalReviewBoardApproval",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicsCommittee",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_DeclarationOfHelsinki",
+      "type": "CONFORMS_TO"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_InformedConsent",
+      "type": "INCLUDES"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalGuidelines",
+      "type": "FOLLOWED"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_TrialRegistration",
+      "type": "REGISTERED_AT"
+    }
+  ]
+}

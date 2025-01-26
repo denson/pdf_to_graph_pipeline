@@ -1,0 +1,19 @@
+{
+  "equipment": "not found",
+  "configurations": "not found",
+  "protocols": [
+    {
+      "description": "Experiments involve data generating processes (DGPs) and feature selection using various Shapley value formulations such as SHAP and SAGE.",
+      "steps": [
+        "Simulate data sets based on given DGPs with specified sample sizes.",
+        "Train models, such as XGBoost regression or classification models, using the simulated data.",
+        "Compute Shapley values for evaluation functions like R2, mean absolute SHAP, and SAGE.",
+        "Rank features according to computed Shapley values to assess feature selection methods."
+      ]
+    }
+  ],
+  "required_fields": {
+    "equipment": null,
+    "configurations": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Powershap: A Power-full Shapley Feature Selection Method",
+  "authors": [
+    {
+      "name": "Jarne Verhaeghe",
+      "ORCID": "0000-0002-3322-150X"
+    },
+    {
+      "name": "Jeroen Van Der Donckt",
+      "ORCID": "0000-0002-9620-888X"
+    },
+    {
+      "name": "Femke Ongenae",
+      "ORCID": "0000-0003-2529-5477"
+    },
+    {
+      "name": "Sofie Van Hoecke",
+      "ORCID": "0000-0002-7865-6793"
+    }
+  ],
+  "institution": "IDLab, Ghent University - imec",
+  "abstract": "Feature selection is a crucial step in developing robust and powerful machine learning models.",
+  "background": {
+    "feature_selection_importance": "Feature selection is important for reducing feature dimensionality, increasing model performance, enhancing computational efficiency, and improving model robustness.",
+    "methods": {
+      "filter_methods": "Filter methods are model-independent, fast, but have disadvantages such as ignoring inter-correlation between features and requiring thresholds.",
+      "wrapper_methods": "Wrapper methods consider feature interactions but are computationally expensive.",
+      "shapley_values": "SHAP values provide model-agnostic explanations and are popular despite some limitations."
+    },
+    "previous_work": {
+      "borutashap": "It combines the Boruta algorithm using Shapley values, limited to tree-based models.",
+      "shapicant": "Inspired by permutation importance, adapted to use Shapley values for non-parameter estimation."
+    }
+  }
+}

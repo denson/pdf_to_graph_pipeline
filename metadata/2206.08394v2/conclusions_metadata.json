@@ -1,0 +1,43 @@
+{
+  "study_name": "Powershap: A Power-full Shapley Feature Selection Method",
+  "authors": [
+    "Jarne Verhaeghe",
+    "Jeroen Van Der Donckt",
+    "Femke Ongenae",
+    "Sofie Van Hoecke"
+  ],
+  "institution": "IDLab, Ghent University - IMEC",
+  "summary": "The study presents 'powershap', a novel wrapper feature selection method that uses Shapley values and statistical tests to determine the significance of features. It integrates power calculations to optimize the number of iterations needed for feature selection, enabling both speed and reliability.",
+  "main_outcomes": [
+    {
+      "benchmark_comparison": {
+        "faster_than": [
+          "shapicant",
+          "forward feature selection"
+        ],
+        "similar_performance_as": [
+          "other wrapper methods"
+        ],
+        "method_type": "wrapper",
+        "enhanced_features": [
+          "automatic mode for tuning hyperparameters"
+        ]
+      }
+    },
+    {
+      "performance_evaluation": {
+        "simulation_datasets": "Powershap consistently identified more informative features with fewer noise features compared to other methods, up to high-dimensional feature sets.",
+        "real_world_datasets": "Provided steady performance, achieving the best or equal predictive accuracy compared to other methods."
+      }
+    }
+  ],
+  "significance": "Powershap achieves fast and reliable feature selection without extensive manual tuning, making it applicable for high-dimensional datasets across various domains.",
+  "code_availability": "https://github.com/predict-idlab/PowerSHAP",
+  "acknowledgements": [
+    "Jarne Verhaeghe is funded by the Research Foundation Flanders (FWO, Ref. 1S59522N)"
+  ],
+  "missing_fields": {
+    "future_research_directions": null,
+    "limitations": "Results may vary with different datasets and models, as wrapper methods depend on the chosen model."
+  }
+}

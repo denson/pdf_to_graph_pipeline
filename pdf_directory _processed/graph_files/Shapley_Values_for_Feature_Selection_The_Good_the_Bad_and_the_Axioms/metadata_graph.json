@@ -1,0 +1,171 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "title": "Shapley Values for Feature Selection: The Good, the Bad, and the Axioms",
+        "abstract": "The Shapley value has become popular in the Explainable AI (XAI) literature, thanks, to a large extent, to a solid theoretical foundation, including four \u2018\u2018favourable and fair\u2019\u2019 axioms for attribution in transferable utility games. The Shapley value is probably the only solution concept satisfying these axioms. In this paper, we introduce the Shapley value and draw attention to its recent uses as a feature selection tool. We call into question this use of the Shapley value, using simple, abstract \u2018\u2018toy\u2019\u2019 counterexamples to illustrate that the axioms may work against the goals of feature selection. From this, we develop a number of insights that are then investigated in concrete simulation settings, with a variety of Shapley value formulations, including SHapley Additive exPlanations (SHAP) and Shapley Additive Global importancE (SAGE). The aim is not to encourage any use of the Shapley value for feature selection, but we aim to clarify various limitations around their current use in the literature. In so doing, we hope to help demystify certain aspects of the Shapley value axioms that are viewed as \u2018\u2018favourable\u2019\u2019. In particular, we wish to highlight that the favourability of the axioms depends non-trivially on the way in which the Shapley value is appropriated in the XAI application.",
+        "publication_date": "2021-10-08",
+        "doi": "10.1109/ACCESS.2021.3119110",
+        "received_date": "2021-09-18",
+        "accepted_date": "2021-10-02",
+        "current_version_date": "2021-10-28"
+      }
+    },
+    {
+      "id": "author_1",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Daniel Fryer"
+      }
+    },
+    {
+      "id": "author_2",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Inga Str\u00fcmke"
+      }
+    },
+    {
+      "id": "author_3",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Hien Nguyen"
+      }
+    },
+    {
+      "id": "keyword_1",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Explainability"
+      }
+    },
+    {
+      "id": "keyword_2",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "feature selection"
+      }
+    },
+    {
+      "id": "keyword_3",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "interpretability"
+      }
+    },
+    {
+      "id": "keyword_4",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Shapley value"
+      }
+    },
+    {
+      "id": "keyword_5",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "variable selection"
+      }
+    },
+    {
+      "id": "keyword_6",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "XAI"
+      }
+    },
+    {
+      "id": "supplementary_1",
+      "labels": [
+        "Supplementary"
+      ],
+      "properties": {
+        "information": "This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "author_1",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "author_2",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "author_3",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "keyword_1",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "keyword_2",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "keyword_3",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "keyword_4",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "keyword_5",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "keyword_6",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "supplementary_1",
+      "type": "HAS_SUPPLEMENTARY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "study_type": "single-center real-world study",
+  "location": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University",
+  "population": {
+    "total_patients": 104,
+    "conditions": "first-diagnosed idiopathic dilated cardiomyopathy (DCM)",
+    "LVRR_occurrence": 47
+  },
+  "inclusion_criteria": [
+    "LVDd >5.0 cm (female) or LVDd >5.5 cm (male)",
+    "LVEF <45% and left ventricular shortening fraction <25%",
+    "exclusion of other specific heart conditions"
+  ],
+  "exclusion_criteria": [
+    "alcoholic cardiomyopathy, peripartum cardiomyopathy, and other acquired DCM",
+    "history of heart failure treatment",
+    "coronary heart disease, pulmonary heart disease, hypertensive heart disease, or pericardial disease",
+    "severe systemic diseases or treatments affecting heart structure",
+    "receiving cardiac resynchronization therapy or left ventricular assist device during follow-up"
+  ],
+  "experimental_groups": [
+    "LVRR group",
+    "non-LVRR group"
+  ],
+  "main_endpoints": [
+    "absolute increase in LVEF from >10% to a final value >35%",
+    "decrease in LVDd \u226510%"
+  ],
+  "followup_duration": "median time of 24 months, IQR 15\u201331",
+  "data_collected": [
+    "demographic characteristics",
+    "physical signs",
+    "comorbidities",
+    "laboratory indicators",
+    "electrocardiogram",
+    "24-h dynamic electrocardiogram",
+    "echocardiographic data",
+    "medication"
+  ],
+  "techniques_used": [
+    "Logistic regression",
+    "Random Forest",
+    "Extreme Gradient Boosting (XGBoost)"
+  ],
+  "model_evaluation": {
+    "metrics": [
+      "ROC curves",
+      "AUC"
+    ],
+    "validation_type": "10-fold cross-validation"
+  },
+  "key_features_for_model": [
+    "cystatin C",
+    "right ventricular end-diastolic dimension",
+    "high-density lipoprotein cholesterol (HDL-C)",
+    "left atrial dimension",
+    "left ventricular posterior wall dimension",
+    "systolic blood pressure",
+    "severe mitral regurgitation",
+    "eGFR",
+    "NYHA classification"
+  ]
+}

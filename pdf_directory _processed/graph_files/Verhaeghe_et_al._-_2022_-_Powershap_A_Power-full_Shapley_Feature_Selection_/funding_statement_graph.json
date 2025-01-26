@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__funding_statement_1",
+      "label": "Research Foundation Flanders (FWO)",
+      "type": "FundingSource"
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__funding_statement_2",
+      "label": "Jarne Verhaeghe",
+      "type": "ResearchActivity"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__funding_statement_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__funding_statement_2",
+      "type": "FUNDED",
+      "reference": "1S59522N"
+    }
+  ]
+}

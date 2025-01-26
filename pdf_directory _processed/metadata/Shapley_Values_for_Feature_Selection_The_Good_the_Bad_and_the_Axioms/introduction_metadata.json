@@ -1,0 +1,19 @@
+{
+  "research_context": "The introduction discusses the use of Shapley values in machine learning, particularly in the context of feature selection for models. The Shapley value, originally from game theory, is applied to linear regression and other ML models for explainability and feature attribution.",
+  "motivation": "The motivation is to investigate the suitability and limitations of using Shapley values for feature selection in machine learning. The authors aim to address concerns that Shapley values may not meet the feature selection goals due to the imposed axioms and to challenge the existing reliance on Shapley values for this task.",
+  "problem_statement": "While Shapley values have been used as an interpretable method for feature selection in ML, there is a growing concern that the axioms of Shapley values do not necessarily align with the goals of feature selection. This paper seeks to clarify the limitations of Shapley values in this regard and argues that the axioms may sometimes be counterproductive for feature selection.",
+  "additional_details": {
+    "authors": "Daniel Fryer, Inga Str\u00fcmke, Hien Nguyen",
+    "institutions": "The University of Queensland, Simula Research Laboratory, La Trobe University",
+    "date_of_current_version": "October 28, 2021",
+    "key_terms": [
+      "Explainability",
+      "feature selection",
+      "interpretability",
+      "Shapley value",
+      "variable selection",
+      "XAI"
+    ],
+    "goal": "To critically evaluate the use of Shapley values for feature selection, draw attention to its limitations, and provide insights for correct application in practice."
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_key_finding_1",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "The application of Shapley values in feature selection is scrutinized for its axiomatic foundations, questioning if these axioms truly support the goals of feature selection."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_key_finding_2",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Alternative Shapley value formulations like SHAP and SAGE were evaluated, highlighting their performance inconsistencies in certain experimental settings."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_key_finding_3",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "The article emphasizes that the theoretical principles (axioms) of Shapley values might not be inherently suitable for feature selection without additional consideration of specific contexts."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_method_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "The paper uses both theoretical analysis and simulation experiments to evaluate the effectiveness of Shapley values in feature selection."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_method_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Simulations involved generating synthetic datasets under various data generating processes and applying different feature selection methods, such as SHAP FSelection and SAGE."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_method_3",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "The study specifically examines scenarios involving Markov boundary members, redundant features, and cases with influential dominant features to analyze Shapley values' robustness and appropriateness."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_gap_1",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "There is a lack of critical examination in ML literature about the appropriateness and limitations of using Shapley values for feature selection."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_gap_2",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "Existing Shapley-based feature selection techniques may rely too heavily on axiomatic guarantees without properly assessing their implications and effectiveness."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_gap_3",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "Future research is needed into alternative game-theoretical solutions that might better align with the objectives of different feature selection tasks."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_insight_1",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "The interpretation of Shapley values in terms of their assigned importance to features may need deeper contextual grounding beyond the axioms."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_insight_2",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Efficiency, symmetry, and additivity axioms particularly may not uphold feature selection goals when features exhibit high redundancy or when non-monotonic evaluation functions are employed."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_insight_3",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "SAGE values, although performing better than SHAP in some scenarios, also showed limitations, thus necessitating broader exploration of other potential formulations and solutions."
+      }
+    }
+  ],
+  "edges": []
+}

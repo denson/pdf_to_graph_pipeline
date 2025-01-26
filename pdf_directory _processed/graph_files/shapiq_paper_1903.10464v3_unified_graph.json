@@ -1,0 +1,647 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "title": "Explaining Individual Predictions When Features Are Dependent: More Accurate Approximations to Shapley Values",
+        "abstract": "Explaining complex or seemingly simple machine learning models is an important practical problem. We want to explain individual predictions from a complex machine learning model by learning simple, interpretable explanations. Shapley values is a game theoretic concept that can be used for this purpose. The Shapley value framework has a series of desirable theoretical properties, and can in principle handle any predictive model. Kernel SHAP is a computationally efficient approximation to Shapley values in higher dimensions. Like several other existing methods, this approach assumes that the features are independent, which may give very wrong explanations. This is the case even if a simple linear model is used for predictions. In this paper, we extend the Kernel SHAP method to handle dependent features. We provide several examples of linear and non-linear models with various degrees of feature dependence, where our method gives more accurate approximations to the true Shapley values. We also propose a method for aggregating individual Shapley values, such that the prediction can be explained by groups of dependent variables.",
+        "publication_date": "2020-02-06",
+        "doi": "not found",
+        "arxiv_identifier": "arXiv:1903.10464v3"
+      }
+    },
+    {
+      "id": "author_1",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Kjersti Aas"
+      }
+    },
+    {
+      "id": "author_2",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Martin Jullum"
+      }
+    },
+    {
+      "id": "author_3",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Anders L\u00f8land"
+      }
+    },
+    {
+      "id": "keyword_1",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Shapley values"
+      }
+    },
+    {
+      "id": "keyword_2",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Kernel SHAP"
+      }
+    },
+    {
+      "id": "keyword_3",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Machine learning"
+      }
+    },
+    {
+      "id": "keyword_4",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Model interpretability"
+      }
+    },
+    {
+      "id": "keyword_5",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Feature dependence"
+      }
+    },
+    {
+      "id": "supplementary_1",
+      "labels": [
+        "Supplementary"
+      ],
+      "properties": {
+        "information": "Our methodology has been implemented in an R-package currently available at: https://github.com/NorskRegnesentral/shapr."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_abstract_objective_1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "Improve the explanation of individual predictions in machine learning models by providing more accurate approximations of Shapley values that can handle dependent features."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_abstract_method_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Extend the Kernel SHAP method to account for dependent features using Gaussian distribution assumptions, Gaussian copula with empirical margins, an empirical approach, and a combination of empirical and parametric methods."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_abstract_result_1",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "The extended Kernel SHAP method provides more accurate approximations to the true Shapley values than the original method in scenarios with dependent features."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_abstract_implication_1",
+      "labels": [
+        "Implication"
+      ],
+      "properties": {
+        "description": "In experimental evaluations, the proposed methods consistently outperformed the original Kernel SHAP method, especially in scenarios with non-linear dependencies among features."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_abstract_additional_1",
+      "labels": [
+        "Additional Detail"
+      ],
+      "properties": {
+        "description": "The methodology has been implemented in an R package available at: https://github.com/NorskRegnesentral/shapr."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_abstract_additional_2",
+      "labels": [
+        "Additional Detail"
+      ],
+      "properties": {
+        "description": "Experiments were conducted in both low (3-dimensional) and moderate (10-dimensional) feature spaces, demonstrating superior performance of the proposed methods over the original, especially in scenarios with feature dependence."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_acknowledgments_Scott_Lundberg",
+      "label": [
+        "Contributor"
+      ],
+      "properties": {
+        "name": "Scott Lundberg",
+        "contribution": "provided valuable advice concerning the Kernel SHAP method"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_acknowledgments_Ingrid_Hobaek_Haff",
+      "label": [
+        "Contributor"
+      ],
+      "properties": {
+        "name": "Ingrid Hob\u00e6k Haff",
+        "contribution": "suggested the copula approach"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_acknowledgments_Nikolai_Sellereite",
+      "label": [
+        "Contributor"
+      ],
+      "properties": {
+        "name": "Nikolai Sellereite",
+        "contribution": "major contributions to the implementation of the methods in the R-package shapr"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_acknowledgments_Norwegian_Research_Council_grant_237718",
+      "label": [
+        "FundingSource"
+      ],
+      "properties": {
+        "name": "Norwegian Research Council grant",
+        "identifier": "237718",
+        "project": "Big Insight"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_acknowledgments_Paper",
+      "label": [
+        "Paper"
+      ],
+      "properties": {},
+      "labels": []
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy1",
+      "labels": [
+        "CaseStudy"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding1.1",
+      "labels": [
+        "Finding"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding1.2",
+      "labels": [
+        "Finding"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy2",
+      "labels": [
+        "CaseStudy"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding2.1",
+      "labels": [
+        "Finding"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding2.2",
+      "labels": [
+        "Finding"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy3",
+      "labels": [
+        "CaseStudy"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding3.1",
+      "labels": [
+        "Finding"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding3.2",
+      "labels": [
+        "Finding"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy4",
+      "labels": [
+        "CaseStudy"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding4.1",
+      "labels": [
+        "Finding"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding4.2",
+      "labels": [
+        "Finding"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_introduction_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "Explaining predictions from machine learning models is crucial for applications in medicine, fraud detection, and credit scoring. Amidst sophisticated models like neural networks outperforming linear models, interpretability becomes important."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_introduction_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "There is a trade-off between model complexity and interpretability, leading to trust and legal challenges. Shapley values offer a solution for explaining individual predictions from complex models."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_introduction_3",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "Existing methods, including Kernel SHAP, assume feature independence, potentially producing inaccurate explanations for dependent features. Current methods do not fully address dependency in Shapley values."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_introduction_4",
+      "labels": [
+        "ProposedSolution"
+      ],
+      "properties": {
+        "description": "The paper extends Kernel SHAP to handle dependent features accurately, offering methods for aggregating Shapley values for dependent features."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_objectives_aims_scope_1",
+      "label": "Objective",
+      "properties": {
+        "description": "Extend Kernel SHAP to handle dependent features for accurate Shapley values."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_objectives_aims_scope_2",
+      "label": "Aim",
+      "properties": {
+        "description": "Develop methodology for feature dependence in Shapley values and clustering for feature contribution."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_objectives_aims_scope_3",
+      "label": "Scope",
+      "properties": {
+        "description": "Development and validation of modified Kernel SHAP with feature dependence, and exploration of Shapley value clustering."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_software_code_availability_1",
+      "label": [
+        "Software"
+      ],
+      "title": "shapr",
+      "description": "An R-package to implement the modified Kernel SHAP method for explaining individual predictions in the presence of dependent features.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_software_code_availability_2",
+      "label": [
+        "Code"
+      ],
+      "title": "GitHub Repository",
+      "link": "https://github.com/NorskRegnesentral/shapr",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_ShapleyValues",
+      "label": "Theory",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_Efficiency",
+      "label": "Principle",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_Symmetry",
+      "label": "Principle",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_DummyPlayer",
+      "label": "Principle",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_Linearity",
+      "label": "Principle",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_KernelSHAP",
+      "label": "Extension",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_FeatureDependence",
+      "label": "Extension",
+      "labels": [],
+      "properties": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "author_1",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "author_2",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "author_3",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "keyword_1",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "keyword_2",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "keyword_3",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "keyword_4",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "keyword_5",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3",
+      "target": "supplementary_1",
+      "type": "HAS_SUPPLEMENTARY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_abstract_objective_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_abstract_method_1",
+      "type": "ADDRESSES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_abstract_method_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_abstract_result_1",
+      "type": "YIELDS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_abstract_result_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_abstract_implication_1",
+      "type": "SUPPORTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_abstract_method_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_abstract_additional_1",
+      "type": "IMPLEMENTED_IN",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_abstract_method_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_abstract_additional_2",
+      "type": "EVALUATED_IN",
+      "properties": {}
+    },
+    {
+      "source": "Scott_Lundberg",
+      "target": "Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Ingrid_Hobaek_Haff",
+      "target": "Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Nikolai_Sellereite",
+      "target": "Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Norwegian_Research_Council_grant_237718",
+      "target": "Paper",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy1",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding1.1",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy1",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding1.2",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy2",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding2.1",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy2",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding2.2",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy3",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding3.1",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy3",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding3.2",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy4",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding4.1",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy4",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding4.2",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_introduction_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_introduction_2",
+      "type": "MOTIVATES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_introduction_2",
+      "target": "Paper_shapiq_paper_1903.10464v3_introduction_3",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_introduction_3",
+      "target": "Paper_shapiq_paper_1903.10464v3_introduction_4",
+      "type": "ADDRESSES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "type": "SUPPORTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_software_code_availability_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_software_code_availability_2",
+      "type": "AVAILABLE_AT",
+      "properties": {}
+    },
+    {
+      "source": "ShapleyValues",
+      "target": "Efficiency",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "ShapleyValues",
+      "target": "Symmetry",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "ShapleyValues",
+      "target": "DummyPlayer",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "ShapleyValues",
+      "target": "Linearity",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "ShapleyValues",
+      "target": "KernelSHAP",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "ShapleyValues",
+      "target": "FeatureDependence",
+      "type": "RELATION",
+      "properties": {}
+    }
+  ]
+}

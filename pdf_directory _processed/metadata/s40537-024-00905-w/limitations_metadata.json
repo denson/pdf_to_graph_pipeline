@@ -1,0 +1,22 @@
+{
+  "limitations": [
+    {
+      "description": "The study is limited to only one dataset, the Kaggle Credit Card Fraud Detection Dataset, which may not be indicative of other datasets or real-world scenarios.",
+      "impact": "Results may not generalize well to other types of data or domains beyond credit card fraud detection."
+    },
+    {
+      "description": "The use of SHAP for feature selection adds a distinct step in the process and requires more computational resources compared to built-in feature selection methods.",
+      "impact": "This additional computational expense might make SHAP less practical for large datasets or real-time applications."
+    },
+    {
+      "description": "The comparison is limited to specific classifiers and does not include other possible models that could affect the outcome of the feature selection methods.",
+      "impact": "The findings might not be applicable to other types of classifiers which were not studied in this paper."
+    },
+    {
+      "description": "SHAP values may vary when different trained models are utilized, leading to variability in rankings and results.",
+      "impact": "The reliability and consistency of SHAP rankings across different model runs can affect the interpretation and use of selected features."
+    }
+  ],
+  "suggested_future_work": "Explore these two feature selection methods across diverse application domains to assess their generalizability and effectiveness beyond credit card fraud detection.",
+  "conflict_of_interests": "The authors declare that they have no competing interests."
+}

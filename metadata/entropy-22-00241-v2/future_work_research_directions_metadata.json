@@ -1,0 +1,17 @@
+{
+  "future_research_directions": {
+    "machine_learning_algorithms": "Further application of more machine learning algorithms, such as deep learning, is encouraged.",
+    "population_diversity": "Evaluation of the proposed model in a broader range of population is suggested for better validation.",
+    "entropy_measures": "Further studies are encouraged to apply entropy-based measures in the early detection of CVD risks.",
+    "HRV_research": "More prospective studies should evaluate hypnopompic HRV in the context of short-term CVD prediction."
+  },
+  "recommendations": {
+    "CVD_free_assessment": "Entropy-based measures should be considered for CVD-free individuals in their long-term management and evaluations.",
+    "clinical_practice": "The findings should inform clinical practices and models to include HRV metrics in cardiovascular risk assessments.",
+    "short_term_model_evaluations": "Prospective studies should focus on validating the short-term prediction model for CVD."
+  },
+  "additional_details": {
+    "missing_info": null,
+    "extra_relevant_details": "The focus on HRV measures, particularly entropy-based metrics, showed promise in predicting cardiovascular outcomes."
+  }
+}

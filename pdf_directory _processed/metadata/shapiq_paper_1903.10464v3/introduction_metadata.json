@@ -1,0 +1,20 @@
+{
+  "research_context": "Explaining predictions from machine learning models is crucial for applications in medicine, fraud detection, and credit scoring. Amidst sophisticated models like neural networks outperforming linear models, interpretability becomes important.",
+  "motivation": "There is a trade-off between model complexity and interpretability, leading to trust and legal challenges. Shapley values offer a solution for explaining individual predictions from complex models.",
+  "problem_statement": "Existing methods, including Kernel SHAP, assume feature independence, potentially producing inaccurate explanations for dependent features. Current methods do not fully address dependency in Shapley values.",
+  "proposed_solution": "The paper extends Kernel SHAP to handle dependent features accurately, offering methods for aggregating Shapley values for dependent features.",
+  "missing_information": null,
+  "additional_details": {
+    "source": "arXiv",
+    "authors": [
+      "Kjersti Aas",
+      "Martin Jullum",
+      "Anders L\u00f8land"
+    ],
+    "email_addresses": [
+      "kjersti.aas@nr.no",
+      "martin.jullum@nr.no",
+      "anders.loland@nr.no"
+    ]
+  }
+}

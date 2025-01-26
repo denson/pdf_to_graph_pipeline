@@ -1,0 +1,7 @@
+{
+  "objectives_aims_scope": {
+    "objectives": "To present powershap, a novel wrapper feature selection method, which leverages statistical hypothesis testing and power calculations in combination with Shapley values for quick and intuitive feature selection.",
+    "aims": "To provide a competitive and quick algorithm that can be used by various models in different domains, enhancing user experience and integration in conventional data science pipelines.",
+    "scope": "Powershap is intended to outperform other filter methods and match predictive performances of wrapper methods while being significantly faster. It is applicable in areas dealing with high dimensionality and features requiring robust selection methods."
+  }
+}

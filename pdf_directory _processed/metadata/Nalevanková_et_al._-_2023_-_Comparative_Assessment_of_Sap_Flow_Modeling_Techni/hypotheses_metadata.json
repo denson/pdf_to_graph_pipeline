@@ -1,0 +1,22 @@
+{
+  "hypotheses": [
+    {
+      "id": 1,
+      "description": "Can linear models adequately predict sap flow in European Beech trees compared to more sophisticated machine learning techniques such as random forest, extreme gradient boosting, and neural networks?",
+      "variables": [
+        "sap flow",
+        "Linear Model (LM)",
+        "Random Forest (RF)",
+        "Extreme Gradient Boosting Machine (XGBM)",
+        "Neural Networks (NN)"
+      ],
+      "outcome_measures": [
+        "prediction power",
+        "observed sap flow",
+        "predicted sap flow"
+      ],
+      "data_set": "Five-year sap flow datasets on European Beech trees (Fagus sylvatica) from 2012-2015 and 2017",
+      "findings": "LM had maximum prediction power with a 1-hour shift of global radiation, and provided comparable prediction power to RF and XGBM. NN exhibited poor prediction power."
+    }
+  ]
+}

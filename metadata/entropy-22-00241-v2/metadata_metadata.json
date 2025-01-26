@@ -1,0 +1,28 @@
+{
+  "title": "Entropy-Based Measures of Hypnopompic Heart Rate Variability Contribute to the Automatic Prediction of Cardiovascular Events",
+  "authors": [
+    "Xueya Yan",
+    "Lulu Zhang",
+    "Jinlian Li",
+    "Ding Du",
+    "Fengzhen Hou"
+  ],
+  "abstract": "Surges in sympathetic activity should be a major contributor to the frequent occurrence of cardiovascular events towards the end of nocturnal sleep. We aimed to investigate whether the analysis of hypnopompic heart rate variability (HRV) could assist in the prediction of cardiovascular disease (CVD). 2217 baseline CVD-free subjects were identified and divided into CVD group and non-CVD group, according to the presence of CVD during a follow-up visit. HRV measures derived from time domain analysis, frequency domain analysis and nonlinear analysis were employed to characterize cardiac functioning. Machine learning models for both long-term and short-term CVD prediction were then constructed, based on hypnopompic HRV metrics and other typical CVD risk factors. CVD was associated with significant alterations in hypnopompic HRV. An accuracy of 81.4% was achieved in short-term prediction of CVD, demonstrating a 10.7% increase compared with long-term prediction. There was a decline of more than 6% in the predictive performance of short-term CVD outcomes without HRV metrics. The complexity of hypnopompic HRV, measured by entropy-based indices, contributed considerably to the prediction and achieved greater importance in the proposed models than conventional HRV measures. Our findings suggest that Hypnopompic HRV assists the prediction of CVD outcomes, especially the occurrence of CVD event within two years.",
+  "keywords": [
+    "heart rate variability",
+    "cardiovascular disease",
+    "sleep",
+    "machine learning",
+    "XGBoost"
+  ],
+  "publication_date": "2020-02-20",
+  "doi": "10.3390/e22020241",
+  "supplementary_information": "not found",
+  "additional_metadata": {
+    "institution": [
+      "School of Science, China Pharmaceutical University, Nanjing, China",
+      "School of Environment Science, Nanjing Xiaozhuang University, China"
+    ],
+    "funding": "National Natural Science Foundation of China (Grant No.61401518 and 11974231)"
+  }
+}

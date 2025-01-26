@@ -1,0 +1,108 @@
+{
+  "study_site": {
+    "location": "Central region of Slovakia, Kremnick\u00e9 vrchy Mts.",
+    "altitude": 450,
+    "latitude": 48.612028,
+    "longitude": 19.066389,
+    "forest_type": "65-year-old European beech forest",
+    "climate": "slightly warm and moderately humid",
+    "mean_temperature_july": 16,
+    "mean_annual_temperature": 7.3,
+    "annual_precipitation": 690,
+    "area": 608,
+    "tree_species": "European beech",
+    "dbh_range": "5.7 to 42.3 cm",
+    "height_range": "8.4 to 29.3 m"
+  },
+  "equipment": {
+    "sap_flow_system": "EMS51A",
+    "data_logger": "RailBox V16",
+    "weather_station": {
+      "sensors": {
+        "air_temperature": "EMS33",
+        "relative_humidity": "EMS11",
+        "global_radiation": "EMS33 and EMS11",
+        "precipitation": "Met One Instruments Inc., model 370"
+      },
+      "logger": "EdgeBox V12"
+    },
+    "soil_water_potential_sensors": "Delmhorst Inc., gypsum blocks",
+    "soil_depth_measurements": [
+      15,
+      30,
+      50
+    ]
+  },
+  "sap_flow_measurements": {
+    "method": "Tissue heat balance method",
+    "interval": "5 min, recorded as 20 min averages",
+    "sample_trees": 12,
+    "data_periods": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "variable_derived": [
+      "Vapor pressure deficit (VPD)",
+      "Potential evapotranspiration (PET)"
+    ]
+  },
+  "modeling_methods": [
+    "linear model (LM)",
+    "random forest (RF)",
+    "extreme gradient boosting machine (XGBM)",
+    "neural networks (NN)"
+  ],
+  "variants": [
+    {
+      "id": 1,
+      "data_used": "all available data",
+      "global_radiation_shift": false,
+      "soil_water_potential_range": "0 to -1.45 MPa"
+    },
+    {
+      "id": 2,
+      "data_used": "all available data",
+      "global_radiation_shift": true,
+      "soil_water_potential_range": "0 to -1.45 MPa"
+    },
+    {
+      "id": 3,
+      "data_used": "drier soil conditions",
+      "global_radiation_shift": true,
+      "soil_water_potential_range": "-0.8 to -1.45 MPa"
+    },
+    {
+      "id": 4,
+      "data_used": "drier daylight conditions",
+      "global_radiation_shift": true,
+      "soil_water_potential_range": "-0.8 to -1.45 MPa"
+    },
+    {
+      "id": 5,
+      "data_used": "wetter daylight conditions",
+      "global_radiation_shift": true,
+      "soil_water_potential_range": "0 to -0.4 MPa"
+    },
+    {
+      "id": 6,
+      "data_used": "all daylight data",
+      "global_radiation_shift": false,
+      "soil_water_potential_range": "0 to -1.45 MPa"
+    }
+  ],
+  "performance_metrics": [
+    "coefficient of determination (R2)",
+    "root-mean-square error (RMSE)",
+    "mean absolute deviation (MAD)"
+  ],
+  "analysis_tools": [
+    "R programming language",
+    "TensorFlow",
+    "Keras",
+    "Ranger",
+    "XGBoost"
+  ]
+}

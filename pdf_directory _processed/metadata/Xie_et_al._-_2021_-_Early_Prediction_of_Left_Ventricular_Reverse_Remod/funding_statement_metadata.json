@@ -1,0 +1,54 @@
+{
+  "funding_sources": [
+    {
+      "funding_organization": "National Science Foundation of China",
+      "grant_number": [
+        "81870170",
+        "81970388",
+        "81900387"
+      ],
+      "researcher": [
+        "JW",
+        "YZ",
+        "ZL"
+      ]
+    },
+    {
+      "funding_organization": "Guangdong Province Natural Science Foundation",
+      "grant_number": [
+        "2019A1515011682",
+        "2019A1515011806"
+      ],
+      "researcher": [
+        "YZ",
+        "ZL"
+      ]
+    },
+    {
+      "funding_organization": "Guangdong Science and Technology Major Foundation",
+      "grant_number": "2015B010131010",
+      "researcher": "JW"
+    },
+    {
+      "funding_organization": "Guangdong Laboratory of Regenerative Medicine and Health Foundation",
+      "grant_number": "2019GZR110406004",
+      "researcher": [
+        "JW",
+        "YZ",
+        "YC"
+      ]
+    },
+    {
+      "funding_organization": "Guangzhou Science and Technology Major Foundation",
+      "grant_number": [
+        "201803040010",
+        "201704020044"
+      ],
+      "researcher": [
+        "JW",
+        "YZ"
+      ]
+    }
+  ],
+  "roles": "These foundations funded the research conducted in the study."
+}

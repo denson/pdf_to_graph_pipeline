@@ -1,0 +1,30 @@
+{
+  "authors": [
+    "Xueya Yan",
+    "Lulu Zhang",
+    "Jinlian Li",
+    "Ding Du",
+    "Fengzhen Hou"
+  ],
+  "title": "Entropy-Based Measures of Hypnopompic Heart Rate Variability Contribute to the Automatic Prediction of Cardiovascular Events",
+  "journal": "Entropy",
+  "volume": 22,
+  "issue": 241,
+  "year": 2020,
+  "discussion": {
+    "interpretations": {
+      "hypnopompic_HRV": "Measures of hypnopompic HRV can be a potential predictor for cardiovascular disease (CVD) events.",
+      "entropy_based_metrics": "Entropy-based metrics from nonlinear complexity analysis were found to be more sensitive predictors of CVD occurrence than traditional HRV measures.",
+      "machine_learning_approach": "Machine learning models incorporating HRV metrics can improve the early prediction of CVD outcomes, particularly short-term predictions."
+    },
+    "implications": {
+      "CVD_risk_factors": "Hypnopompic HRV should be considered alongside traditional CVD risk factors for more accurate predictions.",
+      "short_term_prediction": "The model\u2019s improved performance in short-term predictions suggests its potential utility for interventions targeting immediate CVD risks."
+    },
+    "limitations": {
+      "population": "The study was based on a specific dataset, and further prospective studies are needed to generalize findings to a broader population.",
+      "external_validity": "Evaluating the proposed model in diverse populations would further establish its efficacy in predicting short-term CVD risk."
+    },
+    "future_research": "Further prospective studies are encouraged to evaluate the proposed model for short-term prediction of CVD in diverse populations and to refine the use of entropy-based measures in early detection of CVD risks."
+  }
+}

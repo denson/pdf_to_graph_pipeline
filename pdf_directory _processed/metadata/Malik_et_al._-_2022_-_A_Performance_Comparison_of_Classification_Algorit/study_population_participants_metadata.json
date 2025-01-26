@@ -1,0 +1,17 @@
+{
+  "study_population_participants": {
+    "selection_criteria": {
+      "plants": "Orange, Red, Pink, and White Rose plants",
+      "environment": "Controlled lighting with 23MP camera for capturing images",
+      "geographic_location": "Not specified, but associated with The Islamia University of Bahawalpur, Pakistan",
+      "training_testing_split": "60% for training, 40% for testing"
+    },
+    "demographics": {
+      "plant_varieties": 4,
+      "total_images_collected": "Not explicitly stated, approximate from text is 200 images",
+      "image_resolution": "1080x1920 pixels",
+      "number_of_classes": 10
+    },
+    "extra_details": "Each image comes from a different plant."
+  }
+}

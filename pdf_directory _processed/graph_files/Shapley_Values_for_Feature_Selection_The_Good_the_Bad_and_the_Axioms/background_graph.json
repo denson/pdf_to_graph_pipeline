@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node1",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Shapley Value",
+        "description": "Shapley values originate from game theory as a way to fairly distribute the total gains to players based on their individual contributions.",
+        "historical_context": "Lloyd Shapley's 1953 paper introduced the Shapley value, and it has since been widely cited and applied in various fields, including economics and, more recently, machine learning for feature selection and explainability."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node2",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Feature Selection in Machine Learning",
+        "description": "Feature selection is a process in ML where certain feature subsets are chosen to maximize an evaluation function's performance while minimizing complexity.",
+        "historical_context": "Feature selection has deep roots in computational statistics and is related to model selection, which seeks to handle inferential nuances like uncertainty quantification and confounding variables."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node3",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Explainable AI (XAI)",
+        "description": "Explainable AI aims to interpret and attribute feature importance within machine learning models, often employing methods like Shapley values.",
+        "historical_context": "As AI models become more complex, the need for explainability has risen, resulting in the adoption of methods like SHapley Additive exPlanations (SHAP) and Shapley Additive Global importancE (SAGE) to render model predictions more transparent."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node2",
+      "type": "RELATION",
+      "properties": {
+        "relation": "Application",
+        "context": "Shapley values are applied in feature selection processes within machine learning."
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node3",
+      "type": "RELATION",
+      "properties": {
+        "relation": "Methodology",
+        "context": "Shapley values are used in explainable AI to attribute feature importance."
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node2",
+      "type": "RELATION",
+      "properties": {
+        "relation": "Intersection",
+        "context": "Both explainable AI and feature selection benefit from understanding and applying Shapley values."
+      }
+    }
+  ]
+}

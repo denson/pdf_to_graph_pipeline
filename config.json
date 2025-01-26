@@ -1,0 +1,134 @@
+{
+  "pdf_directory": "./pdf_directory/",
+  "model": "gpt-4o-mini",
+  "sections": {
+    "metadata": {
+      "entity_relationship_prompt": "You are an expert at extracting structured information from scientific documents. Please parse the text provided and output the requested metadata in JSON format. **All** fields listed below must be included. If a particular field is missing or not found, include it explicitly as \"null\" or \"not found\". Additionally, feel free to include any other relevant metadata you discover.\n\nMetadata to Extract:\n1. Title (string): The full title of the paper.\n2. Authors (array of strings): A list of author names.\n3. Abstract (string): A summary of the paper’s content.\n4. Keywords (array of strings): Any associated keywords.\n5. Publication Date (ISO 8601 format): The date the paper was published.\n6. DOI (string): The Digital Object Identifier.\n7. Supplementary Information (string): Any mention of supplementary materials, if available.\n\nExpected JSON Output Format (example structure):\n{\n  \"title\": \"Paper Title Here\",\n  \"authors\": [\"Author One\", \"Author Two\"],\n  \"abstract\": \"Abstract text here.\",\n  \"keywords\": [\"keyword1\", \"keyword2\"],\n  \"publication_date\": \"YYYY-MM-DD\",\n  \"doi\": \"10.1234/example.doi\",\n  \"supplementary_information\": \"Supplementary materials text here.\",\n  \"additional_metadata\": {\n    \"optional_field\": \"any other relevant data\"\n  }\n}",
+      "graph_creation_prompt": "Convert the provided metadata (in JSON) into an entity-relationship graph using **only** this structure:\n\n{\n  \"nodes\": [\n    {\n      \"id\": \"unique_id_string\",\n      \"labels\": [\"Paper\"],\n      \"properties\": {\n        // Put paper metadata here, e.g. title, doi, publication_date, etc.\n      }\n    }\n  ],\n  \"edges\": [\n    {\n      \"source\": \"node_id\",\n      \"target\": \"node_id\",\n      \"type\": \"RELATIONSHIP_TYPE\",\n      \"properties\": {\n        // If needed, store edge properties here\n      }\n    }\n  ]\n}\n\nInstructions:\n1. Create a Paper node that holds the paper’s title, publication date, abstract, DOI, etc. in node.properties.\n2. For each author, create a node with labels [\"Author\"] and connect it to the Paper node using an edge with type \"HAS_AUTHOR\".\n3. For each keyword, create a node with labels [\"Keyword\"] and connect it to the Paper node with an edge type \"HAS_KEYWORD\".\n4. For supplementary info, optionally create a [\"Supplementary\"] node.\n5. Any other metadata can be put into properties or additional nodes. The main requirement is that you output valid JSON with top-level \"nodes\" and \"edges\" arrays in the format described."
+    },
+    "abstract": {
+      "entity_relationship_prompt": "Extract the abstract section from the provided scientific paper. Summarize the core objectives, methods, and key findings in a structured format suitable for creating a JSON object. Include all required fields and use `null` or \"not found\" for missing information. Feel free to include any additional details that you find relevant.",
+      "graph_creation_prompt": "Create an entity-relationship graph **only** in the format:\n{\n  \"nodes\": [\n    {\n      \"id\": \"unique_id\",\n      \"labels\": [\"Objective\" or \"Method\" or \"Result\", etc.],\n      \"properties\": {\n        // relevant fields\n      }\n    }\n  ],\n  \"edges\": [\n    {\n      \"source\": \"some_node_id\",\n      \"target\": \"another_node_id\",\n      \"type\": \"RELATIONSHIP_TYPE\",\n      \"properties\": {}\n    }\n  ]\n}\n\nIdentify major objectives, methods, results, or implications. Each should be a node with a suitable label, e.g. [\"Objective\"], [\"Method\"], [\"Implication\"]. Create edges (e.g. \"RELATES_TO\", \"SUPPORTS\", etc.) to reflect logical connections."
+    },
+    "introduction": {
+      "entity_relationship_prompt": "Analyze the introduction to identify the research context, motivation, and problem statement. Include all required fields, marking missing information with `null` or \"not found\". Add any additional details you consider important.",
+      "graph_creation_prompt": "Build an entity-relationship graph in JSON with:\n{\n  \"nodes\": [\n    {\n      \"id\": \"unique_id\",\n      \"labels\": [\"Context\" or \"Motivation\" or \"ProblemStatement\"],\n      \"properties\": { ... }\n    }\n  ],\n  \"edges\": [\n    {\n      \"source\": \"node_id\",\n      \"target\": \"node_id\",\n      \"type\": \"RELATIONSHIP_TYPE\",\n      \"properties\": {}\n    }\n  ]\n}\n\nRepresent how the problem statement and motivations tie into the broader context."
+    },
+    "background": {
+      "entity_relationship_prompt": "Extract background information that provides historical or theoretical context for the research. Include required fields and use `null` or \"not found\" for missing details. You may add extra relevant information as needed.",
+      "graph_creation_prompt": "Represent the background as a graph, using:\n{\n  \"nodes\": [{\"id\": \"unique_id\", \"labels\": [\"Background\"], \"properties\": {...}}],\n  \"edges\": [{\"source\": \"id\", \"target\": \"id\", \"type\": \"RELATION\", \"properties\": {...}}]\n}\n\nLink key historical events or theories to the current research context."
+    },
+    "literature_review": {
+      "entity_relationship_prompt": "Summarize the key findings, methodologies, and gaps identified in the literature review section. Ensure required fields are included, using `null` or \"not found\" for missing data. Optionally, include any additional insights.",
+      "graph_creation_prompt": "Construct a graph with 'nodes' and 'edges' arrays, e.g.:\n{\n  \"nodes\": [\n    {\n      \"id\": \"litrev_key_finding_1\",\n      \"labels\": [\"KeyFinding\"],\n      \"properties\": {...}\n    }\n  ],\n  \"edges\": [...]\n}\n\nYou can label nodes as [\"KeyFinding\"], [\"Method\"], [\"ResearchGap\"], etc."
+    },
+    "objectives_aims_scope": {
+      "entity_relationship_prompt": "Extract the objectives, aims, and scope of the study. Include required fields and mark missing information with `null` or \"not found\". Feel free to add extra information you find relevant.",
+      "graph_creation_prompt": "Create an entity-relationship graph with 'nodes' (e.g. labels [\"Objective\"] or [\"Aim\"]) and 'edges' (type \"RELATES_TO\" or similar). Return valid JSON with top-level \"nodes\" and \"edges\" arrays only."
+    },
+    "methods_materials_and_methods": {
+      "entity_relationship_prompt": "Summarize the methods and materials used in the study, including experimental setups, procedures, and tools. Ensure required fields are present, marking missing information with `null` or \"not found\". Include additional details if relevant.",
+      "graph_creation_prompt": "Construct a 'nodes'/'edges' JSON graph. For example, methods might have [\"Method\"] label, materials [\"Material\"], and connect them with edges of type \"USED_FOR\" or similar. Keep to the structure shown above."
+    },
+    "study_design": {
+      "entity_relationship_prompt": "Identify and summarize the study design, including variables, controls, and overall structure. Include all required fields and use `null` or \"not found\" for missing information. Optionally include additional details that are important.",
+      "graph_creation_prompt": "Create a JSON graph with the required shape. Label nodes as [\"Variable\"], [\"Control\"], [\"StudyDesign\"], etc., and link them appropriately."
+    },
+    "theoretical_framework": {
+      "entity_relationship_prompt": "Extract the theoretical framework or principles underpinning the study. Summarize this information into structured points. Ensure required fields are included, marking missing ones with `null` or \"not found\". Add extra details if relevant.",
+      "graph_creation_prompt": "Represent the theoretical framework as a 'nodes'/'edges' graph. Example node labels might be [\"Theory\"], [\"Principle\"]. Provide edges showing how they connect to the study."
+    },
+    "results": {
+      "entity_relationship_prompt": "Summarize the main results of the study, including significant findings and data highlights. Include required fields, marking missing information with `null` or \"not found\". Add any additional insights as needed.",
+      "graph_creation_prompt": "Generate a JSON graph: { \"nodes\": [...], \"edges\": [...] }. Node labels might be [\"Result\"], [\"Finding\"]. You can create edges like \"SUPPORTS\" or \"CONTRADICTS\" if relevant."
+    },
+    "discussion": {
+      "entity_relationship_prompt": "Extract the key points discussed, including interpretations, implications, and limitations of the study. Include required fields, marking missing data with `null` or \"not found\". Add extra information if relevant.",
+      "graph_creation_prompt": "Build a 'nodes'/'edges' JSON graph. Potential labels: [\"Interpretation\"], [\"Implication\"], [\"Limitation\"]. Add edges to show relationships among them."
+    },
+    "conclusions": {
+      "entity_relationship_prompt": "Summarize the conclusions drawn from the study, focusing on the main outcomes and their significance. Include required fields, marking missing information with `null` or \"not found\". Add any relevant additional details.",
+      "graph_creation_prompt": "Return a JSON graph with 'nodes'/'edges'. Label conclusion-based nodes as [\"Conclusion\"], linking them to preceding results or implications with edges if desired."
+    },
+    "acknowledgments": {
+      "entity_relationship_prompt": "Identify and summarize the acknowledgments, including contributors and funding sources. Include required fields and mark missing data with `null` or \"not found\". Optionally include extra details you find relevant.",
+      "graph_creation_prompt": "Use a 'nodes'/'edges' structure. Node labels might be [\"Contributor\"], [\"FundingSource\"]. Connect them to [\"Paper\"] or relevant authors with edge type like \"ACKNOWLEDGED_BY\" or \"FUNDED\"."
+    },
+    "references_bibliography": {
+      "entity_relationship_prompt": "Extract the list of references cited in the paper, summarizing them in a structured format. Ensure required fields are included, marking missing ones with `null` or \"not found\". Include additional details if relevant.",
+      "graph_creation_prompt": "Represent references with 'nodes' (e.g. [\"Reference\"]) and create edges to authors or the main Paper if you like. Must return valid JSON with 'nodes'/'edges'."
+    },
+    "figures_and_tables_captions": {
+      "entity_relationship_prompt": "Extract and summarize captions for all figures and tables in the paper. Include required fields and mark missing ones with `null` or \"not found\". Add any relevant additional details.",
+      "graph_creation_prompt": "Construct a 'nodes' array (e.g. [\"Figure\"], [\"Table\"]) and 'edges' linking them to the Paper or relevant section. Return valid JSON in the same structure as above."
+    },
+    "funding_statement": {
+      "entity_relationship_prompt": "Extract information about the funding sources and their roles in the study. Include required fields, marking missing ones with `null` or \"not found\". Add extra details if relevant.",
+      "graph_creation_prompt": "Return a 'nodes'/'edges' JSON graph. Label nodes as [\"FundingSource\"] or [\"Sponsor\"], and link them to [\"Paper\"] or [\"ResearchActivity\"] via edges of type \"FUNDED\" or similar."
+    },
+    "ethical_statement": {
+      "entity_relationship_prompt": "Summarize the ethical considerations or approvals mentioned in the study. Include required fields and mark missing data with `null` or \"not found\". Add extra relevant details if needed.",
+      "graph_creation_prompt": "Represent the ethical info as a 'nodes'/'edges' graph. For instance, a node [\"EthicalStatement\"] that connects to [\"Paper\"] with an edge type like \"APPLIES_TO\"."
+    },
+    "conflicts_of_interest_declaration": {
+      "entity_relationship_prompt": "Extract and summarize any conflicts of interest declared by the authors. Include required fields, marking missing data with `null` or \"not found\". Add extra relevant details as needed.",
+      "graph_creation_prompt": "Create a 'nodes'/'edges' JSON object. Possibly [\"ConflictOfInterest\"] node(s) linking to [\"Author\"] or [\"Paper\"] with a relevant edge type."
+    },
+    "limitations": {
+      "entity_relationship_prompt": "Identify and summarize the limitations of the study as discussed in the paper. Include required fields and mark missing ones with `null` or \"not found\". Add extra information if relevant.",
+      "graph_creation_prompt": "Construct 'nodes' with label [\"Limitation\"] or similar, and link them to [\"Paper\"] or [\"Findings\"] with edges describing the limitation. Return the standard 'nodes'/'edges' structure."
+    },
+    "future_work_research_directions": {
+      "entity_relationship_prompt": "Summarize proposed future research directions and recommendations. Include required fields, marking missing information with `null` or \"not found\". Add extra relevant details if needed.",
+      "graph_creation_prompt": "Provide a 'nodes'/'edges' JSON graph. Label nodes as [\"FutureWork\"] or [\"Recommendation\"]. Link them to [\"Paper\"] or [\"Findings\"] via edges of type \"RECOMMENDED_NEXT\" or similar."
+    },
+    "appendices": {
+      "entity_relationship_prompt": "Extract details of appendices, including additional data, methods, or models provided. Include required fields and mark missing ones with `null` or \"not found\". Add extra relevant information if needed.",
+      "graph_creation_prompt": "Return a graph with [\"Appendix\"] nodes connected to relevant content or [\"Paper\"]. Must be valid JSON with 'nodes'/'edges'."
+    },
+    "software_code_availability": {
+      "entity_relationship_prompt": "Extract details of the software or code used in the study, including access links if available. Include required fields, marking missing information with `null` or \"not found\". Add extra details as necessary.",
+      "graph_creation_prompt": "Use 'nodes'/'edges' arrays: label nodes as [\"Software\"] or [\"Code\"], link them to the Paper or Methods with edges like \"USED_IN\" or \"AVAILABLE_AT\"."
+    },
+    "data_availability_statement": {
+      "entity_relationship_prompt": "Summarize the data availability statement, including how and where the data can be accessed. Include required fields, marking missing ones with `null` or \"not found\". Add extra relevant details as necessary.",
+      "graph_creation_prompt": "Represent data availability with a node [\"DataAvailability\"] and edges linking to [\"Paper\"] or [\"Repository\"]. The structure: { \"nodes\": [...], \"edges\": [...] } only."
+    },
+    "reviewer_notes": {
+      "entity_relationship_prompt": "Extract and summarize any reviewer notes or responses included in the paper. Include required fields and mark missing ones with `null` or \"not found\". Add extra relevant details as necessary.",
+      "graph_creation_prompt": "Create a standard 'nodes'/'edges' graph. Possibly label nodes [\"ReviewerNote\"] or [\"AuthorResponse\"] and link them as needed."
+    },
+    "graphical_abstract": {
+      "entity_relationship_prompt": "Extract and summarize the content of the graphical abstract provided in the paper. Include required fields and mark missing ones with `null` or \"not found\". Add extra relevant information as necessary.",
+      "graph_creation_prompt": "Return a 'nodes'/'edges' graph. Label node(s) [\"GraphicalAbstract\"] and link them to [\"Paper\"] or relevant parts with edges if it helps clarity."
+    },
+    "study_population_participants": {
+      "entity_relationship_prompt": "Summarize details of the study population or participants, including selection criteria and demographics. Include required fields and mark missing ones with `null` or \"not found\". Add extra relevant details if necessary.",
+      "graph_creation_prompt": "Construct a 'nodes'/'edges' JSON object. Label nodes [\"StudyPopulation\"] or [\"ParticipantGroup\"] and connect them to [\"Methods\"] or [\"Paper\"] with edges."
+    },
+    "hypotheses": {
+      "entity_relationship_prompt": "Extract and summarize the hypotheses tested in the study. Include required fields, marking missing ones with `null` or \"not found\". Add extra relevant details if necessary.",
+      "graph_creation_prompt": "Build a graph with [\"Hypothesis\"] nodes. Connect them to [\"Methods\"] or [\"Paper\"] or [\"Results\"] with edges describing the relationship (e.g., \"TESTED_BY\")."
+    },
+    "experimental_setup": {
+      "entity_relationship_prompt": "Summarize the experimental setup, including equipment, configurations, and protocols. Include required fields and mark missing ones with `null` or \"not found\". Add extra relevant information if necessary.",
+      "graph_creation_prompt": "Return a 'nodes'/'edges' object. Label nodes [\"Equipment\"], [\"Protocol\"], etc. Connect them as needed (e.g. type \"USED_FOR\")."
+    },
+    "case_studies": {
+      "entity_relationship_prompt": "Summarize details of any case studies included in the paper, highlighting key findings and implications. Include required fields and mark missing ones with `null` or \"not found\". Add extra relevant details as necessary.",
+      "graph_creation_prompt": "Represent case studies as a 'nodes'/'edges' graph. Label nodes [\"CaseStudy\"] or [\"Finding\"], and connect them with edges (e.g. \"HAS_FINDING\"). Must be valid JSON with top-level 'nodes'/'edges'."
+    },
+    "application": {
+      "entity_relationship_prompt": "Extract details of applications or real-world implementations discussed in the paper. Include required fields and mark missing ones with `null` or \"not found\". Add extra relevant information as necessary.",
+      "graph_creation_prompt": "Return a 'nodes'/'edges' graph. Label application-related nodes [\"Application\"] or [\"Implementation\"] and link them to relevant methods, findings, or the Paper with edges of type \"APPLIES\" or similar."
+    }
+  },
+  "output_format": {
+    "metadata_file_suffix": "_metadata.json",
+    "graph_file_suffix": "_graph.json"
+  },
+  "logging": {
+    "enable": true,
+    "log_file": "./processing_log.txt"
+  }
+}

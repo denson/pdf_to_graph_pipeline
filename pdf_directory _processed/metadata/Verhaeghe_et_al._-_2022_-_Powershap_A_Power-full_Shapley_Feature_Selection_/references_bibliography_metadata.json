@@ -1,0 +1,295 @@
+{
+  "references": [
+    {
+      "citation": "[1]",
+      "authors": [
+        "Altmann, A.",
+        "Tolo\u00b8si, L.",
+        "Sander, O.",
+        "Lengauer, T."
+      ],
+      "title": "Permutation importance: a corrected feature importance measure.",
+      "journal": "Bioinformatics",
+      "volume": "26",
+      "issue": "10",
+      "pages": "1340\u20131347",
+      "year": "2010",
+      "publisher": "May",
+      "doi": null
+    },
+    {
+      "citation": "[2]",
+      "authors": [
+        "Breiman, L."
+      ],
+      "title": "Random Forests.",
+      "journal": "Machine Learning",
+      "volume": "45",
+      "issue": "1",
+      "pages": "5\u201332",
+      "year": "2001",
+      "publisher": "Oct",
+      "doi": null
+    },
+    {
+      "citation": "[3]",
+      "authors": [
+        "Calzolari, M."
+      ],
+      "title": "manuel-calzolari/shapicant.",
+      "journal": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "year": "2022",
+      "publisher": "Apr",
+      "doi": null
+    },
+    {
+      "citation": "[4]",
+      "authors": [
+        "Colaco, S.",
+        "Kumar, S.",
+        "Tamang, A.",
+        "Biju, V.G."
+      ],
+      "title": "A Review on Feature Selection Algorithms.",
+      "booktitle": "Emerging Research in Computing, Information, Communication and Applications",
+      "pages": "133\u2013153",
+      "year": "2019",
+      "publisher": "Springer, Singapore",
+      "doi": null
+    },
+    {
+      "citation": "[5]",
+      "authors": [
+        "Dua, D.",
+        "Gra\ufb00, C."
+      ],
+      "title": "UCI machine learning repository.",
+      "journal": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "year": "2017",
+      "publisher": null,
+      "doi": null
+    },
+    {
+      "citation": "[6]",
+      "authors": [
+        "Jovi\u00b4c, A.",
+        "Brki\u00b4c, K.",
+        "Bogunovi\u00b4c, N."
+      ],
+      "title": "A review of feature selection methods with applications.",
+      "booktitle": "2015 38th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO)",
+      "pages": "1200\u20131205",
+      "year": "2015",
+      "publisher": "May",
+      "doi": null
+    },
+    {
+      "citation": "[7]",
+      "authors": [
+        "Keany, E."
+      ],
+      "title": "Borutashap: A wrapper feature selection method which combines the boruta feature selection algorithm with shapley values.",
+      "journal": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "year": "2020",
+      "publisher": "Nov",
+      "doi": null
+    },
+    {
+      "citation": "[8]",
+      "authors": [
+        "Kumari, B.",
+        "Swarnkar, T."
+      ],
+      "title": "Filter versus Wrapper Feature Subset Selection in Large Dimensionality Micro array: A Review.",
+      "journal": "International Journal of Computer Science and Information Technologies",
+      "volume": "2",
+      "issue": null,
+      "pages": "6",
+      "year": "2011",
+      "publisher": null,
+      "doi": null
+    },
+    {
+      "citation": "[9]",
+      "authors": [
+        "Kursa, M.B.",
+        "Rudnicki, W.R."
+      ],
+      "title": "Feature selection with the Boruta package.",
+      "journal": "Journal of Statistical Software",
+      "volume": "36",
+      "issue": "11",
+      "pages": "1\u201313",
+      "year": "2010",
+      "publisher": null,
+      "doi": null
+    },
+    {
+      "citation": "[10]",
+      "authors": [
+        "Li, J.",
+        "Cheng, K.",
+        "Wang, S.",
+        "et al."
+      ],
+      "title": "Feature Selection: A Data Perspective.",
+      "journal": "ACM Computing Surveys",
+      "volume": "50",
+      "issue": "6",
+      "pages": "94:1\u201394:45",
+      "year": "2017",
+      "publisher": "Dec",
+      "doi": null
+    },
+    {
+      "citation": "[11]",
+      "authors": [
+        "Linardatos, P.",
+        "Papastefanopoulos, V.",
+        "Kotsiantis, S."
+      ],
+      "title": "Explainable AI: A Review of Machine Learning Interpretability Methods.",
+      "journal": "Entropy",
+      "volume": "23",
+      "issue": "1",
+      "pages": "18",
+      "year": "2020",
+      "publisher": "Dec",
+      "doi": null
+    },
+    {
+      "citation": "[12]",
+      "authors": [
+        "Lomax, R.G."
+      ],
+      "title": "An introduction to statistical concepts.",
+      "journal": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "year": "2007",
+      "publisher": "Mahwah, N.J. : Lawrence Erlbaum Associates Publishers",
+      "doi": null
+    },
+    {
+      "citation": "[13]",
+      "authors": [
+        "Lundberg, S.M.",
+        "Lee, S.I."
+      ],
+      "title": "A unified approach to interpreting model predictions.",
+      "booktitle": "Advances in Neural Information Processing Systems 30",
+      "pages": "4765\u20134774",
+      "year": "2017",
+      "publisher": "Curran Associates, Inc.",
+      "doi": null
+    },
+    {
+      "citation": "[14]",
+      "authors": [
+        "North, B.V.",
+        "Curtis, D.",
+        "Sham, P.C."
+      ],
+      "title": "A Note on the Calculation of Empirical P Values from Monte Carlo Procedures.",
+      "journal": "American Journal of Human Genetics",
+      "volume": "71",
+      "issue": "2",
+      "pages": "439\u2013441",
+      "year": "2002",
+      "publisher": "Aug",
+      "doi": null
+    },
+    {
+      "citation": "[15]",
+      "authors": [
+        "Pedregosa, F.",
+        "Varoquaux, G.",
+        "Gramfort, A.",
+        "et al."
+      ],
+      "title": "Scikit-learn: Machine learning in Python.",
+      "journal": "Journal of Machine Learning Research",
+      "volume": "12",
+      "issue": null,
+      "pages": "2825\u20132830",
+      "year": "2011",
+      "publisher": null,
+      "doi": null
+    },
+    {
+      "citation": "[16]",
+      "authors": [
+        "Prokhorenkova, L.",
+        "Gusev, G.",
+        "et al."
+      ],
+      "title": "CatBoost: unbiased boosting with categorical features.",
+      "journal": "arXiv:1706.09516 [cs]",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "year": "2019",
+      "publisher": "Jan",
+      "doi": null
+    },
+    {
+      "citation": "[17]",
+      "authors": [
+        "Seabold, S.",
+        "Perktold, J."
+      ],
+      "title": "statsmodels: Econometric and statistical modeling with python.",
+      "booktitle": "9th Python in Science Conference",
+      "pages": null,
+      "year": "2010",
+      "publisher": null,
+      "doi": null
+    },
+    {
+      "citation": "[18]",
+      "authors": [
+        "Vanschoren, J."
+      ],
+      "title": "OpenML: gina priori",
+      "booktitle": null,
+      "pages": null,
+      "year": null,
+      "publisher": "https://www.openml.org/d/1042",
+      "doi": null
+    },
+    {
+      "citation": "[19]",
+      "authors": [
+        "Vanschoren, J."
+      ],
+      "title": "OpenML: madelon",
+      "booktitle": null,
+      "pages": null,
+      "year": null,
+      "publisher": "https://www.openml.org/d/1485",
+      "doi": null
+    },
+    {
+      "citation": "[20]",
+      "authors": [
+        "Vanschoren, J."
+      ],
+      "title": "OpenML: scene",
+      "booktitle": null,
+      "pages": null,
+      "year": null,
+      "publisher": "https://www.openml.org/d/312",
+      "doi": null
+    }
+  ]
+}

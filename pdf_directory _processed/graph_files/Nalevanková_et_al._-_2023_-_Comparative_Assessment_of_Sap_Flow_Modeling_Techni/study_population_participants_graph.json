@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_study_population_participants_StudyPopulation1",
+      "label": "StudyPopulation",
+      "attributes": {
+        "species": "European Beech Trees (Fagus sylvatica)",
+        "years_of_study": [
+          2012,
+          2013,
+          2014,
+          2015,
+          2017
+        ],
+        "number_of_trees": 12,
+        "age_of_trees": 65,
+        "DBH_range": "5.7 to 42.3 cm",
+        "height_range": "8.4 to 29.3 m",
+        "average_height": "26.3 m",
+        "average_DBH": "32.4 cm",
+        "location": {
+          "region": "Central Slovakia (Kremnick\u00e9 vrchy Mts.)",
+          "altitude": "450 m above sea level",
+          "latitude": "48\u00b036\u203243\u2032\u2032 N",
+          "longitude": "19\u00b003\u203259\u2032\u2032 E",
+          "climate_zone": "Oak\u2013Beech forest zone"
+        },
+        "soil_type": "Haplic Cambisol (Humic, Eutric, Endoskeletic, Siltic)",
+        "climate": {
+          "mean_air_temperature_july": "16 \u00b0C",
+          "long_term_mean_annual_air_temperature": "7.3 \u00b0C",
+          "total_annual_precipitation": "690 mm"
+        },
+        "experimental_plot_size": "608 m\u00b2",
+        "selection_criteria": {
+          "characteristics": "Trees with DBH from 5.7 to 42.3 cm and heights from 8.4 to 29.3 m",
+          "average_tree": {
+            "height": "26.3 m",
+            "DBH": "32.4 cm"
+          }
+        },
+        "data_incompleteness": {
+          "year_2016": "Data not included due to incompleteness"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "StudyPopulation1",
+      "to": "Methods1",
+      "label": "studied with"
+    },
+    {
+      "from": "StudyPopulation1",
+      "to": "Paper1",
+      "label": "described in"
+    }
+  ]
+}

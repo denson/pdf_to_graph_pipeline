@@ -1,0 +1,2193 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "title": "A Performance Comparison of Classification Algorithms for Rose Plants",
+        "abstract": "One of the key roles of Botanists is to be able to recognize flowers. This role has become highly challenging given that the number of discovered flower types are nearing half a million. To support Botanists, Information Technology offers promising solutions. Specifically, machine learning techniques are intrinsically appealing due to being precise enough as required. To this aim, two observations on flower leaves are relevant and leverage flower identification: one, flower plants exhibit unique features in their leaves thus allow distinction of their co-located flowers; two, leaves have a much longer life than flowers thus preserve identity properties longer. This paper proposes the use of machine learning-based identification of rose types by leveraging the features from their leaves. For this purpose, the performance of Naive Bayes, Generalized Linear Model, Multilayer Perceptron, Decision Tree, Random Forest, Gradient Boosted Trees, and Support Vector Machine has been analyzed. This study optimizes the RF model by investigating and tuning its various parameters such as the number of trees, the depth of trees, and splitting criteria. The best results are achieved with gain ratio because it takes more distinct values to avoid the problems associated with Information Gain. Optimizing the number of trees and the depth of trees of RF yield better accuracy than other models. Extensive experiments are performed to analyze the results of ensemble algorithms by using the voting method for each instance. Results suggest that the performance of ensemble classifiers is superior to that of individual models.",
+        "publication_date": "2022-08-16",
+        "doi": "10.1155/2022/1842547",
+        "journal": "Computational Intelligence and Neuroscience",
+        "volume": "2022",
+        "article_id": "1842547",
+        "pages": "16"
+      }
+    },
+    {
+      "id": "author_1",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Muzamil Malik"
+      }
+    },
+    {
+      "id": "author_2",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Waqar Aslam"
+      }
+    },
+    {
+      "id": "author_3",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Emad Abouel Nasr"
+      }
+    },
+    {
+      "id": "author_4",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Zahid Aslam"
+      }
+    },
+    {
+      "id": "author_5",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Seifedine Kadry"
+      }
+    },
+    {
+      "id": "keyword_1",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "machine learning"
+      }
+    },
+    {
+      "id": "keyword_2",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "rose plants"
+      }
+    },
+    {
+      "id": "keyword_3",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "classification algorithms"
+      }
+    },
+    {
+      "id": "keyword_4",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Naive Bayes"
+      }
+    },
+    {
+      "id": "keyword_5",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Generalized Linear Model"
+      }
+    },
+    {
+      "id": "keyword_6",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Multilayer Perceptron"
+      }
+    },
+    {
+      "id": "keyword_7",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Decision Tree"
+      }
+    },
+    {
+      "id": "keyword_8",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Random Forest"
+      }
+    },
+    {
+      "id": "keyword_9",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Gradient Boosted Trees"
+      }
+    },
+    {
+      "id": "keyword_10",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Support Vector Machine"
+      }
+    },
+    {
+      "id": "keyword_11",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "feature optimization"
+      }
+    },
+    {
+      "id": "keyword_12",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "ensemble methods"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Muzamil Malik",
+      "labels": [
+        "Contributor"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Waqar Aslam",
+      "labels": [
+        "Contributor"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Emad Abouel Nasr",
+      "labels": [
+        "Contributor"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Zahid Aslam",
+      "labels": [
+        "Contributor"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Seifedine Kadry",
+      "labels": [
+        "Contributor"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_King Saud University",
+      "labels": [
+        "FundingSource"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_1",
+      "label": [
+        "Application"
+      ],
+      "name": "Rose Plant Classification Application",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_2",
+      "label": [
+        "Field"
+      ],
+      "name": "Agriculture",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_3",
+      "label": [
+        "Field"
+      ],
+      "name": "Botany",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_4",
+      "label": [
+        "Field"
+      ],
+      "name": "Image Processing",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_5",
+      "label": [
+        "Technology"
+      ],
+      "name": "Machine Learning",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_6",
+      "label": [
+        "Method"
+      ],
+      "name": "Random Forest",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_7",
+      "label": [
+        "Method"
+      ],
+      "name": "Naive Bayes",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_8",
+      "label": [
+        "Method"
+      ],
+      "name": "Generalized Linear Model",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_9",
+      "label": [
+        "Method"
+      ],
+      "name": "Multilayer Perceptron",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_10",
+      "label": [
+        "Method"
+      ],
+      "name": "Decision Tree",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_11",
+      "label": [
+        "Method"
+      ],
+      "name": "Gradient Boosted Trees",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_12",
+      "label": [
+        "Method"
+      ],
+      "name": "Support Vector Machine",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_13",
+      "label": [
+        "Method"
+      ],
+      "name": "Histogram features",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_14",
+      "label": [
+        "Method"
+      ],
+      "name": "Texture features",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_15",
+      "label": [
+        "Implementation"
+      ],
+      "name": "Data Collection",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_16",
+      "label": [
+        "Implementation"
+      ],
+      "name": "Optimization",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_17",
+      "label": [
+        "Result"
+      ],
+      "name": "Optimized Random Forest model achieved the best results",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_18",
+      "label": [
+        "Limitation"
+      ],
+      "name": "Performance dependent on dataset size and quality",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_19",
+      "label": [
+        "Limitation"
+      ],
+      "name": "Deep learning models performed suboptimally",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_20",
+      "label": [
+        "Application"
+      ],
+      "name": "k-NN Algorithm for Rose Classification",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_application_21",
+      "label": [
+        "Application"
+      ],
+      "name": "CNN and RestNet for Plant Classification",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_1",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Role of Botanists",
+        "description": "Botanists play a key role in recognizing flowers, a challenge with nearly half a million flower types discovered."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_2",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Machine Learning in Botany",
+        "description": "Machine learning techniques provide precise solutions for flower identification, leveraging unique leaf features for long-lasting identity preservation."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_3",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Classification Challenges",
+        "description": "Classification of flowering plants has economic value and is crucial for tracking and identifying new species."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_4",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Machine Learning Models",
+        "description": "Various models like Naive Bayes, Decision Tree, Random Forest, and Support Vector Machine have been explored for plant classification."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_5",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Random Forest Optimization",
+        "description": "Random Forest is optimized by tuning parameters like the number of trees and tree depth, using gain ratio to improve accuracy."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_6",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Image Processing in Agriculture",
+        "description": "Image processing via machine learning aids in tasks such as cancerous tissue detection, plant classification, and image-based searching."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_7",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Importance of Ensemble Learners",
+        "description": "Ensemble classifiers, using voting methods, show superior performance compared to individual models."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_8",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Specific Problem Addressed",
+        "description": "This study proposes machine learning-based identification of rose plant types using leaf features, addressing challenges of manual identification."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_1",
+      "label": "Random Forest Model",
+      "type": "Descriptor",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_2",
+      "label": "Optimized RF Outperforms Others",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_3",
+      "label": "Specific Vector Machine",
+      "type": "Descriptor",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_4",
+      "label": "SVM 72% Accuracy",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_5",
+      "label": "Ensemble Classifiers",
+      "type": "Descriptor",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_6",
+      "label": "Ensemble Superiority",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_7",
+      "label": "RF Parameter Tuning",
+      "type": "Descriptor",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_8",
+      "label": "Gain Ratio Better Accuracy",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_9",
+      "label": "Potential in Plant Identification",
+      "type": "Significance",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_10",
+      "label": "Deep Learning Models Used",
+      "type": "Additional Detail",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_11",
+      "label": "Future Recommendations",
+      "type": "Additional Detail",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_discussion_1",
+      "label": "Interpretation",
+      "description": "The study investigates the classification of rose plants using machine learning models.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_discussion_2",
+      "label": "Implication",
+      "description": "Machine learning, especially Random Forests (RF), can enhance the efficiency of plant species identification, reducing manual labor and time.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_discussion_3",
+      "label": "Limitation",
+      "description": "Deep learning models' performance was constrained, potentially due to the small dataset size. RF performance optimization was specifically emphasized.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_camera",
+      "label": "Equipment",
+      "properties": {
+        "type": "smartphone",
+        "resolution": "23MP",
+        "conditions": "controlled lighting"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_dataset",
+      "label": "Dataset",
+      "properties": {
+        "image_resolution": "1080x1920 pixels",
+        "classes": 10,
+        "image_type": "rose leaves",
+        "colors": [
+          "orange",
+          "red",
+          "pink",
+          "white"
+        ],
+        "sample_split": {
+          "training": "60%",
+          "testing": "40%"
+        }
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_CVIP_tool",
+      "label": "Software",
+      "properties": {
+        "function": "feature extraction"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_RapidMiner",
+      "label": "Software",
+      "properties": {
+        "function": "classification"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_feature_extraction",
+      "label": "Process",
+      "properties": {
+        "methods": [
+          "histogram",
+          "texture"
+        ],
+        "features_list": [
+          "mean",
+          "energy",
+          "standard deviation",
+          "inertia",
+          "skew",
+          "correlation",
+          "inverse difference",
+          "entropy"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_machine_learning_models",
+      "label": "Machine Learning Models",
+      "properties": {
+        "models": [
+          "Naive Bayes",
+          "Generalized Linear Model",
+          "Deep Learning Multinomial Model",
+          "Decision Tree",
+          "Random Forest",
+          "Gradient Boosted Trees",
+          "Support Vector Machine"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_deep_learning_models",
+      "label": "Deep Learning Models",
+      "properties": {
+        "models": [
+          "Convolutional Neural Network",
+          "Long Short-Term Memory Network",
+          "RestNet"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_hyperparameter_tuning",
+      "label": "Process",
+      "properties": {
+        "random_forest": {
+          "number_of_trees": [
+            2,
+            102
+          ],
+          "depth_of_trees": [
+            1,
+            100
+          ],
+          "selection_criteria": [
+            "Gain Ratio",
+            "Information Gain",
+            "Gini Index"
+          ]
+        },
+        "attributes_selection": "optimized"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_evaluation_method",
+      "label": "Process",
+      "properties": {
+        "metrics": [
+          "precision",
+          "recall",
+          "classification error",
+          "accuracy"
+        ],
+        "cross_validation": "10-fold"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_ensemble_learning",
+      "label": "Process",
+      "properties": {
+        "method": "voting",
+        "models_combined": [
+          "NB",
+          "GLM",
+          "DT",
+          "DL",
+          "RF",
+          "GBT",
+          "SVM"
+        ],
+        "best_combination_accuracy": "70%"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_experiment_protocol",
+      "label": "Protocol",
+      "properties": {
+        "experiment_steps": [
+          "data_collection",
+          "data_preprocessing",
+          "feature_extraction",
+          "model_configuration",
+          "performance_evaluation",
+          "parameter_tuning"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_1",
+      "label": [
+        "FutureWork"
+      ],
+      "title": "Enlarge the dataset size by collecting further images and utilizing resampling techniques",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_2",
+      "label": [
+        "FutureWork"
+      ],
+      "title": "Methodically select features to enhance model performance and accuracy",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_3",
+      "label": [
+        "FutureWork"
+      ],
+      "title": "Explore and analyze various combinations of machine learning models using ensemble methods",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_4",
+      "label": [
+        "FutureWork"
+      ],
+      "title": "Investigate the potential use of deep learning models for larger datasets",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_5",
+      "label": [
+        "FutureWork"
+      ],
+      "title": "A comparative performance analysis of neural networks, SVM, and decision tree models",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_6",
+      "label": [
+        "FutureWork"
+      ],
+      "title": "Address potential biases in feature selection criteria",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_7",
+      "label": [
+        "Recommendation"
+      ],
+      "title": "Optimize machine learning models for plant classification tasks",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_8",
+      "label": [
+        "Recommendation"
+      ],
+      "title": "Use alternatives like Gain Ratio and Gini Index",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "label": [
+        "Paper"
+      ],
+      "title": "Current state of plant identification and classification",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_H1",
+      "label": "Hypothesis",
+      "text": "The texture features from rose leaves can be used for accurate classification of rose species.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_H2",
+      "label": "Hypothesis",
+      "text": "Random Forest model can be optimized to outperform other machine learning models like Naive Bayes, Generalized Linear Models, Decision Trees, etc.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_H3",
+      "label": "Hypothesis",
+      "text": "Ensemble learning methods by using various combinations of machine learning classifiers produce higher accuracy in rose plant classification.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_H4",
+      "label": "Hypothesis",
+      "text": "Machine learning models have different performance when different feature sets are used, with some combinations yielding higher accuracies.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_H5",
+      "label": "Hypothesis",
+      "text": "Optimizing Random Forest parameters (number of trees and depth of trees) will improve its classification accuracy notably over default settings.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_M1",
+      "label": "Methods",
+      "text": "Classification models tested: Naive Bayes, Generalized Linear Model, Deep Learning Models, Decision Tree, Random Forest, Gradient Boosted Trees, Support Vector Machine",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_hypotheses_R1",
+      "label": "Results",
+      "text": "Impact of feature sets and algorithm combinations on classification accuracy evaluated through species classification tasks",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_context_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "The study is conducted within the context of an agriculture-based economy in Pakistan, focusing on rose plants due to their economic value and global demand."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_context_2",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "Research in plant classification using machine learning techniques."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_motivation_1",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "Improve the cost-benefit ratio in agriculture by adopting new technologies and automated processes for rose plant classification."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_motivation_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "Utilize smart mobile devices to automate rose plant classification."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_problem_1",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "Manual identification of rose plants is tedious and time-consuming, necessitating an automated machine learning-based approach."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_1",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_2",
+      "label": "Paper",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_3",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_4",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_5",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_6",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_7",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_8",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_key_finding_1",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Machine learning models and ensemble methods show promise for rose plant classification."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_key_finding_2",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Random Forest (RF) outperforms other models when optimized for parameters like number of trees and tree depth."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_key_finding_3",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Gain Ratio is a better attribute selection criterion compared to Information Gain and Gini Index for RF."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_methodology_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Use of histogram and texture features for classification tasks."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_methodology_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Optimization of Random Forest through parameter tuning."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_methodology_3",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Ensemble learning using voting mechanism to improve classification accuracy."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_gap_1",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "Deep learning models did not achieve superior performance due to the small dataset size, indicating a need for more extensive data."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_gap_2",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "Texture features alone were not sufficient for classification, suggesting a need for feature selection methods that include a combination of different feature types."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_insight_1",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Using both histogram and texture features with high correlation to class labels yields better classification results."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_insight_2",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Fine-tuning machine learning models can lead to significant performance improvements over default settings."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Objective1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "name": "Identify rose types automatically using leaves"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Objective2",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "name": "Develop an expert application for classifying roses using a smartphone camera"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Aim1",
+      "labels": [
+        "Aim"
+      ],
+      "properties": {
+        "name": "Optimize performance of the Random Forest model"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Aim2",
+      "labels": [
+        "Aim"
+      ],
+      "properties": {
+        "name": "Achieve superior classification using ensemble classifiers"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Scope1",
+      "labels": [
+        "Scope"
+      ],
+      "properties": {
+        "name": "Machine learning-based identification of rose types"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Scope2",
+      "labels": [
+        "Scope"
+      ],
+      "properties": {
+        "name": "Testing various machine learning algorithms"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Scope3",
+      "labels": [
+        "Scope"
+      ],
+      "properties": {
+        "name": "Optimization and comparison of ensemble classifiers"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Contribution1",
+      "labels": [
+        "Contribution"
+      ],
+      "properties": {
+        "name": "Automatic rose classification methodology"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Contribution2",
+      "labels": [
+        "Contribution"
+      ],
+      "properties": {
+        "name": "Performance analysis of machine learning models"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Contribution3",
+      "labels": [
+        "Contribution"
+      ],
+      "properties": {
+        "name": "Optimization focus on Random Forest model"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Technology1",
+      "labels": [
+        "Technology"
+      ],
+      "properties": {
+        "name": "Use of smartphone cameras for image capturing"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Technology2",
+      "labels": [
+        "Technology"
+      ],
+      "properties": {
+        "name": "Machine learning techniques for flower identification"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_results_1",
+      "label": "Finding",
+      "properties": {
+        "title": "Impact of Features",
+        "description": "SVM showed the highest accuracy with histogram and texture feature combination"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_results_2",
+      "label": "Result",
+      "properties": {
+        "title": "Best Algorithm",
+        "algorithm": "Support Vector Machine (SVM)",
+        "accuracy": "72%"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_results_3",
+      "label": "Result",
+      "properties": {
+        "title": "Performance Comparison",
+        "Naive Bayes": "40% on FS1",
+        "Generalized Linear Model": "65% on FS2",
+        "Multilayer Perceptron (DL)": "69% on FS2 and FS1",
+        "Decision Tree": "60% on FS2",
+        "Random Forest (RF)": "78% on FS2 (optimized)",
+        "Gradient Boosted Trees": "68% on FS1",
+        "Support Vector Machine": "72% on FS1"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_results_4",
+      "label": "Result",
+      "properties": {
+        "title": "Ensemble Model Accuracy",
+        "accuracy": "70% on FS1"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_results_5",
+      "label": "Finding",
+      "properties": {
+        "title": "Ensemble Learning Effectiveness",
+        "description": "Improved results over individual models but not superior to best SVM result"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_results_6",
+      "label": "Finding",
+      "properties": {
+        "title": "RF Parameter Optimization",
+        "description": "Highest accuracy with Gain Ratio for FS1 and FS2"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Objective",
+      "label": "Objective",
+      "properties": {
+        "description": "To automatically classify rose plant types using leaves through machine learning algorithms, focusing on optimizing the performance of Random Forest (RF)."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_StudyDesign",
+      "label": "StudyDesign",
+      "properties": {
+        "type": "Comparative analysis"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_PopulationSample",
+      "label": "PopulationSample",
+      "properties": {
+        "data_source": "Images of rose leaves captured using a 23MP camera under controlled lighting from different rose plants.",
+        "data_size": "200 images",
+        "resolution": "1080x1920 pixels",
+        "classes": "10 classes representing different rose types"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Variables",
+      "label": "Variables",
+      "properties": {
+        "independent": [
+          "Features of rose leaf images including histogram and texture features."
+        ],
+        "dependent": [
+          "Performance metrics of classification algorithms such as accuracy."
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Methods",
+      "label": "Methods",
+      "properties": {
+        "machine_learning_algorithms": [
+          "Naive Bayes (NB)",
+          "Generalized Linear Model (GLM)",
+          "Multilayer Perceptron",
+          "Decision Tree (DT)",
+          "Random Forest (RF)",
+          "Gradient Boosted Trees (GBT)",
+          "Support Vector Machine (SVM)"
+        ],
+        "deep_learning_models": [
+          "Convolutional Neural Network (CNN)",
+          "Long Short-Term Memory (LSTM)",
+          "RestNet"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_DataProcessing",
+      "label": "DataProcessing",
+      "properties": {
+        "conversion": "Color images converted to grey level and two ROIs marked using CVIP tool.",
+        "feature_extraction": "Features such as mean, skew, energy, entropy, inertia, and correlation are extracted."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_ExperimentSetup",
+      "label": "ExperimentSetup",
+      "properties": {
+        "training_testing_split": "60% data for training and 40% for testing.",
+        "software_tools": [
+          "CVIP for feature extraction",
+          "RapidMiner for classification"
+        ],
+        "validation": "10-fold cross-validation used to validate results."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Outcomes",
+      "label": "Outcomes",
+      "properties": {
+        "success_criteria": "Improved classification accuracy through optimization of Random Forest parameters."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_AdditionalDetails",
+      "label": "AdditionalDetails",
+      "properties": {
+        "feature_sets": [
+          "Feature Set 1: All extracted features from histogram and texture.",
+          "Feature Set 2: High correlation features from both histogram and texture.",
+          "Feature Set 3: High correlation histogram features.",
+          "Feature Set 4: High correlation texture features."
+        ],
+        "optimization": "Performance of RF optimized by varying number and depth of trees and experimenting with different feature selection criteria."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_population_participants_1",
+      "label": [
+        "StudyPopulation"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_population_participants_2",
+      "label": [
+        "Methods"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_population_participants_3",
+      "label": [
+        "Paper"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_theoretical_framework_1",
+      "label": "Problem",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_theoretical_framework_2",
+      "label": "Solution",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_theoretical_framework_3",
+      "label": "Rationale",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_theoretical_framework_4",
+      "label": "Significance",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_theoretical_framework_5",
+      "label": "Objective",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_theoretical_framework_6",
+      "label": "Methodology",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_theoretical_framework_7",
+      "label": "Machine Learning Models",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_theoretical_framework_8",
+      "label": "Optimization",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_theoretical_framework_9",
+      "label": "Deep Learning Models",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_theoretical_framework_10",
+      "label": "Comparative Observation",
+      "labels": [],
+      "properties": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "author_1",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "author_2",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "author_3",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "author_4",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "author_5",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_1",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_2",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_3",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_4",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_5",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_6",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_7",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_8",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_9",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_10",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_11",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_12",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Muzamil Malik",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Waqar Aslam",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Emad Abouel Nasr",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Zahid Aslam",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Seifedine Kadry",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_King Saud University",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "type": "APPLIES_IN",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "type": "APPLIES_IN",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "type": "APPLIES_IN",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "5",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "6",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "7",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "8",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "9",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "10",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "11",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "12",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "13",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "14",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "15",
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "16",
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "17",
+      "type": "ACHIEVES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "18",
+      "type": "HAS",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "19",
+      "type": "HAS",
+      "properties": {}
+    },
+    {
+      "source": "20",
+      "target": "1",
+      "type": "RELATED_WORK",
+      "properties": {}
+    },
+    {
+      "source": "21",
+      "target": "1",
+      "type": "RELATED_WORK",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_8",
+      "type": "RELATION",
+      "properties": {
+        "description": "Machine Learning is applied to solve the problem of rose plant type identification."
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_3",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_7",
+      "type": "RELATION",
+      "properties": {
+        "description": "Challenges in classification are mitigated through the use of ensemble learners."
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_4",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_5",
+      "type": "RELATION",
+      "properties": {
+        "description": "Random Forest, a machine learning model, is specifically optimized for better classification accuracy."
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_6",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_2",
+      "type": "RELATION",
+      "properties": {
+        "description": "Image processing in agriculture utilizes machine learning techniques."
+      }
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "5",
+      "target": "6",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "7",
+      "target": "8",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "2",
+      "target": "9",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "10",
+      "target": "9",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "8",
+      "target": "9",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "11",
+      "target": "9",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "contextualizes"
+      }
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "contrasts"
+      }
+    },
+    {
+      "source": "camera",
+      "target": "dataset",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "CVIP_tool",
+      "target": "feature_extraction",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "RapidMiner",
+      "target": "machine_learning_models",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "feature_extraction",
+      "target": "machine_learning_models",
+      "type": "ENABLES",
+      "properties": {}
+    },
+    {
+      "source": "machine_learning_models",
+      "target": "evaluation_method",
+      "type": "PERFORMED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "deep_learning_models",
+      "target": "evaluation_method",
+      "type": "PERFORMED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "hyperparameter_tuning",
+      "target": "random_forest",
+      "type": "APPLIES_TO",
+      "properties": {}
+    },
+    {
+      "source": "ensemble_learning",
+      "target": "machine_learning_models",
+      "type": "COMBINES",
+      "properties": {}
+    },
+    {
+      "source": "experiment_protocol",
+      "target": "dataset",
+      "type": "INCLUDES",
+      "properties": {}
+    },
+    {
+      "source": "experiment_protocol",
+      "target": "feature_extraction",
+      "type": "INCLUDES",
+      "properties": {}
+    },
+    {
+      "source": "experiment_protocol",
+      "target": "machine_learning_models",
+      "type": "INCLUDES",
+      "properties": {}
+    },
+    {
+      "source": "experiment_protocol",
+      "target": "evaluation_method",
+      "type": "INCLUDES",
+      "properties": {}
+    },
+    {
+      "source": "experiment_protocol",
+      "target": "hyperparameter_tuning",
+      "type": "INCLUDES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_1",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_3",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_4",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_5",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_6",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_7",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_8",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "H1",
+      "target": "M1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "TESTED_BY"
+      }
+    },
+    {
+      "source": "H2",
+      "target": "M1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "TESTED_BY"
+      }
+    },
+    {
+      "source": "H3",
+      "target": "M1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "TESTED_BY"
+      }
+    },
+    {
+      "source": "H4",
+      "target": "M1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "INVESTIGATED_USING"
+      }
+    },
+    {
+      "source": "H5",
+      "target": "M1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "TESTED_BY"
+      }
+    },
+    {
+      "source": "H4",
+      "target": "R1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "VALIDATED_BY"
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_context_1",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_problem_1",
+      "type": "HAS_PROBLEM",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_context_2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_problem_1",
+      "type": "HAS_PROBLEM",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_motivation_1",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_problem_1",
+      "type": "MOTIVATES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_motivation_2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_introduction_problem_1",
+      "type": "MOTIVATES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_1",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_2",
+      "type": "Small dataset size impacts model performance",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_3",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_2",
+      "type": "Insufficient texture features",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_4",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_2",
+      "type": "Suboptimal performance of deep learning vs. Random Forest",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_5",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_2",
+      "type": "Limited comparison with other datasets/methods",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_6",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_2",
+      "type": "Focus on Random Forest limits potential of other models",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_7",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_2",
+      "type": "Data collection based on specific conditions affects generalizability",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_8",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_limitations_2",
+      "type": "Limited ensemble learning experiments",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Objective1",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Scope1",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Objective2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Technology1",
+      "type": "UTILIZES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Aim1",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Contribution3",
+      "type": "FOCUSES_ON",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Aim2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Scope3",
+      "type": "ACHIEVES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Scope2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Contribution2",
+      "type": "ANALYZES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Technology2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Objective2",
+      "type": "ENHANCES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "type": "SUPPORTS",
+      "properties": {}
+    },
+    {
+      "source": "2",
+      "target": "5",
+      "type": "CONTRADICTS",
+      "properties": {}
+    },
+    {
+      "source": "6",
+      "target": "3",
+      "type": "SUPPORTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Objective",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_StudyDesign",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "defined by"
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_StudyDesign",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_PopulationSample",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "involves"
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_StudyDesign",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Variables",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "examines"
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_StudyDesign",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Methods",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "utilizes"
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Methods",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_DataProcessing",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "includes"
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Methods",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_ExperimentSetup",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "structured by"
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_ExperimentSetup",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_Outcomes",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "evaluates"
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_StudyDesign",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_design_AdditionalDetails",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "supplemented by"
+      }
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "type": "Addresses",
+      "properties": {}
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "type": "Contextualizes",
+      "properties": {}
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "type": "Highlights",
+      "properties": {}
+    },
+    {
+      "source": "5",
+      "target": "2",
+      "type": "Guides",
+      "properties": {}
+    },
+    {
+      "source": "6",
+      "target": "5",
+      "type": "Implements",
+      "properties": {}
+    },
+    {
+      "source": "7",
+      "target": "6",
+      "type": "Uses",
+      "properties": {}
+    },
+    {
+      "source": "8",
+      "target": "7",
+      "type": "Enhances",
+      "properties": {}
+    },
+    {
+      "source": "9",
+      "target": "6",
+      "type": "Evaluates",
+      "properties": {}
+    },
+    {
+      "source": "10",
+      "target": "9",
+      "type": "Compares",
+      "properties": {}
+    }
+  ]
+}

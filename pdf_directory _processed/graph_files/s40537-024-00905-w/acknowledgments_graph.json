@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_acknowledgments_1",
+      "label": "Paper"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_acknowledgments_2",
+      "label": "Contributor",
+      "properties": {
+        "name": "HJW"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_acknowledgments_3",
+      "label": "Contributor",
+      "properties": {
+        "name": "QXL and JTH"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_acknowledgments_4",
+      "label": "Contributor",
+      "properties": {
+        "name": "TMK"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_acknowledgments_5",
+      "label": "Contributor",
+      "properties": {
+        "name": "Data Mining and Machine Learning Laboratory, Florida Atlantic University"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_acknowledgments_1",
+      "target": "Paper_s40537-024-00905-w_acknowledgments_2",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {
+        "contributions": "Contributed to the manuscript"
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_acknowledgments_1",
+      "target": "Paper_s40537-024-00905-w_acknowledgments_3",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {
+        "contributions": "Conducted experiments and contributed to the manuscript"
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_acknowledgments_1",
+      "target": "Paper_s40537-024-00905-w_acknowledgments_4",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {
+        "contributions": "Provided oversight of experiments, coordinated research, and contributed to the manuscript"
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_acknowledgments_1",
+      "target": "Paper_s40537-024-00905-w_acknowledgments_5",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {
+        "contributions": "Assisted with the reviews"
+      }
+    }
+  ]
+}

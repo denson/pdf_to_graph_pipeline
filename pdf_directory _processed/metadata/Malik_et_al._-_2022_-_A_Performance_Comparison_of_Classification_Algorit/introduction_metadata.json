@@ -1,0 +1,10 @@
+{
+  "research_context": "The study is conducted within the context of an agriculture-based economy in Pakistan, where rose plants hold significant economic value due to their beauty and global demand. The research is situated in the broader field of plant classification using machine learning techniques.",
+  "motivation": "The motivation stems from the need to improve the cost-benefit ratio in the agriculture industry by adopting new technologies and automated processes. Specifically, there is a need to efficiently classify rose plants, given their economic value and the tedious nature of manual identification. The availability of smart mobile devices offers an opportunity to automate this task.",
+  "problem_statement": "The manual identification of rose plants is tedious and time-consuming due to the large variety of species, which differ in color, size, and fragrance. An automated machine learning-based approach is needed to classify rose plant types efficiently using images of their leaves.",
+  "additional_details": {
+    "primary_focus": "The study focuses on analyzing the performance of various classification algorithms, such as Naive Bayes, Generalized Linear Model, Multilayer Perceptron, Decision Tree, Random Forest, Gradient Boosted Trees, and Support Vector Machine, for classifying rose plants based on their leaves.",
+    "methodology": "The study involves the collection of rose leaf images, preprocessing of images by converting them to gray scale, feature extraction using histogram and texture features, and the application of machine learning models for classification purposes. A particular emphasis is placed on optimizing the parameters of the Random Forest model to improve accuracy.",
+    "expected_outcome": "To achieve better classification accuracy of rose plant types using automated image processing and machine learning techniques, specifically focusing on optimizing the Random Forest model."
+  }
+}

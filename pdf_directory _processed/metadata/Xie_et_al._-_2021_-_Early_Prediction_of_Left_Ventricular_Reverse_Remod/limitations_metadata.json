@@ -1,0 +1,9 @@
+{
+  "limitations": [
+    "The study is a single-center and retrospective study, which may limit the generalizability of the findings.",
+    "There is a need for a larger sample prospective study and external validation to provide stronger evidence.",
+    "The study focused on predictive performance rather than statistical inference, so no conclusions can be drawn about risk factors.",
+    "Compared to linear models, tree-based models may exhibit unexplainable feature mechanisms, complicating interpretation."
+  ],
+  "additional_information": null
+}

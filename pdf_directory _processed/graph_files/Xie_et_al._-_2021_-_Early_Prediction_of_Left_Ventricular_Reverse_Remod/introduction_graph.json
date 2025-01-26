@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "The study focuses on idiopathic dilated cardiomyopathy (DCM), a significant cause of heart failure and heart transplantation. Left ventricular reverse remodeling (LVRR) is an important factor in reducing mortality and improving cardiac function in DCM."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "Despite improvements in heart failure treatment, LVRR occurs in only a proportion of DCM patients. Early identification of patients likely to undergo LVRR could improve patient management and therapeutic strategies."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_3",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "There is a lack of early prediction models for LVRR in patients with first-diagnosed idiopathic dilated cardiomyopathy, leading to challenges in prognostic stratification and management of the condition."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_2",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_2",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_3",
+      "type": "LEADS_TO",
+      "properties": {}
+    }
+  ]
+}

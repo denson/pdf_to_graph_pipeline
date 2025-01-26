@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_scikit-learn",
+      "label": [
+        "Software"
+      ],
+      "properties": {
+        "name": "scikit-learn",
+        "version": "0.22",
+        "purpose": "Machine learning for data processing, modeling, and evaluation",
+        "access_link": "https://scikit-learn.org/stable/"
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Anaconda 3",
+      "label": [
+        "Software"
+      ],
+      "properties": {
+        "name": "Anaconda 3",
+        "version": "4.8.5-Linux-x86_64",
+        "purpose": "Environment for running Python tools",
+        "access_link": "https://www.anaconda.com/"
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_SPSS",
+      "label": [
+        "Software"
+      ],
+      "properties": {
+        "name": "SPSS",
+        "version": "22.0",
+        "purpose": "Descriptive statistics",
+        "access_link": "https://www.ibm.com/products/spss-statistics"
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_XGBoost",
+      "label": [
+        "Code"
+      ],
+      "properties": {
+        "name": "XGBoost",
+        "availability": "Data and methodologies are available from the corresponding author upon request."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_random forests",
+      "label": [
+        "Code"
+      ],
+      "properties": {
+        "name": "random forests",
+        "availability": "Data and methodologies are available from the corresponding author upon request."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_logistic regression",
+      "label": [
+        "Code"
+      ],
+      "properties": {
+        "name": "logistic regression",
+        "availability": "Data and methodologies are available from the corresponding author upon request."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "label": [
+        "Paper"
+      ],
+      "properties": {
+        "study_registration": "http://www.chictr.org.cn/usercenter.aspx (ChiCTR2000034128)"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_scikit-learn",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "type": "USED_IN"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Anaconda 3",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "type": "USED_IN"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_SPSS",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "type": "USED_IN"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_XGBoost",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "type": "USED_IN"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_random forests",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "type": "USED_IN"
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_logistic regression",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "type": "USED_IN"
+    }
+  ]
+}

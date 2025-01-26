@@ -1,0 +1,32 @@
+{
+  "title": "Shapley Values for Feature Selection: The Good, the Bad, and the Axioms",
+  "authors": [
+    "Daniel Fryer",
+    "Inga Str\u00fcmke",
+    "Hien Nguyen"
+  ],
+  "affiliations": [
+    "School of Mathematics and Physics, The University of Queensland, St. Lucia, QLD 4072, Australia",
+    "SimulaMet, Simula Research Laboratory, 0164 Oslo, Norway",
+    "Department of Mathematics and Statistics, La Trobe University, Melbourne, VIC 3086, Australia"
+  ],
+  "abstract": {
+    "objective": "To question the use of Shapley values in feature selection within Explainable AI (XAI), highlighting potential limitations and inadequacies of its application.",
+    "methods": "The paper utilizes toy and concrete examples to question the efficacy of Shapley values for feature selection through theoretical and simulated settings, and evaluates different formulations including SHapley Additive exPlanations (SHAP) and Shapley Additive Global importancE (SAGE).",
+    "key_findings": [
+      "The Shapley value does not generally guarantee suitability for feature selection, as its foundational axioms might oppose feature selection goals.",
+      "Non-monotonic evaluation functions can cause the Shapley values to sum to less than the optimal model performance.",
+      "SAGE performed better than SHAP in most tested scenarios but the Shapley values conceptualized from game theory require careful consideration to avoid misinterpretation in feature selection."
+    ],
+    "conclusion": "While Shapley values have theoretical appeal, their direct application in feature selection for XAI may lead to unintended consequences due to axiomatic limitations. Careful consideration of game formulation and specific contexts is necessary for their effective application."
+  },
+  "keywords": [
+    "Explainability",
+    "feature selection",
+    "interpretability",
+    "Shapley value",
+    "variable selection",
+    "XAI"
+  ],
+  "doi": "10.1109/ACCESS.2021.3119110"
+}

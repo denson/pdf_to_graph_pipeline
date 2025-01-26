@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    [
+      "Figure 1"
+    ],
+    [
+      "Figure 2"
+    ],
+    [
+      "Figure 3"
+    ],
+    [
+      "Figure 4"
+    ]
+  ],
+  "edges": [
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_Figure 1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_Example 11"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_Figure 2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_DGP (3) and (4)"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_Figure 3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_DGP in (4)"
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_Figure 4",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_Section IV-C"
+    }
+  ]
+}

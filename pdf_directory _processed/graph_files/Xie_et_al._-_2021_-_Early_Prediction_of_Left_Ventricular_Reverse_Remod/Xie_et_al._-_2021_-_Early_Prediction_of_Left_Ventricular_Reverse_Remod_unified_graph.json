@@ -1,0 +1,2322 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "title": "Early Prediction of Left Ventricular Reverse Remodeling in First-Diagnosed Idiopathic Dilated Cardiomyopathy: A Comparison of Linear Model, Random Forest, and Extreme Gradient Boosting",
+        "abstract": "Left ventricular reverse remodeling (LVRR) is associated with decreased cardiovascular mortality and improved cardiac survival and also crucial for therapeutic options. However, there is a lack of an early prediction model of LVRR in first-diagnosed dilated cardiomyopathy. This single-center study included 104 patients with idiopathic DCM. We defined LVRR as an absolute increase in left ventricular ejection fraction (LVEF) from >10% to a final value >35% and a decrease in left ventricular end-diastolic diameter (LVDd) >10%. Analysis features included demographic characteristics, comorbidities, physical sign, biochemistry data, echocardiography, electrocardiogram, Holter monitoring, and medication. Logistic regression, random forests, and extreme gradient boosting (XGBoost) were, respectively, implemented in a 10-fold cross-validated model to discriminate LVRR and non-LVRR, with receiver operating characteristic (ROC) curves and calibration plot for performance evaluation. LVRR occurred in 47 (45.2%) patients after optimal medical treatment. Cystatin C, right ventricular end-diastolic dimension, high-density lipoprotein cholesterol (HDL-C), left atrial dimension, left ventricular posterior wall dimension, systolic blood pressure, severe mitral regurgitation, eGFR, and NYHA classification were included in XGBoost, which reached higher AU-ROC compared with logistic regression (AU-ROC, 0.8205 vs. 0.5909, p = 0.0119). Ablation analysis revealed that cystatin C, right ventricular end-diastolic dimension, and HDL-C made the largest contributions to the model. Tree-based models like XGBoost were able to early differentiate LVRR and non-LVRR in patients with first-diagnosed DCM before drug therapy, facilitating disease management and invasive therapy selection. A multicenter prospective study is necessary for further validation.",
+        "publication_date": "2021-08-04",
+        "doi": "10.3389/fcvm.2021.684004",
+        "journal": "Frontiers in Cardiovascular Medicine",
+        "volume": "8",
+        "article_number": "684004"
+      }
+    },
+    {
+      "id": "author_1",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Xiangkun Xie"
+      }
+    },
+    {
+      "id": "author_2",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Mingwei Yang"
+      }
+    },
+    {
+      "id": "author_3",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Shan Xie"
+      }
+    },
+    {
+      "id": "author_4",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Xiaoying Wu"
+      }
+    },
+    {
+      "id": "author_5",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Yuan Jiang"
+      }
+    },
+    {
+      "id": "author_6",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Zhaoyu Liu"
+      }
+    },
+    {
+      "id": "author_7",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Huiying Zhao"
+      }
+    },
+    {
+      "id": "author_8",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Yangxin Chen"
+      }
+    },
+    {
+      "id": "author_9",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Yuling Zhang"
+      }
+    },
+    {
+      "id": "author_10",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Jingfeng Wang"
+      }
+    },
+    {
+      "id": "keyword_1",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "idiopathic dilated cardiomyopathy"
+      }
+    },
+    {
+      "id": "keyword_2",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "heart failure"
+      }
+    },
+    {
+      "id": "keyword_3",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "reverse remodeling"
+      }
+    },
+    {
+      "id": "keyword_4",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "predictive model"
+      }
+    },
+    {
+      "id": "keyword_5",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "machine learning"
+      }
+    },
+    {
+      "id": "supplementary_1",
+      "labels": [
+        "Supplementary"
+      ],
+      "properties": {
+        "information": "Available in Supplementary materials: Supplementary Table 1 and Supplementary Figure 1-4."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_obj_1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "To develop an early predictive model for left ventricular reverse remodeling (LVRR) in patients with first-diagnosed idiopathic dilated cardiomyopathy (DCM) using clinical and echocardiographic data."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_meth_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "A single-center study was conducted including 104 patients with idiopathic DCM. Models like logistic regression, random forests, and extreme gradient boosting (XGBoost) were implemented with a 10-fold cross-validated model."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_res_1",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "LVRR occurred in 45.2% of patients after optimal treatment."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_res_2",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "The XGBoost model outperformed logistic regression with an AU-ROC of 0.8205 versus 0.5909."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_imp_1",
+      "labels": [
+        "Implication"
+      ],
+      "properties": {
+        "description": "The tree-based models showed better accuracy in predicting LVRR, aiding in the early identification of non-responders to therapy."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "label": "Paper",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_2",
+      "label": "Contributor",
+      "name": "Jingfeng Wang",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_3",
+      "label": "Contributor",
+      "name": "Yuling Zhang",
+      "affiliation": "Guangdong Province Key Laboratory of Arrhythmia and Electrophysiology, Guangzhou, China",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_4",
+      "label": "Contributor",
+      "name": "Yangxin Chen",
+      "affiliation": "Cardiovascular Medicine Department, The Eighth Affiliated Hospital of Sun Yat-sen University, Shenzhen, China",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_5",
+      "label": "Contributor",
+      "name": "Huiying Zhao",
+      "affiliation": "Department of Medical Research Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_6",
+      "label": "Contributor",
+      "name": "Xiangkun Xie",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_7",
+      "label": "Contributor",
+      "name": "Mingwei Yang",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_8",
+      "label": "Contributor",
+      "name": "Shan Xie",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_9",
+      "label": "Contributor",
+      "name": "Xiaoying Wu",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_10",
+      "label": "Contributor",
+      "name": "Yuan Jiang",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_11",
+      "label": "Contributor",
+      "name": "Zhaoyu Liu",
+      "affiliation": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_12",
+      "label": "FundingSource",
+      "name": "The National Science Foundation of China",
+      "grant_numbers": [
+        "81870170",
+        "81970388",
+        "81900387"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_13",
+      "label": "FundingSource",
+      "name": "Guangdong Province Natural Science Foundation",
+      "grant_numbers": [
+        "2019A1515011682",
+        "2019A1515011806"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_14",
+      "label": "FundingSource",
+      "name": "Guangdong Science and Technology Major Foundation",
+      "grant_number": "2015B010131010",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_15",
+      "label": "FundingSource",
+      "name": "Guangdong Laboratory of Regenerative Medicine and Health Foundation",
+      "grant_number": "2019GZR110406004",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_16",
+      "label": "FundingSource",
+      "name": "Guangzhou Science and Technology Major Foundation",
+      "grant_numbers": [
+        "201803040010",
+        "201704020044"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_1",
+      "label": [
+        "Application"
+      ],
+      "description": "Use of tree-based models like Extreme Gradient Boosting (XGBoost) to predict Left Ventricular Reverse Remodeling (LVRR) in patients with first-diagnosed idiopathic dilated cardiomyopathy before drug therapy",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_2",
+      "label": [
+        "Implementation"
+      ],
+      "description": "Facilitates disease management and invasive therapy selection in cardiovascular medicine by distinguishing between patients who may or may not respond to standard medical treatment",
+      "site": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_3",
+      "label": [
+        "Paper"
+      ],
+      "description": "Study population consists of 104 patients with idiopathic dilated cardiomyopathy",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_4",
+      "label": [
+        "Field"
+      ],
+      "name": "Cardiovascular Medicine",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_5",
+      "label": [
+        "Field"
+      ],
+      "name": "Machine Learning",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_6",
+      "label": [
+        "Field"
+      ],
+      "name": "Predictive Modeling",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n1",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "title": "Dilated Cardiomyopathy (DCM)",
+        "description": "Significant cause of heart failure and heart transplantation, with a high mortality rate."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n2",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "title": "Left Ventricular Reverse Remodeling (LVRR)",
+        "description": "Improvements in DCM condition linked to better outcomes."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n3",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "title": "Historical Treatments for DCM",
+        "description": "Include angiotensin-converting enzyme inhibitors, \u03b2-blockers, and mineralocorticoid receptor antagonists."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n4",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "title": "Theoretical Foundations",
+        "description": "Potential of machine learning models in predictive analytics for DCM."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n5",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "title": "Importance of Research",
+        "description": "Early prediction of LVRR could improve management strategies for DCM."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n6",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "title": "Gaps in Research",
+        "description": "Challenges in prognostic stratification in early DCM phases and limited use of prediction models."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_conclusions_1",
+      "label": "Tree-based models successful",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_conclusions_2",
+      "label": "Facilitate disease management",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_conclusions_3",
+      "label": "Predictors: Cystatin C, Right ventricular end-diastolic dimension, HDL-C",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_conclusions_4",
+      "label": "Need for multicenter prospective study",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_conclusions_5",
+      "label": "Study Limitations: Single-center, retrospective design",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_conclusions_6",
+      "label": "Suggested Improvements: Large sample prospective study",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_discussion_1",
+      "label": "Interpretation",
+      "content": "The study shows that ensemble tree models like XGBoost perform better than traditional regression for predicting left ventricular reverse remodeling (LVRR) in patients with dilated cardiomyopathy. Routine clinical indexes and echocardiography data can be effectively used for prediction.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_discussion_2",
+      "label": "Implication",
+      "content": "Using machine learning models could enhance the early identification of patients less likely to respond to medication, allowing more precise management and risk evaluation, potentially leading to improved therapeutic decision-making.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_discussion_3",
+      "label": "Limitation",
+      "content": "The study is retrospective and single-center, which limits its generalizability. There is a need for prospective studies and external validation. Also, tree-based models tend to have unexplainable feature mechanisms.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "type": "EthicalStatement",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_InstitutionalReviewBoardApproval",
+      "type": "InstitutionalReviewBoardApproval",
+      "name": "Sun Yat-sen Memorial Hospital",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicsCommittee",
+      "type": "EthicsCommittee",
+      "name": "Medical Ethics Committee of Sun Yat-Sen Memorial Hospital",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_DeclarationOfHelsinki",
+      "type": "DeclarationOfHelsinki",
+      "description": "1964 Declaration of Helsinki and its later amendments",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_InformedConsent",
+      "type": "InformedConsent",
+      "description": "No informed consent was required because the data were anonymized",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalGuidelines",
+      "type": "EthicalGuidelines",
+      "description": "Chinese guidelines for the diagnosis and treatment of dilated cardiomyopathy",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_TrialRegistration",
+      "type": "TrialRegistration",
+      "url": "http://www.chictr.org.cn/usercenter.aspx",
+      "registrationNumber": "ChiCTR2000 034128",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Sun Yat-sen Memorial Hospital",
+      "label": [
+        "Location"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "label": [
+        "Population"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Inclusion Criteria",
+      "label": [
+        "Criteria"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Exclusion Criteria",
+      "label": [
+        "Criteria"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_LVRR Group",
+      "label": [
+        "Experimental Group"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Non-LVRR Group",
+      "label": [
+        "Experimental Group"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Main Endpoints",
+      "label": [
+        "Endpoints"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Follow-up Duration",
+      "label": [
+        "Protocol"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Data Collected",
+      "label": [
+        "Data"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Logistic Regression",
+      "label": [
+        "Technique"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Random Forest",
+      "label": [
+        "Technique"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_XGBoost",
+      "label": [
+        "Technique"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Model Evaluation",
+      "label": [
+        "Evaluation"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_experimental_setup_Key Features for Model",
+      "label": [
+        "Features"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_funding_statement_NSFC",
+      "label": [
+        "FundingSource"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_funding_statement_GPLab",
+      "label": [
+        "FundingSource"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_funding_statement_GDTechMajor",
+      "label": [
+        "FundingSource"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_funding_statement_GDHealthLab",
+      "label": [
+        "FundingSource"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_funding_statement_GZTechMajor",
+      "label": [
+        "FundingSource"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_funding_statement_Paper1",
+      "label": [
+        "ResearchActivity"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_FutureWork1",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "A multicenter prospective study is necessary for further validation of the predictive model.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_FutureWork2",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "Further optimization and validation of the machine learning model to ensure its accuracy and reliability.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_FutureWork3",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "Further investigation into the role of cystatin C, HDL-C, and echocardiographic parameters in left ventricular reverse remodeling.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_FutureWork4",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "Conducting studies with larger sample sizes to improve the robustness and generalizability of the findings.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_FutureWork5",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "External validation in diverse populations to confirm the model's applicability across different demographic and clinical settings.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_FutureWork6",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "Further exploration of specific risk factors and the development of risk stratification tools for clinical practice.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_Findings1",
+      "label": [
+        "Findings"
+      ],
+      "content": "Predictive model studies and findings related to the health domain.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_Paper1",
+      "label": [
+        "Paper"
+      ],
+      "content": "Predictive health model study and its findings.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_hypotheses_Hypothesis1",
+      "type": "Hypothesis",
+      "label": "XGBoost and random forest models predict LVRR in DCM patients more accurately than logistic regression.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_hypotheses_Method1",
+      "type": "Methods",
+      "label": "Comparison of XGBoost, random forest, and logistic regression models.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_hypotheses_Results1",
+      "type": "Results",
+      "label": "XGBoost and random forest achieved higher AUCs compared to logistic regression.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_hypotheses_Paper1",
+      "type": "Paper",
+      "label": "Study on prediction of LVRR in patients with idiopathic dilated cardiomyopathy.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "The study focuses on idiopathic dilated cardiomyopathy (DCM), a significant cause of heart failure and heart transplantation. Left ventricular reverse remodeling (LVRR) is an important factor in reducing mortality and improving cardiac function in DCM."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "Despite improvements in heart failure treatment, LVRR occurs in only a proportion of DCM patients. Early identification of patients likely to undergo LVRR could improve patient management and therapeutic strategies."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_3",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "There is a lack of early prediction models for LVRR in patients with first-diagnosed idiopathic dilated cardiomyopathy, leading to challenges in prognostic stratification and management of the condition."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Paper",
+      "label": "Paper",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation1",
+      "label": "Limitation",
+      "description": "The study is a single-center and retrospective study, which may limit the generalizability of the findings.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation2",
+      "label": "Limitation",
+      "description": "There is a need for a larger sample prospective study and external validation to provide stronger evidence.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation3",
+      "label": "Limitation",
+      "description": "The study focused on predictive performance rather than statistical inference, so no conclusions can be drawn about risk factors.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation4",
+      "label": "Limitation",
+      "description": "Compared to linear models, tree-based models may exhibit unexplainable feature mechanisms, complicating interpretation.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_literature_review_litrev_key_finding_1",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Tree-based models like XGBoost and Random Forest predict early left ventricular reverse remodeling in idiopathic dilated cardiomyopathy more accurately than logistic regression.",
+        "significant_contributors": [
+          "cystatin C",
+          "right ventricular end-diastolic dimension",
+          "HDL-C"
+        ],
+        "less_predictive_metrics": [
+          "LVEF",
+          "LVDd"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_literature_review_litrev_method_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Machine learning models (XGBoost, Random Forest, logistic regression) were used to predict LVRR.",
+        "evaluation": "10-fold cross-validation model with ROC curves",
+        "data_source": "104 DCM patients",
+        "techniques": [
+          "Ablation analysis"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_literature_review_litrev_research_gap_1",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "The study's retrospective, single-center nature limits generalizability. Focus on model performance without statistical inference about risk factors or mechanisms."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_literature_review_litrev_insight_1",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Combining multiple routine clinical indicators into machine learning models enhances prediction and management of DCM, improving early identification."
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N1",
+      "label": [
+        "Center"
+      ],
+      "properties": {
+        "name": "Sun Yat-sen Memorial Hospital of Sun Yat-sen University",
+        "location": "Guangzhou, China"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N2",
+      "label": [
+        "Period"
+      ],
+      "properties": {
+        "start": "January 2014",
+        "end": "December 2017"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N3",
+      "label": [
+        "Sample"
+      ],
+      "properties": {
+        "size": 104,
+        "diagnosis": "Idiopathic Dilated Cardiomyopathy"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N4",
+      "label": [
+        "Criteria"
+      ],
+      "properties": {
+        "list": [
+          "LVDd >5.0 cm (female) or LVDd >5.5 cm (male)",
+          "LVEF <45% and left ventricular shortening fraction <25%",
+          "Exclusion of other heart diseases and systemic conditions"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N5",
+      "label": [
+        "ExclusionCriteria"
+      ],
+      "properties": {
+        "list": [
+          "Alcoholic or peripartum cardiomyopathy",
+          "Coronary heart disease and other specified conditions",
+          "Receiving non-recommended therapies"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N6",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "types": [
+          "Linear Model",
+          "Random Forest",
+          "Extreme Gradient Boosting (XGBoost)"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N7",
+      "label": [
+        "EvaluationMethod"
+      ],
+      "properties": {
+        "method": "10-fold cross-validation",
+        "metrics": [
+          "Receiver Operating Characteristic (ROC) curves",
+          "Calibration plot"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N8",
+      "label": [
+        "Imputation"
+      ],
+      "properties": {
+        "method": "K-nearest neighbors"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N9",
+      "label": [
+        "AnalysisFeatures"
+      ],
+      "properties": {
+        "list": [
+          "Demographic characteristics",
+          "Comorbidities",
+          "Physical signs",
+          "Biochemistry data",
+          "Echocardiography",
+          "Electrocardiogram",
+          "Holter monitoring",
+          "Medication"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N10",
+      "label": [
+        "MachineLearning"
+      ],
+      "properties": {
+        "models": [
+          "XGBoost",
+          "Random Forest",
+          "Logistic Regression"
+        ],
+        "feature_selection": "Greedy feature selection algorithm",
+        "software_tools": [
+          "Python 3.7.6",
+          "scikit-learn 0.22",
+          "SPSS 22.0"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N11",
+      "label": [
+        "DataSplit"
+      ],
+      "properties": {
+        "ratio": "6:4"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N12",
+      "label": [
+        "Optimization"
+      ],
+      "properties": {
+        "method": "Grid search for optimal parameters"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N13",
+      "label": [
+        "Tools"
+      ],
+      "properties": {
+        "software": [
+          "Python",
+          "Scikit-learn",
+          "SPSS"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N14",
+      "label": [
+        "DataSources"
+      ],
+      "properties": {
+        "type": "Electronic health records"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N15",
+      "label": [
+        "Parameters"
+      ],
+      "properties": {
+        "list": [
+          "Demographic characteristics",
+          "Clinical and laboratory data",
+          "Echocardiographic measurements"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N16",
+      "label": [
+        "Results"
+      ],
+      "properties": {
+        "key_findings": [
+          "XGBoost and Random Forest models showed higher accuracy than Logistic Regression",
+          "Cystatin C, right ventricular end-diastolic dimension, and HDL-C are important features"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_objectives_aims_scope_1",
+      "label": "Objective",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_objectives_aims_scope_2",
+      "label": "Aim",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_objectives_aims_scope_3",
+      "label": "Aim",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_objectives_aims_scope_4",
+      "label": "Scope",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_objectives_aims_scope_5",
+      "label": "Study",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_objectives_aims_scope_6",
+      "label": "Methodology",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_1",
+      "label": "Study Title",
+      "title": "Early Prediction of Left Ventricular Reverse Remodeling in First-Diagnosed Idiopathic Dilated Cardiomyopathy",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_2",
+      "label": "Finding",
+      "title": "XGBoost model has the highest predictive performance",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_3",
+      "label": "Finding",
+      "title": "Significant predictive features include Cystatin C, and others",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_4",
+      "label": "Conclusion",
+      "title": "Tree-based models can effectively predict LVRR",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_5",
+      "label": "Conclusion",
+      "title": "Cystatin C, right ventricular end-diastolic dimension, and HDL-C are key factors",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_6",
+      "label": "Recommendation",
+      "title": "A multicenter prospective study is recommended",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_reviewer_notes_1",
+      "label": "ReviewerNote",
+      "name": "Shinichi Okuda",
+      "affiliation": "Yamaguchi Prefectural Grand Medical Center, Japan",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_reviewer_notes_2",
+      "label": "ReviewerNote",
+      "name": "Giulia Barbati",
+      "affiliation": "University of Trieste, Italy",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_reviewer_notes_3",
+      "label": "PublicationStatus",
+      "status": "Accepted on 07 June 2021",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_reviewer_notes_4",
+      "label": "PublicationStatus",
+      "status": "Published on 04 August 2021",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_scikit-learn",
+      "label": [
+        "Software"
+      ],
+      "properties": {
+        "name": "scikit-learn",
+        "version": "0.22",
+        "purpose": "Machine learning for data processing, modeling, and evaluation",
+        "access_link": "https://scikit-learn.org/stable/"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Anaconda 3",
+      "label": [
+        "Software"
+      ],
+      "properties": {
+        "name": "Anaconda 3",
+        "version": "4.8.5-Linux-x86_64",
+        "purpose": "Environment for running Python tools",
+        "access_link": "https://www.anaconda.com/"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_SPSS",
+      "label": [
+        "Software"
+      ],
+      "properties": {
+        "name": "SPSS",
+        "version": "22.0",
+        "purpose": "Descriptive statistics",
+        "access_link": "https://www.ibm.com/products/spss-statistics"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_XGBoost",
+      "label": [
+        "Code"
+      ],
+      "properties": {
+        "name": "XGBoost",
+        "availability": "Data and methodologies are available from the corresponding author upon request."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_random forests",
+      "label": [
+        "Code"
+      ],
+      "properties": {
+        "name": "random forests",
+        "availability": "Data and methodologies are available from the corresponding author upon request."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_logistic regression",
+      "label": [
+        "Code"
+      ],
+      "properties": {
+        "name": "logistic regression",
+        "availability": "Data and methodologies are available from the corresponding author upon request."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "label": [
+        "Paper"
+      ],
+      "properties": {
+        "study_registration": "http://www.chictr.org.cn/usercenter.aspx (ChiCTR2000034128)"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_design_StudyDesign",
+      "label": "StudyDesign",
+      "type": "single-center, real-world study",
+      "population": "104 patients with first-diagnosed idiopathic dilated cardiomyopathy (DCM)",
+      "setting": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University",
+      "duration": "January 2014 to December 2017 for patient data collection with follow-up until December 2018",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_design_Variables",
+      "label": "Variables",
+      "measured": [
+        "left ventricular ejection fraction (LVEF)",
+        "left ventricular end-diastolic diameter (LVDd)",
+        "right ventricular end-diastolic dimension",
+        "high-density lipoprotein cholesterol (HDL-C)",
+        "cystatin C",
+        "systolic blood pressure",
+        "severe mitral regurgitation",
+        "eGFR",
+        "NYHA classification"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_design_Outcome",
+      "label": "Outcome",
+      "LVRR": "Defined as an absolute increase in LVEF from >10% to a final value >35% and a decrease in LVDd >10%",
+      "non-LVRR": "Defined as an absolute increase in LVEF <10%, final value <35%, or a decrease in LVDd <10%",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_design_Models",
+      "label": "Models",
+      "compared": [
+        "logistic regression",
+        "random forests",
+        "extreme gradient boosting (XGBoost)"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_design_Evaluation",
+      "label": "Evaluation",
+      "method": "10-fold cross-validation with ROC curves and calibration plot for performance evaluation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_design_SignificantFindings",
+      "label": "SignificantFindings",
+      "outperformance": "XGBoost outperformed other models in predicting LVRR with higher AU-ROC",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_population_participants_StudyPopulation",
+      "label": "StudyPopulation",
+      "properties": {
+        "size": 104,
+        "location": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+        "time_period": "January 2014 to December 2017",
+        "follow_up_period_median": "24 months",
+        "LVRR_occurrence": "47 (45.2%) after treatment"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_1",
+      "label": "Theory",
+      "content": "Left Ventricular Reverse Remodeling (LVRR) in Dilated Cardiomyopathy (DCM)",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_2",
+      "label": "Principle",
+      "content": "Significance of LVRR as a therapeutic target in DCM",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_3",
+      "label": "Concept",
+      "content": "Machine Learning for Predictive Modeling",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_4",
+      "label": "Evidence",
+      "content": "Clinical markers as predictors of LVRR",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_5",
+      "label": "Evidence",
+      "content": "Genetic factors related to LVRR outcomes",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_6",
+      "label": "Study",
+      "content": "Use of Random Forest and XGBoost models",
+      "labels": [],
+      "properties": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_1",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_2",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_3",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_4",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_5",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_6",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_7",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_8",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_9",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_10",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "keyword_1",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "keyword_2",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "keyword_3",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "keyword_4",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "keyword_5",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "supplementary_1",
+      "type": "HAS_SUPPLEMENTARY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_obj_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_meth_1",
+      "type": "ACHIEVED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_meth_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_res_1",
+      "type": "YIELDS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_meth_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_res_2",
+      "type": "YIELDS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_res_2",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_abstract_imp_1",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_2",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_3",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_4",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_5",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_6",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_7",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_8",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_9",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_10",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_11",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_12",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_13",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_14",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_15",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_16",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_acknowledgments_1",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_2",
+      "type": "APPLIES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_3",
+      "type": "SUPPORTED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_4",
+      "type": "RELATED_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_5",
+      "type": "RELATED_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_application_6",
+      "type": "RELATED_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n2",
+      "type": "RELATION",
+      "properties": {
+        "description": "DCM improvements linked to LVRR."
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n2",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n5",
+      "type": "RELATION",
+      "properties": {
+        "description": "LVRR prediction could lead to better DCM management."
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n6",
+      "type": "RELATION",
+      "properties": {
+        "description": "DCM research gaps exist, especially in early stratification."
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n3",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n1",
+      "type": "RELATION",
+      "properties": {
+        "description": "Previous DCM treatments linked to current challenges."
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n4",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n5",
+      "type": "RELATION",
+      "properties": {
+        "description": "Machine learning advances could improve early DCM management."
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n6",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_background_n4",
+      "type": "RELATION",
+      "properties": {
+        "description": "Research gaps could be addressed through machine learning."
+      }
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "type": "Result leads to",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "type": "Based on",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "type": "Necessitates",
+      "properties": {}
+    },
+    {
+      "source": "5",
+      "target": "6",
+      "type": "Improvement suggests",
+      "properties": {}
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "type": "RELATION",
+      "properties": {
+        "relationship": "supports"
+      }
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "type": "RELATION",
+      "properties": {
+        "relationship": "limited by"
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_InstitutionalReviewBoardApproval",
+      "type": "APPLIES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicsCommittee",
+      "type": "APPLIES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_DeclarationOfHelsinki",
+      "type": "CONFORMS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_InformedConsent",
+      "type": "INCLUDES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalGuidelines",
+      "type": "FOLLOWED",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_EthicalStatement",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_ethical_statement_TrialRegistration",
+      "type": "REGISTERED_AT",
+      "properties": {}
+    },
+    {
+      "source": "Sun Yat-sen Memorial Hospital",
+      "target": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "type": "LOCATION_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "target": "Inclusion Criteria",
+      "type": "DEFINED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "target": "Exclusion Criteria",
+      "type": "DEFINED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "target": "LVRR Group",
+      "type": "PART_OF",
+      "properties": {}
+    },
+    {
+      "source": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "target": "Non-LVRR Group",
+      "type": "PART_OF",
+      "properties": {}
+    },
+    {
+      "source": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "target": "Main Endpoints",
+      "type": "MEASURED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "target": "Follow-up Duration",
+      "type": "FOLLOWED_UP_BY",
+      "properties": {}
+    },
+    {
+      "source": "Idiopathic dilated cardiomyopathy (DCM) Patients",
+      "target": "Data Collected",
+      "type": "DATA_FROM",
+      "properties": {}
+    },
+    {
+      "source": "Data Collected",
+      "target": "Logistic Regression",
+      "type": "ANALYZED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Data Collected",
+      "target": "Random Forest",
+      "type": "ANALYZED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Data Collected",
+      "target": "XGBoost",
+      "type": "ANALYZED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Logistic Regression",
+      "target": "Model Evaluation",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Random Forest",
+      "target": "Model Evaluation",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "XGBoost",
+      "target": "Model Evaluation",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Model Evaluation",
+      "target": "Key Features for Model",
+      "type": "IDENTIFIES",
+      "properties": {}
+    },
+    {
+      "source": "NSFC",
+      "target": "Paper1",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "GPLab",
+      "target": "Paper1",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "GDTechMajor",
+      "target": "Paper1",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "GDHealthLab",
+      "target": "Paper1",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "GZTechMajor",
+      "target": "Paper1",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_FutureWork1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_Paper1",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_FutureWork2",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_Paper1",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_FutureWork3",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_Findings1",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_FutureWork4",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_Findings1",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_FutureWork5",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_Findings1",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_FutureWork6",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_future_work_research_directions_Findings1",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Hypothesis1",
+      "target": "Method1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "TESTED_BY"
+      }
+    },
+    {
+      "source": "Method1",
+      "target": "Results1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "RESULTS_IN"
+      }
+    },
+    {
+      "source": "Paper1",
+      "target": "Hypothesis1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "CONTAINS"
+      }
+    },
+    {
+      "source": "Paper1",
+      "target": "Method1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "DESCRIBES"
+      }
+    },
+    {
+      "source": "Paper1",
+      "target": "Results1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "PRESENTS"
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_2",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_2",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_introduction_3",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Paper",
+      "type": "limits generalizability",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation2",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Paper",
+      "type": "requires larger sample for validation",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation3",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Paper",
+      "type": "limits conclusion about risk factors",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Limitation4",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_limitations_Paper",
+      "type": "complicates interpretation",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_literature_review_litrev_method_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_literature_review_litrev_key_finding_1",
+      "type": "supports",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_literature_review_litrev_research_gap_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_literature_review_litrev_method_1",
+      "type": "limitations_of",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_literature_review_litrev_insight_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_literature_review_litrev_key_finding_1",
+      "type": "implies",
+      "properties": {}
+    },
+    {
+      "source": "N1",
+      "target": "N2",
+      "type": "DURATION",
+      "properties": {}
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "type": "HAS_POPULATION",
+      "properties": {}
+    },
+    {
+      "source": "N3",
+      "target": "N4",
+      "type": "DEFINED_BY",
+      "properties": {}
+    },
+    {
+      "source": "N3",
+      "target": "N5",
+      "type": "EXCLUDES",
+      "properties": {}
+    },
+    {
+      "source": "N6",
+      "target": "N7",
+      "type": "EVALUATED_BY",
+      "properties": {}
+    },
+    {
+      "source": "N9",
+      "target": "N10",
+      "type": "USED_IN",
+      "properties": {}
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "type": "DATA_SPLIT",
+      "properties": {}
+    },
+    {
+      "source": "N10",
+      "target": "N12",
+      "type": "OPTIMIZED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "N13",
+      "target": "N10",
+      "type": "TOOL_FOR",
+      "properties": {}
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "type": "CONTAINS_DATA",
+      "properties": {}
+    },
+    {
+      "source": "N10",
+      "target": "N16",
+      "type": "YIELDS",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "5",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "2",
+      "target": "6",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "3",
+      "target": "6",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "5",
+      "target": "6",
+      "type": "UTILIZES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_2",
+      "type": "DESCRIBES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_3",
+      "type": "DESCRIBES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_3",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_4",
+      "type": "SUPPORTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_5",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_4",
+      "type": "SUPPORTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_4",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_results_6",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "type": "RELATION",
+      "properties": {
+        "description": "Reviewer accepted the paper"
+      }
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "type": "RELATION",
+      "properties": {
+        "description": "Paper published"
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_scikit-learn",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "type": "USED_IN",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Anaconda 3",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "type": "USED_IN",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_SPSS",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "type": "USED_IN",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_XGBoost",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "type": "USED_IN",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_random forests",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "type": "USED_IN",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_logistic regression",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_software_code_availability_Study",
+      "type": "USED_IN",
+      "properties": {}
+    },
+    {
+      "source": "StudyDesign",
+      "target": "Variables",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "StudyDesign",
+      "target": "Outcome",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "StudyDesign",
+      "target": "Models",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Models",
+      "target": "Evaluation",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Models",
+      "target": "SignificantFindings",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_population_participants_StudyPopulation",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_population_participants_Paper",
+      "type": "described_in",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_2",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "describes"
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_1",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_3",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "leverages"
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_4",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "supports"
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_5",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "supports"
+      }
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_6",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_theoretical_framework_3",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "utilizes"
+      }
+    }
+  ]
+}

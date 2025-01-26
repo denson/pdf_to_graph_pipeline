@@ -1,0 +1,51 @@
+{
+  "study_design": {
+    "objective": "Investigate the limitations and implications of using Shapley values for feature selection.",
+    "variables": {
+      "independent": "Features selected using various Shapley value formulations (such as SHAP and SAGE).",
+      "dependent": "Performance of feature selection in terms of predictive power and model efficiency."
+    },
+    "methods": [
+      {
+        "name": "Simulation studies",
+        "description": "Simulating data according to specified Data Generating Processes (DGP) to evaluate Shapley value-based feature selection.",
+        "datasets": [
+          {
+            "name": "Markov Boundary Experiment 1",
+            "features": [
+              "X1",
+              "X2",
+              "X3",
+              "Z"
+            ],
+            "response": "Y",
+            "distribution": "Normal distribution with specified means and variances."
+          },
+          {
+            "name": "Markov Boundary Experiment 2",
+            "parameters": "Varying l \u2208 (0, 1)",
+            "conditional_probabilities": "Defined based on X1, X2, X3."
+          },
+          {
+            "name": "Secret Holder Experiment",
+            "parameters": "t1, t2 \u2208 R",
+            "response": "Y generated with interactions and noise."
+          },
+          {
+            "name": "Taxicab Experiment",
+            "distribution": "Features generated with normal distribution and added constants."
+          }
+        ],
+        "evaluation": [
+          "Mean Absolute SHAP values",
+          "SAGE values",
+          "R2 evaluation function",
+          "Conditional log likelihood"
+        ]
+      }
+    ],
+    "controls": null,
+    "structure": "The study is structured to simulate various data circumstances and apply feature selection using Shapley value-based methods, analyzing the outcomes against known optimal feature sets.",
+    "setting": "Simulation-based study using artificial datasets."
+  }
+}

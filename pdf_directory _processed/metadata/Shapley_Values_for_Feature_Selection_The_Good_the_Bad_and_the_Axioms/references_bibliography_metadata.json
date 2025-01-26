@@ -1,0 +1,463 @@
+{
+  "references": [
+    {
+      "authors": "G. Claeskens and N. L. Hjort",
+      "title": "Model Selection Model Averaging",
+      "journal": "Cambridge University Press",
+      "year": 2008,
+      "volume": null,
+      "pages": null,
+      "doi": null
+    },
+    {
+      "authors": "F. Huettner and M. Sunder",
+      "title": "Axiomatic arguments for decomposing goodness of fit according to Shapley and Owen values",
+      "journal": "Electronic Journal of Statistics",
+      "year": 2012,
+      "volume": 6,
+      "pages": "1239\u20131250",
+      "doi": "10.1214/12-EJS710"
+    },
+    {
+      "authors": "A. B. Owen and C. Prieur",
+      "title": "On Shapley value for measuring importance of dependent inputs",
+      "journal": "SIAM/ASA Journal on Uncertainty Quantification",
+      "year": 2017,
+      "volume": 5,
+      "pages": "986\u20131002",
+      "doi": null
+    },
+    {
+      "authors": "A. B. Owen",
+      "title": "Sobol\u2019 indices and Shapley value",
+      "journal": "SIAM/ASA Journal on Uncertainty Quantification",
+      "year": 2014,
+      "volume": 2,
+      "pages": "245\u2013251",
+      "doi": "10.1137/130936233"
+    },
+    {
+      "authors": "O. Israeli",
+      "title": "A Shapley-based decomposition of the R-square of a linear regression",
+      "journal": "Journal of Economic Inequality",
+      "year": 2007,
+      "volume": 5,
+      "pages": "199\u2013212",
+      "doi": null
+    },
+    {
+      "authors": "E. Song, B. L. Nelson, and J. Staum",
+      "title": "Shapley effects for global sensitivity analysis: Theory and computation",
+      "journal": "SIAM/ASA Journal on Uncertainty Quantification",
+      "year": 2016,
+      "volume": 4,
+      "pages": "1060\u20131083",
+      "doi": null
+    },
+    {
+      "authors": "D. Fryer, I. Str\u00fcmke, and H. Nguyen",
+      "title": "Shapley value confidence intervals for attributing variance explained",
+      "journal": "Frontiers in Applied Mathematics and Statistics",
+      "year": 2020,
+      "volume": 6,
+      "pages": "58",
+      "doi": null
+    },
+    {
+      "authors": "U. Gr\u00f6mping and S. Landau",
+      "title": "Do not adjust coefficients in Shapley value regression",
+      "journal": "Applied Stochastic Models in Business and Industry",
+      "year": 2010,
+      "volume": 26,
+      "pages": "194\u2013202",
+      "doi": null
+    },
+    {
+      "authors": "R. H. Lindeman",
+      "title": "Introduction to bivariate and multivariate analysis",
+      "journal": "Scott, Foresman, Glenview",
+      "year": 1980,
+      "volume": null,
+      "pages": null,
+      "doi": null
+    },
+    {
+      "authors": "W. Kruskal",
+      "title": "Relative importance by averaging over orderings",
+      "journal": "The American Statistician",
+      "year": 1987,
+      "volume": 41,
+      "pages": "6\u201310",
+      "doi": null
+    },
+    {
+      "authors": "W. Kruskal",
+      "title": "Correction to 'relative importance by averaging over orderings'",
+      "journal": "The American Statistician",
+      "year": 1987,
+      "volume": 41,
+      "pages": "341",
+      "doi": null
+    },
+    {
+      "authors": "S. Lipovetsky and M. Conklin",
+      "title": "Analysis of regression in game theory approach",
+      "journal": "Applied Stochastic Models in Business and Industry",
+      "year": 2001,
+      "volume": 17,
+      "pages": "319\u2013330",
+      "doi": null
+    },
+    {
+      "authors": "D. V. Budescu",
+      "title": "Dominance analysis: A new approach to the problem of relative importance of predictors in multiple regression",
+      "journal": "Psychological Bulletin",
+      "year": 1993,
+      "volume": 114,
+      "pages": "542",
+      "doi": null
+    },
+    {
+      "authors": "K. Aas, M. Jullum, and A. L\u00f8land",
+      "title": "Explaining individual predictions when features are dependent: More accurate approximations to Shapley values",
+      "journal": "Artificial Intelligence",
+      "year": 2021,
+      "volume": 298,
+      "pages": "103502",
+      "doi": "10.1016/j.artint.2021.103502"
+    },
+    {
+      "authors": "S. M. Lundberg et al.",
+      "title": "From local explanations to global understanding with explainable AI for trees",
+      "journal": "Nature Machine Intelligence",
+      "year": 2020,
+      "volume": 2,
+      "pages": "56\u201367",
+      "doi": null
+    },
+    {
+      "authors": "N. Sellereite and M. Jullum",
+      "title": "Shapr: An R-package for explaining machine learning models with dependence-aware Shapley values",
+      "journal": "Journal of Open Source Software",
+      "year": 2019,
+      "volume": 5,
+      "pages": "2027",
+      "doi": "10.21105/joss.02027"
+    },
+    {
+      "authors": "S. M. Lundberg and S.-I. Lee",
+      "title": "A unified approach to interpreting model predictions",
+      "journal": "Advances in Neural Information Processing Systems",
+      "year": 2017,
+      "volume": 30,
+      "pages": "1\u201310",
+      "doi": null
+    },
+    {
+      "authors": "E. \u0160trumbelj and I. Kononenko",
+      "title": "Explaining prediction models and individual predictions with feature contributions",
+      "journal": "Knowledge and Information Systems",
+      "year": 2014,
+      "volume": 41,
+      "pages": "647\u2013665",
+      "doi": null
+    },
+    {
+      "authors": "E. Strumbelj and I. Kononenko",
+      "title": "An efficient explanation of individual classifications using game theory",
+      "journal": "Journal of Machine Learning Research",
+      "year": 2010,
+      "volume": 11,
+      "pages": "1\u201318",
+      "doi": null
+    },
+    {
+      "authors": "S. M. Lundberg, G. G. Erion, and S.-I. Lee",
+      "title": "Consistent individualized feature attribution for tree ensembles",
+      "journal": "arXiv preprint",
+      "year": 2018,
+      "volume": null,
+      "pages": null,
+      "doi": "10.48550/arXiv.1802.03888"
+    },
+    {
+      "authors": "A. Redelmeier, M. Jullum, and K. Aas",
+      "title": "Explaining predictive models with mixed features using Shapley values and conditional inference trees",
+      "journal": "International Cross-Domain Conference for Machine Learning and Knowledge Extraction",
+      "year": 2020,
+      "volume": null,
+      "pages": "117\u2013137",
+      "doi": null
+    },
+    {
+      "authors": "Y. Kwon, M. A. Rivas, and J. Zou",
+      "title": "Efficient computation and analysis of distributional Shapley values",
+      "journal": "International Conference on Artificial Intelligence and Statistics",
+      "year": 2021,
+      "volume": null,
+      "pages": "793\u2013801",
+      "doi": null
+    },
+    {
+      "authors": "N. Moehle, S. Boyd, and A. Ang",
+      "title": "Portfolio performance attribution via Shapley value",
+      "journal": "arXiv preprint",
+      "year": 2021,
+      "volume": null,
+      "pages": null,
+      "doi": "10.48550/arXiv.2102.05799"
+    },
+    {
+      "authors": "I. Covert, S. Lundberg, and S.-I. Lee",
+      "title": "Explaining by removing: A unified framework for model explanation",
+      "journal": "arXiv preprint",
+      "year": 2020,
+      "volume": null,
+      "pages": null,
+      "doi": "10.48550/arXiv.2011.14878"
+    },
+    {
+      "authors": "A. Keinan et al.",
+      "title": "Fair attribution of functional contribution in artificial and biological networks",
+      "journal": "Neural Computation",
+      "year": 2004,
+      "volume": 16,
+      "pages": "1887\u20131915",
+      "doi": null
+    },
+    {
+      "authors": "D. V. Fryer, I. Str\u00fcmke, and H. Nguyen",
+      "title": "Explaining the data or explaining a model? Shapley values that uncover non-linear dependencies",
+      "journal": "arXiv preprint",
+      "year": 2020,
+      "volume": null,
+      "pages": null,
+      "doi": "10.48550/arXiv.2007.06011"
+    },
+    {
+      "authors": "L. S. Shapley",
+      "title": "A value for N-person games",
+      "journal": "Contributions to the Theory of Games",
+      "year": 1953,
+      "volume": 2,
+      "pages": null,
+      "doi": null
+    },
+    {
+      "authors": "E. Algaba, V. Fragnelli, and J. Sanchez-Soriano",
+      "title": "Handbook Shapley Value",
+      "journal": "CRC Press",
+      "year": 2019,
+      "volume": null,
+      "pages": null,
+      "doi": null
+    },
+    {
+      "authors": "G. Chalkiadakis, E. Elkind, and M. Wooldridge",
+      "title": "Computational aspects of cooperative game theory",
+      "journal": "KES International Symposium on Agent and Multi-Agent Systems: Technologies and Applications (Lecture Notes in Computer Science)",
+      "year": 2011,
+      "volume": 6682,
+      "pages": "1",
+      "doi": null
+    },
+    {
+      "authors": "A. Roth and L. S. Shapley",
+      "title": "The Shapley value: Essays in honor of Lloyd S. Shapley",
+      "journal": "Economica",
+      "year": 1991,
+      "volume": 101,
+      "pages": "123",
+      "doi": null
+    },
+    {
+      "authors": "L. A. K\u00f3czy",
+      "title": "Partition Function Form Games\u2014Coalitional Games With Externalities",
+      "journal": "Springer",
+      "year": 2018,
+      "volume": null,
+      "pages": null,
+      "doi": null
+    },
+    {
+      "authors": "R. Gilles",
+      "title": "The Cooperative Game Theory of Networks and Hierarchies",
+      "journal": "Springer-Verlag",
+      "year": 2010,
+      "volume": 44,
+      "pages": null,
+      "doi": null
+    },
+    {
+      "authors": "R. B. Myerson",
+      "title": "Conference structures and fair allocation rules",
+      "journal": "International Journal of Game Theory",
+      "year": 1980,
+      "volume": 9,
+      "pages": "169\u2013182",
+      "doi": "10.1007/BF01781371"
+    },
+    {
+      "authors": "S. Hart and A. Mas-Colell",
+      "title": "Potential, value, and consistency",
+      "journal": "Econometrica",
+      "year": 1989,
+      "volume": 57,
+      "pages": "589\u2013614",
+      "doi": null
+    },
+    {
+      "authors": "C. Frye, C. Rowat, and I. Feige",
+      "title": "Asymmetric Shapley values: Incorporating causal knowledge into model-agnostic explainability",
+      "journal": "Advances in Neural Information Processing Systems",
+      "year": 2020,
+      "volume": 33,
+      "pages": "1229\u20131239",
+      "doi": null
+    },
+    {
+      "authors": "L. Merrick and A. Taly",
+      "title": "The explanation game: Explaining machine learning models using Shapley values",
+      "journal": "arXiv preprint",
+      "year": 2019,
+      "volume": null,
+      "pages": null,
+      "doi": "10.48550/arXiv.1909.08128"
+    },
+    {
+      "authors": "I. E. Kumar et al.",
+      "title": "Problems with Shapley-value-based explanations as feature importance measures",
+      "journal": "International Conference on Machine Learning",
+      "year": 2020,
+      "volume": null,
+      "pages": "5491\u20135500",
+      "doi": null
+    },
+    {
+      "authors": "M. Sundararajan and A. Najmi",
+      "title": "The many Shapley values for model explanation",
+      "journal": "International Conference on Machine Learning",
+      "year": 2020,
+      "volume": null,
+      "pages": "9278\u20139629",
+      "doi": null
+    },
+    {
+      "authors": "U. Gr\u00f6mping",
+      "title": "Variable importance assessment in regression: Linear regression versus random forest",
+      "journal": "The American Statistician",
+      "year": 2012,
+      "volume": 63,
+      "pages": "308\u2013319",
+      "doi": "10.1198/tast.2009.08199"
+    },
+    {
+      "authors": "S. Cohen, G. Dror, and E. Ruppin",
+      "title": "Feature selection via coalitional game theory",
+      "journal": "Neural Computation",
+      "year": 2007,
+      "volume": 19,
+      "pages": "1939\u20131961",
+      "doi": null
+    },
+    {
+      "authors": "M. Zaeri-Amirani, F. Afghah, and S. Mousavi",
+      "title": "A feature selection method based on Shapley value to false alarm reduction in ICUs: A genetic-algorithm approach",
+      "journal": "40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+      "year": 2018,
+      "volume": null,
+      "present": "319\u2013323",
+      "doi": null
+    },
+    {
+      "authors": "C. C. F. Chu and D. P. K. Chan",
+      "title": "Feature selection using approximated high-order interaction components of the Shapley value for boosted tree classifier",
+      "journal": "IEEE Access",
+      "year": 2020,
+      "volume": 8,
+      "pages": "112742\u2013112750",
+      "doi": null
+    },
+    {
+      "authors": "S. Tripathi, N. Hemachandra, and P. Trivedi",
+      "title": "On feature interactions identified by Shapley values of binary classification games",
+      "journal": "Stat",
+      "year": 2020,
+      "volume": 1050,
+      "pages": "12",
+      "doi": null
+    },
+    {
+      "authors": "R. Guha et al.",
+      "title": "CGA: A new feature selection model for visual human action recognition",
+      "journal": "Neural Computing and Applications",
+      "year": 2021,
+      "volume": 33,
+      "pages": "5267\u20135286",
+      "doi": null
+    },
+    {
+      "authors": "N. Jothi, W. Husain, and N. A. Rashid",
+      "title": "Predicting generalized anxiety disorder among women using Shapley value",
+      "journal": "Journal of Infection and Public Health",
+      "year": 2021,
+      "volume": 14,
+      "pages": "103\u2013108",
+      "doi": null
+    },
+    {
+      "authors": "W. E. Marcilio and D. M. Eler",
+      "title": "From explanations to feature selection: Assessing SHAP values as feature selection mechanism",
+      "journal": "33rd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+      "year": 2020,
+      "volume": null,
+      "pages": null,
+      "doi": null
+    },
+    {
+      "authors": "J. W. Tukey",
+      "title": "The future of data analysis",
+      "journal": "The Annals of Mathematical Statistics",
+      "year": 1962,
+      "volume": 33,
+      "pages": "1\u201367",
+      "doi": null
+    },
+    {
+      "authors": "G. Chandrashekar and F. Sahin",
+      "title": "A survey on feature selection methods",
+      "journal": "Computers & Electrical Engineering",
+      "year": 2014,
+      "volume": 40,
+      "pages": "16\u201328",
+      "doi": null
+    },
+    {
+      "authors": "H. Yin et al.",
+      "title": "Intelligent data engineering and automated learning\u2014IDEAL 2007",
+      "journal": "8th International Conference, Birmingham, UK",
+      "year": 2007,
+      "volume": null,
+      "pages": "16\u201319",
+      "doi": null
+    },
+    {
+      "authors": "S. Ma and R. Tourani",
+      "title": "Predictive and causal implications of using Shapley value for model interpretation",
+      "journal": "KDD Workshop on Causal Discovery, PMLR",
+      "year": 2020,
+      "volume": null,
+      "pages": "23\u201338",
+      "doi": null
+    },
+    {
+      "authors": "P. Diaconis",
+      "title": "Theories of data analysis: From magical thinking through classical statistics",
+      "journal": "Exploring Data Tables, Trends, Shapes",
+      "year": 2006,
+      "volume": null,
+      "pages": "1\u201336",
+      "doi": null
+    }
+  ]
+}

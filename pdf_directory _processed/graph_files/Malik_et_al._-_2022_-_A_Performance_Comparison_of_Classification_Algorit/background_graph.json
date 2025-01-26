@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_1",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Role of Botanists",
+        "description": "Botanists play a key role in recognizing flowers, a challenge with nearly half a million flower types discovered."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_2",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Machine Learning in Botany",
+        "description": "Machine learning techniques provide precise solutions for flower identification, leveraging unique leaf features for long-lasting identity preservation."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_3",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Classification Challenges",
+        "description": "Classification of flowering plants has economic value and is crucial for tracking and identifying new species."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_4",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Machine Learning Models",
+        "description": "Various models like Naive Bayes, Decision Tree, Random Forest, and Support Vector Machine have been explored for plant classification."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_5",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Random Forest Optimization",
+        "description": "Random Forest is optimized by tuning parameters like the number of trees and tree depth, using gain ratio to improve accuracy."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_6",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Image Processing in Agriculture",
+        "description": "Image processing via machine learning aids in tasks such as cancerous tissue detection, plant classification, and image-based searching."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_7",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Importance of Ensemble Learners",
+        "description": "Ensemble classifiers, using voting methods, show superior performance compared to individual models."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_8",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Specific Problem Addressed",
+        "description": "This study proposes machine learning-based identification of rose plant types using leaf features, addressing challenges of manual identification."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_8",
+      "type": "RELATION",
+      "properties": {
+        "description": "Machine Learning is applied to solve the problem of rose plant type identification."
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_3",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_7",
+      "type": "RELATION",
+      "properties": {
+        "description": "Challenges in classification are mitigated through the use of ensemble learners."
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_4",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_5",
+      "type": "RELATION",
+      "properties": {
+        "description": "Random Forest, a machine learning model, is specifically optimized for better classification accuracy."
+      }
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_6",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_background_2",
+      "type": "RELATION",
+      "properties": {
+        "description": "Image processing in agriculture utilizes machine learning techniques."
+      }
+    }
+  ]
+}

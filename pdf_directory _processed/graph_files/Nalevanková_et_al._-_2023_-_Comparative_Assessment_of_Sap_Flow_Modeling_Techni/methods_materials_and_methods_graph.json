@@ -1,0 +1,254 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_1",
+      "label": [
+        "Location"
+      ],
+      "properties": {
+        "name": "Central Slovakia (Kremnick\u00e9 vrchy Mts.)",
+        "altitude": 450,
+        "coordinates": "48\u00b036'43'' N; 19\u00b003'59'' E"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_2",
+      "label": [
+        "Climate"
+      ],
+      "properties": {
+        "type": "slightly warm and moderately humid",
+        "mean_air_temperature_July": 16,
+        "mean_annual_temperature": 7.3,
+        "annual_precipitation": 690
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_3",
+      "label": [
+        "Soil"
+      ],
+      "properties": {
+        "type": "Haplic Cambisol (Humic, Eutric, Endoskeletic, Siltic)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_4",
+      "label": [
+        "Vegetation"
+      ],
+      "properties": {
+        "type": "European beech forest",
+        "age": 65,
+        "DBH_range": "5.7 to 42.3 cm",
+        "height_range": "8.4 to 29.3 m"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_5",
+      "label": [
+        "Method"
+      ],
+      "properties": {
+        "name": "tissue heat balance method (THB)",
+        "scale": "kg of water per period per cm stem circumference",
+        "intervals": "measured at 5 min intervals, recorded as 20 min averages",
+        "sample_size": 12
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_6",
+      "label": [
+        "Equipment"
+      ],
+      "properties": {
+        "name": "Sap flow systems (model EMS51A) connected to a 16-channel data logger RailBox V16"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_7",
+      "label": [
+        "Environmental Condition"
+      ],
+      "properties": {
+        "name": "meteorological variables"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_8",
+      "label": [
+        "Equipment"
+      ],
+      "properties": {
+        "name": "automatic weather station with sensors for AT, RH, Rs",
+        "recording_intervals": "5 min, data stored every 20 min"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_9",
+      "label": [
+        "Derived Variable"
+      ],
+      "properties": {
+        "name": "vapor pressure deficit (VPD)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_10",
+      "label": [
+        "Derived Variable"
+      ],
+      "properties": {
+        "name": "potential evapotranspiration (PET)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_11",
+      "label": [
+        "Software"
+      ],
+      "properties": {
+        "name": "R programming language"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_12",
+      "label": [
+        "Software"
+      ],
+      "properties": {
+        "name": "TensorFlow (version 2.11.0)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_13",
+      "label": [
+        "Software"
+      ],
+      "properties": {
+        "name": "Keras (version 2.11.1)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_14",
+      "label": [
+        "Software"
+      ],
+      "properties": {
+        "name": "Ranger (version 0.14.1)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_15",
+      "label": [
+        "Software"
+      ],
+      "properties": {
+        "name": "XGBoost (version 1.7.3.1)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_16",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "neural networks"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_17",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "random forest"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_18",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "gradient boosting machine"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_methods_materials_and_methods_19",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "linear regression model"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "type": "HAS_CLIMATE"
+    },
+    {
+      "from": "1",
+      "to": "3",
+      "type": "HAS_SOIL"
+    },
+    {
+      "from": "1",
+      "to": "4",
+      "type": "HAS_VEGETATION"
+    },
+    {
+      "from": "5",
+      "to": "6",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "from": "7",
+      "to": "8",
+      "type": "USES_EQUIPMENT"
+    },
+    {
+      "from": "11",
+      "to": "12",
+      "type": "INCLUDES_SOFTWARE"
+    },
+    {
+      "from": "11",
+      "to": "13",
+      "type": "INCLUDES_SOFTWARE"
+    },
+    {
+      "from": "11",
+      "to": "14",
+      "type": "INCLUDES_SOFTWARE"
+    },
+    {
+      "from": "11",
+      "to": "15",
+      "type": "INCLUDES_SOFTWARE"
+    },
+    {
+      "from": "11",
+      "to": "16",
+      "type": "SUPPORTS_MODEL"
+    },
+    {
+      "from": "11",
+      "to": "17",
+      "type": "SUPPORTS_MODEL"
+    },
+    {
+      "from": "11",
+      "to": "18",
+      "type": "SUPPORTS_MODEL"
+    },
+    {
+      "from": "11",
+      "to": "19",
+      "type": "SUPPORTS_MODEL"
+    }
+  ]
+}

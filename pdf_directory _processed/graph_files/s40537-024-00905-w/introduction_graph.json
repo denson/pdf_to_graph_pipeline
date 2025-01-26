@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_introduction_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "Detecting credit card fraud in the finance industry by analyzing transaction datasets."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_introduction_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "Improving the decision-making process in machine learning models by selecting relevant features to tackle data quality issues."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_introduction_3",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "The need to compare different feature selection methods, specifically SHAP-value and importance-based methods, to determine which enhances model performance in credit card fraud detection."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_introduction_1",
+      "target": "Paper_s40537-024-00905-w_introduction_2",
+      "type": "ADDRESSES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_introduction_2",
+      "target": "Paper_s40537-024-00905-w_introduction_3",
+      "type": "LEADS_TO",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_objectives_aims_scope_1",
+      "label": "Objective",
+      "properties": {
+        "description": "Extend Kernel SHAP to handle dependent features for accurate Shapley values."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_objectives_aims_scope_2",
+      "label": "Aim",
+      "properties": {
+        "description": "Develop methodology for feature dependence in Shapley values and clustering for feature contribution."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_objectives_aims_scope_3",
+      "label": "Scope",
+      "properties": {
+        "description": "Development and validation of modified Kernel SHAP with feature dependence, and exploration of Shapley value clustering."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "type": "RELATES_TO"
+    },
+    {
+      "from": "1",
+      "to": "3",
+      "type": "RELATES_TO"
+    },
+    {
+      "from": "2",
+      "to": "3",
+      "type": "SUPPORTS"
+    }
+  ]
+}

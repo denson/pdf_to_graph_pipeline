@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__hypotheses_Hypothesis_1",
+      "label": "Hypothesis",
+      "properties": {
+        "statement": "Informative features will have a statistically significant larger impact on the prediction compared to a known random feature.",
+        "type": "one-sample one-tailed test",
+        "null_hypothesis": "The impact of a random feature is not more significant than the impact of a tested feature.",
+        "alternative_hypothesis": "The impact of the tested feature is greater than that of a random feature."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__hypotheses_Method_1",
+      "label": "Methods",
+      "properties": {
+        "name": "powershap_algorithm",
+        "components": [
+          "Explain component: Trains multiple models with different random seeds and subsets, each including a random feature, and calculates average feature impact using Shapley values.",
+          "Core powershap component: Compares impacts of original features statistically to a random feature, selecting informative features based on statistical hypothesis testing."
+        ],
+        "automatic_mode": {
+          "parameters": [
+            "alpha: threshold p-value",
+            "I: number of iterations"
+          ],
+          "optimization_goal": "Optimize number of iterations using statistical power calculations to balance runtime and feature selection quality."
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__hypotheses_Hypothesis_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__hypotheses_Method_1",
+      "relationship": "TESTED_BY"
+    }
+  ]
+}

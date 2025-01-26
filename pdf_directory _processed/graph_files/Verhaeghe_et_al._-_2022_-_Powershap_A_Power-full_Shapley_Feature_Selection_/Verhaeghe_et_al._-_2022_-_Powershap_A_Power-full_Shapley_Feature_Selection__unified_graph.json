@@ -1,0 +1,1759 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "title": "Powershap: A Power-full Shapley Feature Selection Method",
+        "abstract": "Feature selection is a crucial step in developing robust and powerful machine learning models. Feature selection techniques can be divided into two categories: filter and wrapper methods. While wrapper methods commonly result in strong predictive performances, they suffer from a large computational complexity and therefore take a significant amount of time to complete, especially when dealing with high-dimensional feature sets. Alternatively, filter methods are considerably faster, but suffer from several other disadvantages, such as (i) requiring a threshold value, (ii) many filter methods not taking into account inter-correlation between features, and (iii) ignoring feature interactions with the model. To this end, we present powershap, a novel wrapper feature selection method, which leverages statistical hypothesis testing and power calculations in combination with Shapley values for quick and intuitive feature selection. Powershap is built on the core assumption that an informative feature will have a larger impact on the prediction compared to a known random feature. Benchmarks and simulations show that powershap outperforms other filter methods with predictive performances on par with wrapper methods while being significantly faster, often even reaching half or a third of the execution time. As such, powershap provides a competitive and quick algorithm that can be used by various models in different domains. Furthermore, powershap is implemented as a plug-and-play and open-source sklearn component, enabling easy integration in conventional data science pipelines. User experience is even further enhanced by also providing an automatic mode that automatically tunes the hyper-parameters of the powershap algorithm, allowing to use the algorithm without any configuration needed.",
+        "publication_date": "2022-07-06",
+        "doi": "arXiv:2206.08394v2",
+        "supplementary_information": "https://github.com/predict-idlab/PowerSHAP",
+        "affiliation": "IDLab, Ghent University - imec",
+        "contact_email": "jarne.verhaeghe@ugent.be"
+      }
+    },
+    {
+      "id": "author_1",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Jarne Verhaeghe"
+      }
+    },
+    {
+      "id": "author_2",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Jeroen Van Der Donckt"
+      }
+    },
+    {
+      "id": "author_3",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Femke Ongenae"
+      }
+    },
+    {
+      "id": "author_4",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Sofie Van Hoecke"
+      }
+    },
+    {
+      "id": "keyword_1",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Feature selection"
+      }
+    },
+    {
+      "id": "keyword_2",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Shap"
+      }
+    },
+    {
+      "id": "keyword_3",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Benchmark"
+      }
+    },
+    {
+      "id": "keyword_4",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Simulation"
+      }
+    },
+    {
+      "id": "keyword_5",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Toolkit"
+      }
+    },
+    {
+      "id": "keyword_6",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Python"
+      }
+    },
+    {
+      "id": "keyword_7",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "name": "Open source"
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "To develop Powershap, a novel feature selection method leveraging statistical hypothesis testing and power calculations with Shapley values for efficient feature selection."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Powershap combines wrapper feature selection methodologies with statistical hypothesis testing and Shapley values.",
+        "components": [
+          "Explain Component",
+          "Core Component"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_3",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "Powershap outperforms other filter methods, providing predictive performance competitive with wrapper methods and improved execution time."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_4",
+      "labels": [
+        "Implication"
+      ],
+      "properties": {
+        "description": "Powershap allows quick integration as an open-source sklearn component for diverse models and domains."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_5",
+      "labels": [
+        "Implementation"
+      ],
+      "properties": {
+        "description": "Open-source component for easy integration in data science pipelines with automatic hyper-parameter tuning."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_6",
+      "labels": [
+        "Evaluation"
+      ],
+      "properties": {
+        "description": "Compared with filter, wrapper, and SHAP-based methods on synthetic and real-world datasets, showing faster execution and reliable feature selection."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_7",
+      "labels": [
+        "Optimization"
+      ],
+      "properties": {
+        "description": "Automatic mode optimizes iterations using power calculations, reducing the need for extensive tuning."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_8",
+      "labels": [
+        "Limitations"
+      ],
+      "properties": {
+        "description": "Benchmarks conducted without tuning specific features; dependency on choice of machine learning models could influence results."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Research Foundation Flanders (FWO)",
+      "label": [
+        "FundingSource"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_1S59522N",
+      "label": [
+        "Grant"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Jarne Verhaeghe",
+      "label": [
+        "Contributor"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Jeroen Van Der Donckt",
+      "label": [
+        "Contributor"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Sofie Van Hoecke",
+      "label": [
+        "Contributor"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Femke Ongenae",
+      "label": [
+        "Contributor"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Gilles Vandewiele",
+      "label": [
+        "Contributor"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "label": [
+        "Paper"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_1",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "name": "Feature Selection Importance",
+        "description": "Feature selection is important for reducing feature dimensionality, increasing model performance, enhancing computational efficiency, and improving model robustness."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_2",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "name": "Filter Methods",
+        "description": "Filter methods are model-independent, fast, but have disadvantages such as ignoring inter-correlation between features and requiring thresholds."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_3",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "name": "Wrapper Methods",
+        "description": "Wrapper methods consider feature interactions but are computationally expensive."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_4",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "name": "Shapley Values",
+        "description": "SHAP values provide model-agnostic explanations and are popular despite some limitations."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_5",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "name": "BorutaSHAP",
+        "description": "Combines the Boruta algorithm using Shapley values, limited to tree-based models."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_6",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "name": "Shapicant",
+        "description": "Inspired by permutation importance, adapted to use Shapley values for non-parameter estimation."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PowershapIntroduction",
+      "label": "Introduction of Powershap",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PredictivePerformance",
+      "label": "Predictive Performance",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_ExecutionTime",
+      "label": "Execution Time",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_FeatureSelectionQuality",
+      "label": "Feature Selection Quality",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_AutomaticMode",
+      "label": "Automatic Mode",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Integration",
+      "label": "Integration as Sklearn Component",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Funding",
+      "label": "Funding and Development",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Conclusion",
+      "label": [
+        "Conclusion"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Interpretation1",
+      "label": "Interpretation",
+      "text": "Powershap is a novel wrapper feature selection method that combines statistical hypothesis testing, power calculations, and Shapley values for efficient feature selection.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Implication1",
+      "label": "Implication",
+      "text": "The method offers predictive performance comparable to other wrapper methods but with reduced computational requirements.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Limitation1",
+      "label": "Limitation",
+      "text": "Wrapper methods, including Powershap, depend on the model used and could suffer from modeling issues.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Interpretation2",
+      "label": "Interpretation",
+      "text": "Powershap uses an Explain component to add a single known random feature and analyzes its average impact using Shapley values.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Implication2",
+      "label": "Implication",
+      "text": "This allows Powershap to statistically compare the impact of real features to a random feature.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Limitation2",
+      "label": "Limitation",
+      "text": "The approach's reliance on statistical tests can be influenced by the number of iterations.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Interpretation3",
+      "label": "Interpretation",
+      "text": "The 'automatic mode' in Powershap allows for the optimization of iterations necessary for ensuring desired statistical power.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Implication3",
+      "label": "Implication",
+      "text": "This makes Powershap a more user-friendly tool without extensive setup.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Limitation3",
+      "label": "Limitation",
+      "text": "Anticonservative estimation of p-values might require larger datasets to ensure robustness.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__funding_statement_1",
+      "label": "Research Foundation Flanders (FWO)",
+      "type": "FundingSource",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__funding_statement_2",
+      "label": "Jarne Verhaeghe",
+      "type": "ResearchActivity",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__hypotheses_Hypothesis_1",
+      "label": "Hypothesis",
+      "properties": {
+        "statement": "Informative features will have a statistically significant larger impact on the prediction compared to a known random feature.",
+        "type": "one-sample one-tailed test",
+        "null_hypothesis": "The impact of a random feature is not more significant than the impact of a tested feature.",
+        "alternative_hypothesis": "The impact of the tested feature is greater than that of a random feature."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__hypotheses_Method_1",
+      "label": "Methods",
+      "properties": {
+        "name": "powershap_algorithm",
+        "components": [
+          "Explain component: Trains multiple models with different random seeds and subsets, each including a random feature, and calculates average feature impact using Shapley values.",
+          "Core powershap component: Compares impacts of original features statistically to a random feature, selecting informative features based on statistical hypothesis testing."
+        ],
+        "automatic_mode": {
+          "parameters": [
+            "alpha: threshold p-value",
+            "I: number of iterations"
+          ],
+          "optimization_goal": "Optimize number of iterations using statistical power calculations to balance runtime and feature selection quality."
+        }
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "In data mining and machine learning, the goal is to extract and discover knowledge from data. Feature selection is crucial for developing robust models by reducing high dimensionality and addressing the unknown relevance of features."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "Ignoring the challenges of high dimensionality and feature irrelevance leads to modeling obstacles like sparse data, overfitting, and the curse of dimensionality. Thus, feature selection is frequently applied to enhance model performance and computational efficiency."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_3",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "Current filter and wrapper feature selection methods come with trade-offs. Wrapper methods, while strong in predictive performance, are computationally intensive. Filter methods, although faster, have limitations such as requiring a threshold value, neglecting inter-correlation between features, and ignoring feature interactions with the model."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_1",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "label": "Paper",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_3",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_4",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_5",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_6",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_7",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_8",
+      "label": "Limitation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Powershap is a novel feature selection method leveraging Shapley values, surpassing filter methods in speed and performing on par with wrapper methods in terms of predictive accuracy on benchmark datasets."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_method_approach_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Powershap combines statistical hypothesis testing, power calculations, and Shapley values to assess feature importance."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_method_approach_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Features are selected by comparing their Shapley value impacts against those of a known random feature."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_method_approach_3",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Automatic mode optimizes parameters using statistical power calculations to determine adequate iteration counts, aiming for efficient yet robust feature selection."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_research_gap_1",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "Performance is heavily reliant on the choice of underlying machine learning models, influencing feature selection quality."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_research_gap_2",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "In datasets with high dimensionality and high ratio of informative features, the default setup may struggle due to model underfitting risks."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_research_gap_3",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "Many hyperparameters were set to defaults without extensive tuning, possibly affecting benchmark impartiality."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_insight_1",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Convergence mode allows recursive execution to discover additional informative features in complex datasets."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_insight_2",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Backward selection can be added post-powershap execution to further refine selected feature subsets."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Powershap",
+      "label": [
+        "Method"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Explain component",
+      "label": [
+        "Method Component"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Core powershap component",
+      "label": [
+        "Method Component"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Automatic mode",
+      "label": [
+        "Method Component"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_CatBoost",
+      "label": [
+        "Tool"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Sklearn",
+      "label": [
+        "Tool"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Python",
+      "label": [
+        "Tool"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Simulation dataset",
+      "label": [
+        "Dataset"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Madelon",
+      "label": [
+        "Benchmark Dataset"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Gina Priori",
+      "label": [
+        "Benchmark Dataset"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Scene",
+      "label": [
+        "Benchmark Dataset"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_CT Location",
+      "label": [
+        "Benchmark Dataset"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__methods_materials_and_methods_Appliances",
+      "label": [
+        "Benchmark Dataset"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__objectives_aims_scope_Objective",
+      "label": "Objective",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__objectives_aims_scope_Aim",
+      "label": "Aim",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__objectives_aims_scope_Scope",
+      "label": "Scope",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__objectives_aims_scope_Powershap",
+      "label": "Powershap",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "label": "Main Paper",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[1]",
+      "label": "Permutation importance: a corrected feature importance measure.",
+      "authors": [
+        "Altmann, A.",
+        "Tolo\u0131si, L.",
+        "Sander, O.",
+        "Lengauer, T."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[2]",
+      "label": "Random Forests.",
+      "authors": [
+        "Breiman, L."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[3]",
+      "label": "manuel-calzolari/shapicant.",
+      "authors": [
+        "Calzolari, M."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[4]",
+      "label": "A Review on Feature Selection Algorithms.",
+      "authors": [
+        "Colaco, S.",
+        "Kumar, S.",
+        "Tamang, A.",
+        "Biju, V.G."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[5]",
+      "label": "UCI machine learning repository.",
+      "authors": [
+        "Dua, D.",
+        "Graff, C."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[6]",
+      "label": "A review of feature selection methods with applications.",
+      "authors": [
+        "Jovi\u0107, A.",
+        "Brki\u0107, K.",
+        "Bogunovi\u0107, N."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[7]",
+      "label": "Borutashap: A wrapper feature selection method which combines the boruta feature selection algorithm with shapley values.",
+      "authors": [
+        "Keany, E."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[8]",
+      "label": "Filter versus Wrapper Feature Subset Selection in Large Dimensionality Micro array: A Review.",
+      "authors": [
+        "Kumari, B.",
+        "Swarnkar, T."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[9]",
+      "label": "Feature selection with the Boruta package.",
+      "authors": [
+        "Kursa, M.B.",
+        "Rudnicki, W.R."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[10]",
+      "label": "Feature Selection: A Data Perspective.",
+      "authors": [
+        "Li, J.",
+        "Cheng, K.",
+        "Wang, S.",
+        "et al."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[11]",
+      "label": "Explainable AI: A Review of Machine Learning Interpretability Methods.",
+      "authors": [
+        "Linardatos, P.",
+        "Papastefanopoulos, V.",
+        "Kotsiantis, S."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[12]",
+      "label": "An introduction to statistical concepts.",
+      "authors": [
+        "Lomax, R.G."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[13]",
+      "label": "A unified approach to interpreting model predictions.",
+      "authors": [
+        "Lundberg, S.M.",
+        "Lee, S.I."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[14]",
+      "label": "A Note on the Calculation of Empirical P Values from Monte Carlo Procedures.",
+      "authors": [
+        "North, B.V.",
+        "Curtis, D.",
+        "Sham, P.C."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[15]",
+      "label": "Scikit-learn: Machine learning in Python.",
+      "authors": [
+        "Pedregosa, F.",
+        "Varoquaux, G.",
+        "Gramfort, A.",
+        "et al."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[16]",
+      "label": "CatBoost: unbiased boosting with categorical features.",
+      "authors": [
+        "Prokhorenkova, L.",
+        "Gusev, G.",
+        "et al."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[17]",
+      "label": "statsmodels: Econometric and statistical modeling with python.",
+      "authors": [
+        "Seabold, S.",
+        "Perktold, J."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[18]",
+      "label": "OpenML: gina priori",
+      "authors": [
+        "Vanschoren, J."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[19]",
+      "label": "OpenML: madelon",
+      "authors": [
+        "Vanschoren, J."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[20]",
+      "label": "OpenML: scene",
+      "authors": [
+        "Vanschoren, J."
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_PowerSHAP",
+      "label": [
+        "Software"
+      ],
+      "description": "PowerSHAP is a wrapper feature selection method using Shapley values and statistical tests to determine the significance of features.",
+      "programming_language": "Python",
+      "open_source": true,
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_Permutation importance: a corrected feature importance measure",
+      "label": [
+        "Paper"
+      ],
+      "authors": [
+        "A. Altmann",
+        "L. Tolosi",
+        "O. Sander",
+        "T. Lengauer"
+      ],
+      "journal": "Bioinformatics",
+      "volume": "26",
+      "issue": "10",
+      "pages": "1340\u20131347",
+      "year": 2010,
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_Borutashap : A wrapper feature selection method which combines the boruta feature selection algorithm with shapley values",
+      "label": [
+        "Paper"
+      ],
+      "author": "E. Keany",
+      "year": 2020,
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_1",
+      "label": "Theory",
+      "title": "Feature Selection in Machine Learning",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_2",
+      "label": "Theory",
+      "title": "Filter and Wrapper Feature Selection Methods",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_3",
+      "label": "Theory",
+      "title": "Shapley Values and Model Interpretation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_4",
+      "label": "Theory",
+      "title": "Statistical Hypothesis Testing and Power Calculations",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_5",
+      "label": "Theory",
+      "title": "Integration of Innovative Techniques",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_6",
+      "label": "Hypothesis",
+      "title": "An informative feature will have a larger impact on the prediction compared to a known random feature.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__theoretical_framework_7",
+      "label": "Study",
+      "title": "Current Study",
+      "labels": [],
+      "properties": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "author_1",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "author_2",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "author_3",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "author_4",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_1",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_2",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_3",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_4",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_5",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_6",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection_",
+      "target": "keyword_7",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_2",
+      "type": "ACHIEVED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_3",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_3",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_4",
+      "type": "FACILITATES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_2",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_5",
+      "type": "IMPLEMENTED_AS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_2",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_6",
+      "type": "EVALUATED_AS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_2",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_7",
+      "type": "OPTIMIZED_USING",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_8",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__abstract_6",
+      "type": "AFFECTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_1S59522N",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Research Foundation Flanders (FWO)",
+      "type": "FUNDED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Research Foundation Flanders (FWO)",
+      "type": "FUNDED",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Jarne Verhaeghe",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Jarne Verhaeghe",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Designer of powershap",
+      "type": "ROLE",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Jeroen Van Der Donckt",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Jeroen Van Der Donckt",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Implementer of powershap as an sklearn component",
+      "type": "ROLE",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Sofie Van Hoecke",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Sofie Van Hoecke",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Supervisor",
+      "type": "ROLE",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Femke Ongenae",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Femke Ongenae",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Supervisor",
+      "type": "ROLE",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Gilles Vandewiele",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Gilles Vandewiele",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Proofreader",
+      "type": "ROLE",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_2",
+      "type": "RELATION",
+      "properties": {
+        "relation": "method_category"
+      }
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_3",
+      "type": "RELATION",
+      "properties": {
+        "relation": "method_category"
+      }
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_4",
+      "type": "RELATION",
+      "properties": {
+        "relation": "explanation_method"
+      }
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_4",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_5",
+      "type": "RELATION",
+      "properties": {
+        "relation": "historical_context"
+      }
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_4",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_6",
+      "type": "RELATION",
+      "properties": {
+        "relation": "historical_context"
+      }
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PowershapIntroduction",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PredictivePerformance",
+      "type": "Leads to",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PredictivePerformance",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_ExecutionTime",
+      "type": "Includes Comparison with",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PowershapIntroduction",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_FeatureSelectionQuality",
+      "type": "Leads to",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PowershapIntroduction",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_AutomaticMode",
+      "type": "Leads to",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_AutomaticMode",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Integration",
+      "type": "Facilitates",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Integration",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Funding",
+      "type": "Supported by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_PredictivePerformance",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Conclusion",
+      "type": "Supports",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_FeatureSelectionQuality",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Conclusion",
+      "type": "Supports",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_AutomaticMode",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__conclusions_Conclusion",
+      "type": "Simplifies Usage",
+      "properties": {}
+    },
+    {
+      "source": "Interpretation1",
+      "target": "Implication1",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Interpretation1",
+      "target": "Limitation1",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Interpretation2",
+      "target": "Implication2",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Interpretation2",
+      "target": "Limitation2",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Interpretation3",
+      "target": "Implication3",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Interpretation3",
+      "target": "Limitation3",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__funding_statement_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__funding_statement_2",
+      "type": "FUNDED",
+      "properties": {
+        "reference": "1S59522N"
+      }
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__hypotheses_Hypothesis_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__hypotheses_Method_1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "TESTED_BY"
+      }
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_2",
+      "type": "ADDRESSES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_2",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__introduction_3",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "type": "Wrapper methods suffer from large computational complexity, often resulting in significant execution time.",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_3",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "type": "Methods might underfit, especially with high dimensions and informative features.",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_4",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "type": "Benchmarks may have biases due to the choice of datasets and methods used.",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_5",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "type": "Performance is highly dependent on the machine learning model used.",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_6",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "type": "Simulation function may inherently produce linear classification problems, which may not universally represent real-world datasets.",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_7",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__limitations_2",
+      "type": "Default settings were used across methods, which might impact performances.",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_method_approach_1",
+      "type": "Utilizes",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_method_approach_2",
+      "type": "Utilizes",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_method_approach_3",
+      "type": "Utilizes",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_research_gap_1",
+      "type": "HasResearchGap",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_research_gap_2",
+      "type": "HasResearchGap",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_research_gap_3",
+      "type": "HasResearchGap",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_insight_1",
+      "type": "LeadsToInsight",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_key_finding_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__literature_review_insight_2",
+      "type": "LeadsToInsight",
+      "properties": {}
+    },
+    {
+      "source": "Explain component",
+      "target": "Powershap",
+      "type": "PART_OF",
+      "properties": {}
+    },
+    {
+      "source": "Core powershap component",
+      "target": "Powershap",
+      "type": "PART_OF",
+      "properties": {}
+    },
+    {
+      "source": "Automatic mode",
+      "target": "Powershap",
+      "type": "PART_OF",
+      "properties": {}
+    },
+    {
+      "source": "CatBoost",
+      "target": "Powershap",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Sklearn",
+      "target": "Powershap",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Python",
+      "target": "Powershap",
+      "type": "IMPLEMENTATION_LANGUAGE",
+      "properties": {}
+    },
+    {
+      "source": "Simulation dataset",
+      "target": "Powershap",
+      "type": "TESTED_ON",
+      "properties": {}
+    },
+    {
+      "source": "Madelon",
+      "target": "Powershap",
+      "type": "BENCHMARKED_ON",
+      "properties": {}
+    },
+    {
+      "source": "Gina Priori",
+      "target": "Powershap",
+      "type": "BENCHMARKED_ON",
+      "properties": {}
+    },
+    {
+      "source": "Scene",
+      "target": "Powershap",
+      "type": "BENCHMARKED_ON",
+      "properties": {}
+    },
+    {
+      "source": "CT Location",
+      "target": "Powershap",
+      "type": "BENCHMARKED_ON",
+      "properties": {}
+    },
+    {
+      "source": "Appliances",
+      "target": "Powershap",
+      "type": "BENCHMARKED_ON",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__objectives_aims_scope_Objective",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__objectives_aims_scope_Powershap",
+      "type": "PRESENTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__objectives_aims_scope_Aim",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__objectives_aims_scope_Powershap",
+      "type": "ENHANCES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__objectives_aims_scope_Scope",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__objectives_aims_scope_Powershap",
+      "type": "APPLIES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[1]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[2]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[3]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[4]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[5]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[6]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[7]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[8]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[9]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[10]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[11]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[12]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[13]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[14]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[15]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[16]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[17]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[18]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[19]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__references_bibliography_[20]",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_PowerSHAP",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_Permutation importance: a corrected feature importance measure",
+      "type": "USES_PAPER",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_PowerSHAP",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_Borutashap : A wrapper feature selection method which combines the boruta feature selection algorithm with shapley values",
+      "type": "USES_PAPER",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_PowerSHAP",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__software_code_availability_https://github.com/predict-idlab/PowerSHAP",
+      "type": "AVAILABLE_AT",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "7",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "foundation"
+      }
+    },
+    {
+      "source": "2",
+      "target": "7",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "foundation"
+      }
+    },
+    {
+      "source": "3",
+      "target": "7",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "foundation"
+      }
+    },
+    {
+      "source": "4",
+      "target": "7",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "foundation"
+      }
+    },
+    {
+      "source": "5",
+      "target": "7",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "innovation"
+      }
+    },
+    {
+      "source": "6",
+      "target": "7",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "tested by"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "research_title": "Entropy-Based Measures of Hypnopompic Heart Rate Variability Contribute to the Automatic Prediction of Cardiovascular Events",
+  "authors": [
+    {
+      "name": "Xueya Yan",
+      "affiliation": "School of Science, China Pharmaceutical University, Nanjing, China"
+    },
+    {
+      "name": "Lulu Zhang",
+      "affiliation": "School of Science, China Pharmaceutical University, Nanjing, China"
+    },
+    {
+      "name": "Jinlian Li",
+      "affiliation": "School of Environment Science, Nanjing Xiaozhuang University, Nanjing, China"
+    },
+    {
+      "name": "Ding Du",
+      "affiliation": "School of Science, China Pharmaceutical University, Nanjing, China"
+    },
+    {
+      "name": "Fengzhen Hou",
+      "affiliation": "School of Science, China Pharmaceutical University, Nanjing, China"
+    }
+  ],
+  "abstract_summary": "The study aims to investigate the use of hypnopompic heart rate variability (HRV) analysis to predict cardiovascular disease (CVD). It involved baseline CVD-free subjects, examining HRV metrics via time domain, frequency domain, and nonlinear analysis to build prediction models using machine learning, showing improved prediction accuracy with short-term outcomes.",
+  "background": {
+    "cardiovascular_events": "Cardiovascular disease is a major cause of mortality globally, with events often occurring towards the end of sleep due to sympathetic activity surges.",
+    "heart_rate_variability": "Heart rate variability is a non-invasive method commonly used to assess autonomic nervous system function, contributing to the prediction of cardiovascular outcomes.",
+    "existing_risk_assessment": "Traditional systems like QRISK2 and Framingham risk scores do not account for HRV metrics, despite evidence suggesting that incorporating HRV improves prediction accuracy.",
+    "machine_learning": "Recent developments in artificial intelligence show machine learning models incorporating HRV indices outperform traditional methods in predicting cardiac events.",
+    "previous_studies": "Entropy-based measures, such as multiscale sample entropy, have been shown to provide independent prediction for ischemic stroke and CHF, suggesting their potential in CVD prediction."
+  },
+  "research_gap": "Despite various models and risk scores, HRV characteristics are not traditionally included in cardiovascular risk evaluation models."
+}

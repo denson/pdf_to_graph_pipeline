@@ -1,0 +1,15 @@
+{
+  "conclusions": {
+    "main_outcomes": [
+      "The study concludes that the Random Forest (RF) model, when optimized, outperforms other classification models for rose plant identification using predictive features derived from rose leaves.",
+      "Among the tested models, the Specific Vector Machine (SVM) reached an individual accuracy of 72%.",
+      "Ensemble classifiers demonstrated superior performance compared to individual models, with certain combinations achieving greater accuracy.",
+      "The tuning of Random Forest parameters, such as the number of trees and the depth of trees, revealed that the Gain Ratio as an attribute selection criterion yielded better accuracy than Information Gain and Gini Index."
+    ],
+    "significance": "The findings highlight the potential of machine learning models, particularly the Random Forest model, for enhancing the automation of plant species identification, which can be crucial for applications in horticulture and botanical research.",
+    "additional_details": {
+      "use_of_deep_learning_models": "Deep learning models like CNN, LSTM, and RestNet were also used; however, due to the small dataset size, their performances were not on par with the optimized RF model.",
+      "recommendations": "The study suggests enlarging the dataset size and exploring more advanced feature extraction and model training techniques for improved performance in future research."
+    }
+  }
+}

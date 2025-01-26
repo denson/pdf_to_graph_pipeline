@@ -1,0 +1,28 @@
+{
+  "applications": [
+    {
+      "description": "Use of tree-based models like Extreme Gradient Boosting (XGBoost) to predict Left Ventricular Reverse Remodeling (LVRR) in patients with first-diagnosed idiopathic dilated cardiomyopathy before drug therapy",
+      "real_world_implementation": "Facilitates disease management and invasive therapy selection in cardiovascular medicine by distinguishing between patients who may or may not respond to standard medical treatment",
+      "fields": [
+        "cardiovascular medicine",
+        "machine learning",
+        "predictive modeling"
+      ],
+      "implementation_site": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+      "additional_info": {
+        "study_population": "104 patients with idiopathic dilated cardiomyopathy",
+        "predictive_features": [
+          "cystatin C",
+          "right ventricular end-diastolic dimension",
+          "high-density lipoprotein cholesterol (HDL-C)",
+          "left atrial dimension",
+          "left ventricular posterior wall dimension",
+          "systolic blood pressure",
+          "severe mitral regurgitation",
+          "eGFR",
+          "NYHA classification"
+        ]
+      }
+    }
+  ]
+}

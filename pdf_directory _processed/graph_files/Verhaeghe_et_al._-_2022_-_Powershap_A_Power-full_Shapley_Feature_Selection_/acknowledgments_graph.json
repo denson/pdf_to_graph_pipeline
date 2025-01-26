@@ -1,0 +1,114 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Research Foundation Flanders (FWO)",
+      "label": [
+        "FundingSource"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_1S59522N",
+      "label": [
+        "Grant"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Jarne Verhaeghe",
+      "label": [
+        "Contributor"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Jeroen Van Der Donckt",
+      "label": [
+        "Contributor"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Sofie Van Hoecke",
+      "label": [
+        "Contributor"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Femke Ongenae",
+      "label": [
+        "Contributor"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Gilles Vandewiele",
+      "label": [
+        "Contributor"
+      ]
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "label": [
+        "Paper"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_1S59522N",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Research Foundation Flanders (FWO)",
+      "type": "FUNDED_BY"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Research Foundation Flanders (FWO)",
+      "type": "FUNDED"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Jarne Verhaeghe",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Jarne Verhaeghe",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Designer of powershap",
+      "type": "ROLE"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Jeroen Van Der Donckt",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Jeroen Van Der Donckt",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Implementer of powershap as an sklearn component",
+      "type": "ROLE"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Sofie Van Hoecke",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Sofie Van Hoecke",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Supervisor",
+      "type": "ROLE"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Femke Ongenae",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Femke Ongenae",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Supervisor",
+      "type": "ROLE"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Gilles Vandewiele",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Gilles Vandewiele",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__acknowledgments_Proofreader",
+      "type": "ROLE"
+    }
+  ]
+}

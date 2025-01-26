@@ -1,0 +1,277 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "title": "A Performance Comparison of Classification Algorithms for Rose Plants",
+        "abstract": "One of the key roles of Botanists is to be able to recognize flowers. This role has become highly challenging given that the number of discovered flower types are nearing half a million. To support Botanists, Information Technology offers promising solutions. Specifically, machine learning techniques are intrinsically appealing due to being precise enough as required. To this aim, two observations on flower leaves are relevant and leverage flower identification: one, flower plants exhibit unique features in their leaves thus allow distinction of their co-located flowers; two, leaves have a much longer life than flowers thus preserve identity properties longer. This paper proposes the use of machine learning-based identification of rose types by leveraging the features from their leaves. For this purpose, the performance of Naive Bayes, Generalized Linear Model, Multilayer Perceptron, Decision Tree, Random Forest, Gradient Boosted Trees, and Support Vector Machine has been analyzed. This study optimizes the RF model by investigating and tuning its various parameters such as the number of trees, the depth of trees, and splitting criteria. The best results are achieved with gain ratio because it takes more distinct values to avoid the problems associated with Information Gain. Optimizing the number of trees and the depth of trees of RF yield better accuracy than other models. Extensive experiments are performed to analyze the results of ensemble algorithms by using the voting method for each instance. Results suggest that the performance of ensemble classifiers is superior to that of individual models.",
+        "publication_date": "2022-08-16",
+        "doi": "10.1155/2022/1842547",
+        "journal": "Computational Intelligence and Neuroscience",
+        "volume": "2022",
+        "article_id": "1842547",
+        "pages": "16"
+      }
+    },
+    {
+      "id": "author_1",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Muzamil Malik"
+      }
+    },
+    {
+      "id": "author_2",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Waqar Aslam"
+      }
+    },
+    {
+      "id": "author_3",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Emad Abouel Nasr"
+      }
+    },
+    {
+      "id": "author_4",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Zahid Aslam"
+      }
+    },
+    {
+      "id": "author_5",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Seifedine Kadry"
+      }
+    },
+    {
+      "id": "keyword_1",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "machine learning"
+      }
+    },
+    {
+      "id": "keyword_2",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "rose plants"
+      }
+    },
+    {
+      "id": "keyword_3",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "classification algorithms"
+      }
+    },
+    {
+      "id": "keyword_4",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Naive Bayes"
+      }
+    },
+    {
+      "id": "keyword_5",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Generalized Linear Model"
+      }
+    },
+    {
+      "id": "keyword_6",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Multilayer Perceptron"
+      }
+    },
+    {
+      "id": "keyword_7",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Decision Tree"
+      }
+    },
+    {
+      "id": "keyword_8",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Random Forest"
+      }
+    },
+    {
+      "id": "keyword_9",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Gradient Boosted Trees"
+      }
+    },
+    {
+      "id": "keyword_10",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Support Vector Machine"
+      }
+    },
+    {
+      "id": "keyword_11",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "feature optimization"
+      }
+    },
+    {
+      "id": "keyword_12",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "ensemble methods"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "author_1",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "author_2",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "author_3",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "author_4",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "author_5",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_1",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_2",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_3",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_4",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_5",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_6",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_7",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_8",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_9",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_10",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_11",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit",
+      "target": "keyword_12",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    }
+  ]
+}

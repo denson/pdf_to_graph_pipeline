@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_funding_statement_NSFC",
+      "label": [
+        "FundingSource"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_funding_statement_GPLab",
+      "label": [
+        "FundingSource"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_funding_statement_GDTechMajor",
+      "label": [
+        "FundingSource"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_funding_statement_GDHealthLab",
+      "label": [
+        "FundingSource"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_funding_statement_GZTechMajor",
+      "label": [
+        "FundingSource"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_funding_statement_Paper1",
+      "label": [
+        "ResearchActivity"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "NSFC",
+      "to": "Paper1",
+      "type": "FUNDED"
+    },
+    {
+      "from": "GPLab",
+      "to": "Paper1",
+      "type": "FUNDED"
+    },
+    {
+      "from": "GDTechMajor",
+      "to": "Paper1",
+      "type": "FUNDED"
+    },
+    {
+      "from": "GDHealthLab",
+      "to": "Paper1",
+      "type": "FUNDED"
+    },
+    {
+      "from": "GZTechMajor",
+      "to": "Paper1",
+      "type": "FUNDED"
+    }
+  ]
+}

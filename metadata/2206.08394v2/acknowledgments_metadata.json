@@ -1,0 +1,37 @@
+{
+  "acknowledgments": {
+    "contributors": [
+      {
+        "name": "Jarne Verhaeghe",
+        "role": "funded by Research Foundation Flanders (FWO, Ref. 1S59522N) and designed powershap",
+        "funding_source": "Research Foundation Flanders (FWO, Ref. 1S59522N)"
+      },
+      {
+        "name": "Jeroen Van Der Donckt",
+        "role": "implemented powershap as an sklearn component",
+        "funding_source": null
+      },
+      {
+        "name": "Sofie Van Hoecke",
+        "role": "supervised the project",
+        "funding_source": null
+      },
+      {
+        "name": "Femke Ongenae",
+        "role": "supervised the project",
+        "funding_source": null
+      },
+      {
+        "name": "Gilles Vandewiele",
+        "role": "proof-reading the manuscript",
+        "funding_source": null
+      }
+    ],
+    "funding_sources": [
+      "Research Foundation Flanders (FWO, Ref. 1S59522N)"
+    ],
+    "special_thanks": [
+      "Gilles Vandewiele for proof-reading the manuscript"
+    ]
+  }
+}

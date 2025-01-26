@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Muzamil Malik",
+      "labels": [
+        "Contributor"
+      ]
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Waqar Aslam",
+      "labels": [
+        "Contributor"
+      ]
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Emad Abouel Nasr",
+      "labels": [
+        "Contributor"
+      ]
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Zahid Aslam",
+      "labels": [
+        "Contributor"
+      ]
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Seifedine Kadry",
+      "labels": [
+        "Contributor"
+      ]
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_King Saud University",
+      "labels": [
+        "FundingSource"
+      ]
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "labels": [
+        "Paper"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Muzamil Malik",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Waqar Aslam",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Emad Abouel Nasr",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Zahid Aslam",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Seifedine Kadry",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_Paper",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_acknowledgments_King Saud University",
+      "type": "FUNDED"
+    }
+  ]
+}

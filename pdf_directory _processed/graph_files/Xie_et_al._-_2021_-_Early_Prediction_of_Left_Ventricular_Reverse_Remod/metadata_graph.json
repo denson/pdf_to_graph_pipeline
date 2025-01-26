@@ -1,0 +1,261 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "title": "Early Prediction of Left Ventricular Reverse Remodeling in First-Diagnosed Idiopathic Dilated Cardiomyopathy: A Comparison of Linear Model, Random Forest, and Extreme Gradient Boosting",
+        "abstract": "Left ventricular reverse remodeling (LVRR) is associated with decreased cardiovascular mortality and improved cardiac survival and also crucial for therapeutic options. However, there is a lack of an early prediction model of LVRR in first-diagnosed dilated cardiomyopathy. This single-center study included 104 patients with idiopathic DCM. We defined LVRR as an absolute increase in left ventricular ejection fraction (LVEF) from >10% to a final value >35% and a decrease in left ventricular end-diastolic diameter (LVDd) >10%. Analysis features included demographic characteristics, comorbidities, physical sign, biochemistry data, echocardiography, electrocardiogram, Holter monitoring, and medication. Logistic regression, random forests, and extreme gradient boosting (XGBoost) were, respectively, implemented in a 10-fold cross-validated model to discriminate LVRR and non-LVRR, with receiver operating characteristic (ROC) curves and calibration plot for performance evaluation. LVRR occurred in 47 (45.2%) patients after optimal medical treatment. Cystatin C, right ventricular end-diastolic dimension, high-density lipoprotein cholesterol (HDL-C), left atrial dimension, left ventricular posterior wall dimension, systolic blood pressure, severe mitral regurgitation, eGFR, and NYHA classification were included in XGBoost, which reached higher AU-ROC compared with logistic regression (AU-ROC, 0.8205 vs. 0.5909, p = 0.0119). Ablation analysis revealed that cystatin C, right ventricular end-diastolic dimension, and HDL-C made the largest contributions to the model. Tree-based models like XGBoost were able to early differentiate LVRR and non-LVRR in patients with first-diagnosed DCM before drug therapy, facilitating disease management and invasive therapy selection. A multicenter prospective study is necessary for further validation.",
+        "publication_date": "2021-08-04",
+        "doi": "10.3389/fcvm.2021.684004",
+        "journal": "Frontiers in Cardiovascular Medicine",
+        "volume": "8",
+        "article_number": "684004"
+      }
+    },
+    {
+      "id": "author_1",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Xiangkun Xie"
+      }
+    },
+    {
+      "id": "author_2",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Mingwei Yang"
+      }
+    },
+    {
+      "id": "author_3",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Shan Xie"
+      }
+    },
+    {
+      "id": "author_4",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Xiaoying Wu"
+      }
+    },
+    {
+      "id": "author_5",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Yuan Jiang"
+      }
+    },
+    {
+      "id": "author_6",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Zhaoyu Liu"
+      }
+    },
+    {
+      "id": "author_7",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Huiying Zhao"
+      }
+    },
+    {
+      "id": "author_8",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Yangxin Chen"
+      }
+    },
+    {
+      "id": "author_9",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Yuling Zhang"
+      }
+    },
+    {
+      "id": "author_10",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Jingfeng Wang"
+      }
+    },
+    {
+      "id": "keyword_1",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "idiopathic dilated cardiomyopathy"
+      }
+    },
+    {
+      "id": "keyword_2",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "heart failure"
+      }
+    },
+    {
+      "id": "keyword_3",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "reverse remodeling"
+      }
+    },
+    {
+      "id": "keyword_4",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "predictive model"
+      }
+    },
+    {
+      "id": "keyword_5",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "machine learning"
+      }
+    },
+    {
+      "id": "supplementary_1",
+      "labels": [
+        "Supplementary"
+      ],
+      "properties": {
+        "information": "Available in Supplementary materials: Supplementary Table 1 and Supplementary Figure 1-4."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_1",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_2",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_3",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_4",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_5",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_6",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_7",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_8",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_9",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "author_10",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "keyword_1",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "keyword_2",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "keyword_3",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "keyword_4",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "keyword_5",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod",
+      "target": "supplementary_1",
+      "type": "HAS_SUPPLEMENTARY",
+      "properties": {}
+    }
+  ]
+}

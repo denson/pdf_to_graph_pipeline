@@ -1,0 +1,41 @@
+{
+  "study_design": {
+    "objective": "To compare SHAP-value-based feature selection with importance-based feature selection methods for credit card fraud detection.",
+    "dataset": {
+      "name": "Credit Card Fraud Detection Dataset",
+      "source": "Kaggle",
+      "description": "Contains 284,807 transactions with 30 independent features, 492 labeled as fraudulent."
+    },
+    "feature_selection_methods": [
+      "SHAP-value-based",
+      "Importance-based"
+    ],
+    "classifiers": [
+      "XGBoost",
+      "Decision Tree",
+      "CatBoost",
+      "Extremely Randomized Trees",
+      "Random Forest"
+    ],
+    "evaluation_metric": "Area Under the Precision-Recall Curve (AUPRC)",
+    "cross_validation": {
+      "folds": 5,
+      "repetitions": 10
+    },
+    "statistical_test": {
+      "type": "z-test",
+      "significance_level": 0.01
+    },
+    "feature_subset_sizes": [
+      3,
+      5,
+      7,
+      10,
+      15
+    ],
+    "additional_details": {
+      "experiment_setup": "Executed on distributed computing platform with Python.",
+      "SHAP_tool": "Utilized SHAP library from Python."
+    }
+  }
+}

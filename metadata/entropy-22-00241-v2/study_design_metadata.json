@@ -1,0 +1,62 @@
+{
+  "study_design": {
+    "objective": "To investigate whether the analysis of hypnopompic heart rate variability (HRV) could assist in the prediction of cardiovascular disease (CVD).",
+    "participants": {
+      "total": 2442,
+      "description": "Baseline CVD-free subjects from the Sleep Heart Health Study, aged 40 years or older.",
+      "inclusion_criteria": [
+        "CVD-free at baseline",
+        "acceptable sleep efficiency",
+        "no benzodiazepines or antidepressants within two weeks",
+        "no alcohol or caffeine within 4 hours before bed"
+      ],
+      "excluded": {
+        "initial_exclusion": 4251,
+        "after_quality_check": "Participants with RR intervals with >20% artifacts or ectopic beats, resulting in 1219 CVD and 998 non-CVD subjects"
+      }
+    },
+    "groups": {
+      "CVD_group": 1219,
+      "non_CVD_group": 998,
+      "short_term_CVD_subgroup": 70
+    },
+    "data_collection": {
+      "type": "Sleep Heart Health Study dataset",
+      "variables_collected": [
+        "clinical characteristics",
+        "ECG data",
+        "HRV metrics"
+      ]
+    },
+    "analysis_methods": {
+      "HRV_measures": [
+        "time-domain analysis",
+        "frequency-domain analysis",
+        "nonlinear entropy-based indices"
+      ],
+      "machine_learning": "Extreme gradient boost (XGBoost) algorithm for prediction models."
+    },
+    "predictive_models": {
+      "types": [
+        "long-term (average 11.2 years)",
+        "short-term (within two years) prediction"
+      ],
+      "feature_vector": [
+        "age",
+        "gender",
+        "BMI",
+        "waist/hip ratio",
+        "smoking status",
+        "diabetes",
+        "hypertension",
+        "apnea hypopnea index",
+        "respiratory disturbance index",
+        "HRV metrics"
+      ]
+    },
+    "main_results": {
+      "accuracy": "81.4% in short-term prediction with HRV features.",
+      "improvement_with_HRV": "Significant improvement in predictive performance with the inclusion of HRV metrics."
+    }
+  }
+}

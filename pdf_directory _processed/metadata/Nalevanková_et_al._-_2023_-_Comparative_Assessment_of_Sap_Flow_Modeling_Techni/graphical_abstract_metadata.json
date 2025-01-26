@@ -1,0 +1,38 @@
+{
+  "title": "Comparative Assessment of Sap Flow Modeling Techniques in European Beech Trees",
+  "authors": [
+    "Paul\u00edna Nalevankov\u00e1",
+    "Peter Fleischer, Jr.",
+    "Mohammad Mukarram",
+    "Zuzana Sitkov\u00e1",
+    "Katar\u00edna Strelcov\u00e1"
+  ],
+  "journal": "Water",
+  "year": 2023,
+  "volume": 15,
+  "pages": "2525",
+  "doi": "10.3390/w15142525",
+  "graphical_abstract": {
+    "introduction": "The study compares sap flow modeling techniques in European Beech trees using linear models, random forests, extreme gradient boosting, and neural networks over a five-year dataset.",
+    "key_findings": "Linear models provide comparable prediction accuracy to complex models (RF, XGBM, NN) and can efficiently estimate long-term integrated sap flow with less computational effort.",
+    "methodology": {
+      "models": [
+        "Linear Model (LM)",
+        "Random Forest (RF)",
+        "Extreme Gradient Boosting Machine (XGBM)",
+        "Neural Networks (NN)"
+      ],
+      "dataset": {
+        "duration": "2012-2015 and 2017",
+        "location": "Central Slovakia, in a 65-year-old European Beech forest"
+      },
+      "analysis": "Six variants of datasets with different input ranges and conditions were used to model sap flow."
+    },
+    "results": {
+      "LM": "Had the maximum prediction power when shifted by 1 hour of global radiation.",
+      "NN": "Exhibited relatively poor prediction power compared to other machine learning models.",
+      "RF and XGBM": "Performed comparably well to LM except in drier conditions."
+    },
+    "conclusion": "Simpler linear models can be as effective as more complex machine learning models for modeling cumulative sap flow over longer periods, providing a practical and computationally efficient alternative."
+  }
+}

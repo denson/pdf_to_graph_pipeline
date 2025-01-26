@@ -1,0 +1,109 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_1",
+      "label": [
+        "FutureWork"
+      ],
+      "title": "Enlarge the dataset size by collecting further images and utilizing resampling techniques"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_2",
+      "label": [
+        "FutureWork"
+      ],
+      "title": "Methodically select features to enhance model performance and accuracy"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_3",
+      "label": [
+        "FutureWork"
+      ],
+      "title": "Explore and analyze various combinations of machine learning models using ensemble methods"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_4",
+      "label": [
+        "FutureWork"
+      ],
+      "title": "Investigate the potential use of deep learning models for larger datasets"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_5",
+      "label": [
+        "FutureWork"
+      ],
+      "title": "A comparative performance analysis of neural networks, SVM, and decision tree models"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_6",
+      "label": [
+        "FutureWork"
+      ],
+      "title": "Address potential biases in feature selection criteria"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_7",
+      "label": [
+        "Recommendation"
+      ],
+      "title": "Optimize machine learning models for plant classification tasks"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_8",
+      "label": [
+        "Recommendation"
+      ],
+      "title": "Use alternatives like Gain Ratio and Gini Index"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "label": [
+        "Paper"
+      ],
+      "title": "Current state of plant identification and classification"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_1",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_3",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_4",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_5",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_6",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_7",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_8",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT"
+    }
+  ]
+}

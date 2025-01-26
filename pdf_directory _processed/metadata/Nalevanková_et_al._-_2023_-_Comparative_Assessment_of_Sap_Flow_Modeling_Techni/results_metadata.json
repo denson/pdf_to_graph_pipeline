@@ -1,0 +1,65 @@
+{
+  "study": {
+    "title": "Comparative Assessment of Sap Flow Modeling Techniques in European Beech Trees",
+    "authors": [
+      "Paul\u00edna Nalevankov\u00e1",
+      "Peter Fleischer, Jr.",
+      "Mohammad Mukarram",
+      "Zuzana Sitkov\u00e1",
+      "Katar\u00edna St\u02c7relcov\u00e1"
+    ],
+    "journal": "Water",
+    "year": 2023,
+    "volume": 15,
+    "issue": null,
+    "page": "2525",
+    "doi": "10.3390/w15142525",
+    "dateReceived": "26 April 2023",
+    "dateRevised": "15 June 2023",
+    "dateAccepted": "17 June 2023",
+    "datePublished": "10 July 2023"
+  },
+  "results": {
+    "mainFindings": [
+      "Linear models demonstrated high prediction power for sap flow in European beech trees, particularly when the global radiation was shifted by one hour.",
+      "Linear models provided comparable prediction power to Random Forest (RF) and Extreme Gradient Boosting Machine (XGBM); however, Neural Networks (NN) displayed relatively poor prediction power.",
+      "Machine learning models like RF and XGBM performed better in drier conditions compared to linear models.",
+      "Linear models had enhanced performance in wetter conditions compared to machine learning models.",
+      "Data manipulation, such as shifting global radiation values, had varying impacts on model performance."
+    ],
+    "significantFindings": {
+      "linearModelPerformance": {
+        "R2": 0.762,
+        "RMSE": 0.014,
+        "MAD": 0.006
+      },
+      "neuralNetworkPerformance": {
+        "R2": 0.894,
+        "RMSE": 0.01,
+        "MAD": 0.005
+      },
+      "randomForestPerformance": {
+        "R2": 0.961,
+        "RMSE": 0.006,
+        "MAD": 0.001
+      },
+      "xgboostPerformance": {
+        "R2": 0.973,
+        "RMSE": 0.005,
+        "MAD": 0.001
+      }
+    },
+    "dataHighlights": {
+      "numberOfYearsData": 5,
+      "yearsUsed": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2017
+      ],
+      "location": "Kremnick\u00e9 vrchy Mts., Slovakia",
+      "nData": 10318
+    }
+  }
+}

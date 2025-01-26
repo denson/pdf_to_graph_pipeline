@@ -1,0 +1,9 @@
+{
+  "research_context": "In data mining and machine learning, the goal is to extract and discover knowledge from data. Feature selection is crucial for developing robust models by reducing high dimensionality and addressing the unknown relevance of features.",
+  "motivation": "Ignoring the challenges of high dimensionality and feature irrelevance leads to modeling obstacles like sparse data, overfitting, and the curse of dimensionality. Thus, feature selection is frequently applied to enhance model performance and computational efficiency.",
+  "problem_statement": "Current filter and wrapper feature selection methods come with trade-offs. Wrapper methods, while strong in predictive performance, are computationally intensive. Filter methods, although faster, have limitations such as requiring a threshold value, neglecting inter-correlation between features, and ignoring feature interactions with the model.",
+  "additional_details": {
+    "goal": "To present Powershap as a novel wrapper feature selection method that leverages statistical hypothesis testing and power calculations with Shapley values for effective and efficient feature selection.",
+    "contribution": "Powershap provides predictive performances on par with state-of-the-art wrapper methods while being significantly faster, and it is available as an open-source sklearn component."
+  }
+}

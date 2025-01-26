@@ -1,0 +1,32 @@
+{
+  "key_findings": {
+    "comparison": "The study finds that importance-based feature selection methods generally outperform SHAP-value-based methods in model performance for fraud detection.",
+    "effectiveness": "Importance-based methods using built-in feature importance lists are more efficient, especially for larger datasets, as they involve less computational effort compared to SHAP.",
+    "classifier_performance": "Random Forest demonstrated the best performance among classifiers, while Decision Tree showed relatively poorer performance.",
+    "feature_subset": "Features selected by importance-based methods often yield better results in AUPRC, particularly notable in XGBoost and CatBoost models for feature subset sizes of 3 and 10, respectively."
+  },
+  "methodologies": {
+    "feature_selection_methods": [
+      "SHAP-value-based selection",
+      "Importance-based selection"
+    ],
+    "classification_models": [
+      "XGBoost",
+      "Decision Tree",
+      "CatBoost",
+      "Extremely Randomized Trees",
+      "Random Forest"
+    ],
+    "evaluation_metric": "Area under the Precision-Recall Curve (AUPRC)",
+    "dataset": "Kaggle Credit Card Fraud Detection Dataset",
+    "cross_validation": "Five-fold cross-validation with ten independent runs"
+  },
+  "gaps_identified": {
+    "comparative_analysis": "No prior studies compare SHAP and importance-based feature selection methods specifically for credit card fraud detection.",
+    "computational_effort": "SHAP value computation is noted to be computationally expensive, which may limit its practicality for large datasets."
+  },
+  "insights": {
+    "recommendation": "For larger datasets and more intricate models, using the model's built-in feature importance is recommended over SHAP due to efficiency and practicality.",
+    "future_research": "Further studies could explore these methods in different application domains beyond credit card fraud detection."
+  }
+}

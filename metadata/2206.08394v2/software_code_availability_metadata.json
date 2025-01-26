@@ -1,0 +1,17 @@
+{
+  "software_name": "PowerSHAP",
+  "description": "Wrapper feature selection method using Shapley values and statistical tests.",
+  "programming_language": "Python",
+  "platform": "sklearn",
+  "github_repository": "https://github.com/predict-idlab/PowerSHAP",
+  "accessibility": "Open-source",
+  "associated_publication": "Powershap: A Power-full Shapley Feature Selection Method",
+  "authors": [
+    "Jarne Verhaeghe",
+    "Jeroen Van Der Donckt",
+    "Femke Ongenae",
+    "Sofie Van Hoecke"
+  ],
+  "documentation": "https://github.com/predict-idlab/PowerSHAP",
+  "license": "not found"
+}

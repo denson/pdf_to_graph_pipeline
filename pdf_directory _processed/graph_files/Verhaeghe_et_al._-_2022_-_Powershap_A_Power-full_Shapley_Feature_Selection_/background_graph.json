@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_1",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "name": "Feature Selection Importance",
+        "description": "Feature selection is important for reducing feature dimensionality, increasing model performance, enhancing computational efficiency, and improving model robustness."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_2",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "name": "Filter Methods",
+        "description": "Filter methods are model-independent, fast, but have disadvantages such as ignoring inter-correlation between features and requiring thresholds."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_3",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "name": "Wrapper Methods",
+        "description": "Wrapper methods consider feature interactions but are computationally expensive."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_4",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "name": "Shapley Values",
+        "description": "SHAP values provide model-agnostic explanations and are popular despite some limitations."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_5",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "name": "BorutaSHAP",
+        "description": "Combines the Boruta algorithm using Shapley values, limited to tree-based models."
+      }
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_6",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "name": "Shapicant",
+        "description": "Inspired by permutation importance, adapted to use Shapley values for non-parameter estimation."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_2",
+      "type": "RELATION",
+      "properties": {
+        "relation": "method_category"
+      }
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_3",
+      "type": "RELATION",
+      "properties": {
+        "relation": "method_category"
+      }
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_1",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_4",
+      "type": "RELATION",
+      "properties": {
+        "relation": "explanation_method"
+      }
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_4",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_5",
+      "type": "RELATION",
+      "properties": {
+        "relation": "historical_context"
+      }
+    },
+    {
+      "source": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_4",
+      "target": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__background_6",
+      "type": "RELATION",
+      "properties": {
+        "relation": "historical_context"
+      }
+    }
+  ]
+}

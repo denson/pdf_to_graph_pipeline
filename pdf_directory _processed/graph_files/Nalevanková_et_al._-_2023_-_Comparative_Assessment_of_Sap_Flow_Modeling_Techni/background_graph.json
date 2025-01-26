@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node1",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "context": "Transpiration and sap flow are interconnected processes crucial for water and nutrient uptake in trees. Disruptions during droughts can affect tree growth. Accurately measuring or predicting these processes is critical due to their role in the global water cycle."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node2",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "problems": "Traditional mathematical models for predicting sap flow require extensive parameterization and observational data, which can be complex and resource-intensive."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node3",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "techniques": "Machine learning models, such as random forest (RF), extreme gradient boosting machine (XGBM), and neural networks (NN), offer alternatives that can handle non-linear relationships without needing detailed knowledge of internal processes."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node4",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "objective": "The study investigates whether simpler linear models can effectively predict sap flow in European beech trees compared to more complex machine learning models."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node5",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "relevance": "Understanding sap flow under varying conditions can aid in assessing the impact of droughts and optimizing water use in forestry and agriculture."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node1",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node2",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node2",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node3",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node4",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node3",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node5",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_background_node1",
+      "type": "RELATION",
+      "properties": {}
+    }
+  ]
+}

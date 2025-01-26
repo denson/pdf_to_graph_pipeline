@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_1",
+      "label": "Study",
+      "title": "Feature selection strategies: a comparative analysis of SHAP-value and importance-based methods"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_2",
+      "label": "Performance Comparison",
+      "outcome": "Feature selection methods based on importance values outperform those based on SHAP values across the classifiers used and various feature subset sizes."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_3",
+      "label": "XGBoost vs SHAP-XGBoost",
+      "outcome": "XGBoost surpasses SHAP-XGBoost for a feature subset size of 3, while SHAP-XGBoost outperforms XGBoost for a feature subset size of 10."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_4",
+      "label": "CatBoost vs SHAP-CatBoost",
+      "outcome": "CatBoost outperforms SHAP-CatBoost for feature sizes less than 15."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_5",
+      "label": "ANOVA Results",
+      "implication": "Significant differences among the groups for factors such as Size, Classifier, and Technique with all p-values being less than 0.01."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_6",
+      "label": "HSD Results - Size Factor",
+      "implication": "Feature subset sizes of 15 and 10 yield superior performance in AUPRC."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_7",
+      "label": "HSD Results - Classifier Factor",
+      "implication": "RF demonstrated the highest AUPRC, followed by XGBoost, ET, and CatBoost, with DT showing relatively poorer performance."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_8",
+      "label": "HSD Results - Technique Factor",
+      "conclusion": "Importance-value-based feature selection method significantly outperformed the SHAP-value-based method."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_9",
+      "label": "Computational Efficiency",
+      "note": "Using built-in feature importance is deemed more efficient due to the considerable computational expenses associated with SHAP."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_10",
+      "label": "Recommendation",
+      "recommendation": "Opt for model's built-in feature importance for larger datasets and more intricate models due to practical and computational considerations."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_11",
+      "label": "Future Work",
+      "futureDirection": "Explore these two feature selection methods across diverse application domains."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_12",
+      "label": "Acknowledgements",
+      "note": "Thanks to the Data Mining and Machine Learning Laboratory at Florida Atlantic University."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_Conclusion",
+      "label": "Conclusion",
+      "conclusion": "Importance-based feature selection methods generally outperform SHAP-value methods in both performance and computational efficiency."
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2"
+    },
+    {
+      "from": "1",
+      "to": "3"
+    },
+    {
+      "from": "1",
+      "to": "4"
+    },
+    {
+      "from": "1",
+      "to": "5"
+    },
+    {
+      "from": "5",
+      "to": "6"
+    },
+    {
+      "from": "5",
+      "to": "7"
+    },
+    {
+      "from": "5",
+      "to": "8"
+    },
+    {
+      "from": "8",
+      "to": "Conclusion"
+    },
+    {
+      "from": "1",
+      "to": "9"
+    },
+    {
+      "from": "1",
+      "to": "10"
+    },
+    {
+      "from": "1",
+      "to": "11"
+    },
+    {
+      "from": "1",
+      "to": "12"
+    }
+  ]
+}

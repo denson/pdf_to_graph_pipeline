@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_reviewer_notes_1",
+      "label": "ReviewerNote",
+      "name": "Shinichi Okuda",
+      "affiliation": "Yamaguchi Prefectural Grand Medical Center, Japan"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_reviewer_notes_2",
+      "label": "ReviewerNote",
+      "name": "Giulia Barbati",
+      "affiliation": "University of Trieste, Italy"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_reviewer_notes_3",
+      "label": "PublicationStatus",
+      "status": "Accepted on 07 June 2021"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_reviewer_notes_4",
+      "label": "PublicationStatus",
+      "status": "Published on 04 August 2021"
+    }
+  ],
+  "edges": [
+    {
+      "from": 1,
+      "to": 3,
+      "description": "Reviewer accepted the paper"
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "description": "Reviewer accepted the paper"
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "description": "Paper published"
+    }
+  ]
+}

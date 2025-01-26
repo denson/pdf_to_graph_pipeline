@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_1",
+      "label": "Theoretical Framework"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_2",
+      "label": "Shapley Value"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_3",
+      "label": "Game Theory"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_4",
+      "label": "Efficiency Axiom"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_5",
+      "label": "Null Player Axiom"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_6",
+      "label": "Symmetry Axiom"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_7",
+      "label": "Additivity Axiom"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_8",
+      "label": "Transferable Utility Games"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_9",
+      "label": "Criticisms"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_10",
+      "label": "Objective"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_11",
+      "label": "Remarks"
+    }
+  ],
+  "edges": [
+    {
+      "from": 1,
+      "to": 2
+    },
+    {
+      "from": 2,
+      "to": 3
+    },
+    {
+      "from": 2,
+      "to": 4
+    },
+    {
+      "from": 2,
+      "to": 5
+    },
+    {
+      "from": 2,
+      "to": 6
+    },
+    {
+      "from": 2,
+      "to": 7
+    },
+    {
+      "from": 3,
+      "to": 8
+    },
+    {
+      "from": 1,
+      "to": 9
+    },
+    {
+      "from": 1,
+      "to": 10
+    },
+    {
+      "from": 1,
+      "to": 11
+    }
+  ]
+}

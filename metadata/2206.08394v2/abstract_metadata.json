@@ -1,0 +1,26 @@
+{
+  "title": "Powershap: A Power-full Shapley Feature Selection Method",
+  "authors": [
+    "Jarne Verhaeghe",
+    "Jeroen Van Der Donckt",
+    "Femke Ongenae",
+    "Sofie Van Hoecke"
+  ],
+  "affiliation": "IDLab, Ghent University - imec, 9052 Zwijnaarde",
+  "contact_email": "jarne.verhaeghe@ugent.be",
+  "abstract": {
+    "core_objectives": "To introduce powershap, a novel wrapper feature selection method that combines statistical hypothesis testing and power calculations with Shapley values to perform quick and intuitive feature selection.",
+    "methods": "Powershap uses Shapley values to quantify the prediction impact of features, comparing these against a known random feature using statistical tests to identify informative features. An automatic tuning mode optimizes model hyperparameters without user input.",
+    "key_findings": "Powershap outperforms traditional filter methods and achieves comparable predictive performance to wrapper methods, while being significantly faster, sometimes achieving execution times that are half or a third of those required by comparable methods.",
+    "additional_details": "Powershap is implemented as an open-source sklearn component, accessible for integration into standard data science workflows. It also features an automatic mode for parameter optimization."
+  },
+  "keywords": [
+    "Feature selection",
+    "Shap",
+    "Benchmark",
+    "Simulation",
+    "Toolkit",
+    "Python",
+    "Open source"
+  ]
+}

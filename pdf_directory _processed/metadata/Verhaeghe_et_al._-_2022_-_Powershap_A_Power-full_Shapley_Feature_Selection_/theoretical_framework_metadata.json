@@ -1,0 +1,43 @@
+{
+  "theoretical_framework": [
+    {
+      "theory": "Feature Selection in Machine Learning",
+      "description": "Feature selection is essential for building robust and efficient machine learning models. It helps reduce model complexity, prevent overfitting, and improve model performance by selecting a subset of relevant features.",
+      "references": "Section 1: Introduction"
+    },
+    {
+      "theory": "Filter and Wrapper Feature Selection Methods",
+      "description": "Feature selection methods can be divided into filter methods and wrapper methods. Filter methods are model-independent, fast, but can ignore feature interactions. Wrapper methods evaluate feature subsets through model training, usually providing better feature subsets but with higher computational cost.",
+      "references": "Section 1: Introduction and Section 2: Related Work"
+    },
+    {
+      "theory": "Shapley Values and Model Interpretation",
+      "description": "Shapley values, derived from game theory, are used to quantify the contribution of each feature towards predictions. This approach offers a model-agnostic way to interpret machine learning models.",
+      "references": "Section 2: Related Work"
+    },
+    {
+      "theory": "Statistical Hypothesis Testing and Power Calculations",
+      "description": "The Powershap method utilizes statistical hypothesis tests to compare the impact of each feature against a known random feature, employing power calculations to optimize the number of iterations required for reliable feature selection.",
+      "references": "Section 3: Powershap and Section 3.2: Automatic Mode"
+    },
+    {
+      "theory": "Integration of Innovative Techniques",
+      "description": "Powershap integrates the use of SHAP values with statistical hypothesis testing and power calculations, offering a novel feature selection approach that is theoretically grounded in existing methodologies while aiming to overcome the limitations of existing filter and wrapper methods."
+    }
+  ],
+  "methodology": null,
+  "hypothesis": [
+    {
+      "text": "An informative feature will have a larger impact on the prediction compared to a known random feature.",
+      "references": "Section 3: Powershap"
+    }
+  ],
+  "key_terms": [
+    "feature selection",
+    "Shapley values",
+    "statistical hypothesis testing",
+    "power calculations",
+    "filter methods",
+    "wrapper methods"
+  ]
+}

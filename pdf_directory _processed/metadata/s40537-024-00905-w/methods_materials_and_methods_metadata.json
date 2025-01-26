@@ -1,0 +1,49 @@
+{
+  "methods_and_materials": {
+    "dataset": {
+      "source": "Kaggle",
+      "name": "Credit Card Fraud Detection Dataset",
+      "size": "284,807 transactions",
+      "features": "30 independent features",
+      "fraudulent_records": 492,
+      "imbalanced": true
+    },
+    "experimental_setups": {
+      "feature_selection_methods": [
+        "SHAP-value-based",
+        "importance-based"
+      ],
+      "classification_models": [
+        "XGBoost",
+        "Decision Tree",
+        "CatBoost",
+        "Extremely Randomized Trees",
+        "Random Forest"
+      ],
+      "evaluation_metric": "Area Under the Precision-Recall Curve (AUPRC)",
+      "cross_validation": {
+        "folds": 5,
+        "repeat": 10
+      }
+    },
+    "procedures": [
+      "Features ranked using SHAP or importance-based selection",
+      "Top 3, 5, 7, 10, and 15 features selected for model training",
+      "Models evaluated with AUPRC",
+      "Performed z-tests with \u03b1 = 0.01 for statistical significance",
+      "ANOVA test to analyze significant difference"
+    ],
+    "tools": [
+      "Python",
+      "SHAP library",
+      "Python data science stack"
+    ],
+    "platform": {
+      "nodes": {
+        "cpu": "16-core Intel Xeon",
+        "gpu": "Nvidia V100"
+      },
+      "ram": "256 GB per CPU"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_1",
+      "label": "Random Forest Model",
+      "type": "Descriptor"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_2",
+      "label": "Optimized RF Outperforms Others",
+      "type": "Conclusion"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_3",
+      "label": "Specific Vector Machine",
+      "type": "Descriptor"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_4",
+      "label": "SVM 72% Accuracy",
+      "type": "Conclusion"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_5",
+      "label": "Ensemble Classifiers",
+      "type": "Descriptor"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_6",
+      "label": "Ensemble Superiority",
+      "type": "Conclusion"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_7",
+      "label": "RF Parameter Tuning",
+      "type": "Descriptor"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_8",
+      "label": "Gain Ratio Better Accuracy",
+      "type": "Conclusion"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_9",
+      "label": "Potential in Plant Identification",
+      "type": "Significance"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_10",
+      "label": "Deep Learning Models Used",
+      "type": "Additional Detail"
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_conclusions_11",
+      "label": "Future Recommendations",
+      "type": "Additional Detail"
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2"
+    },
+    {
+      "from": "3",
+      "to": "4"
+    },
+    {
+      "from": "5",
+      "to": "6"
+    },
+    {
+      "from": "7",
+      "to": "8"
+    },
+    {
+      "from": "2",
+      "to": "9"
+    },
+    {
+      "from": "10",
+      "to": "9"
+    },
+    {
+      "from": "8",
+      "to": "9"
+    },
+    {
+      "from": "11",
+      "to": "9"
+    }
+  ]
+}

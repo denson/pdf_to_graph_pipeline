@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_introduction_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "Explaining predictions from machine learning models is crucial for applications in medicine, fraud detection, and credit scoring. Amidst sophisticated models like neural networks outperforming linear models, interpretability becomes important."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_introduction_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "There is a trade-off between model complexity and interpretability, leading to trust and legal challenges. Shapley values offer a solution for explaining individual predictions from complex models."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_introduction_3",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "Existing methods, including Kernel SHAP, assume feature independence, potentially producing inaccurate explanations for dependent features. Current methods do not fully address dependency in Shapley values."
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_introduction_4",
+      "labels": [
+        "ProposedSolution"
+      ],
+      "properties": {
+        "description": "The paper extends Kernel SHAP to handle dependent features accurately, offering methods for aggregating Shapley values for dependent features."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_introduction_1",
+      "target": "Paper_shapiq_paper_1903.10464v3_introduction_2",
+      "type": "MOTIVATES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_introduction_2",
+      "target": "Paper_shapiq_paper_1903.10464v3_introduction_3",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_introduction_3",
+      "target": "Paper_shapiq_paper_1903.10464v3_introduction_4",
+      "type": "ADDRESSES",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "appendices": {
+    "title": "Appendix A",
+    "content_summary": "The appendix provides a detailed description of the Extreme Gradient Boost (XGBoost) algorithm. This includes an introduction to the algorithm as an improved boosting algorithm based on gradient boosting decision tree, descriptions of the objective function, regularization terms, splitting gains, and the exact greedy algorithm used to optimize the model.",
+    "extra_methods_or_models": [
+      {
+        "name": "Extreme Gradient Boost (XGBoost)",
+        "description": "The appendix explains the XGBoost model, detailing how it constructs classification and regression trees (CARTs) to predict outcomes. It includes mathematical formulae explaining the objective function and regularization term, how gains are calculated for splits, and how it optimizes the models using an exact greedy algorithm."
+      }
+    ]
+  },
+  "missing_fields": {
+    "additional_data": null,
+    "additional_models": null
+  }
+}

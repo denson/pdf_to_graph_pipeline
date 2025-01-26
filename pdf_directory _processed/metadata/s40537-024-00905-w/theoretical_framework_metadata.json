@@ -1,0 +1,26 @@
+{
+  "theoretical_framework": {
+    "importance_of_feature_selection": "Feature selection is a crucial step in machine learning and data analysis, particularly in high-dimensional datasets such as those used in credit card fraud detection. It helps in enhancing model performance and efficiency by identifying the most relevant features.",
+    "feature_selection_methods": [
+      {
+        "name": "SHAP-value-based selection",
+        "basis": "Leverages game theory concepts to compute feature importance, computing SHAP values for each feature, and ranking them.",
+        "computation": "Involves training a model with all features, then computing SHAP values to determine feature contribution."
+      },
+      {
+        "name": "Importance-based selection",
+        "basis": "Computes feature importance inherently during the model training process.",
+        "computation": "Relies on the model's built-in capacity to rank feature importance as part of its learning process."
+      }
+    ],
+    "evaluation_metric": "Area under the Precision-Recall Curve (AUPRC) is used to evaluate the effectiveness of the selected features and model performance.",
+    "comparison_focus": "The study makes a comparative analysis between SHAP-value based and importance-value based feature selection methods specifically in the context of credit card fraud detection.",
+    "models_used": [
+      "XGBoost",
+      "Decision Tree",
+      "CatBoost",
+      "Extremely Randomized Trees",
+      "Random Forest"
+    ]
+  }
+}

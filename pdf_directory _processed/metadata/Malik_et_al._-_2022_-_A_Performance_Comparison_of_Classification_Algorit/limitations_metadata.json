@@ -1,0 +1,19 @@
+{
+  "limitations": [
+    "The study's dataset size is small which impacts the performance of the deep learning models, as they require large datasets for effective training.",
+    "Texture features alone were found to be insufficient for predicting true labels effectively, indicating that they may not provide enough discriminatory power without other features in small datasets.",
+    "The performance of deep learning models like CNN, LSTM, and RestNet was suboptimal compared to the optimized Random Forest model, likely due to the small dataset.",
+    "A comparison with other heavy datasets and different feature selection methods was not exhaustively conducted.",
+    "The study primarily focuses on optimizing a specific machine learning model (Random Forest), which might not capture the potential of other advanced machine learning or deep learning techniques."
+  ],
+  "required_fields": {
+    "Sample Size Limitation": "The dataset is small, affecting deep learning performance.",
+    "Feature Limitation": "Texture features alone are insufficient for small datasets.",
+    "Comparison Limitation": "There is limited comparison with heavy datasets and feature methods.",
+    "Model Limitation": "Focus is primarily on Random Forest, limiting exploration of other models."
+  },
+  "additional_information": {
+    "Data Collection Limitation": "The study was based on data collected with specific lighting conditions and plant varieties which may affect generalizability.",
+    "Ensemble Learning": "Only a few ensemble combinations were tested; expanding this could provide further insights."
+  }
+}

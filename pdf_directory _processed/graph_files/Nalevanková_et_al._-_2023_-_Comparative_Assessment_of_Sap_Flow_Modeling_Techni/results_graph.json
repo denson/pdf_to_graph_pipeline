@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_1",
+      "label": "Result",
+      "properties": {
+        "description": "Linear models demonstrated high prediction power for sap flow in European beech trees, particularly when the global radiation was shifted by one hour."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_2",
+      "label": "Finding",
+      "properties": {
+        "description": "Linear models provided comparable prediction power to Random Forest (RF) and Extreme Gradient Boosting Machine (XGBM); however, Neural Networks (NN) displayed relatively poor prediction power."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_3",
+      "label": "Finding",
+      "properties": {
+        "description": "Machine learning models like RF and XGBM performed better in drier conditions compared to linear models."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_4",
+      "label": "Finding",
+      "properties": {
+        "description": "Linear models had enhanced performance in wetter conditions compared to machine learning models."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_5",
+      "label": "Finding",
+      "properties": {
+        "description": "Data manipulation, such as shifting global radiation values, had varying impacts on model performance."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_1",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_2",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_1",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_3",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_4",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_3",
+      "type": "CONTRADICTS"
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_5",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_1",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_5",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_results_2",
+      "type": "SUPPORTS"
+    }
+  ]
+}

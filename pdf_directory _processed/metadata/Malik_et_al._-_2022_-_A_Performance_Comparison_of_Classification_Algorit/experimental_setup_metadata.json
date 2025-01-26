@@ -1,0 +1,108 @@
+{
+  "equipment": {
+    "camera": {
+      "type": "smartphone",
+      "resolution": "23MP",
+      "conditions": "controlled lighting"
+    }
+  },
+  "dataset": {
+    "image_resolution": "1080x1920 pixels",
+    "classes": "10",
+    "image_type": "rose leaves",
+    "colors": [
+      "orange",
+      "red",
+      "pink",
+      "white"
+    ],
+    "sample_split": {
+      "training": "60%",
+      "testing": "40%"
+    }
+  },
+  "software_tools": {
+    "feature_extraction": "CVIP tool",
+    "classification": "RapidMiner"
+  },
+  "feature_extraction": {
+    "methods": [
+      "histogram",
+      "texture"
+    ],
+    "features_list": [
+      "mean",
+      "energy",
+      "standard deviation",
+      "inertia",
+      "skew",
+      "correlation",
+      "inverse difference",
+      "entropy"
+    ]
+  },
+  "machine_learning_models": [
+    "Naive Bayes",
+    "Generalized Linear Model",
+    "Deep Learning Multinomial Model",
+    "Decision Tree",
+    "Random Forest",
+    "Gradient Boosted Trees",
+    "Support Vector Machine"
+  ],
+  "deep_learning_models": [
+    "Convolutional Neural Network",
+    "Long Short-Term Memory Network",
+    "RestNet"
+  ],
+  "hyperparameter_tuning": {
+    "random_forest": {
+      "number_of_trees": [
+        2,
+        102
+      ],
+      "depth_of_trees": [
+        1,
+        100
+      ],
+      "selection_criteria": [
+        "Gain Ratio",
+        "Information Gain",
+        "Gini Index"
+      ]
+    },
+    "attributes_selection": "optimized"
+  },
+  "evaluation_method": {
+    "metrics": [
+      "precision",
+      "recall",
+      "classification error",
+      "accuracy"
+    ],
+    "cross_validation": "10-fold"
+  },
+  "ensemble_learning": {
+    "method": "voting",
+    "models_combined": [
+      "NB",
+      "GLM",
+      "DT",
+      "DL",
+      "RF",
+      "GBT",
+      "SVM"
+    ],
+    "best_combination_accuracy": "70%"
+  },
+  "protocol": {
+    "experiment_steps": [
+      "data_collection",
+      "data_preprocessing",
+      "feature_extraction",
+      "model_configuration",
+      "performance_evaluation",
+      "parameter_tuning"
+    ]
+  }
+}

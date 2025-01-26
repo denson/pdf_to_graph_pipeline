@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_StudyDesign",
+      "label": "StudyDesign",
+      "properties": {
+        "objective": "To compare SHAP-value-based feature selection with importance-based feature selection methods for credit card fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_Dataset",
+      "label": "Variable",
+      "properties": {
+        "name": "Credit Card Fraud Detection Dataset",
+        "source": "Kaggle",
+        "description": "Contains 284,807 transactions with 30 independent features, 492 labeled as fraudulent."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_FeatureSelectionMethods",
+      "label": "Variable",
+      "properties": {
+        "methods": [
+          "SHAP-value-based",
+          "Importance-based"
+        ]
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_Classifiers",
+      "label": "Variable",
+      "properties": {
+        "classifiers": [
+          "XGBoost",
+          "Decision Tree",
+          "CatBoost",
+          "Extremely Randomized Trees",
+          "Random Forest"
+        ]
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_EvaluationMetric",
+      "label": "Variable",
+      "properties": {
+        "metric": "Area Under the Precision-Recall Curve (AUPRC)"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_CrossValidation",
+      "label": "Control",
+      "properties": {
+        "folds": 5,
+        "repetitions": 10
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_StatisticalTest",
+      "label": "Control",
+      "properties": {
+        "type": "z-test",
+        "significance_level": 0.01
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_FeatureSubsetSizes",
+      "label": "Variable",
+      "properties": {
+        "sizes": [
+          3,
+          5,
+          7,
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_AdditionalDetails",
+      "label": "Variable",
+      "properties": {
+        "experiment_setup": "Executed on distributed computing platform with Python.",
+        "SHAP_tool": "Utilized SHAP library from Python."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "StudyDesign",
+      "to": "Dataset",
+      "label": "uses"
+    },
+    {
+      "from": "StudyDesign",
+      "to": "FeatureSelectionMethods",
+      "label": "compares"
+    },
+    {
+      "from": "StudyDesign",
+      "to": "Classifiers",
+      "label": "tests"
+    },
+    {
+      "from": "StudyDesign",
+      "to": "EvaluationMetric",
+      "label": "evaluates"
+    },
+    {
+      "from": "StudyDesign",
+      "to": "CrossValidation",
+      "label": "controls"
+    },
+    {
+      "from": "StudyDesign",
+      "to": "StatisticalTest",
+      "label": "analyzes"
+    },
+    {
+      "from": "StudyDesign",
+      "to": "FeatureSubsetSizes",
+      "label": "explores"
+    },
+    {
+      "from": "StudyDesign",
+      "to": "AdditionalDetails",
+      "label": "includes"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Comparative Assessment of Sap Flow Modeling Techniques in European Beech Trees: Can Linear Models Compete with Random Forest, Extreme Gradient Boosting, and Neural Networks?",
+  "authors": [
+    "Paul\u00edna Nalevankov\u00e1",
+    "Peter Fleischer, Jr.",
+    "Mohammad Mukarram",
+    "Zuzana Sitkov\u00e1",
+    "Katar\u00edna Strelcov\u00e1"
+  ],
+  "abstract": "Transpiration and sap flow are physiologically interconnected processes that regulate nutrient and water uptake, controlling major aspects of tree life. They hold special relevance during drought, where wrecked sap flow can undermine overall tree growth and development. The present study encompasses five-year (2012\u20132015 and 2017) sap flow datasets on European beech (Fagus sylvatica). Four different techniques were used for sap flow modeling, namely, a linear model (LM), random forest (RF), extreme gradient boosting machine (XGBM), and neural networks (NN). We used six variants (Variants 1\u20136) differing in the captured conditions and the dataset size. The \u2018prediction power\u2019 was the ratio of the predicted and observed sap flow. We found the LM had the maximum prediction power for the overall sap flow in beech trees with 1 h shift of global radiation. In the reaming variants, the LM provided comparable prediction power to RF and XGBM. At the same time, NN exhibited relatively poor prediction power over other machine learning models. The study supports an easier-to-apply and computationally simpler approach (LM) to assess sap flow over more sophisticated machine learning approaches (RF, XGBM, and NN).",
+  "keywords": [
+    "sap flow",
+    "Fagus sylvatica",
+    "machine learning",
+    "drought",
+    "modeling"
+  ],
+  "publication_date": "2023-07-10",
+  "doi": "10.3390/w15142525",
+  "supplementary_information": "Data sharing is not applicable.",
+  "additional_metadata": {
+    "journal": "Water",
+    "volume": "15",
+    "article_number": "2525"
+  }
+}

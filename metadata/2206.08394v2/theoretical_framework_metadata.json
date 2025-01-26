@@ -1,0 +1,26 @@
+{
+  "theoretical_framework": {
+    "feature_selection_challenges": {
+      "high_dimensionality": "Modeling obstacles such as sparse data, overfitting, and the curse of dimensionality are common, necessitating feature selection to reduce dimensionality.",
+      "assumptions": "Many filter methods impose assumptions on data, only support single prediction types, do not account for inter-feature correlations, and require hyperparameter tuning."
+    },
+    "method_categories": {
+      "filter_methods": "Model-independent, utilize statistical tests and model-agnostic measures, are fast but often limited by assumptions and data requirements.",
+      "wrapper_methods": "Utilize supervised models for relevance assessment, account for inter-feature and model-feature interactions but are computationally intensive."
+    },
+    "proposed_solution": {
+      "powershap_methodology": "Utilizes Shapley values, statistical tests, and power calculations for efficient and intuitive feature selection. Assumes informative features impact predictions more than random features.",
+      "advantages": "Achieves predictive performance comparable to wrapper methods while reducing computational time significantly. Implemented as an open-source sklearn component to enhance accessibility."
+    },
+    "related_work": {
+      "shap_based_methods": {
+        "borutashap": "Uses Shapley values with tree-based optimizations, limited to tree-based models.",
+        "shapicant": "Utilizes permutation-importance methodology with non-parametric estimation, uses Shapley values instead of Gini importances."
+      }
+    },
+    "statistical_basis": {
+      "hypothesis_testing": "Statistical comparison between informative and random feature impacts using a heuristic implementation of a one-sample one-tailed student-t test.",
+      "power_calculations": "Ensures the reliability of feature selection results by optimizing iterations and reducing false negatives."
+    }
+  }
+}

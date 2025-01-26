@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_objectives_aims_scope_objective_1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "Conduct a comprehensive empirical investigation comparing the performance of SHAP-value-based feature selection and importance-based feature selection in the context of fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_objectives_aims_scope_aim_1",
+      "labels": [
+        "Aim"
+      ],
+      "properties": {
+        "description": "Enhance the performance of fraud detection models using feature selection techniques."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_objectives_aims_scope_aim_2",
+      "labels": [
+        "Aim"
+      ],
+      "properties": {
+        "description": "Evaluate and compare the effectiveness of SHAP values and model's built-in feature importance list for feature selection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_objectives_aims_scope_scope_1",
+      "labels": [
+        "Scope"
+      ],
+      "properties": {
+        "description": "The study is limited to analyzing the Kaggle Credit Card Fraud Detection Dataset, focusing on feature selection methods using five different classification models."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_objectives_aims_scope_objective_1",
+      "target": "Paper_s40537-024-00905-w_objectives_aims_scope_aim_1",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_objectives_aims_scope_objective_1",
+      "target": "Paper_s40537-024-00905-w_objectives_aims_scope_aim_2",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_objectives_aims_scope_objective_1",
+      "target": "Paper_s40537-024-00905-w_objectives_aims_scope_scope_1",
+      "type": "HAS_SCOPE"
+    }
+  ]
+}

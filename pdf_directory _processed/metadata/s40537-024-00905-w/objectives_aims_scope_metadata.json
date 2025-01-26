@@ -1,0 +1,10 @@
+{
+  "objectives_aims_scope": {
+    "objective": "The objective of this study is to conduct a comprehensive empirical investigation comparing the performance of SHAP-value-based feature selection and importance-based feature selection in the context of fraud detection.",
+    "aims": [
+      "Enhance the performance of fraud detection models using feature selection techniques.",
+      "Evaluate and compare the effectiveness of SHAP values and model\u2019s built-in feature importance list for feature selection."
+    ],
+    "scope": "The study is limited to analyzing the Kaggle Credit Card Fraud Detection Dataset, which contains anonymized transactions data. It focuses on feature selection methods with the dataset, using five different classification models."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_design_StudyDesign",
+      "label": "StudyDesign",
+      "type": "single-center, real-world study",
+      "population": "104 patients with first-diagnosed idiopathic dilated cardiomyopathy (DCM)",
+      "setting": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University",
+      "duration": "January 2014 to December 2017 for patient data collection with follow-up until December 2018"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_design_Variables",
+      "label": "Variables",
+      "measured": [
+        "left ventricular ejection fraction (LVEF)",
+        "left ventricular end-diastolic diameter (LVDd)",
+        "right ventricular end-diastolic dimension",
+        "high-density lipoprotein cholesterol (HDL-C)",
+        "cystatin C",
+        "systolic blood pressure",
+        "severe mitral regurgitation",
+        "eGFR",
+        "NYHA classification"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_design_Outcome",
+      "label": "Outcome",
+      "LVRR": "Defined as an absolute increase in LVEF from >10% to a final value >35% and a decrease in LVDd >10%",
+      "non-LVRR": "Defined as an absolute increase in LVEF <10%, final value <35%, or a decrease in LVDd <10%"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_design_Models",
+      "label": "Models",
+      "compared": [
+        "logistic regression",
+        "random forests",
+        "extreme gradient boosting (XGBoost)"
+      ]
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_design_Evaluation",
+      "label": "Evaluation",
+      "method": "10-fold cross-validation with ROC curves and calibration plot for performance evaluation"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_design_SignificantFindings",
+      "label": "SignificantFindings",
+      "outperformance": "XGBoost outperformed other models in predicting LVRR with higher AU-ROC"
+    }
+  ],
+  "edges": [
+    {
+      "from": "StudyDesign",
+      "to": "Variables"
+    },
+    {
+      "from": "StudyDesign",
+      "to": "Outcome"
+    },
+    {
+      "from": "StudyDesign",
+      "to": "Models"
+    },
+    {
+      "from": "Models",
+      "to": "Evaluation"
+    },
+    {
+      "from": "Models",
+      "to": "SignificantFindings"
+    }
+  ]
+}

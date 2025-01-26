@@ -1,0 +1,22 @@
+{
+  "title": "Explaining Individual Predictions When Features Are Dependent: More Accurate Approximations to Shapley Values",
+  "authors": [
+    "Kjersti Aas",
+    "Martin Jullum",
+    "Anders L\u00f8land"
+  ],
+  "abstract": "Explaining complex or seemingly simple machine learning models is an important practical problem. We want to explain individual predictions from a complex machine learning model by learning simple, interpretable explanations. Shapley values is a game theoretic concept that can be used for this purpose. The Shapley value framework has a series of desirable theoretical properties, and can in principle handle any predictive model. Kernel SHAP is a computationally efficient approximation to Shapley values in higher dimensions. Like several other existing methods, this approach assumes that the features are independent, which may give very wrong explanations. This is the case even if a simple linear model is used for predictions. In this paper, we extend the Kernel SHAP method to handle dependent features. We provide several examples of linear and non-linear models with various degrees of feature dependence, where our method gives more accurate approximations to the true Shapley values. We also propose a method for aggregating individual Shapley values, such that the prediction can be explained by groups of dependent variables.",
+  "keywords": [
+    "Shapley values",
+    "Kernel SHAP",
+    "Machine learning",
+    "Model interpretability",
+    "Feature dependence"
+  ],
+  "publication_date": "2020-02-06",
+  "doi": "not found",
+  "supplementary_information": "Our methodology has been implemented in an R-package currently available at: https://github.com/NorskRegnesentral/shapr.",
+  "additional_metadata": {
+    "arxiv_identifier": "arXiv:1903.10464v3"
+  }
+}

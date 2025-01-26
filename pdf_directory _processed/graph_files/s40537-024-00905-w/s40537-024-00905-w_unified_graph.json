@@ -1,0 +1,3178 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "title": "Feature selection strategies: a comparative analysis of SHAP\u2011value and importance\u2011based methods",
+        "abstract": "In the context of high-dimensional credit card fraud data, researchers and practitioners commonly utilize feature selection techniques to enhance the performance of fraud detection models. This study presents a comparison in model performance using the most important features selected by SHAP (SHapley Additive exPlanations) values and the model\u2019s built-in feature importance list. Both methods rank features and choose the most significant ones for model assessment. To evaluate the effectiveness of these feature selection techniques, classification models are built using five classifiers: XGBoost, Decision Tree, CatBoost, Extremely Randomized Trees, and Random Forest. The Area under the Precision-Recall Curve (AUPRC) serves as the evaluation metric. All experiments are executed on the Kaggle Credit Card Fraud Detection Dataset. The experimental outcomes and statistical tests indicate that feature selection methods based on importance values outperform those based on SHAP values across classifiers and various feature subset sizes. For models trained on larger datasets, it is recommended to use the model\u2019s built-in feature importance list as the primary feature selection method over SHAP. This suggestion is based on the rationale that computing SHAP feature importance is a distinct activity, while models naturally provide built-in feature importance as part of the training process, requiring no additional effort. Consequently, opting for the model\u2019s built-in feature importance list can offer a more efficient and practical approach for larger datasets and more intricate models.",
+        "publication_date": "2024-03-14",
+        "doi": "10.1186/s40537-024-00905-w"
+      }
+    },
+    {
+      "id": "author_001",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Huanjing Wang"
+      }
+    },
+    {
+      "id": "author_002",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Qianxin Liang"
+      }
+    },
+    {
+      "id": "author_003",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "John T. Hancock"
+      }
+    },
+    {
+      "id": "author_004",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Taghi M. Khoshgoftaar"
+      }
+    },
+    {
+      "id": "keyword_001",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Feature selection"
+      }
+    },
+    {
+      "id": "keyword_002",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Class imbalance"
+      }
+    },
+    {
+      "id": "keyword_003",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Credit card fraud"
+      }
+    },
+    {
+      "id": "keyword_004",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "SHAP"
+      }
+    },
+    {
+      "id": "keyword_005",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Feature importance"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_objective_1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "Compare model performance using feature selection by SHAP values and the model's built-in feature importance in high-dimensional credit card fraud data."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_method_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Use Kaggle Credit Card Fraud Detection Dataset."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_method_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Feature selection methods using SHAP and built-in feature importance."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_method_3",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Use classifiers: XGBoost, Decision Tree, CatBoost, Extremely Randomized Trees, Random Forest."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_method_4",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Evaluate using Area under the Precision-Recall Curve (AUPRC)."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_result_1",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "Feature selection based on importance values generally outperforms SHAP values across classifiers."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_result_2",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "For larger datasets, using built-in feature importance is recommended due to computational efficiency."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_implication_1",
+      "labels": [
+        "Implication"
+      ],
+      "properties": {
+        "description": "Using built-in feature importance is more suitable for models with large datasets and intricate models."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_implication_2",
+      "labels": [
+        "Implication"
+      ],
+      "properties": {
+        "description": "SHAP introduces additional computational complexity, making it less practical for big data."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_acknowledgments_1",
+      "label": "Paper",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_acknowledgments_2",
+      "label": "Contributor",
+      "properties": {
+        "name": "HJW"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_acknowledgments_3",
+      "label": "Contributor",
+      "properties": {
+        "name": "QXL and JTH"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_acknowledgments_4",
+      "label": "Contributor",
+      "properties": {
+        "name": "TMK"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_acknowledgments_5",
+      "label": "Contributor",
+      "properties": {
+        "name": "Data Mining and Machine Learning Laboratory, Florida Atlantic University"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_1",
+      "label": "Credit Card Fraud Detection",
+      "type": [
+        "Application"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_2",
+      "label": "Kaggle Credit Card Fraud Detection Dataset",
+      "type": [
+        "Dataset"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_3",
+      "label": "SHAP-based feature selection",
+      "type": [
+        "Technique"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_4",
+      "label": "Importance-based feature selection",
+      "type": [
+        "Technique"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_5",
+      "label": "XGBoost",
+      "type": [
+        "Classifier"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_6",
+      "label": "Decision Tree",
+      "type": [
+        "Classifier"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_7",
+      "label": "CatBoost",
+      "type": [
+        "Classifier"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_8",
+      "label": "Extremely Randomized Trees",
+      "type": [
+        "Classifier"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_9",
+      "label": "Random Forest",
+      "type": [
+        "Classifier"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_10",
+      "label": "Area Under the Precision-Recall Curve (AUPRC)",
+      "type": [
+        "Evaluation Metric"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_11",
+      "label": "Key Finding: Importance-based feature selection outperforms SHAP",
+      "type": [
+        "Finding"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_12",
+      "label": "Recommendation: Use model's built-in feature importance list",
+      "type": [
+        "Recommendation"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_13",
+      "label": "Limitation: Study limited to one dataset",
+      "type": [
+        "Limitation"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_14",
+      "label": "Limitation: Computational time for SHAP is higher",
+      "type": [
+        "Limitation"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_application_15",
+      "label": "Future Work: Explore across diverse application domains",
+      "type": [
+        "Future Work"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_1",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Credit card fraud detection is crucial in finance and relies on transaction datasets."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_2",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Feature selection is crucial for improving model performance by identifying relevant features."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_3",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Challenges arise from high-dimensional data in fraud detection, complicating model evaluation."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_4",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "SHAP uses game theory to rank feature importance."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_5",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Importance-based methods use decision trees for feature importance during training."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_6",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "AUPRC is used for evaluating model performance in this study."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_7",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Prior studies did not compare SHAP with built-in importance for fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_8",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Limited use of SHAP for feature selection in credit card fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_9",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "Random Forest is widely used for handling complex datasets and detecting feature interactions."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_background_10",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "description": "SHAP vs Importance: Importance-based methods generally outperform SHAP in feature selection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_1",
+      "label": "Study",
+      "title": "Feature selection strategies: a comparative analysis of SHAP-value and importance-based methods",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_2",
+      "label": "Performance Comparison",
+      "outcome": "Feature selection methods based on importance values outperform those based on SHAP values across the classifiers used and various feature subset sizes.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_3",
+      "label": "XGBoost vs SHAP-XGBoost",
+      "outcome": "XGBoost surpasses SHAP-XGBoost for a feature subset size of 3, while SHAP-XGBoost outperforms XGBoost for a feature subset size of 10.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_4",
+      "label": "CatBoost vs SHAP-CatBoost",
+      "outcome": "CatBoost outperforms SHAP-CatBoost for feature sizes less than 15.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_5",
+      "label": "ANOVA Results",
+      "implication": "Significant differences among the groups for factors such as Size, Classifier, and Technique with all p-values being less than 0.01.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_6",
+      "label": "HSD Results - Size Factor",
+      "implication": "Feature subset sizes of 15 and 10 yield superior performance in AUPRC.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_7",
+      "label": "HSD Results - Classifier Factor",
+      "implication": "RF demonstrated the highest AUPRC, followed by XGBoost, ET, and CatBoost, with DT showing relatively poorer performance.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_8",
+      "label": "HSD Results - Technique Factor",
+      "conclusion": "Importance-value-based feature selection method significantly outperformed the SHAP-value-based method.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_9",
+      "label": "Computational Efficiency",
+      "note": "Using built-in feature importance is deemed more efficient due to the considerable computational expenses associated with SHAP.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_10",
+      "label": "Recommendation",
+      "recommendation": "Opt for model's built-in feature importance for larger datasets and more intricate models due to practical and computational considerations.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_11",
+      "label": "Future Work",
+      "futureDirection": "Explore these two feature selection methods across diverse application domains.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_12",
+      "label": "Acknowledgements",
+      "note": "Thanks to the Data Mining and Machine Learning Laboratory at Florida Atlantic University.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_conclusions_Conclusion",
+      "label": "Conclusion",
+      "conclusion": "Importance-based feature selection methods generally outperform SHAP-value methods in both performance and computational efficiency.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Interpretation_1",
+      "label": "Interpretation",
+      "text": "Feature selection methods based on importance values generally outperform those based on SHAP values across various classifiers and feature subset sizes.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Implication_1",
+      "label": "Implication",
+      "text": "For larger datasets, using model's built-in feature importance list is recommended due to its efficiency and integration with model training.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Limitation_1",
+      "label": "Limitation",
+      "text": "The study is limited to the Kaggle Credit Card Fraud Detection Dataset and might not generalize to datasets with different characteristics.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Limitation_2",
+      "label": "Limitation",
+      "text": "The SHAP method is computationally intensive, impacting its practicality for large datasets.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Conclusion_1",
+      "label": "Interpretation",
+      "text": "The study found that built-in feature importance methods are more practical for handling large datasets due to lower computational costs.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Conclusion_2",
+      "label": "Interpretation",
+      "text": "XGBoost's performance varies depending on the feature subset size, with SHAP-XGBoost being better for a size of 10, while XGBoost is superior for a size of 3.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Conclusion_3",
+      "label": "Interpretation",
+      "text": "For CatBoost, the built-in feature importance method consistently outperforms SHAP-specified methods for feature subset sizes less than 15.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_discussion_Future_Work_1",
+      "label": "Implication",
+      "text": "Future research should explore these feature selection methods across different application domains, potentially beyond credit card fraud detection.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_ethical_statement_EthicalStatement",
+      "type": "Statement",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_ethical_statement_Paper",
+      "type": "Document",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_ethical_statement_CompetingInterests",
+      "type": "Interest",
+      "content": "The authors declare that they have no competing interests.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_ethical_statement_EthicsApproval",
+      "type": "Approval",
+      "content": "not applicable",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_ethical_statement_ConsentToParticipate",
+      "type": "Consent",
+      "content": "not applicable",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_ethical_statement_ConsentForPublication",
+      "type": "Consent",
+      "content": "not applicable",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_1",
+      "label": "Dataset",
+      "properties": {
+        "name": "Kaggle Credit Card Fraud Detection Dataset",
+        "size": "284,807 transactions",
+        "fraud_transactions": "492",
+        "features": "30 numerical features"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_2",
+      "label": "Feature Selection Method",
+      "properties": {
+        "name": "SHAP-value-based",
+        "libraries": [
+          "SHAP Python library"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_3",
+      "label": "Feature Selection Method",
+      "properties": {
+        "name": "Importance-based"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_4",
+      "label": "Classifier",
+      "properties": {
+        "name": "XGBoost"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_5",
+      "label": "Classifier",
+      "properties": {
+        "name": "Decision Tree (DT)"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_6",
+      "label": "Classifier",
+      "properties": {
+        "name": "CatBoost"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_7",
+      "label": "Classifier",
+      "properties": {
+        "name": "Extremely Randomized Trees (ET)"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_8",
+      "label": "Classifier",
+      "properties": {
+        "name": "Random Forest (RF)"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_9",
+      "label": "Protocol",
+      "properties": {
+        "name": "Cross-validation",
+        "details": "Five-fold cross-validation, 10 runs"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_10",
+      "label": "Protocol",
+      "properties": {
+        "name": "Evaluation Metric",
+        "details": "Area Under the Precision-Recall Curve (AUPRC)"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_11",
+      "label": "Computing Resource",
+      "properties": {
+        "description": "Distributed computing platform with nodes equipped with 16-core Intel Xeon CPUs, 256 GB RAM per CPU, and Nvidia V100 GPUs"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_12",
+      "label": "Software",
+      "properties": {
+        "name": "Python, SHAP library, Python data science stack"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_13",
+      "label": "Visualization Tool",
+      "properties": {
+        "name": "SHAP feature importance values visualization tools"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_experimental_setup_14",
+      "label": "Study Detail",
+      "properties": {
+        "feature_selection_sizes": [
+          3,
+          5,
+          7,
+          10,
+          15
+        ],
+        "statistical_tests": "Z-tests with significance level of \u03b1 = 0.01"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_future_work_research_directions_1",
+      "label": [
+        "FutureWork"
+      ],
+      "properties": {
+        "description": "Further exploration of SHAP-based and importance-value-based feature selection methods across various application domains."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_future_work_research_directions_2",
+      "label": [
+        "Recommendation"
+      ],
+      "properties": {
+        "description": "Investigate SHAP and importance-based selection methods in larger datasets or different domains for scalability and efficiency."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_future_work_research_directions_3",
+      "label": [
+        "Recommendation"
+      ],
+      "properties": {
+        "description": "Assess the generalizability and performance efficacy of feature selection methods in domains beyond credit card fraud detection."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_future_work_research_directions_4",
+      "label": [
+        "Paper"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_future_work_research_directions_5",
+      "label": [
+        "Findings"
+      ],
+      "properties": {
+        "description": "Study highlights computational challenges with SHAP and suggests built-in feature importance for large datasets."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_introduction_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "Detecting credit card fraud in the finance industry by analyzing transaction datasets."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_introduction_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "Improving the decision-making process in machine learning models by selecting relevant features to tackle data quality issues."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_introduction_3",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "The need to compare different feature selection methods, specifically SHAP-value and importance-based methods, to determine which enhances model performance in credit card fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_limitations_Paper",
+      "label": "Paper",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_limitations_Limitation 1",
+      "label": "Limitation",
+      "description": "The study is limited to only one dataset, the Kaggle Credit Card Fraud Detection Dataset, which may not be indicative of other datasets or real-world scenarios.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_limitations_Limitation 2",
+      "label": "Limitation",
+      "description": "The use of SHAP for feature selection adds a distinct step in the process and requires more computational resources compared to built-in feature selection methods.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_limitations_Limitation 3",
+      "label": "Limitation",
+      "description": "The comparison is limited to specific classifiers and does not include other possible models that could affect the outcome of the feature selection methods.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_limitations_Limitation 4",
+      "label": "Limitation",
+      "description": "SHAP values may vary when different trained models are utilized, leading to variability in rankings and results.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_key_finding_1",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Importance-based feature selection methods generally outperform SHAP-value-based methods in model performance for fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_key_finding_2",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Importance-based methods using built-in feature importance lists are more efficient, especially for larger datasets."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_key_finding_3",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Random Forest demonstrated the best performance among classifiers, while Decision Tree showed poorer performance."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_key_finding_4",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Features selected by importance-based methods yield better AUPRC, notable in XGBoost and CatBoost models for subset sizes of 3 and 10."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_method_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "Feature Selection Methods",
+        "types": [
+          "SHAP-value-based selection",
+          "Importance-based selection"
+        ]
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_method_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "Classification Models",
+        "types": [
+          "XGBoost",
+          "Decision Tree",
+          "CatBoost",
+          "Extremely Randomized Trees",
+          "Random Forest"
+        ]
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_method_3",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "Evaluation Metric",
+        "metric": "Area under the Precision-Recall Curve (AUPRC)"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_method_4",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "Dataset",
+        "value": "Kaggle Credit Card Fraud Detection Dataset"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_method_5",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "Cross-Validation",
+        "description": "Five-fold cross-validation with ten independent runs"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_gap_1",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "No prior studies compare SHAP and importance-based feature selection methods specifically for credit card fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_gap_2",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "SHAP value computation is computationally expensive, which may limit its practicality for large datasets."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_insight_1",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "For larger datasets and more intricate models, using the model's built-in feature importance is recommended over SHAP."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_insight_2",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Further studies could explore these methods in different application domains beyond credit card fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_Dataset",
+      "label": [
+        "Dataset"
+      ],
+      "properties": {
+        "name": "Credit Card Fraud Detection Dataset",
+        "source": "Kaggle"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "label": [
+        "Method"
+      ],
+      "properties": {
+        "name": "SHAP-value-based Feature Selection"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "label": [
+        "Method"
+      ],
+      "properties": {
+        "name": "Importance-based Feature Selection"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_XGBoost",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "XGBoost"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_DecisionTree",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "Decision Tree"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_CatBoost",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "CatBoost"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_ExtremelyRandomizedTrees",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "Extremely Randomized Trees"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_RandomForest",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "name": "Random Forest"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "label": [
+        "Metric"
+      ],
+      "properties": {
+        "name": "AUPRC"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_CrossValidation",
+      "label": [
+        "Validation"
+      ],
+      "properties": {
+        "folds": 5,
+        "repeat": 10
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_ZTest",
+      "label": [
+        "StatisticalTest"
+      ],
+      "properties": {
+        "name": "z-test",
+        "alpha": 0.01
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_ANOVATest",
+      "label": [
+        "StatisticalTest"
+      ],
+      "properties": {
+        "name": "ANOVA"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_Python",
+      "label": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Python"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_SHAPLibrary",
+      "label": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "SHAP library"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_PythonDataScienceStack",
+      "label": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Python data science stack"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_methods_materials_and_methods_Platform",
+      "label": [
+        "Platform"
+      ],
+      "properties": {
+        "cpu": "16-core Intel Xeon",
+        "gpu": "Nvidia V100",
+        "ram": "256 GB per CPU"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_objectives_aims_scope_objective_1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "Conduct a comprehensive empirical investigation comparing the performance of SHAP-value-based feature selection and importance-based feature selection in the context of fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_objectives_aims_scope_aim_1",
+      "labels": [
+        "Aim"
+      ],
+      "properties": {
+        "description": "Enhance the performance of fraud detection models using feature selection techniques."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_objectives_aims_scope_aim_2",
+      "labels": [
+        "Aim"
+      ],
+      "properties": {
+        "description": "Evaluate and compare the effectiveness of SHAP values and model's built-in feature importance list for feature selection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_objectives_aims_scope_scope_1",
+      "labels": [
+        "Scope"
+      ],
+      "properties": {
+        "description": "The study is limited to analyzing the Kaggle Credit Card Fraud Detection Dataset, focusing on feature selection methods using five different classification models."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2022",
+      "label": "Hancock JT",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Khoshgoftaar_TM_2022",
+      "label": "Khoshgoftaar TM",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Johnson_JM_2022",
+      "label": "Johnson JM",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_1",
+      "label": "A comparative approach to threshold optimization for classifying imbalanced data",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Wang_H_2023",
+      "label": "Wang H",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Liang_Q_2023",
+      "label": "Liang Q",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_2",
+      "label": "Enhancing credit card fraud detection through a novel ensemble feature selection technique",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Lundberg_SM_2017",
+      "label": "Lundberg SM",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Lee_SI_2017",
+      "label": "Lee SI",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_3",
+      "label": "A unified approach to interpreting model predictions",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Waspada_I_2022",
+      "label": "Waspada I",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_4",
+      "label": "Performance analysis of isolation forest algorithm in fraud detection of credit card transactions",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2023",
+      "label": "Hancock JT",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Huang_TM_2023",
+      "label": "Huang TM",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_5",
+      "label": "Improving medicare fraud detection through big data size reduction techniques",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Chen_T_2016",
+      "label": "Chen T",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Guestrin_C_2016",
+      "label": "Guestrin C",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_6",
+      "label": "Xgboost: a scalable tree boosting system",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Breiman_L_2017",
+      "label": "Breiman L",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_7",
+      "label": "Classification and regression trees",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Prokhorenkova_L_2018",
+      "label": "Prokhorenkova L",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_8",
+      "label": "Catboost: unbiased boosting with categorical features",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Geurts_P_2006",
+      "label": "Geurts P",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_9",
+      "label": "Extremely randomized trees",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Breiman_L_2001",
+      "label": "Breiman L",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_10",
+      "label": "Random forests",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Ke_G_2017",
+      "label": "Ke G",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_11",
+      "label": "Lightgbm: a highly efficient gradient boosting decision tree",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Kaggle_2018",
+      "label": "Kaggle",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_12",
+      "label": "Credit card fraud detection",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Leevy_JL_2022",
+      "label": "Leevy JL",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_13",
+      "label": "Evaluating performance metrics for credit card fraud classification",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Rtayli_N_2020",
+      "label": "Rtayli N",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Enneya_N_2020",
+      "label": "Enneya N",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_14",
+      "label": "Selection features and support vector machine for credit card risk identification",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Gonzalez_S_2020",
+      "label": "Gonz\u00e1lez S",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_15",
+      "label": "A practical tutorial on bagging and boosting based ensembles for machine learning",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2023_Journal",
+      "label": "Hancock JT",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Khoshgoftaar_TM_2023_Journal",
+      "label": "Khoshgoftaar TM",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_16",
+      "label": "Evaluating classifier performance with highly imbalanced big data",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Rosley_N_2022",
+      "label": "Rosley N",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_17",
+      "label": "Autoencoders with reconstruction error and dimensionality reduction for credit card fraud detection",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Kursa_MB_2010",
+      "label": "Kursa MB",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_18",
+      "label": "Feature selection with the Boruta package",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Liu_Y_2022",
+      "label": "Liu Y",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_19",
+      "label": "Diagnosis of Parkinson\u2019s disease based on SHAP value feature selection",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Sakar_CO_2019",
+      "label": "Sakar CO",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_20",
+      "label": "A comparative analysis of speech signal processing algorithms for Parkinson\u2019s disease classification",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Marcilio_WE_2020",
+      "label": "Marcilio WE",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_21",
+      "label": "From explanations to feature selection: assessing SHAP values as feature selection mechanism",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2021",
+      "label": "Hancock JT",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_22",
+      "label": "Gradient boosted decision tree algorithms for Medicare fraud detection",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Muaz_A_2020",
+      "label": "Muaz A",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_23",
+      "label": "A comparison of data sampling techniques for credit card fraud detection",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Shapley_L_1953",
+      "label": "Shapley L",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_24",
+      "label": "A value for n-person games",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Kushwah_JS_2022",
+      "label": "Kushwah JS",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_25",
+      "label": "Comparative study of regressor and classifier with decision tree using modern tools",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Friedman_JH_2001",
+      "label": "Friedman JH",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_26",
+      "label": "Greedy function approximation: a gradient boosting machine",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Gupta_A_2017",
+      "label": "Gupta A",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_27",
+      "label": "Approximation algorithms for optimal decision trees and adaptive tsp problems",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Breiman_L_1996",
+      "label": "Breiman L",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_28",
+      "label": "Bagging predictors",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Witten_IH_2011",
+      "label": "Witten IH",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_29",
+      "label": "Data mining: practical machine learning tools and techniques",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Lundberg_S_Repository",
+      "label": "SHAP",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_30",
+      "label": "Python for scientific computing",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Jain_R_1991",
+      "label": "Jain R",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_31",
+      "label": "The art of computer systems performance analysis",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Iversen_GR_1987",
+      "label": "Iversen GR",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_32",
+      "label": "Analysis of Variance, vol. 1",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Tukey_JW_1949",
+      "label": "Tukey JW",
+      "role": "Author",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_references_bibliography_Reference_33",
+      "label": "Comparing individual means in the analysis of variance",
+      "role": "Reference",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_1",
+      "label": "Result",
+      "content": "Feature selection methods based on importance values outperformed SHAP value-based methods.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_2",
+      "label": "Finding",
+      "content": "XGBoost with feature subset size 3 outperformed SHAP-XGBoost.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_3",
+      "label": "Finding",
+      "content": "SHAP-XGBoost with feature subset size 10 outperformed XGBoost.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_4",
+      "label": "Finding",
+      "content": "CatBoost outperformed SHAP-CatBoost for feature subsets 3 to 10.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_5",
+      "label": "Finding",
+      "content": "A tie between CatBoost and SHAP-CatBoost at feature subset size 15.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_6",
+      "label": "Finding",
+      "content": "ANOVA results show significant differences among groups.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_7",
+      "label": "Result",
+      "content": "Importance-based feature selection significantly outperformed SHAP-based methods.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_8",
+      "label": "Conclusion",
+      "content": "Importance-based feature selection methods are recommended for larger datasets.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_9",
+      "label": "Discussion",
+      "content": "Importance-based methods are more suitable for high-dimensional data.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_10",
+      "label": "Future Research",
+      "content": "Exploration of feature selection methods across diverse domains is suggested.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_StudyDesign",
+      "label": "StudyDesign",
+      "properties": {
+        "objective": "To compare SHAP-value-based feature selection with importance-based feature selection methods for credit card fraud detection."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_Dataset",
+      "label": "Variable",
+      "properties": {
+        "name": "Credit Card Fraud Detection Dataset",
+        "source": "Kaggle",
+        "description": "Contains 284,807 transactions with 30 independent features, 492 labeled as fraudulent."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_FeatureSelectionMethods",
+      "label": "Variable",
+      "properties": {
+        "methods": [
+          "SHAP-value-based",
+          "Importance-based"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_Classifiers",
+      "label": "Variable",
+      "properties": {
+        "classifiers": [
+          "XGBoost",
+          "Decision Tree",
+          "CatBoost",
+          "Extremely Randomized Trees",
+          "Random Forest"
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_EvaluationMetric",
+      "label": "Variable",
+      "properties": {
+        "metric": "Area Under the Precision-Recall Curve (AUPRC)"
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_CrossValidation",
+      "label": "Control",
+      "properties": {
+        "folds": 5,
+        "repetitions": 10
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_StatisticalTest",
+      "label": "Control",
+      "properties": {
+        "type": "z-test",
+        "significance_level": 0.01
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_FeatureSubsetSizes",
+      "label": "Variable",
+      "properties": {
+        "sizes": [
+          3,
+          5,
+          7,
+          10,
+          15
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_design_AdditionalDetails",
+      "label": "Variable",
+      "properties": {
+        "experiment_setup": "Executed on distributed computing platform with Python.",
+        "SHAP_tool": "Utilized SHAP library from Python."
+      },
+      "labels": []
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_population_participants_StudyPopulation1",
+      "label": [
+        "StudyPopulation"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_population_participants_Methods1",
+      "label": [
+        "Methods"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_population_participants_Paper1",
+      "label": [
+        "Paper"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N1",
+      "label": "Theory",
+      "content": "Feature selection is crucial in high-dimensional datasets for enhancing model performance and efficiency.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N2",
+      "label": "Method",
+      "content": "SHAP-value-based selection",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N3",
+      "label": "Method",
+      "content": "Importance-based selection",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N4",
+      "label": "Metric",
+      "content": "Area under the Precision-Recall Curve (AUPRC)",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "label": "Focus",
+      "content": "Comparative analysis of feature selection methods in credit card fraud detection",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N6",
+      "label": "Model",
+      "content": "XGBoost",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N7",
+      "label": "Model",
+      "content": "Decision Tree",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N8",
+      "label": "Model",
+      "content": "CatBoost",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N9",
+      "label": "Model",
+      "content": "Extremely Randomized Trees",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_theoretical_framework_N10",
+      "label": "Model",
+      "content": "Random Forest",
+      "labels": [],
+      "properties": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "author_001",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "author_002",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "author_003",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "author_004",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "keyword_001",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "keyword_002",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "keyword_003",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "keyword_004",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w",
+      "target": "keyword_005",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_objective_1",
+      "target": "Paper_s40537-024-00905-w_abstract_method_1",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_objective_1",
+      "target": "Paper_s40537-024-00905-w_abstract_method_2",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_objective_1",
+      "target": "Paper_s40537-024-00905-w_abstract_method_3",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_objective_1",
+      "target": "Paper_s40537-024-00905-w_abstract_method_4",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_method_2",
+      "target": "Paper_s40537-024-00905-w_abstract_result_1",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_method_2",
+      "target": "Paper_s40537-024-00905-w_abstract_result_2",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_result_2",
+      "target": "Paper_s40537-024-00905-w_abstract_implication_1",
+      "type": "INFORMS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_result_2",
+      "target": "Paper_s40537-024-00905-w_abstract_implication_2",
+      "type": "INFORMS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_acknowledgments_1",
+      "target": "Paper_s40537-024-00905-w_acknowledgments_2",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {
+        "contributions": "Contributed to the manuscript"
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_acknowledgments_1",
+      "target": "Paper_s40537-024-00905-w_acknowledgments_3",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {
+        "contributions": "Conducted experiments and contributed to the manuscript"
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_acknowledgments_1",
+      "target": "Paper_s40537-024-00905-w_acknowledgments_4",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {
+        "contributions": "Provided oversight of experiments, coordinated research, and contributed to the manuscript"
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_acknowledgments_1",
+      "target": "Paper_s40537-024-00905-w_acknowledgments_5",
+      "type": "ACKNOWLEDGED_BY",
+      "properties": {
+        "contributions": "Assisted with the reviews"
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_2",
+      "type": "USES_DATASET",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_3",
+      "type": "USES_TECHNIQUE",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_4",
+      "type": "USES_TECHNIQUE",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_5",
+      "type": "USES_CLASSIFIER",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_6",
+      "type": "USES_CLASSIFIER",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_7",
+      "type": "USES_CLASSIFIER",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_8",
+      "type": "USES_CLASSIFIER",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_9",
+      "type": "USES_CLASSIFIER",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_10",
+      "type": "USES_METRIC",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_11",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_12",
+      "type": "HAS_RECOMMENDATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_13",
+      "type": "HAS_LIMITATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_14",
+      "type": "HAS_LIMITATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_application_1",
+      "target": "Paper_s40537-024-00905-w_application_15",
+      "type": "HAS_FUTURE_WORK",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_1",
+      "target": "Paper_s40537-024-00905-w_background_2",
+      "type": "RELATION",
+      "properties": {
+        "description": "Feature selection affects fraud detection."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_1",
+      "target": "Paper_s40537-024-00905-w_background_3",
+      "type": "RELATION",
+      "properties": {
+        "description": "High-dimensional data challenges."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_2",
+      "target": "Paper_s40537-024-00905-w_background_4",
+      "type": "RELATION",
+      "properties": {
+        "description": "SHAP for feature selection."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_2",
+      "target": "Paper_s40537-024-00905-w_background_5",
+      "type": "RELATION",
+      "properties": {
+        "description": "Importance-based feature selection method."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_4",
+      "target": "Paper_s40537-024-00905-w_background_7",
+      "type": "RELATION",
+      "properties": {
+        "description": "SHAP not previously compared with model\u2019s built-in importance lists."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_5",
+      "target": "Paper_s40537-024-00905-w_background_7",
+      "type": "RELATION",
+      "properties": {
+        "description": "Importance methods not compared with SHAP in prior studies."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_6",
+      "target": "Paper_s40537-024-00905-w_background_1",
+      "type": "RELATION",
+      "properties": {
+        "description": "AUPRC used for model evaluation."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_8",
+      "target": "Paper_s40537-024-00905-w_background_9",
+      "type": "RELATION",
+      "properties": {
+        "description": "Limited use of SHAP contrasted with common use of Random Forest."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_10",
+      "target": "Paper_s40537-024-00905-w_background_9",
+      "type": "RELATION",
+      "properties": {
+        "description": "Importance-based methods more efficient than SHAP."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_background_8",
+      "target": "Paper_s40537-024-00905-w_background_10",
+      "type": "RELATION",
+      "properties": {
+        "description": "Importance-based methods better than SHAP."
+      }
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "5",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "5",
+      "target": "6",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "5",
+      "target": "7",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "5",
+      "target": "8",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "8",
+      "target": "Conclusion",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "9",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "10",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "11",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "12",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Interpretation_1",
+      "target": "Conclusion_1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "supports"
+      }
+    },
+    {
+      "source": "Implication_1",
+      "target": "Limitation_2",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "addresses"
+      }
+    },
+    {
+      "source": "Limitation_1",
+      "target": "Future_Work_1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "leads_to"
+      }
+    },
+    {
+      "source": "Limitation_2",
+      "target": "Implication_1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "necessitates"
+      }
+    },
+    {
+      "source": "Conclusion_2",
+      "target": "Interpretation_1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "example_of"
+      }
+    },
+    {
+      "source": "Conclusion_3",
+      "target": "Interpretation_1",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "example_of"
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_ethical_statement_EthicalStatement",
+      "target": "Paper_s40537-024-00905-w_ethical_statement_Paper",
+      "type": "APPLIES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_ethical_statement_EthicalStatement",
+      "target": "Paper_s40537-024-00905-w_ethical_statement_CompetingInterests",
+      "type": "HAS_COMPETING_INTERESTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_ethical_statement_EthicalStatement",
+      "target": "Paper_s40537-024-00905-w_ethical_statement_EthicsApproval",
+      "type": "HAS_ETHICS_APPROVAL",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_ethical_statement_EthicalStatement",
+      "target": "Paper_s40537-024-00905-w_ethical_statement_ConsentToParticipate",
+      "type": "HAS_CONSENT_TO_PARTICIPATE",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_ethical_statement_EthicalStatement",
+      "target": "Paper_s40537-024-00905-w_ethical_statement_ConsentForPublication",
+      "type": "HAS_CONSENT_FOR_PUBLICATION",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "type": "FEATURED_IN",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "type": "FEATURED_IN",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "5",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "6",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "7",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "8",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "9",
+      "target": "4",
+      "type": "APPLIED_ON",
+      "properties": {}
+    },
+    {
+      "source": "9",
+      "target": "5",
+      "type": "APPLIED_ON",
+      "properties": {}
+    },
+    {
+      "source": "9",
+      "target": "6",
+      "type": "APPLIED_ON",
+      "properties": {}
+    },
+    {
+      "source": "9",
+      "target": "7",
+      "type": "APPLIED_ON",
+      "properties": {}
+    },
+    {
+      "source": "9",
+      "target": "8",
+      "type": "APPLIED_ON",
+      "properties": {}
+    },
+    {
+      "source": "10",
+      "target": "4",
+      "type": "MEASURES",
+      "properties": {}
+    },
+    {
+      "source": "10",
+      "target": "5",
+      "type": "MEASURES",
+      "properties": {}
+    },
+    {
+      "source": "10",
+      "target": "6",
+      "type": "MEASURES",
+      "properties": {}
+    },
+    {
+      "source": "10",
+      "target": "7",
+      "type": "MEASURES",
+      "properties": {}
+    },
+    {
+      "source": "10",
+      "target": "8",
+      "type": "MEASURES",
+      "properties": {}
+    },
+    {
+      "source": "11",
+      "target": "4",
+      "type": "PROVIDES_RESOURCES_FOR",
+      "properties": {}
+    },
+    {
+      "source": "11",
+      "target": "6",
+      "type": "PROVIDES_RESOURCES_FOR",
+      "properties": {}
+    },
+    {
+      "source": "12",
+      "target": "2",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "13",
+      "target": "2",
+      "type": "VISUALIZES",
+      "properties": {}
+    },
+    {
+      "source": "14",
+      "target": "3",
+      "type": "INVOLVES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_future_work_research_directions_1",
+      "target": "Paper_s40537-024-00905-w_future_work_research_directions_4",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_future_work_research_directions_2",
+      "target": "Paper_s40537-024-00905-w_future_work_research_directions_4",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_future_work_research_directions_3",
+      "target": "Paper_s40537-024-00905-w_future_work_research_directions_5",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_introduction_1",
+      "target": "Paper_s40537-024-00905-w_introduction_2",
+      "type": "ADDRESSES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_introduction_2",
+      "target": "Paper_s40537-024-00905-w_introduction_3",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Limitation 1",
+      "target": "Paper",
+      "type": "RELATION",
+      "properties": {
+        "description": "Results may not generalize well to other types of data or domains beyond credit card fraud detection."
+      }
+    },
+    {
+      "source": "Limitation 2",
+      "target": "Paper",
+      "type": "RELATION",
+      "properties": {
+        "description": "This additional computational expense might make SHAP less practical for large datasets or real-time applications."
+      }
+    },
+    {
+      "source": "Limitation 3",
+      "target": "Paper",
+      "type": "RELATION",
+      "properties": {
+        "description": "The findings might not be applicable to other types of classifiers which were not studied in this paper."
+      }
+    },
+    {
+      "source": "Limitation 4",
+      "target": "Paper",
+      "type": "RELATION",
+      "properties": {
+        "description": "The reliability and consistency of SHAP rankings across different model runs can affect the interpretation and use of selected features."
+      }
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Dataset",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Dataset",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "type": "USED_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_XGBoost",
+      "type": "FEATURE_SELECTION_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_DecisionTree",
+      "type": "FEATURE_SELECTION_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CatBoost",
+      "type": "FEATURE_SELECTION_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_ExtremelyRandomizedTrees",
+      "type": "FEATURE_SELECTION_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_SHAP",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_RandomForest",
+      "type": "FEATURE_SELECTION_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_XGBoost",
+      "type": "FEATURE_SELECTION_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_DecisionTree",
+      "type": "FEATURE_SELECTION_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CatBoost",
+      "type": "FEATURE_SELECTION_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_ExtremelyRandomizedTrees",
+      "type": "FEATURE_SELECTION_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_FeatureSelection_Importance",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_RandomForest",
+      "type": "FEATURE_SELECTION_FOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_XGBoost",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "type": "EVALUATED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_DecisionTree",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "type": "EVALUATED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_CatBoost",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "type": "EVALUATED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_ExtremelyRandomizedTrees",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "type": "EVALUATED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_RandomForest",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "type": "EVALUATED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_XGBoost",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CrossValidation",
+      "type": "VALIDATED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_DecisionTree",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CrossValidation",
+      "type": "VALIDATED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_CatBoost",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CrossValidation",
+      "type": "VALIDATED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_ExtremelyRandomizedTrees",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CrossValidation",
+      "type": "VALIDATED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_RandomForest",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_CrossValidation",
+      "type": "VALIDATED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_ZTest",
+      "type": "ANALYZED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Evaluation_AUPRC",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_ANOVATest",
+      "type": "ANALYZED_WITH",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Platform",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_Python",
+      "type": "USED_ON",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Platform",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_SHAPLibrary",
+      "type": "USED_ON",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_methods_materials_and_methods_Platform",
+      "target": "Paper_s40537-024-00905-w_methods_materials_and_methods_PythonDataScienceStack",
+      "type": "USED_ON",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_objectives_aims_scope_objective_1",
+      "target": "Paper_s40537-024-00905-w_objectives_aims_scope_aim_1",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_objectives_aims_scope_objective_1",
+      "target": "Paper_s40537-024-00905-w_objectives_aims_scope_aim_2",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_objectives_aims_scope_objective_1",
+      "target": "Paper_s40537-024-00905-w_objectives_aims_scope_scope_1",
+      "type": "HAS_SCOPE",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_1",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2022",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_1",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Khoshgoftaar_TM_2022",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_1",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Johnson_JM_2022",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_2",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Wang_H_2023",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_2",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Liang_Q_2023",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_3",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Lundberg_SM_2017",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_3",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Lee_SI_2017",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_5",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2023",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_5",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Huang_TM_2023",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_6",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Chen_T_2016",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_6",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Guestrin_C_2016",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_9",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Geurts_P_2006",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_10",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Breiman_L_2001",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_11",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Ke_G_2017",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_12",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Kaggle_2018",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_13",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Leevy_JL_2022",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_14",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Rtayli_N_2020",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_14",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Enneya_N_2020",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_15",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Gonzalez_S_2020",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_16",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2023_Journal",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_16",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Khoshgoftaar_TM_2023_Journal",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_17",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Rosley_N_2022",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_18",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Kursa_MB_2010",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_19",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Liu_Y_2022",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_20",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Sakar_CO_2019",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_22",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Hancock_JT_2021",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_23",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Muaz_A_2020",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_24",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Shapley_L_1953",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_25",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Kushwah_JS_2022",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_26",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Friedman_JH_2001",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_27",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Gupta_A_2017",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_28",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Breiman_L_1996",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_29",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Witten_IH_2011",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_31",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Jain_R_1991",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_32",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Iversen_GR_1987",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_references_bibliography_Reference_33",
+      "target": "Paper_s40537-024-00905-w_references_bibliography_Tukey_JW_1949",
+      "type": "authored_by",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_1",
+      "target": "Paper_s40537-024-00905-w_results_2",
+      "type": "SUPPORTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_1",
+      "target": "Paper_s40537-024-00905-w_results_3",
+      "type": "CONFLICTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_1",
+      "target": "Paper_s40537-024-00905-w_results_4",
+      "type": "SUPPORTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_1",
+      "target": "Paper_s40537-024-00905-w_results_5",
+      "type": "NEUTRAL",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_1",
+      "target": "Paper_s40537-024-00905-w_results_6",
+      "type": "SUPPORTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_7",
+      "target": "Paper_s40537-024-00905-w_results_8",
+      "type": "SUPPORTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_7",
+      "target": "Paper_s40537-024-00905-w_results_9",
+      "type": "SUPPORTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_8",
+      "target": "Paper_s40537-024-00905-w_results_10",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "StudyDesign",
+      "target": "Dataset",
+      "type": "uses",
+      "properties": {}
+    },
+    {
+      "source": "StudyDesign",
+      "target": "FeatureSelectionMethods",
+      "type": "compares",
+      "properties": {}
+    },
+    {
+      "source": "StudyDesign",
+      "target": "Classifiers",
+      "type": "tests",
+      "properties": {}
+    },
+    {
+      "source": "StudyDesign",
+      "target": "EvaluationMetric",
+      "type": "evaluates",
+      "properties": {}
+    },
+    {
+      "source": "StudyDesign",
+      "target": "CrossValidation",
+      "type": "controls",
+      "properties": {}
+    },
+    {
+      "source": "StudyDesign",
+      "target": "StatisticalTest",
+      "type": "analyzes",
+      "properties": {}
+    },
+    {
+      "source": "StudyDesign",
+      "target": "FeatureSubsetSizes",
+      "type": "explores",
+      "properties": {}
+    },
+    {
+      "source": "StudyDesign",
+      "target": "AdditionalDetails",
+      "type": "includes",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_study_population_participants_StudyPopulation1",
+      "target": "Paper_s40537-024-00905-w_study_population_participants_Methods1",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_study_population_participants_StudyPopulation1",
+      "target": "Paper_s40537-024-00905-w_study_population_participants_Paper1",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N1",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N2",
+      "type": "utilizes",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N1",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N3",
+      "type": "utilizes",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N2",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N4",
+      "type": "evaluated_with",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N3",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N4",
+      "type": "evaluated_with",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N1",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "type": "contextual_focus",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N6",
+      "type": "involves",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N7",
+      "type": "involves",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N8",
+      "type": "involves",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N9",
+      "type": "involves",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_theoretical_framework_N5",
+      "target": "Paper_s40537-024-00905-w_theoretical_framework_N10",
+      "type": "involves",
+      "properties": {}
+    }
+  ]
+}

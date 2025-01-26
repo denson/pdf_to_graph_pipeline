@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_camera",
+      "label": "Equipment",
+      "properties": {
+        "type": "smartphone",
+        "resolution": "23MP",
+        "conditions": "controlled lighting"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_dataset",
+      "label": "Dataset",
+      "properties": {
+        "image_resolution": "1080x1920 pixels",
+        "classes": 10,
+        "image_type": "rose leaves",
+        "colors": [
+          "orange",
+          "red",
+          "pink",
+          "white"
+        ],
+        "sample_split": {
+          "training": "60%",
+          "testing": "40%"
+        }
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_CVIP_tool",
+      "label": "Software",
+      "properties": {
+        "function": "feature extraction"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_RapidMiner",
+      "label": "Software",
+      "properties": {
+        "function": "classification"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_feature_extraction",
+      "label": "Process",
+      "properties": {
+        "methods": [
+          "histogram",
+          "texture"
+        ],
+        "features_list": [
+          "mean",
+          "energy",
+          "standard deviation",
+          "inertia",
+          "skew",
+          "correlation",
+          "inverse difference",
+          "entropy"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_machine_learning_models",
+      "label": "Machine Learning Models",
+      "properties": {
+        "models": [
+          "Naive Bayes",
+          "Generalized Linear Model",
+          "Deep Learning Multinomial Model",
+          "Decision Tree",
+          "Random Forest",
+          "Gradient Boosted Trees",
+          "Support Vector Machine"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_deep_learning_models",
+      "label": "Deep Learning Models",
+      "properties": {
+        "models": [
+          "Convolutional Neural Network",
+          "Long Short-Term Memory Network",
+          "RestNet"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_hyperparameter_tuning",
+      "label": "Process",
+      "properties": {
+        "random_forest": {
+          "number_of_trees": [
+            2,
+            102
+          ],
+          "depth_of_trees": [
+            1,
+            100
+          ],
+          "selection_criteria": [
+            "Gain Ratio",
+            "Information Gain",
+            "Gini Index"
+          ]
+        },
+        "attributes_selection": "optimized"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_evaluation_method",
+      "label": "Process",
+      "properties": {
+        "metrics": [
+          "precision",
+          "recall",
+          "classification error",
+          "accuracy"
+        ],
+        "cross_validation": "10-fold"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_ensemble_learning",
+      "label": "Process",
+      "properties": {
+        "method": "voting",
+        "models_combined": [
+          "NB",
+          "GLM",
+          "DT",
+          "DL",
+          "RF",
+          "GBT",
+          "SVM"
+        ],
+        "best_combination_accuracy": "70%"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_experimental_setup_experiment_protocol",
+      "label": "Protocol",
+      "properties": {
+        "experiment_steps": [
+          "data_collection",
+          "data_preprocessing",
+          "feature_extraction",
+          "model_configuration",
+          "performance_evaluation",
+          "parameter_tuning"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "camera",
+      "to": "dataset",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "CVIP_tool",
+      "to": "feature_extraction",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "RapidMiner",
+      "to": "machine_learning_models",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "feature_extraction",
+      "to": "machine_learning_models",
+      "type": "ENABLES"
+    },
+    {
+      "from": "machine_learning_models",
+      "to": "evaluation_method",
+      "type": "PERFORMED_WITH"
+    },
+    {
+      "from": "deep_learning_models",
+      "to": "evaluation_method",
+      "type": "PERFORMED_WITH"
+    },
+    {
+      "from": "hyperparameter_tuning",
+      "to": "random_forest",
+      "type": "APPLIES_TO"
+    },
+    {
+      "from": "ensemble_learning",
+      "to": "machine_learning_models",
+      "type": "COMBINES"
+    },
+    {
+      "from": "experiment_protocol",
+      "to": "dataset",
+      "type": "INCLUDES"
+    },
+    {
+      "from": "experiment_protocol",
+      "to": "feature_extraction",
+      "type": "INCLUDES"
+    },
+    {
+      "from": "experiment_protocol",
+      "to": "machine_learning_models",
+      "type": "INCLUDES"
+    },
+    {
+      "from": "experiment_protocol",
+      "to": "evaluation_method",
+      "type": "INCLUDES"
+    },
+    {
+      "from": "experiment_protocol",
+      "to": "hyperparameter_tuning",
+      "type": "INCLUDES"
+    }
+  ]
+}

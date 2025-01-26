@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_conclusions_1",
+      "label": "Tree-based models successful",
+      "type": "Conclusion"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_conclusions_2",
+      "label": "Facilitate disease management",
+      "type": "Conclusion"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_conclusions_3",
+      "label": "Predictors: Cystatin C, Right ventricular end-diastolic dimension, HDL-C"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_conclusions_4",
+      "label": "Need for multicenter prospective study",
+      "type": "Conclusion"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_conclusions_5",
+      "label": "Study Limitations: Single-center, retrospective design"
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_conclusions_6",
+      "label": "Suggested Improvements: Large sample prospective study"
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "label": "Result leads to"
+    },
+    {
+      "from": "1",
+      "to": "3",
+      "label": "Based on"
+    },
+    {
+      "from": "1",
+      "to": "4",
+      "label": "Necessitates"
+    },
+    {
+      "from": "5",
+      "to": "6",
+      "label": "Improvement suggests"
+    }
+  ]
+}

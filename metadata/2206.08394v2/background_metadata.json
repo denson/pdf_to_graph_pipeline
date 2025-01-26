@@ -1,0 +1,41 @@
+{
+  "research_focus": "The development of an efficient wrapper feature selection method using Shapley values and statistical tests.",
+  "historical_context": {
+    "feature_selection_methods": [
+      {
+        "type": "filter",
+        "description": "Select features using model-agnostic measures such as statistical tests, information gain, and consistency with dependent variables. Known for their speed but can impose data assumptions and require cut-off values.",
+        "disadvantages": [
+          "Require a threshold value",
+          "May not consider intercorrelation between features",
+          "Ignore feature interactions with models"
+        ]
+      },
+      {
+        "type": "wrapper",
+        "description": "Evaluate features using a specific model-oriented procedure by training supervised models. Tend to provide high-quality feature subsets by considering interactions between features but come with high computational complexity.",
+        "drawbacks": [
+          "High time complexity from search algorithms",
+          "Hyperparameter tuning can be complex"
+        ]
+      }
+    ],
+    "existing_methods": [
+      {
+        "name": "shapicant",
+        "foundation": "Permutation-importance method using Shapley values",
+        "limitations": "More accurate but slower"
+      },
+      {
+        "name": "borutashap",
+        "foundation": "Uses Shapley values with shadow features in tree-based models",
+        "limitations": "Limited to tree-based models"
+      }
+    ],
+    "foundation": "Shapley values from SHAP (SHapley Additive exPlanations), used to explain model predictions using game theory."
+  },
+  "motivation": {
+    "need": "Existing feature selection methods either suffer from high computational complexity or ignore crucial feature interactions and interdependencies.",
+    "goal": "Combine SHAP with statistical hypothesis testing to provide a faster and more intuitive feature selection method."
+  }
+}

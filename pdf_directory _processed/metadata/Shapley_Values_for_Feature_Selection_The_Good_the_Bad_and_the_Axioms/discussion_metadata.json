@@ -1,0 +1,29 @@
+{
+  "title": "Shapley Values for Feature Selection: The Good, the Bad, and the Axioms",
+  "authors": [
+    "Daniel Fryer",
+    "Inga Str\u00fcmke",
+    "Hien Nguyen"
+  ],
+  "abstract_key_points": [
+    "Shapley values have been increasingly used in Explainable AI for feature selection.",
+    "This study questions the applicability of Shapley values in feature selection using simple counterexamples.",
+    "The study explores insights from these counterexamples using concrete simulation settings and various Shapley value formulations, including SHAP and SAGE.",
+    "The aim is to clarify limitations and demystify aspects of Shapley axioms' favourability."
+  ],
+  "implications": [
+    "The axioms of Shapley values do not provide a guarantee that they are suited for feature selection.",
+    "The meaning of 'feature importance' or 'worth' is highly dependent on the choice of evaluation function and game formulation.",
+    "Different formulations of Shapley values, such as SHAP and SAGE, can lead to varying effectiveness in feature selection tasks."
+  ],
+  "limitations": [
+    "The study is not an exhaustive theoretical or empirical examination of Shapley value methods in machine learning.",
+    "The efficiency of exact Shapley value computation is challenged by its exponential complexity in terms of the number of features.",
+    "Non-monotonic evaluation functions can lead to inefficiencies in the Shapley values calculated."
+  ],
+  "required_fields": {
+    "publication_date": "October 8, 2021",
+    "volume": "9",
+    "digital_object_identifier": "10.1109/ACCESS.2021.3119110"
+  }
+}

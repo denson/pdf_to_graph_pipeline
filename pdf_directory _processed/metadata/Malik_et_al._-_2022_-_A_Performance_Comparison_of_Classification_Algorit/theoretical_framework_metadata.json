@@ -1,0 +1,39 @@
+{
+  "theoretical_framework": {
+    "introduction_to_problem": {
+      "description": "Botanists face challenges in recognizing a wide variety of flowers with nearly half a million types discovered.",
+      "solution_proposed": "Information Technology offers machine learning solutions for flower recognition."
+    },
+    "rationale_for_study": {
+      "description": "Rose plants have unique features in their leaves which can be used for identification.",
+      "significance": "Rose leaves have a longer lifespan and can preserve identity features longer than flowers."
+    },
+    "objective": {
+      "main_goal": "To perform automatic classification of rose plants using machine learning based on leaf features."
+    },
+    "methodology": {
+      "feature_extraction": "Histogram and texture features of leaves were utilized.",
+      "data_collection": "Dataset composed of images collected using a 23MP camera of various rose species."
+    },
+    "machine_learning_models_used": {
+      "algorithms": [
+        "Naive Bayes",
+        "Generalized Linear Model",
+        "Multilayer Perceptron",
+        "Decision Tree",
+        "Random Forest",
+        "Gradient Boosted Trees",
+        "Support Vector Machine"
+      ],
+      "optimization": "Random Forest model was optimized by tuning parameters such as number of trees and depth of trees."
+    },
+    "comparison_to_deep_learning": {
+      "deep_learning_models": [
+        "Convolutional Neural Network",
+        "Long Short-Term Memory Network",
+        "RestNet"
+      ],
+      "comparative_observation": "Deep learning models performed poorly against machine learning models due to small dataset size."
+    }
+  }
+}

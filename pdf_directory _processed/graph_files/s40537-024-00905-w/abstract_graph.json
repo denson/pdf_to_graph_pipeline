@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_objective_1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "Compare model performance using feature selection by SHAP values and the model's built-in feature importance in high-dimensional credit card fraud data."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_method_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Use Kaggle Credit Card Fraud Detection Dataset."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_method_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Feature selection methods using SHAP and built-in feature importance."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_method_3",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Use classifiers: XGBoost, Decision Tree, CatBoost, Extremely Randomized Trees, Random Forest."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_method_4",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Evaluate using Area under the Precision-Recall Curve (AUPRC)."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_result_1",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "Feature selection based on importance values generally outperforms SHAP values across classifiers."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_result_2",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "For larger datasets, using built-in feature importance is recommended due to computational efficiency."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_implication_1",
+      "labels": [
+        "Implication"
+      ],
+      "properties": {
+        "description": "Using built-in feature importance is more suitable for models with large datasets and intricate models."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_abstract_implication_2",
+      "labels": [
+        "Implication"
+      ],
+      "properties": {
+        "description": "SHAP introduces additional computational complexity, making it less practical for big data."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_objective_1",
+      "target": "Paper_s40537-024-00905-w_abstract_method_1",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_objective_1",
+      "target": "Paper_s40537-024-00905-w_abstract_method_2",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_objective_1",
+      "target": "Paper_s40537-024-00905-w_abstract_method_3",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_objective_1",
+      "target": "Paper_s40537-024-00905-w_abstract_method_4",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_method_2",
+      "target": "Paper_s40537-024-00905-w_abstract_result_1",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_method_2",
+      "target": "Paper_s40537-024-00905-w_abstract_result_2",
+      "type": "LEADS_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_result_2",
+      "target": "Paper_s40537-024-00905-w_abstract_implication_1",
+      "type": "INFORMS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_abstract_result_2",
+      "target": "Paper_s40537-024-00905-w_abstract_implication_2",
+      "type": "INFORMS",
+      "properties": {}
+    }
+  ]
+}

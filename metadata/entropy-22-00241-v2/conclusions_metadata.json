@@ -1,0 +1,9 @@
+{
+  "conclusions": {
+    "main_outcome": "Measures of hypnopompic heart rate variability (HRV) can be a potential predictor for cardiovascular disease (CVD) events",
+    "significance": "Entropy-based nonlinear metrics demonstrated superior predictive power for CVD compared to traditional HRV measures, highlighting the importance of incorporating them into risk prediction models for better sensitivity and accuracy.",
+    "additional_findings": "Hypnopompic HRV, particularly the complexity metrics, showed significant promise in enhancing short-term prediction accuracy for CVD events within two years.",
+    "conceptual_framework": "The study suggests integrating entropy-based HRV measures into CVD risk evaluations for more precise long-term management.",
+    "recommendations": "Further prospective studies are encouraged to evaluate the proposed model across different populations and incorporate entropy-based measures for early detection of CVD risks."
+  }
+}

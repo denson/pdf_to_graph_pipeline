@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_results_1",
+      "label": "Result",
+      "content": "Feature selection methods based on importance values outperformed SHAP value-based methods."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_2",
+      "label": "Finding",
+      "content": "XGBoost with feature subset size 3 outperformed SHAP-XGBoost."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_3",
+      "label": "Finding",
+      "content": "SHAP-XGBoost with feature subset size 10 outperformed XGBoost."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_4",
+      "label": "Finding",
+      "content": "CatBoost outperformed SHAP-CatBoost for feature subsets 3 to 10."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_5",
+      "label": "Finding",
+      "content": "A tie between CatBoost and SHAP-CatBoost at feature subset size 15."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_6",
+      "label": "Finding",
+      "content": "ANOVA results show significant differences among groups."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_7",
+      "label": "Result",
+      "content": "Importance-based feature selection significantly outperformed SHAP-based methods."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_8",
+      "label": "Conclusion",
+      "content": "Importance-based feature selection methods are recommended for larger datasets."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_9",
+      "label": "Discussion",
+      "content": "Importance-based methods are more suitable for high-dimensional data."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_results_10",
+      "label": "Future Research",
+      "content": "Exploration of feature selection methods across diverse domains is suggested."
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_results_1",
+      "target": "Paper_s40537-024-00905-w_results_2",
+      "label": "SUPPORTS"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_1",
+      "target": "Paper_s40537-024-00905-w_results_3",
+      "label": "CONFLICTS"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_1",
+      "target": "Paper_s40537-024-00905-w_results_4",
+      "label": "SUPPORTS"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_1",
+      "target": "Paper_s40537-024-00905-w_results_5",
+      "label": "NEUTRAL"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_1",
+      "target": "Paper_s40537-024-00905-w_results_6",
+      "label": "SUPPORTS"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_7",
+      "target": "Paper_s40537-024-00905-w_results_8",
+      "label": "SUPPORTS"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_7",
+      "target": "Paper_s40537-024-00905-w_results_9",
+      "label": "SUPPORTS"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_results_8",
+      "target": "Paper_s40537-024-00905-w_results_10",
+      "label": "LEADS_TO"
+    }
+  ]
+}

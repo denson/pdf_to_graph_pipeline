@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_limitations_1",
+      "label": "Paper"
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_limitations_2",
+      "label": "Limitation",
+      "description": "The axioms of the Shapley value do not guarantee suitability for feature selection, and may sometimes imply the opposite."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_limitations_3",
+      "label": "Limitation",
+      "description": "Sensitivity to formulations and parameter settings."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_limitations_4",
+      "label": "Limitation",
+      "description": "The complexity of evaluation."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_limitations_5",
+      "label": "Limitation",
+      "description": "Potential for non-optimal feature selection."
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_limitations_6",
+      "label": "Limitation",
+      "description": "Use of non-monotonic evaluation functions."
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "description": "Discusses how specific axioms might not align with feature selection aims."
+    },
+    {
+      "from": "1",
+      "to": "3",
+      "description": "Performance hinges on game formulation and evaluation function characteristics."
+    },
+    {
+      "from": "1",
+      "to": "4",
+      "description": "Exponential complexity impacts practicality for large-scale problems."
+    },
+    {
+      "from": "1",
+      "to": "5",
+      "description": "May average out unimportant features affecting optimal contribution."
+    },
+    {
+      "from": "1",
+      "to": "6",
+      "description": "Non-monotonic functions lead to inefficient payoff distribution."
+    }
+  ]
+}

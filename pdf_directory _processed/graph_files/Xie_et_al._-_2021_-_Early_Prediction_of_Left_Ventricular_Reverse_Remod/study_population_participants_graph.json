@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_population_participants_StudyPopulation",
+      "label": "StudyPopulation",
+      "properties": {
+        "size": 104,
+        "location": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China",
+        "time_period": "January 2014 to December 2017",
+        "follow_up_period_median": "24 months",
+        "LVRR_occurrence": "47 (45.2%) after treatment"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_population_participants_StudyPopulation",
+      "target": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_study_population_participants_Paper",
+      "label": "described_in"
+    }
+  ]
+}

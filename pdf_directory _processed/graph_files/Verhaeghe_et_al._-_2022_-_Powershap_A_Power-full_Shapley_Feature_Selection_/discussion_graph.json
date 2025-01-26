@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Interpretation1",
+      "label": "Interpretation",
+      "text": "Powershap is a novel wrapper feature selection method that combines statistical hypothesis testing, power calculations, and Shapley values for efficient feature selection."
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Implication1",
+      "label": "Implication",
+      "text": "The method offers predictive performance comparable to other wrapper methods but with reduced computational requirements."
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Limitation1",
+      "label": "Limitation",
+      "text": "Wrapper methods, including Powershap, depend on the model used and could suffer from modeling issues."
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Interpretation2",
+      "label": "Interpretation",
+      "text": "Powershap uses an Explain component to add a single known random feature and analyzes its average impact using Shapley values."
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Implication2",
+      "label": "Implication",
+      "text": "This allows Powershap to statistically compare the impact of real features to a random feature."
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Limitation2",
+      "label": "Limitation",
+      "text": "The approach's reliance on statistical tests can be influenced by the number of iterations."
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Interpretation3",
+      "label": "Interpretation",
+      "text": "The 'automatic mode' in Powershap allows for the optimization of iterations necessary for ensuring desired statistical power."
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Implication3",
+      "label": "Implication",
+      "text": "This makes Powershap a more user-friendly tool without extensive setup."
+    },
+    {
+      "id": "Paper_Verhaeghe_et_al._-_2022_-_Powershap_A_Power-full_Shapley_Feature_Selection__discussion_Limitation3",
+      "label": "Limitation",
+      "text": "Anticonservative estimation of p-values might require larger datasets to ensure robustness."
+    }
+  ],
+  "edges": [
+    {
+      "from": "Interpretation1",
+      "to": "Implication1"
+    },
+    {
+      "from": "Interpretation1",
+      "to": "Limitation1"
+    },
+    {
+      "from": "Interpretation2",
+      "to": "Implication2"
+    },
+    {
+      "from": "Interpretation2",
+      "to": "Limitation2"
+    },
+    {
+      "from": "Interpretation3",
+      "to": "Implication3"
+    },
+    {
+      "from": "Interpretation3",
+      "to": "Limitation3"
+    }
+  ]
+}

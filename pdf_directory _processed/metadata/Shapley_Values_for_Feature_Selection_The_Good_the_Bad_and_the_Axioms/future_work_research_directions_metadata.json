@@ -1,0 +1,17 @@
+{
+  "future_research_directions": {
+    "exploration_of_concepts": "Future work is needed to thoroughly explore the application of game theoretic solution concepts to feature selection and attribution.",
+    "empirical_study": "Extensive empirical studies are needed to understand the game formulations and axioms that are suited to the large variety of practical and frequently occurring feature selection tasks in XAI and ML.",
+    "alternative_methods": "Investigate a large variety of alternatives to the Shapley value provided in the literature on game theory.",
+    "axioms": "Explore suitable axioms for feature selection tasks.",
+    "recommendations": [
+      "Avoid magical thinking by emphasizing nuanced application of Shapley values.",
+      "Consider the influence of different game formulations on the relevancy of Shapley values to ML tasks."
+    ]
+  },
+  "required_fields": {
+    "research_gaps": null,
+    "limitations_of_current_study": null,
+    "next_steps": null
+  }
+}

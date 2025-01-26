@@ -1,0 +1,46 @@
+{
+  "experimental_setup": {
+    "participants": {
+      "source": "Sleep Heart Health Study (SHHS) database",
+      "total_number": 2442,
+      "criteria": [
+        "CVD-free at baseline",
+        "acceptable sleep efficiency",
+        "no benzodiazepines, tricyclic, or non-tricyclic antidepressants within two weeks",
+        "no alcohol or caffeine within 4 hours before sleep",
+        "available ECG data and clinical characteristics"
+      ],
+      "groups": {
+        "CVD": 1219,
+        "non-CVD": 998
+      }
+    },
+    "equipment": {
+      "ECG": {
+        "device": "Compumedics SleepWatch polysomnograph",
+        "sampling_rate": "125 Hz",
+        "filter": "Butterworth band-pass filter (0.5\u201345 Hz)"
+      }
+    },
+    "protocols": {
+      "signal_processing": {
+        "segment_length": "1 hour before morning awakening",
+        "method": "Pan-Tompkins algorithm for R-wave detection",
+        "RR_interval_interpolation": "to handle artifacts"
+      },
+      "HRV_analysis": [
+        "time domain analysis",
+        "frequency domain analysis",
+        "nonlinear dynamic analysis (entropy-based)"
+      ]
+    },
+    "machine_learning": {
+      "algorithm": "Extreme Gradient Boosting (XGBoost)",
+      "features": [
+        "HRV metrics (TP, LF, HF, HFnorm, SDNN, RMSSD, MSE1-10, MPE)",
+        "clinical characteristics (age, gender, BMI, etc.)"
+      ],
+      "evaluation": "5-fold cross-validation"
+    }
+  }
+}

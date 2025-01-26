@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_acknowledgments_Ji\u0159\u00edKu\u010dera",
+      "label": [
+        "Contributor"
+      ]
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_acknowledgments_SlovakResearchAgency",
+      "label": [
+        "FundingSource"
+      ],
+      "name": "Slovak Research and Development Agency"
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_acknowledgments_VEGA",
+      "label": [
+        "FundingSource"
+      ],
+      "name": "Science Grant Agency of the Ministry of Education, Science, Research and Sport of the Slovak Republic"
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_acknowledgments_KEGA",
+      "label": [
+        "FundingSource"
+      ],
+      "name": "Projects KEGA"
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_acknowledgments_ITMS313011T678",
+      "label": [
+        "FundingSource"
+      ],
+      "name": "ITMS 313011T678"
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_acknowledgments_PaperX",
+      "label": [
+        "Paper"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "Ji\u0159\u00edKu\u010dera",
+      "to": "PaperX",
+      "label": "ACKNOWLEDGED_BY"
+    },
+    {
+      "from": "SlovakResearchAgency",
+      "to": "PaperX",
+      "label": "FUNDED"
+    },
+    {
+      "from": "VEGA",
+      "to": "PaperX",
+      "label": "FUNDED"
+    },
+    {
+      "from": "KEGA",
+      "to": "PaperX",
+      "label": "FUNDED"
+    },
+    {
+      "from": "ITMS313011T678",
+      "to": "PaperX",
+      "label": "FUNDED"
+    }
+  ]
+}

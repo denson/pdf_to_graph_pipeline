@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_key_finding_1",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Importance-based feature selection methods generally outperform SHAP-value-based methods in model performance for fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_key_finding_2",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Importance-based methods using built-in feature importance lists are more efficient, especially for larger datasets."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_key_finding_3",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Random Forest demonstrated the best performance among classifiers, while Decision Tree showed poorer performance."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_key_finding_4",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Features selected by importance-based methods yield better AUPRC, notable in XGBoost and CatBoost models for subset sizes of 3 and 10."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_method_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "Feature Selection Methods",
+        "types": [
+          "SHAP-value-based selection",
+          "Importance-based selection"
+        ]
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_method_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "Classification Models",
+        "types": [
+          "XGBoost",
+          "Decision Tree",
+          "CatBoost",
+          "Extremely Randomized Trees",
+          "Random Forest"
+        ]
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_method_3",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "Evaluation Metric",
+        "metric": "Area under the Precision-Recall Curve (AUPRC)"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_method_4",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "Dataset",
+        "value": "Kaggle Credit Card Fraud Detection Dataset"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_method_5",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "Cross-Validation",
+        "description": "Five-fold cross-validation with ten independent runs"
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_gap_1",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "No prior studies compare SHAP and importance-based feature selection methods specifically for credit card fraud detection."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_gap_2",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "SHAP value computation is computationally expensive, which may limit its practicality for large datasets."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_insight_1",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "For larger datasets and more intricate models, using the model's built-in feature importance is recommended over SHAP."
+      }
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_literature_review_litrev_insight_2",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Further studies could explore these methods in different application domains beyond credit card fraud detection."
+      }
+    }
+  ],
+  "edges": []
+}

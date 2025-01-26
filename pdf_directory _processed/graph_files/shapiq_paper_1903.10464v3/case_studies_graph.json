@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy1",
+      "labels": [
+        "CaseStudy"
+      ]
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding1.1",
+      "labels": [
+        "Finding"
+      ]
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding1.2",
+      "labels": [
+        "Finding"
+      ]
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy2",
+      "labels": [
+        "CaseStudy"
+      ]
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding2.1",
+      "labels": [
+        "Finding"
+      ]
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding2.2",
+      "labels": [
+        "Finding"
+      ]
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy3",
+      "labels": [
+        "CaseStudy"
+      ]
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding3.1",
+      "labels": [
+        "Finding"
+      ]
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding3.2",
+      "labels": [
+        "Finding"
+      ]
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy4",
+      "labels": [
+        "CaseStudy"
+      ]
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding4.1",
+      "labels": [
+        "Finding"
+      ]
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding4.2",
+      "labels": [
+        "Finding"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy1",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding1.1",
+      "type": "HAS_FINDING"
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy1",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding1.2",
+      "type": "HAS_FINDING"
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy2",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding2.1",
+      "type": "HAS_FINDING"
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy2",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding2.2",
+      "type": "HAS_FINDING"
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy3",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding3.1",
+      "type": "HAS_FINDING"
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy3",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding3.2",
+      "type": "HAS_FINDING"
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy4",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding4.1",
+      "type": "HAS_FINDING"
+    },
+    {
+      "source": "Paper_shapiq_paper_1903.10464v3_case_studies_CaseStudy4",
+      "target": "Paper_shapiq_paper_1903.10464v3_case_studies_Finding4.2",
+      "type": "HAS_FINDING"
+    }
+  ]
+}

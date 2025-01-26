@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_key_finding_1",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Machine learning models and ensemble methods show promise for rose plant classification."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_key_finding_2",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Random Forest (RF) outperforms other models when optimized for parameters like number of trees and tree depth."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_key_finding_3",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Gain Ratio is a better attribute selection criterion compared to Information Gain and Gini Index for RF."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_methodology_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Use of histogram and texture features for classification tasks."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_methodology_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Optimization of Random Forest through parameter tuning."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_methodology_3",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Ensemble learning using voting mechanism to improve classification accuracy."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_gap_1",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "Deep learning models did not achieve superior performance due to the small dataset size, indicating a need for more extensive data."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_gap_2",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "Texture features alone were not sufficient for classification, suggesting a need for feature selection methods that include a combination of different feature types."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_insight_1",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Using both histogram and texture features with high correlation to class labels yields better classification results."
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_literature_review_litrev_insight_2",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Fine-tuning machine learning models can lead to significant performance improvements over default settings."
+      }
+    }
+  ],
+  "edges": []
+}

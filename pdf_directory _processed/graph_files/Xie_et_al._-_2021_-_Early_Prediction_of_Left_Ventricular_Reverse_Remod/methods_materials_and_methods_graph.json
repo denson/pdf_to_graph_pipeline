@@ -1,0 +1,254 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N1",
+      "label": [
+        "Center"
+      ],
+      "properties": {
+        "name": "Sun Yat-sen Memorial Hospital of Sun Yat-sen University",
+        "location": "Guangzhou, China"
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N2",
+      "label": [
+        "Period"
+      ],
+      "properties": {
+        "start": "January 2014",
+        "end": "December 2017"
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N3",
+      "label": [
+        "Sample"
+      ],
+      "properties": {
+        "size": 104,
+        "diagnosis": "Idiopathic Dilated Cardiomyopathy"
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N4",
+      "label": [
+        "Criteria"
+      ],
+      "properties": {
+        "list": [
+          "LVDd >5.0 cm (female) or LVDd >5.5 cm (male)",
+          "LVEF <45% and left ventricular shortening fraction <25%",
+          "Exclusion of other heart diseases and systemic conditions"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N5",
+      "label": [
+        "ExclusionCriteria"
+      ],
+      "properties": {
+        "list": [
+          "Alcoholic or peripartum cardiomyopathy",
+          "Coronary heart disease and other specified conditions",
+          "Receiving non-recommended therapies"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N6",
+      "label": [
+        "Model"
+      ],
+      "properties": {
+        "types": [
+          "Linear Model",
+          "Random Forest",
+          "Extreme Gradient Boosting (XGBoost)"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N7",
+      "label": [
+        "EvaluationMethod"
+      ],
+      "properties": {
+        "method": "10-fold cross-validation",
+        "metrics": [
+          "Receiver Operating Characteristic (ROC) curves",
+          "Calibration plot"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N8",
+      "label": [
+        "Imputation"
+      ],
+      "properties": {
+        "method": "K-nearest neighbors"
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N9",
+      "label": [
+        "AnalysisFeatures"
+      ],
+      "properties": {
+        "list": [
+          "Demographic characteristics",
+          "Comorbidities",
+          "Physical signs",
+          "Biochemistry data",
+          "Echocardiography",
+          "Electrocardiogram",
+          "Holter monitoring",
+          "Medication"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N10",
+      "label": [
+        "MachineLearning"
+      ],
+      "properties": {
+        "models": [
+          "XGBoost",
+          "Random Forest",
+          "Logistic Regression"
+        ],
+        "feature_selection": "Greedy feature selection algorithm",
+        "software_tools": [
+          "Python 3.7.6",
+          "scikit-learn 0.22",
+          "SPSS 22.0"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N11",
+      "label": [
+        "DataSplit"
+      ],
+      "properties": {
+        "ratio": "6:4"
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N12",
+      "label": [
+        "Optimization"
+      ],
+      "properties": {
+        "method": "Grid search for optimal parameters"
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N13",
+      "label": [
+        "Tools"
+      ],
+      "properties": {
+        "software": [
+          "Python",
+          "Scikit-learn",
+          "SPSS"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N14",
+      "label": [
+        "DataSources"
+      ],
+      "properties": {
+        "type": "Electronic health records"
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N15",
+      "label": [
+        "Parameters"
+      ],
+      "properties": {
+        "list": [
+          "Demographic characteristics",
+          "Clinical and laboratory data",
+          "Echocardiographic measurements"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Xie_et_al._-_2021_-_Early_Prediction_of_Left_Ventricular_Reverse_Remod_methods_materials_and_methods_N16",
+      "label": [
+        "Results"
+      ],
+      "properties": {
+        "key_findings": [
+          "XGBoost and Random Forest models showed higher accuracy than Logistic Regression",
+          "Cystatin C, right ventricular end-diastolic dimension, and HDL-C are important features"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "type": "DURATION"
+    },
+    {
+      "from": "N1",
+      "to": "N3",
+      "type": "HAS_POPULATION"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "type": "DEFINED_BY"
+    },
+    {
+      "from": "N3",
+      "to": "N5",
+      "type": "EXCLUDES"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "type": "EVALUATED_BY"
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "type": "USED_IN"
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "type": "DATA_SPLIT"
+    },
+    {
+      "from": "N10",
+      "to": "N12",
+      "type": "OPTIMIZED_WITH"
+    },
+    {
+      "from": "N13",
+      "to": "N10",
+      "type": "TOOL_FOR"
+    },
+    {
+      "from": "N14",
+      "to": "N15",
+      "type": "CONTAINS_DATA"
+    },
+    {
+      "from": "N10",
+      "to": "N16",
+      "type": "YIELDS"
+    }
+  ]
+}

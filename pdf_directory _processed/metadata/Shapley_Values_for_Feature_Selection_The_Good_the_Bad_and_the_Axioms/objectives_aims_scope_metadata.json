@@ -1,0 +1,30 @@
+{
+  "objectives_aims_scope": {
+    "study_title": "Shapley Values for Feature Selection: The Good, the Bad, and the Axioms",
+    "objectives": [
+      "To introduce the use of Shapley values in feature selection.",
+      "To draw attention to limitations of using Shapley values for feature selection.",
+      "To scrutinize the axiomatic guarantees associated with Shapley values in feature selection contexts."
+    ],
+    "aims": [
+      "To clarify limitations around the use of Shapley values for feature selection in the literature.",
+      "To help demystify certain aspects of the Shapley value axioms viewed as 'favourable'.",
+      "To analyze when Shapley value axioms do not provide a guarantee that the Shapley value is suited to feature selection."
+    ],
+    "scope": [
+      "The study uses simple, abstract 'toy' counterexamples and concrete simulation settings.",
+      "To investigate a variety of Shapley value formulations such as SHapley Additive exPlanations (SHAP) and Shapley Additive Global importancE (SAGE).",
+      "To consider the implications of Shapley value axioms and game formulations on feature selection."
+    ],
+    "additional_information": {
+      "contexts_investigated": [
+        "The influence of Shapley value axioms in the Na\u00efve Application of feature selection.",
+        "Pathologies in different Data Generating Processes (DGPs) using SHAP and SAGE methods."
+      ],
+      "limitations_highlighted": [
+        "The axioms do not guarantee that Shapley values are suited for feature selection.",
+        "Model averaging as characterized by Shapley values can be misleading in optimal model contexts."
+      ]
+    }
+  }
+}

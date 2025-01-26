@@ -1,0 +1,228 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_1",
+      "label": "Location",
+      "attributes": {
+        "name": "Central region of Slovakia, Kremnick\u00e9 vrchy Mts."
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_2",
+      "label": "Equipment",
+      "attributes": {
+        "name": "EMS51A",
+        "type": "Sap Flow System"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_3",
+      "label": "Equipment",
+      "attributes": {
+        "name": "RailBox V16",
+        "type": "Data Logger"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_4",
+      "label": "Equipment",
+      "attributes": {
+        "name": "EdgeBox V12",
+        "type": "Weather Station Logger"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_5",
+      "label": "Equipment",
+      "attributes": {
+        "name": "Delmhorst Inc., gypsum blocks",
+        "type": "Soil Water Potential Sensors"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_6",
+      "label": "Protocol",
+      "attributes": {
+        "name": "Tissue heat balance method",
+        "type": "Sap Flow Measurement"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_7",
+      "label": "Protocol",
+      "attributes": {
+        "name": "Vapor pressure deficit (VPD)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_8",
+      "label": "Protocol",
+      "attributes": {
+        "name": "Potential evapotranspiration (PET)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_9",
+      "label": "Data",
+      "attributes": {
+        "years": [
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2017"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_10",
+      "label": "Modeling Method",
+      "attributes": {
+        "name": "Linear Model (LM)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_11",
+      "label": "Modeling Method",
+      "attributes": {
+        "name": "Random Forest (RF)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_12",
+      "label": "Modeling Method",
+      "attributes": {
+        "name": "Extreme Gradient Boosting Machine (XGBM)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_13",
+      "label": "Modeling Method",
+      "attributes": {
+        "name": "Neural Networks (NN)"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_14",
+      "label": "Tool",
+      "attributes": {
+        "name": "R Programming Language"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_15",
+      "label": "Tool",
+      "attributes": {
+        "name": "TensorFlow"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_16",
+      "label": "Tool",
+      "attributes": {
+        "name": "Keras"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_17",
+      "label": "Tool",
+      "attributes": {
+        "name": "Ranger"
+      }
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_experimental_setup_18",
+      "label": "Tool",
+      "attributes": {
+        "name": "XGBoost"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "2",
+      "to": "6",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "3",
+      "to": "6",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "4",
+      "to": "6",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "5",
+      "to": "6",
+      "type": "USED_FOR"
+    },
+    {
+      "from": "6",
+      "to": "7",
+      "type": "DERIVES"
+    },
+    {
+      "from": "6",
+      "to": "8",
+      "type": "DERIVES"
+    },
+    {
+      "from": "10",
+      "to": "9",
+      "type": "APPLIED_ON"
+    },
+    {
+      "from": "11",
+      "to": "9",
+      "type": "APPLIED_ON"
+    },
+    {
+      "from": "12",
+      "to": "9",
+      "type": "APPLIED_ON"
+    },
+    {
+      "from": "13",
+      "to": "9",
+      "type": "APPLIED_ON"
+    },
+    {
+      "from": "14",
+      "to": "10",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "14",
+      "to": "11",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "14",
+      "to": "12",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "15",
+      "to": "13",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "16",
+      "to": "13",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "17",
+      "to": "11",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "18",
+      "to": "12",
+      "type": "SUPPORTS"
+    }
+  ]
+}

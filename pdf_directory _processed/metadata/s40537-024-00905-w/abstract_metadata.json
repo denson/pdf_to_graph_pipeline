@@ -1,0 +1,24 @@
+{
+  "core_objectives": "The study aims to compare model performance using feature selection by SHAP values and the model's built-in feature importance in high-dimensional credit card fraud data.",
+  "methods": {
+    "data": "Kaggle Credit Card Fraud Detection Dataset",
+    "feature_selection_methods": [
+      "SHAP (SHapley Additive exPlanations)",
+      "built-in feature importance"
+    ],
+    "classifiers": [
+      "XGBoost",
+      "Decision Tree",
+      "CatBoost",
+      "Extremely Randomized Trees",
+      "Random Forest"
+    ],
+    "evaluation_metric": "Area under the Precision-Recall Curve (AUPRC)"
+  },
+  "key_findings": "Feature selection methods based on importance values generally outperform SHAP values across classifiers and various feature subset sizes. For larger datasets, using the model's built-in feature importance list is recommended over SHAP due to computational efficiency.",
+  "additional_details": {
+    "experiments": "Executed on the Kaggle Credit Card Fraud Detection Dataset with 284,807 transactions and 30 independent features.",
+    "suggestions": "Using built-in feature importance is more suitable for models with large datasets and intricate models.",
+    "comparative_insights": "SHAP introduces additional computational complexity, making it less practical for big data."
+  }
+}

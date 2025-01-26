@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_study_population_participants_StudyPopulation1",
+      "label": [
+        "StudyPopulation"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_population_participants_Methods1",
+      "label": [
+        "Methods"
+      ]
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_study_population_participants_Paper1",
+      "label": [
+        "Paper"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_study_population_participants_StudyPopulation1",
+      "target": "Paper_s40537-024-00905-w_study_population_participants_Methods1"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_study_population_participants_StudyPopulation1",
+      "target": "Paper_s40537-024-00905-w_study_population_participants_Paper1"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "hypothesis_1": {
+    "statement": "Informative features will have a statistically significant larger impact on the prediction compared to a known random feature.",
+    "type": "one-sample one-tailed test",
+    "null_hypothesis": "The impact of a random feature is not more significant than the impact of a tested feature.",
+    "alternative_hypothesis": "The impact of the tested feature is greater than that of a random feature.",
+    "statistical_test": "Heuristic implementation of a one-sample one-tailed student-t test",
+    "significance_level": "alpha defined as a required p-value",
+    "statistical_power": "Calculated using non-parametric estimation that maps underlying distributions to standard student-t distributions"
+  },
+  "methods": {
+    "powershap_algorithm": {
+      "components": [
+        "Explain component: Trains multiple models with different random seeds and subsets, each including a random feature, and calculates average feature impact using Shapley values.",
+        "Core powershap component: Compares impacts of original features statistically to a random feature, selecting informative features based on statistical hypothesis testing."
+      ],
+      "automatic_mode": {
+        "parameters": [
+          "alpha: threshold p-value",
+          "I: number of iterations"
+        ],
+        "optimization_goal": "Optimize number of iterations using statistical power calculations to balance runtime and feature selection quality."
+      }
+    }
+  }
+}

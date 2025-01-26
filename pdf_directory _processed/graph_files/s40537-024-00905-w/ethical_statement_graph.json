@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_s40537-024-00905-w_ethical_statement_EthicalStatement",
+      "type": "Statement"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_ethical_statement_Paper",
+      "type": "Document"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_ethical_statement_CompetingInterests",
+      "type": "Interest",
+      "content": "The authors declare that they have no competing interests."
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_ethical_statement_EthicsApproval",
+      "type": "Approval",
+      "content": "not applicable"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_ethical_statement_ConsentToParticipate",
+      "type": "Consent",
+      "content": "not applicable"
+    },
+    {
+      "id": "Paper_s40537-024-00905-w_ethical_statement_ConsentForPublication",
+      "type": "Consent",
+      "content": "not applicable"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_s40537-024-00905-w_ethical_statement_EthicalStatement",
+      "target": "Paper_s40537-024-00905-w_ethical_statement_Paper",
+      "type": "APPLIES_TO"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_ethical_statement_EthicalStatement",
+      "target": "Paper_s40537-024-00905-w_ethical_statement_CompetingInterests",
+      "type": "HAS_COMPETING_INTERESTS"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_ethical_statement_EthicalStatement",
+      "target": "Paper_s40537-024-00905-w_ethical_statement_EthicsApproval",
+      "type": "HAS_ETHICS_APPROVAL"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_ethical_statement_EthicalStatement",
+      "target": "Paper_s40537-024-00905-w_ethical_statement_ConsentToParticipate",
+      "type": "HAS_CONSENT_TO_PARTICIPATE"
+    },
+    {
+      "source": "Paper_s40537-024-00905-w_ethical_statement_EthicalStatement",
+      "target": "Paper_s40537-024-00905-w_ethical_statement_ConsentForPublication",
+      "type": "HAS_CONSENT_FOR_PUBLICATION"
+    }
+  ]
+}

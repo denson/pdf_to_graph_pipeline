@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_1",
+      "label": [
+        "FutureWork"
+      ],
+      "description": "Potential improvements in sap flow modeling could include incorporating phenological functions and time-lag effects."
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_2",
+      "label": [
+        "FutureWork"
+      ],
+      "description": "Research should be extended to different conditions or tree species to validate the applicability and accuracy of the models."
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_3",
+      "label": [
+        "FutureWork"
+      ],
+      "description": "The NN models showed systematic bias and overestimation. Addressing these issues could enhance model reliability."
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_4",
+      "label": [
+        "FutureWork"
+      ],
+      "description": "There is a need to further explore the application of more advanced machine learning techniques on an expanded dataset."
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_5",
+      "label": [
+        "FutureWork"
+      ],
+      "description": "The effect of varying dataset conditions on model performance should be further explored."
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_6",
+      "label": [
+        "Recommendation"
+      ],
+      "description": "Incorporating systematic biases, inclusion of phenological index and time-lag effect."
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_7",
+      "label": [
+        "Recommendation"
+      ],
+      "description": "Avoid positive skew, use alternative loss functions."
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_8",
+      "label": [
+        "Recommendation"
+      ],
+      "description": "Explore random forest, extreme gradient boosting, and neural networks."
+    },
+    {
+      "id": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_9",
+      "label": [
+        "Recommendation"
+      ],
+      "description": "Investigate the impact of wetter vs. drier conditions and nighttime vs. daytime data."
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_1",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_6",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_3",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_7",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_4",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_8",
+      "type": "RECOMMENDED_NEXT"
+    },
+    {
+      "source": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_5",
+      "target": "Paper_Nalevankov\u00e1_et_al._-_2023_-_Comparative_Assessment_of_Sap_Flow_Modeling_Techni_future_work_research_directions_9",
+      "type": "RECOMMENDED_NEXT"
+    }
+  ]
+}

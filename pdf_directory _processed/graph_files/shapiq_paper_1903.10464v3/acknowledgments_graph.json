@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_acknowledgments_Scott_Lundberg",
+      "label": [
+        "Contributor"
+      ],
+      "properties": {
+        "name": "Scott Lundberg",
+        "contribution": "provided valuable advice concerning the Kernel SHAP method"
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_acknowledgments_Ingrid_Hobaek_Haff",
+      "label": [
+        "Contributor"
+      ],
+      "properties": {
+        "name": "Ingrid Hob\u00e6k Haff",
+        "contribution": "suggested the copula approach"
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_acknowledgments_Nikolai_Sellereite",
+      "label": [
+        "Contributor"
+      ],
+      "properties": {
+        "name": "Nikolai Sellereite",
+        "contribution": "major contributions to the implementation of the methods in the R-package shapr"
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_acknowledgments_Norwegian_Research_Council_grant_237718",
+      "label": [
+        "FundingSource"
+      ],
+      "properties": {
+        "name": "Norwegian Research Council grant",
+        "identifier": "237718",
+        "project": "Big Insight"
+      }
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_acknowledgments_Paper",
+      "label": [
+        "Paper"
+      ],
+      "properties": {}
+    }
+  ],
+  "edges": [
+    {
+      "from": "Scott_Lundberg",
+      "to": "Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "from": "Ingrid_Hobaek_Haff",
+      "to": "Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "from": "Nikolai_Sellereite",
+      "to": "Paper",
+      "type": "ACKNOWLEDGED_BY"
+    },
+    {
+      "from": "Norwegian_Research_Council_grant_237718",
+      "to": "Paper",
+      "type": "FUNDED"
+    }
+  ]
+}

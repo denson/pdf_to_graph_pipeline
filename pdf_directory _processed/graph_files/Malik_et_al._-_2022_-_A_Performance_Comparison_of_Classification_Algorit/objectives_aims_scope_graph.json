@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Objective1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "name": "Identify rose types automatically using leaves"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Objective2",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "name": "Develop an expert application for classifying roses using a smartphone camera"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Aim1",
+      "labels": [
+        "Aim"
+      ],
+      "properties": {
+        "name": "Optimize performance of the Random Forest model"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Aim2",
+      "labels": [
+        "Aim"
+      ],
+      "properties": {
+        "name": "Achieve superior classification using ensemble classifiers"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Scope1",
+      "labels": [
+        "Scope"
+      ],
+      "properties": {
+        "name": "Machine learning-based identification of rose types"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Scope2",
+      "labels": [
+        "Scope"
+      ],
+      "properties": {
+        "name": "Testing various machine learning algorithms"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Scope3",
+      "labels": [
+        "Scope"
+      ],
+      "properties": {
+        "name": "Optimization and comparison of ensemble classifiers"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Contribution1",
+      "labels": [
+        "Contribution"
+      ],
+      "properties": {
+        "name": "Automatic rose classification methodology"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Contribution2",
+      "labels": [
+        "Contribution"
+      ],
+      "properties": {
+        "name": "Performance analysis of machine learning models"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Contribution3",
+      "labels": [
+        "Contribution"
+      ],
+      "properties": {
+        "name": "Optimization focus on Random Forest model"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Technology1",
+      "labels": [
+        "Technology"
+      ],
+      "properties": {
+        "name": "Use of smartphone cameras for image capturing"
+      }
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Technology2",
+      "labels": [
+        "Technology"
+      ],
+      "properties": {
+        "name": "Machine learning techniques for flower identification"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Objective1",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Scope1",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Objective2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Technology1",
+      "type": "UTILIZES"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Aim1",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Contribution3",
+      "type": "FOCUSES_ON"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Aim2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Scope3",
+      "type": "ACHIEVES"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Scope2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Contribution2",
+      "type": "ANALYZES"
+    },
+    {
+      "source": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Technology2",
+      "target": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_objectives_aims_scope_Objective2",
+      "type": "ENHANCES"
+    }
+  ]
+}

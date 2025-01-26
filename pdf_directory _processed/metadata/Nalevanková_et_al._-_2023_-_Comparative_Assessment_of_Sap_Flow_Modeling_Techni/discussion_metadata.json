@@ -1,0 +1,38 @@
+{
+  "citation": {
+    "authors": [
+      "Paul\u00edna Nalevankov\u00e1",
+      "Peter Fleischer Jr.",
+      "Mohammad Mukarram",
+      "Zuzana Sitkov\u00e1",
+      "Katar\u00edna Strelcov\u00e1"
+    ],
+    "title": "Comparative Assessment of Sap Flow Modeling Techniques in European Beech Trees: Can Linear Models Compete with Random Forest, Extreme Gradient Boosting, and Neural Networks?",
+    "journal": "Water",
+    "year": 2023,
+    "volume": 15,
+    "pages": "2525",
+    "doi": "10.3390/w15142525"
+  },
+  "discussion": {
+    "key_points": [
+      "The study evaluates the performance of different sap flow modeling techniques on European beech trees using linear models (LM), random forest (RF), extreme gradient boosting machine (XGBM), and neural networks (NN).",
+      "Over a five-year period, it was observed that the LM showed surprisingly high prediction power and could compete with more complex models like RF and XGBM.",
+      "The LM provided reasonable prediction accuracy despite its simplicity compared to the machine learning approaches, which are typically expected to perform better due to their ability to model non-linear relationships.",
+      "NN exhibited relatively poor prediction power due to systematic overestimation, suggesting a potential bias in estimating sap flow during wet conditions.",
+      "There was no significant improvement found when global radiation was shifted by one hour, contrary to certain prior assumptions."
+    ],
+    "interpretations": [
+      "Linear models, despite their simplicity, can be effective in predicting cumulative sap flow over longer periods.",
+      "The systematic biases inherent in linear models might contribute to their accurate overall prediction by balancing over- and under-estimation errors."
+    ],
+    "implications": [
+      "The findings suggest that simpler linear models could be preferred for long-term sap flow predictions due to their ease of application and computational simplicity.",
+      "Machine learning models might better serve applications requiring detailed hourly sap flow predictions."
+    ],
+    "limitations": [
+      "The study's results are restricted to the conditions specific to the Fagus sylvatica species in certain forest zones, and caution is advised in generalizing these results to other species or regions.",
+      "Performance differences among models indicate possible variations in different environmental conditions, needing further exploration across diverse ecological contexts."
+    ]
+  }
+}

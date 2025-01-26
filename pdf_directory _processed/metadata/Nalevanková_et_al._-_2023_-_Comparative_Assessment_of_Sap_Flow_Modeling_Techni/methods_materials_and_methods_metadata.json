@@ -1,0 +1,83 @@
+{
+  "methods_and_materials": {
+    "study_site": {
+      "location": "Central Slovakia (Kremnick\u00e9 vrchy Mts.)",
+      "altitude": 450,
+      "coordinates": "48\u00b036'43'' N; 19\u00b003'59'' E",
+      "climate": {
+        "type": "slightly warm and moderately humid",
+        "mean_air_temperature": {
+          "July": 16,
+          "annual": 7.3
+        },
+        "annual_precipitation": 690
+      },
+      "soil": "Haplic Cambisol (Humic, Eutric, Endoskeletic, Siltic)",
+      "vegetation": "European beech forest",
+      "tree_characteristics": {
+        "age": 65,
+        "DBH_range": "5.7 to 42.3 cm",
+        "height_range": "8.4 to 29.3 m"
+      }
+    },
+    "sap_flow_measurements": {
+      "equipment": "Sap flow systems (model EMS51A) connected to a 16-channel data logger RailBox V16",
+      "method": "tissue heat balance method (THB)",
+      "scale": "kg of water per period per cm stem circumference",
+      "intervals": "measured at 5 min intervals, recorded as 20 min averages",
+      "data": "hourly data used for analysis",
+      "sample_size": 12
+    },
+    "environmental_conditions": {
+      "data_logger": "EdgeBox V12 (EMS Brno Ltd., Brno, Czech Republic)",
+      "meteorological_variables": {
+        "equipment": "automatic weather station with sensors for air temperature (AT), relative humidity (RH), global radiation (Rs)",
+        "recording_intervals": "5 min, data stored every 20 min",
+        "variables_measured": [
+          "air temperature (AT)",
+          "relative humidity (RH)",
+          "global radiation (Rs)",
+          "precipitation (P)"
+        ]
+      },
+      "soil_water_potential": {
+        "equipment": "gypsum blocs (Delmhorst Inc., Towaco, NJ, USA) and data logger MicroLog SP3",
+        "measurements": "at 15, 30, and 50 cm soil depths",
+        "data_used": "average SWP values"
+      }
+    },
+    "derived_variables": {
+      "vpd": "vapor pressure deficit (kPa)",
+      "pet": "potential evapotranspiration (mm)"
+    },
+    "model_development": {
+      "software": "R programming language",
+      "packages": [
+        "TensorFlow (version 2.11.0)",
+        "Keras (version 2.11.1)",
+        "Ranger (version 0.14.1)",
+        "XGBoost (version 1.7.3.1)"
+      ],
+      "data_preprocessing": "input data centered and scaled, 60% train, 40% validation",
+      "performance_metrics": [
+        "coefficient of determination (R2)",
+        "root-mean-square error (RMSE)",
+        "mean absolute deviation (MAD)"
+      ],
+      "model_variants": [
+        "Variant 1: all data",
+        "Variant 2: all data with 1 h Rs shift",
+        "Variant 3: drier soil (SWP < -0.8 MPa), 1 h Rs shift",
+        "Variant 4: Variant 3 with Rs > 200 W/m^2",
+        "Variant 5: wet soil (0 to -0.4 MPa), Rs > 200 W/m^2, 1 h Rs shift",
+        "Variant 6: Rs > 200 W/m^2"
+      ],
+      "models_used": [
+        "neural networks",
+        "random forest",
+        "gradient boosting machine",
+        "linear regression model"
+      ]
+    }
+  }
+}

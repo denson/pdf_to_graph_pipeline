@@ -1,0 +1,40 @@
+{
+  "study_title": "A Performance Comparison of Classification Algorithms for Rose Plants",
+  "authors": [
+    "Muzamil Malik",
+    "Waqar Aslam",
+    "Emad Abouel Nasr",
+    "Zahid Aslam",
+    "Seifedine Kadry"
+  ],
+  "results_summary": {
+    "best_algorithm": "Support Vector Machine (SVM)",
+    "best_accuracy": "72%",
+    "performance_comparison": {
+      "Naive Bayes": "40% on FS1",
+      "Generalized Linear Model": "65% on FS2",
+      "Multilayer Perceptron (DL)": "69% on FS2 and FS1",
+      "Decision Tree": "60% on FS2",
+      "Random Forest (RF)": "78% on FS2 (optimized)",
+      "Gradient Boosted Trees": "68% on FS1",
+      "Support Vector Machine": "72% on FS1"
+    },
+    "ensemble_model_accuracy": "70% on FS1",
+    "optimized_rf_accuracy": "75.6% on FS1 (Gain Ratio)"
+  },
+  "data_description": {
+    "data_collection": "Images of rose leaves were captured using a 23MP camera",
+    "data_split": "60% training and 40% testing",
+    "feature_sets": [
+      "FS1: All features",
+      "FS2: High correlation features",
+      "FS3: Histogram features",
+      "FS4: Texture features"
+    ]
+  },
+  "experiment_insights": {
+    "impact_of_features": "SVM showed the highest accuracy with histogram and texture feature combination",
+    "ensemble_learning_effectiveness": "Improved results over individual models but not superior to best SVM result",
+    "rf_parameter_optimization": "Highest accuracy with Gain Ratio for FS1 and FS2"
+  }
+}

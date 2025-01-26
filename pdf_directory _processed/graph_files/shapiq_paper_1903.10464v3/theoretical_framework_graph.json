@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_ShapleyValues",
+      "label": "Theory"
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_Efficiency",
+      "label": "Principle"
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_Symmetry",
+      "label": "Principle"
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_DummyPlayer",
+      "label": "Principle"
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_Linearity",
+      "label": "Principle"
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_KernelSHAP",
+      "label": "Extension"
+    },
+    {
+      "id": "Paper_shapiq_paper_1903.10464v3_theoretical_framework_FeatureDependence",
+      "label": "Extension"
+    }
+  ],
+  "edges": [
+    {
+      "from": "ShapleyValues",
+      "to": "Efficiency"
+    },
+    {
+      "from": "ShapleyValues",
+      "to": "Symmetry"
+    },
+    {
+      "from": "ShapleyValues",
+      "to": "DummyPlayer"
+    },
+    {
+      "from": "ShapleyValues",
+      "to": "Linearity"
+    },
+    {
+      "from": "ShapleyValues",
+      "to": "KernelSHAP"
+    },
+    {
+      "from": "ShapleyValues",
+      "to": "FeatureDependence"
+    }
+  ]
+}

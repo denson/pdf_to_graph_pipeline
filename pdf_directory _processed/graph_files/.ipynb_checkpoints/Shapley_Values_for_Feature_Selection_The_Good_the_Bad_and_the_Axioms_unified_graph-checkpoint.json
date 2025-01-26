@@ -1,0 +1,1863 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "title": "Shapley Values for Feature Selection: The Good, the Bad, and the Axioms",
+        "abstract": "The Shapley value has become popular in the Explainable AI (XAI) literature, thanks, to a large extent, to a solid theoretical foundation, including four \u2018\u2018favourable and fair\u2019\u2019 axioms for attribution in transferable utility games. The Shapley value is probably the only solution concept satisfying these axioms. In this paper, we introduce the Shapley value and draw attention to its recent uses as a feature selection tool. We call into question this use of the Shapley value, using simple, abstract \u2018\u2018toy\u2019\u2019 counterexamples to illustrate that the axioms may work against the goals of feature selection. From this, we develop a number of insights that are then investigated in concrete simulation settings, with a variety of Shapley value formulations, including SHapley Additive exPlanations (SHAP) and Shapley Additive Global importancE (SAGE). The aim is not to encourage any use of the Shapley value for feature selection, but we aim to clarify various limitations around their current use in the literature. In so doing, we hope to help demystify certain aspects of the Shapley value axioms that are viewed as \u2018\u2018favourable\u2019\u2019. In particular, we wish to highlight that the favourability of the axioms depends non-trivially on the way in which the Shapley value is appropriated in the XAI application.",
+        "publication_date": "2021-10-08",
+        "doi": "10.1109/ACCESS.2021.3119110",
+        "received_date": "2021-09-18",
+        "accepted_date": "2021-10-02",
+        "current_version_date": "2021-10-28"
+      }
+    },
+    {
+      "id": "author_1",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Daniel Fryer"
+      }
+    },
+    {
+      "id": "author_2",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Inga Str\u00fcmke"
+      }
+    },
+    {
+      "id": "author_3",
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "Hien Nguyen"
+      }
+    },
+    {
+      "id": "keyword_1",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Explainability"
+      }
+    },
+    {
+      "id": "keyword_2",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "feature selection"
+      }
+    },
+    {
+      "id": "keyword_3",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "interpretability"
+      }
+    },
+    {
+      "id": "keyword_4",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "Shapley value"
+      }
+    },
+    {
+      "id": "keyword_5",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "variable selection"
+      }
+    },
+    {
+      "id": "keyword_6",
+      "labels": [
+        "Keyword"
+      ],
+      "properties": {
+        "keyword": "XAI"
+      }
+    },
+    {
+      "id": "supplementary_1",
+      "labels": [
+        "Supplementary"
+      ],
+      "properties": {
+        "information": "This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_1",
+      "labels": [
+        "Objective"
+      ],
+      "properties": {
+        "description": "Question the use of Shapley values in feature selection within Explainable AI, highlighting potential limitations and inadequacies."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Utilizes toy and concrete examples to question the efficacy of Shapley values for feature selection through theoretical and simulated settings.",
+        "formulations": [
+          "SHAP",
+          "SAGE"
+        ]
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_3",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "The Shapley value does not generally guarantee suitability for feature selection due to axiomatic conflicts with feature selection goals."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_4",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "Non-monotonic evaluation functions can cause the Shapley values to sum to less than the optimal model performance."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_5",
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "description": "SAGE performed better than SHAP in most tested scenarios but requires careful consideration to avoid misinterpretation."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_6",
+      "labels": [
+        "Implication"
+      ],
+      "properties": {
+        "description": "While Shapley values have theoretical appeal, their application in feature selection for XAI may lead to unintended consequences due to axiomatic limitations."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_application_1",
+      "label": [
+        "Paper"
+      ],
+      "title": "Shapley Values for Feature Selection: The Good, the Bad, and the Axioms",
+      "authors": [
+        "Daniel Fryer",
+        "Inga Str\u00fcmke",
+        "Hien Nguyen"
+      ],
+      "publication": "IEEE Access",
+      "doi": "10.1109/ACCESS.2021.3119110",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_application_2",
+      "label": [
+        "Application"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_application_3",
+      "label": [
+        "Implementation"
+      ],
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_application_4",
+      "label": [
+        "Method"
+      ],
+      "name": "Simulation of abstract examples",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_application_5",
+      "label": [
+        "Method"
+      ],
+      "name": "SHapley Additive exPlanations (SHAP)",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_application_6",
+      "label": [
+        "Method"
+      ],
+      "name": "Shapley Additive Global importancE (SAGE)",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node1",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Shapley Value",
+        "description": "Shapley values originate from game theory as a way to fairly distribute the total gains to players based on their individual contributions.",
+        "historical_context": "Lloyd Shapley's 1953 paper introduced the Shapley value, and it has since been widely cited and applied in various fields, including economics and, more recently, machine learning for feature selection and explainability."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node2",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Feature Selection in Machine Learning",
+        "description": "Feature selection is a process in ML where certain feature subsets are chosen to maximize an evaluation function's performance while minimizing complexity.",
+        "historical_context": "Feature selection has deep roots in computational statistics and is related to model selection, which seeks to handle inferential nuances like uncertainty quantification and confounding variables."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node3",
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "concept": "Explainable AI (XAI)",
+        "description": "Explainable AI aims to interpret and attribute feature importance within machine learning models, often employing methods like Shapley values.",
+        "historical_context": "As AI models become more complex, the need for explainability has risen, resulting in the adoption of methods like SHapley Additive exPlanations (SHAP) and Shapley Additive Global importancE (SAGE) to render model predictions more transparent."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_1",
+      "label": "Shapley value, while theoretically robust, may not be suitable for feature selection due to its axioms, which do not inherently guarantee suitability for this task.",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_2",
+      "label": "The use of Shapley values in Explainable AI (XAI) for feature selection can lead to suboptimal feature sets, particularly if relying on its axiomatic fairness.",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_3",
+      "label": "Algorithm and evaluation function choice are critical in determining the effectiveness of Shapley values in feature selection.",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_4",
+      "label": "In experimental evaluations, traditional formulations of Shapley values (e.g., SHAP) perform poorly in feature selection tasks when compared with SAGE in specific scenarios.",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_5",
+      "label": "Insights suggest caution in naive Shapley values application for feature selection and underscore careful consideration of game formulation and evaluation function.",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_6",
+      "label": "Future work should focus on alternative game theoretic solution concepts and empirical studies to identify more suitable axioms and formulations for feature selection.",
+      "type": "Conclusion",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_1",
+      "label": "Interpretation",
+      "content": "Shapley values have been increasingly used in Explainable AI for feature selection.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_2",
+      "label": "Implication",
+      "content": "The axioms of Shapley values do not provide a guarantee that they are suited for feature selection.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_3",
+      "label": "Implication",
+      "content": "The meaning of 'feature importance' or 'worth' is highly dependent on the choice of evaluation function and game formulation.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_4",
+      "label": "Implication",
+      "content": "Different formulations of Shapley values, such as SHAP and SAGE, can lead to varying effectiveness in feature selection tasks.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_5",
+      "label": "Limitation",
+      "content": "The study is not an exhaustive theoretical or empirical examination of Shapley value methods in machine learning.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_6",
+      "label": "Limitation",
+      "content": "The efficiency of exact Shapley value computation is challenged by its exponential complexity in terms of the number of features.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_7",
+      "label": "Limitation",
+      "content": "Non-monotonic evaluation functions can lead to inefficiencies in the Shapley values calculated.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_experimental_setup_1",
+      "label": "Protocol",
+      "description": "Experiments involve data generating processes (DGPs) and feature selection using various Shapley value formulations such as SHAP and SAGE.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_experimental_setup_2",
+      "label": "Protocol Step",
+      "description": "Simulate data sets based on given DGPs with specified sample sizes.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_experimental_setup_3",
+      "label": "Protocol Step",
+      "description": "Train models, such as XGBoost regression or classification models, using the simulated data.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_experimental_setup_4",
+      "label": "Protocol Step",
+      "description": "Compute Shapley values for evaluation functions like R2, mean absolute SHAP, and SAGE.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_experimental_setup_5",
+      "label": "Protocol Step",
+      "description": "Rank features according to computed Shapley values to assess feature selection methods.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_1",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "Thoroughly explore the application of game theoretic solution concepts to feature selection and attribution.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_2",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "Conduct extensive empirical studies to understand suitable game formulations and axioms for practical feature selection tasks in XAI and ML.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_3",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "Investigate a large variety of alternatives to the Shapley value in the literature on game theory.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_4",
+      "label": [
+        "FutureWork"
+      ],
+      "content": "Explore suitable axioms for feature selection tasks.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_5",
+      "label": [
+        "Recommendation"
+      ],
+      "content": "Avoid magical thinking by emphasizing nuanced application of Shapley values.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_6",
+      "label": [
+        "Recommendation"
+      ],
+      "content": "Consider the influence of different game formulations on the relevancy of Shapley values to ML tasks.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_7",
+      "label": [
+        "Paper"
+      ],
+      "content": "Current Study",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_8",
+      "label": [
+        "Findings"
+      ],
+      "content": "Game-theoretic approaches in feature selection and attribution",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "The use of Shapley values in machine learning, particularly in the context of feature selection for models, applied to linear regression and other ML models for explainability and feature attribution."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "To investigate the suitability and limitations of using Shapley values for feature selection in machine learning, address concerns with its axioms, and challenge the reliance on it for feature selection."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_3",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "Shapley values may not align with the goals of feature selection due to imposed axioms, and may be counterproductive for feature selection."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_limitations_1",
+      "label": "Paper",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_limitations_2",
+      "label": "Limitation",
+      "description": "The axioms of the Shapley value do not guarantee suitability for feature selection, and may sometimes imply the opposite.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_limitations_3",
+      "label": "Limitation",
+      "description": "Sensitivity to formulations and parameter settings.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_limitations_4",
+      "label": "Limitation",
+      "description": "The complexity of evaluation.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_limitations_5",
+      "label": "Limitation",
+      "description": "Potential for non-optimal feature selection.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_limitations_6",
+      "label": "Limitation",
+      "description": "Use of non-monotonic evaluation functions.",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_key_finding_1",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "The application of Shapley values in feature selection is scrutinized for its axiomatic foundations, questioning if these axioms truly support the goals of feature selection."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_key_finding_2",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "Alternative Shapley value formulations like SHAP and SAGE were evaluated, highlighting their performance inconsistencies in certain experimental settings."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_key_finding_3",
+      "labels": [
+        "KeyFinding"
+      ],
+      "properties": {
+        "description": "The article emphasizes that the theoretical principles (axioms) of Shapley values might not be inherently suitable for feature selection without additional consideration of specific contexts."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_method_1",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "The paper uses both theoretical analysis and simulation experiments to evaluate the effectiveness of Shapley values in feature selection."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_method_2",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "Simulations involved generating synthetic datasets under various data generating processes and applying different feature selection methods, such as SHAP FSelection and SAGE."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_method_3",
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "description": "The study specifically examines scenarios involving Markov boundary members, redundant features, and cases with influential dominant features to analyze Shapley values' robustness and appropriateness."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_gap_1",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "There is a lack of critical examination in ML literature about the appropriateness and limitations of using Shapley values for feature selection."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_gap_2",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "Existing Shapley-based feature selection techniques may rely too heavily on axiomatic guarantees without properly assessing their implications and effectiveness."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_gap_3",
+      "labels": [
+        "ResearchGap"
+      ],
+      "properties": {
+        "description": "Future research is needed into alternative game-theoretical solutions that might better align with the objectives of different feature selection tasks."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_insight_1",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "The interpretation of Shapley values in terms of their assigned importance to features may need deeper contextual grounding beyond the axioms."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_insight_2",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "Efficiency, symmetry, and additivity axioms particularly may not uphold feature selection goals when features exhibit high redundancy or when non-monotonic evaluation functions are employed."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_literature_review_litrev_insight_3",
+      "labels": [
+        "Insight"
+      ],
+      "properties": {
+        "description": "SAGE values, although performing better than SHAP in some scenarios, also showed limitations, thus necessitating broader exploration of other potential formulations and solutions."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_1",
+      "label": "Objective",
+      "name": "Introduce use of Shapley values in feature selection",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_2",
+      "label": "Objective",
+      "name": "Draw attention to limitations of Shapley values for feature selection",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_3",
+      "label": "Objective",
+      "name": "Scrutinize axiomatic guarantees of Shapley values in feature selection",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_4",
+      "label": "Aim",
+      "name": "Clarify limitations around use of Shapley values in literature",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_5",
+      "label": "Aim",
+      "name": "Demystify Shapley value axioms viewed as 'favourable'",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_6",
+      "label": "Aim",
+      "name": "Analyze when Shapley value axioms do not guarantee suitability for feature selection",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_7",
+      "label": "Scope",
+      "name": "Use simple, abstract 'toy' counterexamples and concrete simulations",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_8",
+      "label": "Scope",
+      "name": "Investigate Shapley value formulations like SHAP and SAGE",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_9",
+      "label": "Scope",
+      "name": "Consider implications of Shapley value axioms and game formulations",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_10",
+      "label": "Additional Information",
+      "name": "Influence of Shapley value axioms in Na\u00efve Application",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_11",
+      "label": "Additional Information",
+      "name": "Pathologies in Data Generating Processes using SHAP and SAGE",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_12",
+      "label": "Limitation",
+      "name": "Axioms do not guarantee Shapley values suit feature selection",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_13",
+      "label": "Limitation",
+      "name": "Model averaging by Shapley values can mislead in optimal model contexts",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference1",
+      "label": "Model Selection Model Averaging",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author1",
+      "label": "G. Claeskens",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author2",
+      "label": "N. L. Hjort",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference2",
+      "label": "Axiomatic arguments for decomposing goodness of fit according to Shapley and Owen values",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author3",
+      "label": "F. Huettner",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author4",
+      "label": "M. Sunder",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference3",
+      "label": "On Shapley value for measuring importance of dependent inputs",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author5",
+      "label": "A. B. Owen",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author6",
+      "label": "C. Prieur",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference4",
+      "label": "Sobol\u2019 indices and Shapley value",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference5",
+      "label": "A Shapley-based decomposition of the R-square of a linear regression",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author7",
+      "label": "O. Israeli",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference6",
+      "label": "Shapley effects for global sensitivity analysis: Theory and computation",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author8",
+      "label": "E. Song",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author9",
+      "label": "B. L. Nelson",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author10",
+      "label": "J. Staum",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference7",
+      "label": "Shapley value confidence intervals for attributing variance explained",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author11",
+      "label": "D. Fryer",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author12",
+      "label": "I. Str\u00fcmke",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author13",
+      "label": "H. Nguyen",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference8",
+      "label": "Do not adjust coefficients in Shapley value regression",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author14",
+      "label": "U. Gr\u00f6mping",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author15",
+      "label": "S. Landau",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference9",
+      "label": "Introduction to bivariate and multivariate analysis",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author16",
+      "label": "R. H. Lindeman",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference10",
+      "label": "Relative importance by averaging over orderings",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author17",
+      "label": "W. Kruskal",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference11",
+      "label": "Correction to 'relative importance by averaging over orderings'",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference12",
+      "label": "Analysis of regression in game theory approach",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author18",
+      "label": "S. Lipovetsky",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author19",
+      "label": "M. Conklin",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference13",
+      "label": "Dominance analysis: A new approach to the problem of relative importance of predictors in multiple regression",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author20",
+      "label": "D. V. Budescu",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference14",
+      "label": "Explaining individual predictions when features are dependent: More accurate approximations to Shapley values",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author21",
+      "label": "K. Aas",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author22",
+      "label": "M. Jullum",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author23",
+      "label": "A. L\u00f8land",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference15",
+      "label": "From local explanations to global understanding with explainable AI for trees",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author24",
+      "label": "S. M. Lundberg",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Reference16",
+      "label": "Shapr: An R-package for explaining machine learning models with dependence-aware Shapley values",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_references_bibliography_Author25",
+      "label": "N. Sellereite",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_StudyDesign",
+      "label": [
+        "StudyDesign"
+      ],
+      "data": {
+        "objective": "Investigate the limitations and implications of using Shapley values for feature selection.",
+        "structure": "The study is structured to simulate various data circumstances and apply feature selection using Shapley value-based methods, analyzing the outcomes against known optimal feature sets.",
+        "setting": "Simulation-based study using artificial datasets."
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_IndependentVariable",
+      "label": [
+        "Variable"
+      ],
+      "data": {
+        "type": "Independent",
+        "description": "Features selected using various Shapley value formulations (such as SHAP and SAGE)."
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_DependentVariable",
+      "label": [
+        "Variable"
+      ],
+      "data": {
+        "type": "Dependent",
+        "description": "Performance of feature selection in terms of predictive power and model efficiency."
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "label": [
+        "Method"
+      ],
+      "data": {
+        "name": "Simulation studies",
+        "description": "Simulating data according to specified Data Generating Processes (DGP) to evaluate Shapley value-based feature selection."
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_MarkovBoundaryExperiment1",
+      "label": [
+        "Dataset"
+      ],
+      "data": {
+        "name": "Markov Boundary Experiment 1",
+        "features": [
+          "X1",
+          "X2",
+          "X3",
+          "Z"
+        ],
+        "response": "Y",
+        "distribution": "Normal distribution with specified means and variances."
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_MarkovBoundaryExperiment2",
+      "label": [
+        "Dataset"
+      ],
+      "data": {
+        "name": "Markov Boundary Experiment 2",
+        "parameters": "Varying l \u2208 (0, 1)",
+        "conditional_probabilities": "Defined based on X1, X2, X3."
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SecretHolderExperiment",
+      "label": [
+        "Dataset"
+      ],
+      "data": {
+        "name": "Secret Holder Experiment",
+        "parameters": "t1, t2 \u2208 R",
+        "response": "Y generated with interactions and noise."
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_TaxicabExperiment",
+      "label": [
+        "Dataset"
+      ],
+      "data": {
+        "name": "Taxicab Experiment",
+        "distribution": "Features generated with normal distribution and added constants."
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_Evaluation",
+      "label": [
+        "Evaluation"
+      ],
+      "data": {
+        "methods": [
+          "Mean Absolute SHAP values",
+          "SAGE values",
+          "R2 evaluation function",
+          "Conditional log likelihood"
+        ]
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_1",
+      "label": "Theoretical Framework",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_2",
+      "label": "Shapley Value",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_3",
+      "label": "Game Theory",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_4",
+      "label": "Efficiency Axiom",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_5",
+      "label": "Null Player Axiom",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_6",
+      "label": "Symmetry Axiom",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_7",
+      "label": "Additivity Axiom",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_8",
+      "label": "Transferable Utility Games",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_9",
+      "label": "Criticisms",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_10",
+      "label": "Objective",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_theoretical_framework_11",
+      "label": "Remarks",
+      "labels": [],
+      "properties": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "author_1",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "author_2",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "author_3",
+      "type": "HAS_AUTHOR",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "keyword_1",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "keyword_2",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "keyword_3",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "keyword_4",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "keyword_5",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "keyword_6",
+      "type": "HAS_KEYWORD",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms",
+      "target": "supplementary_1",
+      "type": "HAS_SUPPLEMENTARY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_2",
+      "type": "ADDRESSES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_3",
+      "type": "FINDS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_4",
+      "type": "FINDS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_5",
+      "type": "FINDS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_6",
+      "type": "SUGGESTS",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_5",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_abstract_6",
+      "type": "SUGGESTS",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "type": "APPLIES",
+      "properties": {
+        "description": "The paper questions the efficacy of Shapley values in feature selection, emphasizing potential misapplications."
+      }
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "type": "APPLIES",
+      "properties": {
+        "description": "The discussion emphasizes the potential pitfalls in using Shapley values in real-world academic and industrial settings."
+      }
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "type": "INFORMS",
+      "properties": {
+        "description": "Application involves simulation to highlight limitations."
+      }
+    },
+    {
+      "source": "2",
+      "target": "5",
+      "type": "INFORMS",
+      "properties": {
+        "description": "Application of SHAP in various settings."
+      }
+    },
+    {
+      "source": "2",
+      "target": "6",
+      "type": "INFORMS",
+      "properties": {
+        "description": "Application of SAGE in various settings."
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node2",
+      "type": "RELATION",
+      "properties": {
+        "relation": "Application",
+        "context": "Shapley values are applied in feature selection processes within machine learning."
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node3",
+      "type": "RELATION",
+      "properties": {
+        "relation": "Methodology",
+        "context": "Shapley values are used in explainable AI to attribute feature importance."
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_background_node2",
+      "type": "RELATION",
+      "properties": {
+        "relation": "Intersection",
+        "context": "Both explainable AI and feature selection benefit from understanding and applying Shapley values."
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_5",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_5",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_5",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_4",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_5",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_5",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_conclusions_6",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_2",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "questions applicability"
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_3",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "questions applicability"
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_4",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "questions applicability"
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_5",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "limited examination"
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_5",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "supports limitation"
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_6",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "leads to complexity"
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_discussion_7",
+      "type": "RELATION",
+      "properties": {
+        "relationship": "results in inefficiency"
+      }
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "type": "INCLUDES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "type": "INCLUDES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "type": "INCLUDES",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "5",
+      "type": "INCLUDES",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_Figure 1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_Example 11",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_Figure 2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_DGP (3) and (4)",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_Figure 3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_DGP in (4)",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_Figure 4",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_figures_and_tables_captions_Section IV-C",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_7",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_8",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_7",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_4",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_8",
+      "type": "RECOMMENDED_NEXT",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_5",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_7",
+      "type": "IMPROVEMENT_SUGGESTION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_6",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_future_work_research_directions_8",
+      "type": "IMPROVEMENT_SUGGESTION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_2",
+      "type": "MOTIVATED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_3",
+      "type": "HIGHLIGHTS",
+      "properties": {}
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "type": "RELATION",
+      "properties": {
+        "description": "Discusses how specific axioms might not align with feature selection aims."
+      }
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "type": "RELATION",
+      "properties": {
+        "description": "Performance hinges on game formulation and evaluation function characteristics."
+      }
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "type": "RELATION",
+      "properties": {
+        "description": "Exponential complexity impacts practicality for large-scale problems."
+      }
+    },
+    {
+      "source": "1",
+      "target": "5",
+      "type": "RELATION",
+      "properties": {
+        "description": "May average out unimportant features affecting optimal contribution."
+      }
+    },
+    {
+      "source": "1",
+      "target": "6",
+      "type": "RELATION",
+      "properties": {
+        "description": "Non-monotonic functions lead to inefficient payoff distribution."
+      }
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_4",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_5",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_6",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_12",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_3",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_13",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_7",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_8",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_8",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_objectives_aims_scope_9",
+      "type": "RELATES_TO",
+      "properties": {}
+    },
+    {
+      "source": "Reference1",
+      "target": "Author1",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference1",
+      "target": "Author2",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference2",
+      "target": "Author3",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference2",
+      "target": "Author4",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference3",
+      "target": "Author5",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference3",
+      "target": "Author6",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference4",
+      "target": "Author5",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference5",
+      "target": "Author7",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference6",
+      "target": "Author8",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference6",
+      "target": "Author9",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference6",
+      "target": "Author10",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference7",
+      "target": "Author11",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference7",
+      "target": "Author12",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference7",
+      "target": "Author13",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference8",
+      "target": "Author14",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference8",
+      "target": "Author15",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference9",
+      "target": "Author16",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference10",
+      "target": "Author17",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference11",
+      "target": "Author17",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference12",
+      "target": "Author18",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference12",
+      "target": "Author19",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference13",
+      "target": "Author20",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference14",
+      "target": "Author21",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference14",
+      "target": "Author22",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference14",
+      "target": "Author23",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference15",
+      "target": "Author24",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference16",
+      "target": "Author25",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Reference16",
+      "target": "Author22",
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_StudyDesign",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_IndependentVariable",
+      "type": "has",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_StudyDesign",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_DependentVariable",
+      "type": "has",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_StudyDesign",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "type": "uses",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_MarkovBoundaryExperiment1",
+      "type": "includes",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_MarkovBoundaryExperiment2",
+      "type": "includes",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SecretHolderExperiment",
+      "type": "includes",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_TaxicabExperiment",
+      "type": "includes",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_SimulationStudies",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_study_design_Evaluation",
+      "type": "measures_using",
+      "properties": {}
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": 3,
+      "target": 8,
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": 1,
+      "target": 9,
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": 1,
+      "target": 10,
+      "type": "RELATION",
+      "properties": {}
+    },
+    {
+      "source": 1,
+      "target": 11,
+      "type": "RELATION",
+      "properties": {}
+    }
+  ]
+}

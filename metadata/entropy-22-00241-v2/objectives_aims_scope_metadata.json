@@ -1,0 +1,26 @@
+{
+  "objectives_aims_scope": {
+    "objectives": [
+      "Investigate whether the analysis of hypnopompic heart rate variability (HRV) can assist in predicting cardiovascular disease (CVD)."
+    ],
+    "aims": [
+      "Explore the potential value of hypnopompic HRV, especially its complexity, in the automatic prediction of CVD events."
+    ],
+    "scope": [
+      "2217 baseline CVD-free subjects were divided into groups based on the presence of CVD during follow-up.",
+      "Employ HRV measures derived from time domain, frequency domain, and nonlinear analysis to characterize cardiac functioning.",
+      "Construct machine learning models for both long-term and short-term CVD prediction based on hypnopompic HRV metrics and other typical CVD risk factors."
+    ],
+    "relevant_information": {
+      "methods": [
+        "Machine learning models were implemented using features from HRV metrics and clinical characteristics.",
+        "Used XGBoost algorithm for prediction models."
+      ],
+      "results": [
+        "HRV was found to assist in predicting CVD outcomes with an accuracy of 81.4% in short-term prediction.",
+        "The complexity of hypnopompic HRV, measured by entropy-based indices, achieved greater importance in the proposed models than conventional HRV measures."
+      ]
+    },
+    "missing_information": null
+  }
+}

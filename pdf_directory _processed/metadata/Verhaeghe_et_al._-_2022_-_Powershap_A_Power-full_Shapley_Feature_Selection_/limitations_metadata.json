@@ -1,0 +1,15 @@
+{
+  "limitations": {
+    "computational_complexity": "Wrapper methods suffer from large computational complexity, often resulting in significant execution time.",
+    "underfitting": "The study highlights instances where methods might underfit, especially with high dimensions and informative features.",
+    "benchmarking_constraints": "Benchmarks may have biases due to the choice of datasets and methods used.",
+    "model_dependency": "The performance of powershap, like other wrapper methods, is highly dependent on the machine learning model used.",
+    "simulation_assumptions": "The simulation function may inherently produce linear classification problems, which are easier to solve and may not universally represent real-world datasets.",
+    "default_settings": "Default settings were used across methods, which might impact performances."
+  },
+  "missing_fields": {
+    "sample_size": null,
+    "tool_specific_issues": null,
+    "statistical_analysis_weakness": null
+  }
+}

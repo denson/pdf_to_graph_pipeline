@@ -1,0 +1,34 @@
+{
+  "title": "A Performance Comparison of Classification Algorithms for Rose Plants",
+  "authors": [
+    "Muzamil Malik",
+    "Waqar Aslam",
+    "Emad Abouel Nasr",
+    "Zahid Aslam",
+    "Seifedine Kadry"
+  ],
+  "abstract": "One of the key roles of Botanists is to be able to recognize flowers. This role has become highly challenging given that the number of discovered flower types are nearing half a million. To support Botanists, Information Technology offers promising solutions. Specifically, machine learning techniques are intrinsically appealing due to being precise enough as required. To this aim, two observations on flower leaves are relevant and leverage flower identification: one, flower plants exhibit unique features in their leaves thus allow distinction of their co-located flowers; two, leaves have a much longer life than flowers thus preserve identity properties longer. This paper proposes the use of machine learning-based identification of rose types by leveraging the features from their leaves. For this purpose, the performance of Naive Bayes, Generalized Linear Model, Multilayer Perceptron, Decision Tree, Random Forest, Gradient Boosted Trees, and Support Vector Machine has been analyzed. This study optimizes the RF model by investigating and tuning its various parameters such as the number of trees, the depth of trees, and splitting criteria. The best results are achieved with gain ratio because it takes more distinct values to avoid the problems associated with Information Gain. Optimizing the number of trees and the depth of trees of RF yield better accuracy than other models. Extensive experiments are performed to analyze the results of ensemble algorithms by using the voting method for each instance. Results suggest that the performance of ensemble classifiers is superior to that of individual models.",
+  "keywords": [
+    "machine learning",
+    "rose plants",
+    "classification algorithms",
+    "Naive Bayes",
+    "Generalized Linear Model",
+    "Multilayer Perceptron",
+    "Decision Tree",
+    "Random Forest",
+    "Gradient Boosted Trees",
+    "Support Vector Machine",
+    "feature optimization",
+    "ensemble methods"
+  ],
+  "publication_date": "2022-08-16",
+  "doi": "10.1155/2022/1842547",
+  "supplementary_information": "not found",
+  "additional_metadata": {
+    "journal": "Computational Intelligence and Neuroscience",
+    "volume": "2022",
+    "article_id": "1842547",
+    "pages": "16"
+  }
+}

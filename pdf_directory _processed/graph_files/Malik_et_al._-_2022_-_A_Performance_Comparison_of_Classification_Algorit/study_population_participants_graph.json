@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_population_participants_1",
+      "label": [
+        "StudyPopulation"
+      ]
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_population_participants_2",
+      "label": [
+        "Methods"
+      ]
+    },
+    {
+      "id": "Paper_Malik_et_al._-_2022_-_A_Performance_Comparison_of_Classification_Algorit_study_population_participants_3",
+      "label": [
+        "Paper"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2"
+    },
+    {
+      "from": "1",
+      "to": "3"
+    }
+  ]
+}

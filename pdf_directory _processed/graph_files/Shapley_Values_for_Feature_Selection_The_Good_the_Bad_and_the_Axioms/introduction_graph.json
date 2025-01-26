@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_1",
+      "labels": [
+        "Context"
+      ],
+      "properties": {
+        "description": "The use of Shapley values in machine learning, particularly in the context of feature selection for models, applied to linear regression and other ML models for explainability and feature attribution."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_2",
+      "labels": [
+        "Motivation"
+      ],
+      "properties": {
+        "description": "To investigate the suitability and limitations of using Shapley values for feature selection in machine learning, address concerns with its axioms, and challenge the reliance on it for feature selection."
+      }
+    },
+    {
+      "id": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_3",
+      "labels": [
+        "ProblemStatement"
+      ],
+      "properties": {
+        "description": "Shapley values may not align with the goals of feature selection due to imposed axioms, and may be counterproductive for feature selection."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_1",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_2",
+      "type": "MOTIVATED_BY",
+      "properties": {}
+    },
+    {
+      "source": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_2",
+      "target": "Paper_Shapley_Values_for_Feature_Selection_The_Good_the_Bad_and_the_Axioms_introduction_3",
+      "type": "HIGHLIGHTS",
+      "properties": {}
+    }
+  ]
+}
